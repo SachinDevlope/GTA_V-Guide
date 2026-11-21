@@ -1,0 +1,16 @@
+.row { display: flex; align-items: center; gap: 14px; padding: 10px 16px; text-decoration: none; color: inherit; border-bottom: 1px solid var(--line); min-width: 0; transition: background .12s; }
+.row:last-child { border-bottom: 0; }
+.row:hover, .row:focus-visible { background: var(--surface-2); outline: none; }
+.index { width: 26px; flex: none; text-align: right; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.main { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.title { font-weight: 600; font-size: 14.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.label { font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-right: 8px; }
+.sub { font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.meta { flex: none; max-width: 38%; font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: right; }
+.chev { flex: none; color: var(--muted); opacity: .6; }
+@media (max-width: 640px) {
+  .meta { display: none; }
+  .row { padding: 10px 12px; gap: 12px; }
+}
+.stars { flex: none; }
+@media (max-width: 640px) { .stars { display: none; } }

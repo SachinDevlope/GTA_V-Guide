@@ -1,0 +1,2 @@
+.mapBtn { display: inline-flex; align-items: center; gap: 8px; border-radius: 10px; padding: 9px 14px; font-weight: 600; font-size: 14px; text-decoration: none; background: var(--accent); color: var(--accent-ink); }
+.mapBtn:hover { filter: brightness(1.08); }

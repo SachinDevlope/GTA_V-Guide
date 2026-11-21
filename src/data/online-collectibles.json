@@ -1,0 +1,352 @@
+[
+  {
+    "id": "oc-action-figures",
+    "name": "Action Figures",
+    "count": 100,
+    "reward": "Cash and RP per figure; all 100 unlock the Impotent Rage outfit, a new hairstyle and $50,000.",
+    "description": "Small superhero and space-themed figurines scattered across the map, many in high or hidden spots.",
+    "tags": [
+      "one-time",
+      "impotent rage",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-playing-cards",
+    "name": "Playing Cards",
+    "count": 54,
+    "reward": "Casino chips and RP; collecting all 54 unlocks the High Roller outfit plus a Red Dead Online bonus.",
+    "description": "A full deck of cards hidden around Los Santos and Blaine County, added alongside The Diamond Casino & Resort.",
+    "tags": [
+      "one-time",
+      "casino",
+      "high roller",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-signal-jammers",
+    "name": "Signal Jammers",
+    "count": 50,
+    "reward": "Destroying all 50 gives $50,000, RP and unlocks Avi Schwartzman as a hacker for The Diamond Casino Heist.",
+    "description": "Small transmitters mounted on buildings and structures that must be shot or blown up.",
+    "tags": [
+      "one-time",
+      "casino heist",
+      "avi",
+      "hacker"
+    ]
+  },
+  {
+    "id": "oc-movie-props",
+    "name": "Movie Props",
+    "count": 10,
+    "reward": "Cash and RP per prop; delivering all 10 unlocks an alien-themed costume.",
+    "description": "Stolen film props for producer Solomon Richards, some found lying around and others inside vehicles that must be driven to the studio.",
+    "tags": [
+      "one-time",
+      "solomon richards",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-ld-organics",
+    "name": "LD Organics Product",
+    "count": 100,
+    "reward": "$1,000 and 1,000 RP per package; all 100 give $100,000 and 100,000 RP, and delivering them to Lamar adds $50,000 plus an LD Organics cap and tee.",
+    "description": "Packages of Lamar's weed brand hidden around the map.",
+    "tags": [
+      "one-time",
+      "lamar",
+      "weed",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-media-sticks",
+    "name": "Media Sticks",
+    "count": 9,
+    "reward": "Each unlocks music for the Media Player; full sets unlock clothing such as the CircoLoco tee.",
+    "description": "USB sticks with unreleased music, spread across the Los Santos Tuners and The Contract updates.",
+    "tags": [
+      "one-time",
+      "music",
+      "tuners",
+      "the contract"
+    ]
+  },
+  {
+    "id": "oc-stunt-jumps",
+    "name": "Stunt Jumps",
+    "count": 50,
+    "reward": null,
+    "description": "Ramp jumps around the map that count as completed when the player lands cleanly through the marked zone.",
+    "tags": [
+      "one-time",
+      "stunts",
+      "vehicles"
+    ]
+  },
+  {
+    "id": "oc-crime-scenes",
+    "name": "Weapon Components (Crime Scenes)",
+    "count": 5,
+    "reward": "Finding all five unlocks the Service Carbine and its upgrades.",
+    "description": "Parts recovered from crime scenes that together assemble a new weapon.",
+    "tags": [
+      "one-time",
+      "weapon",
+      "service carbine"
+    ]
+  },
+  {
+    "id": "oc-treasure-hunt",
+    "name": "Treasure Hunt (Double-Action Revolver)",
+    "count": 1,
+    "reward": "Unlocks the Double-Action Revolver and a cash reward.",
+    "description": "A clue trail that starts with a note and leads through several locations to a buried chest.",
+    "tags": [
+      "one-time",
+      "revolver",
+      "clues"
+    ]
+  },
+  {
+    "id": "oc-peyote-plants",
+    "name": "Peyote Plants",
+    "count": 76,
+    "reward": null,
+    "description": "Seasonal plants that briefly transform the player into an animal when eaten.",
+    "tags": [
+      "seasonal",
+      "halloween",
+      "animals"
+    ]
+  },
+  {
+    "id": "oc-snowmen",
+    "name": "Snowmen",
+    "count": 25,
+    "reward": "About $5,000 and 1,000 RP each in recent events; all 25 unlock a Snowman outfit and a cash bonus.",
+    "description": "Festive snowmen that appear around the map during the winter holiday event and must be destroyed.",
+    "tags": [
+      "seasonal",
+      "christmas",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-jack-o-lanterns",
+    "name": "Jack O' Lanterns",
+    "count": 200,
+    "reward": "Random treats (cash, RP, health, snacks) or tricks; 10 in a day unlock the Pumpkin Mask and $50,000.",
+    "description": "Carved pumpkins that appear during the Halloween event, with 10 active per day.",
+    "tags": [
+      "seasonal",
+      "halloween",
+      "daily"
+    ]
+  },
+  {
+    "id": "oc-ufo-sightings",
+    "name": "UFO Sightings",
+    "count": 25,
+    "reward": "About $15,000 and 1,000 RP per photo; all of them give $100,000 and Believe Cap variants.",
+    "description": "UFOs that hover over spots overnight during a Halloween event and must be photographed.",
+    "tags": [
+      "seasonal",
+      "halloween",
+      "photography"
+    ]
+  },
+  {
+    "id": "oc-ghosts-exposed",
+    "name": "Ghosts Exposed",
+    "count": 10,
+    "reward": "Cash and RP per ghost; the full set unlocks an event clothing or livery reward that changes each year.",
+    "description": "Ghosts that appear at night during Halloween events and must be photographed before they vanish.",
+    "tags": [
+      "seasonal",
+      "halloween",
+      "photography"
+    ]
+  },
+  {
+    "id": "oc-lucky-clovers",
+    "name": "Lucky Clovers",
+    "count": 25,
+    "reward": "All 25 unlock the Lucky Clover Outfit; a rarer Golden Clover unlocks its own outfit.",
+    "description": "St. Patrick's Day collectibles hidden around the map.",
+    "tags": [
+      "seasonal",
+      "st patricks",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-yuanbao",
+    "name": "Yuanbao",
+    "count": 36,
+    "reward": "$888 and 888 RP each, with a completion bonus (most recently $88,888).",
+    "description": "Gold ingots hidden during the Lunar New Year event.",
+    "tags": [
+      "seasonal",
+      "lunar new year"
+    ]
+  },
+  {
+    "id": "oc-shipwrecks",
+    "name": "Shipwrecks",
+    "count": 1,
+    "reward": "Roughly $20,000-$25,000 and 2,000 RP per chest; seven collected unlock The Frontier outfit.",
+    "description": "A daily washed-up chest at one of about 30 coastal wreck sites, findable without special equipment.",
+    "tags": [
+      "daily",
+      "coast",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-hidden-caches",
+    "name": "Hidden Caches",
+    "count": 10,
+    "reward": "Roughly $7,500-$10,000 and 500 RP each per day.",
+    "description": "Ten underwater packages spawn each day from a pool of 100 spots; Kosatka sonar reveals them.",
+    "tags": [
+      "daily",
+      "underwater",
+      "kosatka"
+    ]
+  },
+  {
+    "id": "oc-treasure-chests",
+    "name": "Treasure Chests",
+    "count": 2,
+    "reward": "Roughly $15,000-$25,000 and 1,000 RP each (sources vary).",
+    "description": "Two daily chests on and around Cayo Perico, reached while on the island.",
+    "tags": [
+      "daily",
+      "cayo perico"
+    ]
+  },
+  {
+    "id": "oc-buried-stashes",
+    "name": "Buried Stashes",
+    "count": 2,
+    "reward": "Cash and RP per stash (around $25,000 by some guides).",
+    "description": "Two daily dig sites where a metal detector helps locate buried loot.",
+    "tags": [
+      "daily",
+      "metal detector"
+    ]
+  },
+  {
+    "id": "oc-g-caches",
+    "name": "G's Caches",
+    "count": 1,
+    "reward": "A random amount of cash (about $15,000-$20,000) plus RP, ammo and snacks.",
+    "description": "A daily package hidden by G inside a search area; grabbing it can attract the police.",
+    "tags": [
+      "daily",
+      "g",
+      "cash"
+    ]
+  },
+  {
+    "id": "oc-stash-houses",
+    "name": "Stash Houses",
+    "count": 1,
+    "reward": "The safe can refill supplies for one of your businesses, or pays about $30,000 and RP if you own none.",
+    "description": "A daily gang hideout to raid; clear the guards, find the safe code and crack it.",
+    "tags": [
+      "daily",
+      "raid",
+      "supplies"
+    ]
+  },
+  {
+    "id": "oc-street-dealers",
+    "name": "Street Dealers",
+    "count": 3,
+    "reward": "They buy drug product carried by the player at a premium.",
+    "description": "Three dealers appear daily at random spots and buy cocaine, meth, weed or acid, with one usually paying a bonus rate.",
+    "tags": [
+      "daily",
+      "drugs",
+      "selling"
+    ]
+  },
+  {
+    "id": "oc-junk-energy-skydives",
+    "name": "Junk Energy Skydives",
+    "count": 10,
+    "reward": "Cash and RP for landing well; gold-medal runs pay the most.",
+    "description": "Parachute challenges that start from icons around the map, with skydives rotating through the day.",
+    "tags": [
+      "daily",
+      "parachute",
+      "skydive"
+    ]
+  },
+  {
+    "id": "oc-ls-tags",
+    "name": "LS Tags",
+    "count": 5,
+    "reward": "$15,000 and 500 RP per billboard; all five in a day add a bonus and the Street Artist outfit.",
+    "description": "Daily billboards to tag with a spray can, chosen from a pool of 30.",
+    "tags": [
+      "daily",
+      "graffiti",
+      "outfit"
+    ]
+  },
+  {
+    "id": "oc-smoke-on-the-water-product",
+    "name": "Smoke on the Water Product",
+    "count": 10,
+    "reward": null,
+    "description": "Daily weed product pickups tied to owning the Smoke on the Water dispensary.",
+    "tags": [
+      "daily",
+      "money fronts",
+      "weed"
+    ]
+  },
+  {
+    "id": "oc-wildlife-photography",
+    "name": "Wildlife Photography",
+    "count": 3,
+    "reward": null,
+    "description": "A daily list of three animals to photograph for the LS Tourist Board, available on current-generation versions.",
+    "tags": [
+      "daily",
+      "photography",
+      "animals"
+    ]
+  },
+  {
+    "id": "oc-exotic-exports",
+    "name": "Exotic Exports",
+    "count": 10,
+    "reward": null,
+    "description": "A daily list of ten exotic cars to find on the streets and deliver to the docks.",
+    "tags": [
+      "daily",
+      "cars",
+      "delivery"
+    ]
+  },
+  {
+    "id": "oc-time-trials",
+    "name": "Time Trials",
+    "count": null,
+    "reward": "Cash and RP for beating the par time, paid once per weekly rotation.",
+    "description": "Weekly timed races in three varieties: a standard Time Trial, an HSW Time Trial and an RC Bandito Time Trial.",
+    "tags": [
+      "weekly",
+      "racing",
+      "hsw",
+      "rc bandito"
+    ]
+  }
+]

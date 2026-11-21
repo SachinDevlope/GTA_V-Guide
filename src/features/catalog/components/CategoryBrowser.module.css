@@ -1,0 +1,10 @@
+.head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; padding-top: 28px; }
+.titleRow { display: flex; gap: 14px; align-items: center; min-width: 0; }
+.icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: var(--surface-2); color: var(--text); flex: none; }
+.titleRow h1 { margin: 0; font-size: clamp(24px, 3.2vw, 30px); font-weight: 750; letter-spacing: -.02em; line-height: 1.15; }
+.titleRow p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+.quick { display: flex; align-items: center; gap: 8px; height: 40px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); width: min(100%, 300px); }
+.quick:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.quick input { flex: 1; border: 0; background: transparent; outline: none; font-size: 14px; color: var(--text); min-width: 0; }
+.status { color: var(--muted); font-size: 13px; margin: 10px 0 14px; }
+.status strong { color: var(--text); font-weight: 600; }

@@ -1,0 +1,1919 @@
+[
+  {
+    "id": "oh-the-fleeca-job",
+    "name": "The Fleeca Job",
+    "dlc": "Heists",
+    "year": 2015,
+    "players": "2",
+    "contact": "Lester Crest",
+    "startLocation": "High-End Apartment (Heist Planning Room)",
+    "requirement": "Own a High-End Apartment with a planning room; rank 12 or higher to host",
+    "setups": [
+      "Fleeca Job - Scope Out",
+      "Fleeca Job - Kuruma"
+    ],
+    "finale": "The Fleeca Job",
+    "approaches": [],
+    "potentialTake": "The smallest of the original heists: roughly $100,000 on Easy up to about $250,000 on Hard after the latest payout changes.",
+    "eliteChallenge": "Finish in under 5:20 with less than 6% vehicle damage and no crew deaths; worth a $50,000 bonus.",
+    "description": "The introductory two-player heist that teaches the planning-board system. One player drills into a Fleeca safety deposit box on the Great Ocean Highway while the other handles crowd control, then the pair escape in an armored Kuruma.",
+    "tags": [
+      "original heists",
+      "lester",
+      "2 players",
+      "bank",
+      "beginner"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 100625,
+      "max": 377344,
+      "eliteBonus": 50000,
+      "perHour": null,
+      "note": "Easy repeat to Hard first-of-week (post-July 2026). Total take shared by the crew (leader sets cuts). Repeat payouts were cut in the July 2026 Kortz Center update; max is the boosted first weekly run."
+    },
+    "soloPossible": false,
+    "tier": "C",
+    "pros": [
+      "Only two setups",
+      "Quick to finish with a partner",
+      "Good intro to heists"
+    ],
+    "cons": [
+      "Lowest payout of any heist",
+      "Needs exactly two players",
+      "Needs a high-end apartment"
+    ]
+  },
+  {
+    "id": "oh-the-prison-break",
+    "name": "The Prison Break",
+    "dlc": "Heists",
+    "year": 2015,
+    "players": "4",
+    "contact": "Agent 14 (via Lester Crest)",
+    "startLocation": "High-End Apartment (Heist Planning Room)",
+    "requirement": "Own a High-End Apartment with a planning room; complete The Fleeca Job first",
+    "setups": [
+      "Prison Break - Plane",
+      "Prison Break - Bus",
+      "Prison Break - Station",
+      "Prison Break - Wet Work"
+    ],
+    "finale": "The Prison Break",
+    "approaches": [],
+    "potentialTake": "About $350,000 on Easy, $700,000 on Normal and $875,000 on Hard (current repeat values).",
+    "eliteChallenge": "Keep Rashkovsky's damage at 1% or less, extract in under 4:40 and have nobody die; $100,000 bonus.",
+    "description": "A four-player job to spring Maxim Rashkovsky out of Bolingbroke Penitentiary. Roles split between a disguised prison guard, a fake prisoner on a bus, a pilot flying the Velum getaway plane and a demolition specialist.",
+    "tags": [
+      "original heists",
+      "bolingbroke",
+      "prison",
+      "4 players"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 350000,
+      "max": 1312500,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Easy repeat to Hard first-of-week (post-July 2026). Total take shared by the crew (leader sets cuts). Repeat payouts were cut in the July 2026 Kortz Center update; max is the boosted first weekly run."
+    },
+    "soloPossible": false,
+    "tier": "B",
+    "pros": [
+      "Solid weekly-boosted payout",
+      "Varied roles in the finale"
+    ],
+    "cons": [
+      "Needs a full crew of four",
+      "Plane role can be tricky for the Elite time",
+      "Four setups first"
+    ]
+  },
+  {
+    "id": "oh-the-humane-labs-raid",
+    "name": "The Humane Labs Raid",
+    "dlc": "Heists",
+    "year": 2015,
+    "players": "4",
+    "contact": "Agent 14 (via Lester Crest)",
+    "startLocation": "High-End Apartment (Heist Planning Room)",
+    "requirement": "Own a High-End Apartment with a planning room; complete The Prison Break first",
+    "setups": [
+      "Humane Raid - Key Codes",
+      "Humane Raid - Insurgents",
+      "Humane Raid - EMP",
+      "Humane Raid - Valkyrie",
+      "Humane Raid - Deliver EMP"
+    ],
+    "finale": "The Humane Labs Raid",
+    "approaches": [],
+    "potentialTake": "About $472,500 on Easy, $945,000 on Normal and roughly $1.18 million on Hard (current repeat values).",
+    "eliteChallenge": "Finish in under 11:00 with under 2% vehicle damage and no crew deaths; $100,000 bonus.",
+    "description": "An IAA-sponsored assault on the Humane Labs research facility to retrieve sensitive data. The crew steals an EMP and a Valkyrie helicopter during setups, then splits between an underwater infiltration and air or ground cover for the finale.",
+    "tags": [
+      "original heists",
+      "humane labs",
+      "iaa",
+      "valkyrie",
+      "4 players"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 472500,
+      "max": 1771875,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Easy repeat to Hard first-of-week (post-July 2026). Total take shared by the crew (leader sets cuts). Repeat payouts were cut in the July 2026 Kortz Center update; max is the boosted first weekly run."
+    },
+    "soloPossible": false,
+    "tier": "B",
+    "pros": [
+      "Second-best original heist payout",
+      "Weekly boost makes it worthwhile"
+    ],
+    "cons": [
+      "Needs four players",
+      "Several setups including hard flying ones"
+    ]
+  },
+  {
+    "id": "oh-series-a-funding",
+    "name": "Series A Funding",
+    "dlc": "Heists",
+    "year": 2015,
+    "players": "4",
+    "contact": "Trevor Philips",
+    "startLocation": "High-End Apartment (Heist Planning Room)",
+    "requirement": "Own a High-End Apartment with a planning room; complete The Humane Labs Raid first",
+    "setups": [
+      "Series A - Coke",
+      "Series A - Trash Truck",
+      "Series A - Bikers",
+      "Series A - Weed",
+      "Series A - Steal Meth"
+    ],
+    "finale": "Series A Funding",
+    "approaches": [],
+    "potentialTake": "About $353,500 on Easy, $707,000 on Normal and $883,750 on Hard (current repeat values).",
+    "eliteChallenge": "Finish in under 6:30 with at least 75 kills and nobody dying; $100,000 bonus.",
+    "description": "Trevor tasks the crew with gathering drug stock from rival gangs to bankroll a deal. The setups are mostly drug-stealing jobs around Los Santos, ending with a shootout-heavy delivery finale.",
+    "tags": [
+      "original heists",
+      "trevor",
+      "drugs",
+      "4 players"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 353500,
+      "max": 1325625,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Easy repeat to Hard first-of-week (post-July 2026). Total take shared by the crew (leader sets cuts). Repeat payouts were cut in the July 2026 Kortz Center update; max is the boosted first weekly run."
+    },
+    "soloPossible": false,
+    "tier": "C",
+    "pros": [
+      "Weekly boost lifts the payout",
+      "Straightforward combat finale"
+    ],
+    "cons": [
+      "Longest setup chain of the originals",
+      "Needs four players",
+      "Elite needs 75 kills under 6:30"
+    ]
+  },
+  {
+    "id": "oh-the-pacific-standard-job",
+    "name": "The Pacific Standard Job",
+    "dlc": "Heists",
+    "year": 2015,
+    "players": "4",
+    "contact": "Lester Crest",
+    "startLocation": "High-End Apartment (Heist Planning Room)",
+    "requirement": "Own a High-End Apartment with a planning room; complete Series A Funding first",
+    "setups": [
+      "Pacific Standard - Vans",
+      "Pacific Standard - Signal",
+      "Pacific Standard - Hack",
+      "Pacific Standard - Convoy",
+      "Pacific Standard - Bikes"
+    ],
+    "finale": "The Pacific Standard Job",
+    "approaches": [],
+    "potentialTake": "The biggest of the originals: about $750,000 on Easy, $1.5 million on Normal and $1.875 million on Hard (current repeat values).",
+    "eliteChallenge": "Finish in under 10:15 without the NOOSE being called and with no crew deaths; $100,000 bonus.",
+    "description": "The capstone of the original heist series, robbing the Pacific Standard bank vault in Downtown Vinewood. The crew escapes on dirt bikes and then by boat while carrying the cash.",
+    "tags": [
+      "original heists",
+      "lester",
+      "bank",
+      "vault",
+      "4 players"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      },
+      {
+        "name": "Difficulty: Normal or Hard on the weekly run",
+        "why": "Source lists Hard first-week pay about the same as Normal; check in game."
+      }
+    ],
+    "payout": {
+      "min": 750000,
+      "max": 2250000,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Easy repeat ($750k) to Normal first-of-week ($2.25M); one source lists Hard first-of-week at $2,212,500, which looks inconsistent. Total take shared by the crew (leader sets cuts). Repeat payouts were cut in the July 2026 Kortz Center update; max is the boosted first weekly run."
+    },
+    "soloPossible": false,
+    "tier": "A",
+    "pros": [
+      "Biggest original heist payout",
+      "Weekly boost recommended by 2026 guides"
+    ],
+    "cons": [
+      "Five setups",
+      "Needs four players",
+      "Bike escape is easy to fail"
+    ]
+  },
+  {
+    "id": "oh-doomsday-act-1-the-data-breaches",
+    "name": "The Doomsday Heist - Act I: The Data Breaches",
+    "dlc": "The Doomsday Heist",
+    "year": 2017,
+    "players": "2-4",
+    "contact": "Lester Crest / Agent 14",
+    "startLocation": "Facility",
+    "requirement": "Own a Facility (from $1,250,000)",
+    "setups": [
+      "Dead Courier",
+      "Signal Intercepts",
+      "Server Farm"
+    ],
+    "finale": "The Data Breaches",
+    "approaches": [],
+    "potentialTake": "About $877,500 on Normal and $1.1 million on Hard for repeats; the first completion each week pays more (around $1.34 million on Hard).",
+    "eliteChallenge": "Finish in under 15:00 with less than 10% vehicle damage and nobody dying; $50,000 bonus.",
+    "description": "The opening act of a three-part story about a rogue AI and a plot to trigger nuclear war. The crew recovers stolen data and finishes by breaking into a secret IAA server farm.",
+    "tags": [
+      "doomsday",
+      "facility",
+      "act 1",
+      "lester",
+      "agent 14"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 877500,
+      "max": 1340381,
+      "eliteBonus": 50000,
+      "perHour": null,
+      "note": "Normal repeat to Hard first-of-week, total crew take. Cut in July 2026, then partly restored days later; first weekly runs now beat pre-update pay."
+    },
+    "soloPossible": false,
+    "tier": "B",
+    "pros": [
+      "Short act with few setups",
+      "Weekly first run pays well after the partial restore"
+    ],
+    "cons": [
+      "Needs at least two players",
+      "Requires a Facility"
+    ]
+  },
+  {
+    "id": "oh-doomsday-act-2-the-bogdan-problem",
+    "name": "The Doomsday Heist - Act II: The Bogdan Problem",
+    "dlc": "The Doomsday Heist",
+    "year": 2017,
+    "players": "2-4",
+    "contact": "Lester Crest / Agent 14",
+    "startLocation": "Facility",
+    "requirement": "Own a Facility; complete Act I",
+    "setups": [
+      "Avenger",
+      "Rescue ULP",
+      "Salvage Hard Drives",
+      "Submarine Recon"
+    ],
+    "finale": "The Bogdan Problem",
+    "approaches": [],
+    "potentialTake": "About $1.28 million on Normal and $1.6 million on Hard for repeats; the first completion each week can reach roughly $1.96 million on Hard.",
+    "eliteChallenge": "Finish in under 15:00 with less than 5% vehicle damage and nobody dying; $50,000 bonus.",
+    "description": "The second act sends the crew after Russian hacker Bogdan, who is hiding aboard a nuclear submarine. The finale has players boarding the sub and forcing access to its systems.",
+    "tags": [
+      "doomsday",
+      "facility",
+      "act 2",
+      "submarine",
+      "bogdan"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 1282500,
+      "max": 1959019,
+      "eliteBonus": 50000,
+      "perHour": null,
+      "note": "Normal repeat to Hard first-of-week, total crew take. Cut in July 2026, then partly restored days later."
+    },
+    "soloPossible": false,
+    "tier": "B",
+    "pros": [
+      "Close to $2M on a boosted weekly run",
+      "Fun submarine finale"
+    ],
+    "cons": [
+      "Many setups",
+      "Needs at least two players",
+      "Finale is long"
+    ]
+  },
+  {
+    "id": "oh-doomsday-act-3-the-doomsday-scenario",
+    "name": "The Doomsday Heist - Act III: The Doomsday Scenario",
+    "dlc": "The Doomsday Heist",
+    "year": 2017,
+    "players": "2-4",
+    "contact": "Lester Crest / Agent 14",
+    "startLocation": "Facility",
+    "requirement": "Own a Facility; complete Act II",
+    "setups": [
+      "Rescue Agent 14",
+      "Escort ULP",
+      "Barrage",
+      "Khanjali",
+      "Air Defenses"
+    ],
+    "finale": "The Doomsday Scenario",
+    "approaches": [],
+    "potentialTake": "About $1.62 million on Normal and $2.03 million on Hard for repeats; the first completion each week can reach roughly $2.47 million on Hard.",
+    "eliteChallenge": "Finish in under 30:00 with at least 150 headshots and nobody dying; $50,000 bonus.",
+    "description": "The final act pits the crew against tech billionaire Avon Hertz and his AI, Clifford, inside a hidden base under Mount Chiliad. It ends with a race to stop a nuclear launch.",
+    "tags": [
+      "doomsday",
+      "facility",
+      "act 3",
+      "avon hertz",
+      "clifford",
+      "khanjali"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 1620000,
+      "max": 2474550,
+      "eliteBonus": 50000,
+      "perHour": null,
+      "note": "Normal repeat to Hard first-of-week, total crew take. Cut in July 2026, then partly restored days later."
+    },
+    "soloPossible": false,
+    "tier": "A",
+    "pros": [
+      "Largest Doomsday payout",
+      "Weekly first run nears $2.5M"
+    ],
+    "cons": [
+      "Long setup chain",
+      "Hard finale with a flying section",
+      "Needs at least two players"
+    ]
+  },
+  {
+    "id": "oh-the-diamond-casino-heist",
+    "name": "The Diamond Casino Heist",
+    "dlc": "The Diamond Casino Heist",
+    "year": 2019,
+    "players": "2-4",
+    "contact": "Lester Crest / Georgina Cheng",
+    "startLocation": "Arcade (basement planning boards)",
+    "requirement": "Own an Arcade (from $1,235,000)",
+    "setups": [
+      "Casino Scope Out (Vault Contents)",
+      "Gunman prep",
+      "Driver (getaway vehicle) prep",
+      "Hacker / Hacking Device prep",
+      "Vault Keycards",
+      "Patrol Routes",
+      "Duggan Shipments",
+      "Power Drills",
+      "EMP Device",
+      "Disguise prep (The Big Con)",
+      "Nano Drone / Vault Laser (Silent & Sneaky)",
+      "Thermal Charges / Reinforced Armor (Aggressive)"
+    ],
+    "finale": "The Diamond Casino Heist",
+    "approaches": [
+      "Silent & Sneaky",
+      "The Big Con",
+      "Aggressive"
+    ],
+    "potentialTake": "Depends on the vault contents: roughly $1.48 million for cash up to about $2.3 million for diamonds on Normal (repeat values), with Hard adding about 10%.",
+    "eliteChallenge": "Finish in under 15:00 with nobody dying, plus an approach-specific condition (staying undetected for stealth approaches, 80 headshots for Aggressive); $50,000 on Normal or $100,000 on Hard.",
+    "description": "Lester and Georgina Cheng plan a raid on The Diamond Casino & Resort vault, run from the player's Arcade. Players choose one of three approaches and hire gunmen, drivers and hackers who take a cut of the take.",
+    "tags": [
+      "casino",
+      "arcade",
+      "lester",
+      "approaches",
+      "vault"
+    ],
+    "bestApproach": {
+      "name": "The Big Con",
+      "why": "Most consistent profit; the Gruppe Sechs disguise walks you straight to the vault quietly."
+    },
+    "bestChoices": [
+      {
+        "name": "Disguise: Gruppe Sechs",
+        "why": "Unlocked by photographing the racetrack tunnel; gives direct vault access."
+      },
+      {
+        "name": "Hacker: Avi Schwartzman or Paige Harris",
+        "why": "Bigger cut but extra vault time means more loot."
+      },
+      {
+        "name": "Gunman and driver: cheapest options",
+        "why": "Their skill barely matters, so save on cuts."
+      },
+      {
+        "name": "Re-roll if the vault holds cash",
+        "why": "Cash is the weakest target; redo setup for art, gold or diamonds."
+      },
+      {
+        "name": "Avoid Aggressive",
+        "why": "Taking damage drops loot and lowers the take."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 1480500,
+      "max": 4711938,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Potential take before Lester and crew cuts: Normal cash repeat to Hard diamonds first-of-week. Base pay cut 30% in July 2026; first weekly run is about 1.86x. Elite $50k Normal / $100k Hard per player."
+    },
+    "soloPossible": false,
+    "tier": "S",
+    "pros": [
+      "Highest crew payout in the game on a weekly run",
+      "Three approaches keep it fresh",
+      "Big Con is very forgiving"
+    ],
+    "cons": [
+      "Needs at least two players",
+      "Long list of setups and preps",
+      "Cash vault rolls pay poorly"
+    ]
+  },
+  {
+    "id": "oh-the-cayo-perico-heist",
+    "name": "The Cayo Perico Heist",
+    "dlc": "The Cayo Perico Heist",
+    "year": 2020,
+    "players": "1-4",
+    "contact": "Miguel Madrazo / Pavel",
+    "startLocation": "Kosatka submarine",
+    "requirement": "Own a Kosatka submarine (from $2,200,000)",
+    "setups": [
+      "Gather Intel",
+      "Kosatka: Sonar Equipment (optional)",
+      "Approach vehicle prep",
+      "Weapon Loadout",
+      "Plasma Cutter",
+      "Fingerprint Cloner",
+      "Cutting Powder",
+      "Weapon / Armor / Air Support Disruption",
+      "Bolt Cutters",
+      "Grappling Equipment",
+      "Guard Clothing"
+    ],
+    "finale": "The Cayo Perico Heist (Finale)",
+    "approaches": [
+      "Kosatka",
+      "Alkonost",
+      "Velum",
+      "Stealth Annihilator",
+      "Patrol Boat",
+      "Longfin"
+    ],
+    "potentialTake": "The primary target sets the base: about $400,000 for tequila up to $1.9 million for the event-only Panther Statue on Normal (around 10% more on Hard), plus secondary loot such as gold, cocaine, weed, paintings and cash.",
+    "eliteChallenge": "Finish in under 15 minutes with full loot bags and no failed hacks; $50,000 on Normal or $100,000 on Hard.",
+    "description": "The first heist that can be played solo: the player raids El Rubio's private island compound to recover files for Miguel Madrazo. Scouting the island reveals entry points, escape routes and extra loot, and stealth keeps the finale far easier.",
+    "tags": [
+      "cayo",
+      "solo",
+      "kosatka",
+      "el rubio",
+      "pavel",
+      "island"
+    ],
+    "bestApproach": {
+      "name": "Kosatka",
+      "why": "Unlocks the drainage tunnel entry and the Sparrow for fast scouting and preps."
+    },
+    "bestChoices": [
+      {
+        "name": "Compound entry: Drainage Tunnel",
+        "why": "Most reliable and much faster than the main gate; needs the cutting torch."
+      },
+      {
+        "name": "Scout with the Kosatka Sparrow",
+        "why": "Speeds up the scope-out and preps a lot."
+      },
+      {
+        "name": "Time of day: Night",
+        "why": "Darkness makes stealth easier."
+      },
+      {
+        "name": "Secondary loot: gold first",
+        "why": "Worth the most per bag space."
+      },
+      {
+        "name": "Run the first heist after the Thursday reset",
+        "why": "Tequila cannot roll then; better odds at bonds, necklace or Pink Diamond."
+      }
+    ],
+    "payout": {
+      "min": 400000,
+      "max": 1210000,
+      "eliteBonus": 100000,
+      "perHour": 440000,
+      "note": "Normal solo values after the July 2026 cut: Tequila primary only, up to Pink Diamond ($910k) plus ~$300k secondary. Hard adds ~10% to the primary; crews can carry more gold. Fees and cuts not deducted. ~$440k/h on Tequila, ~$1M/h on Pink Diamond; ~2.5h solo cooldown."
+    },
+    "soloPossible": true,
+    "tier": "A",
+    "pros": [
+      "Best repeatable solo heist",
+      "One heist, many routes",
+      "Good secondary loot"
+    ],
+    "cons": [
+      "Payouts and rare-target odds cut in July 2026",
+      "Tequila rolls 80% of the time on repeats",
+      "Long solo cooldown",
+      "Kosatka costs $2.2M"
+    ]
+  },
+  {
+    "id": "oh-the-contract-dr-dre",
+    "name": "The Contract: Dr. Dre VIP Contract",
+    "dlc": "The Contract",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "Franklin Clinton",
+    "startLocation": "Agency (Celebrity Solutions)",
+    "requirement": "Own an Agency (from $2,010,000)",
+    "setups": [
+      "Investigation: The Nightclub",
+      "Investigation: The Marina",
+      "Nightlife Leak",
+      "The Country Club",
+      "Guest List",
+      "High Society Leak",
+      "Investigation: Davis",
+      "Investigation: The Ballas",
+      "South Central Leak",
+      "Studio Time"
+    ],
+    "finale": "Don't Fuck With Dre",
+    "approaches": [],
+    "potentialTake": "About $1,000,000 for the host on completing the finale; crew members earn less.",
+    "eliteChallenge": null,
+    "description": "Franklin's agency is hired to recover Dr. Dre's stolen phone, which holds unreleased music. Three 'Data Leak' investigations track the leaked songs across the city before a studio session and a final assault to get the phone back.",
+    "tags": [
+      "the contract",
+      "agency",
+      "franklin",
+      "dr dre",
+      "data leaks",
+      "solo"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 900000,
+      "max": 1099800,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Host pay for the finale: $900k on repeats after the July 2026 ~10% cut, about $1.1M on the first run each week. Associates get far less."
+    },
+    "soloPossible": true,
+    "tier": "A",
+    "pros": [
+      "Near $1M solo finale",
+      "Missions are fun and varied",
+      "No crew needed"
+    ],
+    "cons": [
+      "Long mission chain before the finale",
+      "Agency costs about $2M",
+      "Associates earn little"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-union-depository-contract",
+    "name": "The Union Depository Contract",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Union Depository Contract",
+    "approaches": [],
+    "potentialTake": "The most lucrative robbery contract: about $300,000 gross (around $270,000 after KDJ and Sessanta's 10% cut).",
+    "eliteChallenge": null,
+    "description": "A robbery contract that sends the crew into the Union Depository's gold vault. Like the other Auto Shop contracts it uses two planning jobs before the finale.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "gold",
+      "union depository"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Run it whenever it shows on the board",
+        "why": "Pays about 1.6x the next-best contract."
+      },
+      {
+        "name": "Loadout: Hustler (solo)",
+        "why": "Plenty of ammo for loud finale sections."
+      },
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower your take."
+      }
+    ],
+    "payout": {
+      "min": 270000,
+      "max": 337500,
+      "eliteBonus": null,
+      "perHour": 525000,
+      "note": "Leader take after KDJ/Sessanta 10%: $270k solo, up to $337.5k with four players. Not changed in July 2026. Hourly estimates range $400k-650k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "A",
+    "pros": [
+      "Best robbery contract by far",
+      "Same pay every run, no weekly decay",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Only appears on the board sometimes",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-superdollar-deal",
+    "name": "The Superdollar Deal",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Superdollar Deal",
+    "approaches": [],
+    "potentialTake": "About $185,000 gross (around $166,500 after cuts).",
+    "eliteChallenge": null,
+    "description": "Players intercept a moving convoy to steal counterfeit-quality bank plates. Planning includes tracking a military transport at Fort Zancudo.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "convoy"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 166500,
+      "max": 166500,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "Leader take after the 10% KDJ/Sessanta cut. Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Far less than Union Depository",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-bank-contract",
+    "name": "The Bank Contract",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Bank Contract",
+    "approaches": [],
+    "potentialTake": "About $178,000 gross (around $160,200 after cuts).",
+    "eliteChallenge": null,
+    "description": "A quick-fire contract where the crew hits several Fleeca branches across Los Santos in one run. Speed and a fast getaway car matter more than stealth.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "fleeca",
+      "bank"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 160200,
+      "max": 160200,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "Leader take after the 10% KDJ/Sessanta cut. Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Far less than Union Depository",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-ecu-job",
+    "name": "The ECU Job",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The ECU Job",
+    "approaches": [],
+    "potentialTake": "About $172,000, and the only contract where KDJ and Sessanta take no cut.",
+    "eliteChallenge": null,
+    "description": "The crew intercepts a freight train to grab a shipment of valuable engine control units. It is one of the more straightforward contracts.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "train"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 154800,
+      "max": 172000,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "About $172k; guides disagree whether KDJ/Sessanta take a cut here (one lists $154.8k after cut). Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Far less than Union Depository",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-prison-contract",
+    "name": "The Prison Contract",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Prison Contract",
+    "approaches": [],
+    "potentialTake": "About $175,000 gross (around $157,500 after cuts).",
+    "eliteChallenge": null,
+    "description": "A return to Bolingbroke Penitentiary to deal with rival gang members inside and break out an ally. It plays like a compact prison break.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "bolingbroke",
+      "prison"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 157500,
+      "max": 157500,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "Leader take after the 10% KDJ/Sessanta cut. Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Far less than Union Depository",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-agency-deal",
+    "name": "The Agency Deal",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Agency Deal",
+    "approaches": [],
+    "potentialTake": "About $182,000 gross (around $163,800 after cuts).",
+    "eliteChallenge": null,
+    "description": "The crew slips into an IAA facility to steal a sensitive formula. The contract mixes infiltration with a firefight on the way out.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "iaa"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 163800,
+      "max": 163800,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "Leader take after the 10% KDJ/Sessanta cut. Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Far less than Union Depository",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-lost-contract",
+    "name": "The Lost Contract",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Lost Contract",
+    "approaches": [],
+    "potentialTake": "About $180,000 gross (around $162,000 after cuts).",
+    "eliteChallenge": null,
+    "description": "Players disrupt a Lost MC meth operation and steal its supply. It is often described as one of the longer Auto Shop contracts.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "lost mc",
+      "meth"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 162000,
+      "max": 162000,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "Leader take after the 10% KDJ/Sessanta cut. Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Far less than Union Depository",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-auto-shop-data-contract",
+    "name": "The Data Contract",
+    "dlc": "Los Santos Tuners",
+    "year": 2021,
+    "players": "1-4",
+    "contact": "KDJ / Sessanta",
+    "startLocation": "Auto Shop (planning board)",
+    "requirement": "Own an Auto Shop (from $1,670,000)",
+    "setups": [],
+    "finale": "The Data Contract",
+    "approaches": [],
+    "potentialTake": "About $170,000 gross (around $153,000 after cuts).",
+    "eliteChallenge": null,
+    "description": "A contract to steal sensitive hard drives on behalf of hacker Avi Schwartzman. It ends with a hit on a heavily guarded target.",
+    "tags": [
+      "auto shop",
+      "tuners",
+      "robbery contract",
+      "avi",
+      "hard drives"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Bring a friend",
+        "why": "A partner does not lower the leader's take."
+      },
+      {
+        "name": "Cycle the board if Union Depository is missing",
+        "why": "Finishing contracts refreshes the options."
+      }
+    ],
+    "payout": {
+      "min": 153000,
+      "max": 153000,
+      "eliteBonus": null,
+      "perHour": 365000,
+      "note": "Leader take after the 10% KDJ/Sessanta cut. Not changed in July 2026. Hourly estimates for standard contracts range $250k-480k; middle used."
+    },
+    "soloPossible": true,
+    "tier": "C",
+    "pros": [
+      "Short: two setups and a finale",
+      "Pay does not drop on repeats",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Lowest-paying robbery contract",
+      "Needs an Auto Shop"
+    ]
+  },
+  {
+    "id": "oh-first-dose",
+    "name": "First Dose",
+    "dlc": "Los Santos Drug Wars",
+    "year": 2022,
+    "players": "1-4",
+    "contact": "Dax / The Fooliganz",
+    "startLocation": "The Freakshop",
+    "requirement": null,
+    "setups": [
+      "Welcome to the Troupe",
+      "Designated Driver",
+      "Fatal Incursion",
+      "Uncontrolled Substance",
+      "Make War Not Love"
+    ],
+    "finale": "Off the Rails",
+    "approaches": [],
+    "potentialTake": null,
+    "eliteChallenge": null,
+    "description": "The first story strand of Los Santos Drug Wars, introducing Dax and his Fooliganz crew in a turf war over a new psychedelic. It culminates in stealing a Brickade 6x6 from a Merryweather train, which becomes the Acid Lab.",
+    "tags": [
+      "drug wars",
+      "dax",
+      "fooliganz",
+      "acid lab",
+      "story"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Play it once as leader, mainly for the Acid Lab",
+        "why": "The one-time awards and Acid Lab unlock are the real value."
+      }
+    ],
+    "payout": {
+      "min": null,
+      "max": 300000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "One-time leader awards: $50k for each of the six missions ($300k), plus $100k for finishing all as an Organization/MC member. Repeat cash pay is small and not reliably documented."
+    },
+    "soloPossible": true,
+    "tier": "C",
+    "pros": [
+      "Unlocks the Acid Lab and Brickade 6x6",
+      "Free to start",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Poor repeat payouts",
+      "Value is mostly one-time"
+    ]
+  },
+  {
+    "id": "oh-last-dose",
+    "name": "The Last Dose",
+    "dlc": "Los Santos Drug Wars",
+    "year": 2023,
+    "players": "1-4",
+    "contact": "Dax / The Fooliganz",
+    "startLocation": "The Freakshop",
+    "requirement": "Complete First Dose",
+    "setups": [
+      "This Is an Intervention",
+      "Unusual Suspects",
+      "FriedMind",
+      "Checking In"
+    ],
+    "finale": "BDKD",
+    "approaches": [],
+    "potentialTake": null,
+    "eliteChallenge": null,
+    "description": "The concluding Drug Wars strand, in which the Fooliganz go after the people behind a dangerous rival drug. The missions build to a large-scale finale that wraps up the storyline.",
+    "tags": [
+      "drug wars",
+      "dax",
+      "fooliganz",
+      "story",
+      "finale"
+    ],
+    "bestApproach": null,
+    "bestChoices": [],
+    "payout": {
+      "min": null,
+      "max": null,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Sources disagree on mission pay (about $10k to $50k each); base pay was raised 25% in March 2023. No reliable 2026 figures."
+    },
+    "soloPossible": true,
+    "tier": "C",
+    "pros": [
+      "Wraps up the Drug Wars story",
+      "Unlocks the Ocelot Virtue for the host"
+    ],
+    "cons": [
+      "Low pay for the time",
+      "No business unlock like First Dose"
+    ]
+  },
+  {
+    "id": "oh-project-overthrow",
+    "name": "Project Overthrow",
+    "dlc": "San Andreas Mercenaries",
+    "year": 2023,
+    "players": "1-4",
+    "contact": "Charlie Reed",
+    "startLocation": "Avenger (Operations Terminal)",
+    "requirement": "Own an Avenger with the Operations Terminal upgrade",
+    "setups": [
+      "Reporting for Duty",
+      "Falling In",
+      "Breaking Ranks",
+      "Shock & Awe",
+      "On Parade"
+    ],
+    "finale": "Unconventional Warfare",
+    "approaches": [],
+    "potentialTake": null,
+    "eliteChallenge": null,
+    "description": "A six-mission strand where the Los Santos Angels take on the Merryweather private army. Missions lean on aerial combat and are launched from the upgraded Avenger.",
+    "tags": [
+      "mercenaries",
+      "avenger",
+      "charlie reed",
+      "merryweather",
+      "lsa"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Roughly double the Easy payout per mission."
+      }
+    ],
+    "payout": {
+      "min": 72000,
+      "max": 144000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Total for all six missions: ~$12k each on Easy up to ~$24k each on Hard (base pay, no event bonus)."
+    },
+    "soloPossible": true,
+    "tier": "C",
+    "pros": [
+      "Story missions with new gear",
+      "Often boosted in event weeks"
+    ],
+    "cons": [
+      "Community considers the pay poor",
+      "Needs a Hangar"
+    ]
+  },
+  {
+    "id": "oh-salvage-yard-cargo-ship-robbery",
+    "name": "The Cargo Ship Robbery",
+    "dlc": "The Chop Shop",
+    "year": 2023,
+    "players": "1-4",
+    "contact": null,
+    "startLocation": "Salvage Yard (planning board)",
+    "requirement": "Own a Salvage Yard (from $1,620,000)",
+    "setups": [],
+    "finale": "The Cargo Ship Robbery",
+    "approaches": [],
+    "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000, with a dirty sale paying about 80%.",
+    "eliteChallenge": null,
+    "description": "The crew boards a guarded cargo ship at sea to steal a container holding the target vehicle. Each robbery follows a scope-out, planning work and free-mode tasks before the finale.",
+    "tags": [
+      "chop shop",
+      "salvage yard",
+      "robbery",
+      "boat"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Sell the car only if undamaged, otherwise scrap it",
+        "why": "Damage cuts the sale value; scrapping pays a safe 80%."
+      },
+      {
+        "name": "Do not keep the car",
+        "why": "Claiming it forfeits most of the value."
+      },
+      {
+        "name": "Finish all three bonus challenges",
+        "why": "Worth up to $50k extra per robbery."
+      }
+    ],
+    "payout": {
+      "min": 250000,
+      "max": 405000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Solid pay per robbery",
+      "Unaffected by the 2026 cuts",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Value depends on the weekly car",
+      "Needs a Salvage Yard and tow truck",
+      "Setups can be long"
+    ]
+  },
+  {
+    "id": "oh-salvage-yard-gangbanger-robbery",
+    "name": "The Gangbanger Robbery",
+    "dlc": "The Chop Shop",
+    "year": 2023,
+    "players": "1-4",
+    "contact": null,
+    "startLocation": "Salvage Yard (planning board)",
+    "requirement": "Own a Salvage Yard (from $1,620,000)",
+    "setups": [],
+    "finale": "The Gangbanger Robbery",
+    "approaches": [],
+    "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
+    "eliteChallenge": null,
+    "description": "Players break gang figure King Tiny out of custody to learn where a prized car is kept, then steal it. The stolen car can be sold on or broken down for parts.",
+    "tags": [
+      "chop shop",
+      "salvage yard",
+      "robbery",
+      "gang"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Sell the car only if undamaged, otherwise scrap it",
+        "why": "Damage cuts the sale value; scrapping pays a safe 80%."
+      },
+      {
+        "name": "Do not keep the car",
+        "why": "Claiming it forfeits most of the value."
+      },
+      {
+        "name": "Finish all three bonus challenges",
+        "why": "Worth up to $50k extra per robbery."
+      }
+    ],
+    "payout": {
+      "min": 250000,
+      "max": 405000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Solid pay per robbery",
+      "Unaffected by the 2026 cuts",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Value depends on the weekly car",
+      "Needs a Salvage Yard and tow truck",
+      "Setups can be long"
+    ]
+  },
+  {
+    "id": "oh-salvage-yard-duggan-robbery",
+    "name": "The Duggan Robbery",
+    "dlc": "The Chop Shop",
+    "year": 2023,
+    "players": "1-4",
+    "contact": null,
+    "startLocation": "Salvage Yard (planning board)",
+    "requirement": "Own a Salvage Yard (from $1,620,000)",
+    "setups": [],
+    "finale": "The Duggan Robbery",
+    "approaches": [],
+    "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
+    "eliteChallenge": null,
+    "description": "The crew lifts a car from a Duggan crime family event held at the Maze Bank Arena. The robbery rotates in and out of the weekly Salvage Yard lineup.",
+    "tags": [
+      "chop shop",
+      "salvage yard",
+      "robbery",
+      "duggan"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Sell the car only if undamaged, otherwise scrap it",
+        "why": "Damage cuts the sale value; scrapping pays a safe 80%."
+      },
+      {
+        "name": "Do not keep the car",
+        "why": "Claiming it forfeits most of the value."
+      },
+      {
+        "name": "Finish all three bonus challenges",
+        "why": "Worth up to $50k extra per robbery."
+      }
+    ],
+    "payout": {
+      "min": 250000,
+      "max": 405000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Solid pay per robbery",
+      "Unaffected by the 2026 cuts",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Value depends on the weekly car",
+      "Needs a Salvage Yard and tow truck",
+      "Setups can be long"
+    ]
+  },
+  {
+    "id": "oh-salvage-yard-podium-robbery",
+    "name": "The Podium Robbery",
+    "dlc": "The Chop Shop",
+    "year": 2023,
+    "players": "1-4",
+    "contact": null,
+    "startLocation": "Salvage Yard (planning board)",
+    "requirement": "Own a Salvage Yard (from $1,620,000)",
+    "setups": [],
+    "finale": "The Podium Robbery",
+    "approaches": [],
+    "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
+    "eliteChallenge": null,
+    "description": "Players steal the display car from the podium of The Diamond Casino & Resort. Planning involves getting past casino security to reach the vehicle.",
+    "tags": [
+      "chop shop",
+      "salvage yard",
+      "robbery",
+      "casino",
+      "podium"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Sell the car only if undamaged, otherwise scrap it",
+        "why": "Damage cuts the sale value; scrapping pays a safe 80%."
+      },
+      {
+        "name": "Do not keep the car",
+        "why": "Claiming it forfeits most of the value."
+      },
+      {
+        "name": "Finish all three bonus challenges",
+        "why": "Worth up to $50k extra per robbery."
+      }
+    ],
+    "payout": {
+      "min": 250000,
+      "max": 405000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
+    },
+    "soloPossible": true,
+    "tier": "A",
+    "pros": [
+      "Highest all-time ceiling of the robberies",
+      "Unaffected by the 2026 cuts",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Value depends on the weekly car",
+      "Needs a Salvage Yard and tow truck",
+      "Setups can be long"
+    ]
+  },
+  {
+    "id": "oh-salvage-yard-mctony-robbery",
+    "name": "The McTony Robbery",
+    "dlc": "The Chop Shop",
+    "year": 2023,
+    "players": "1-4",
+    "contact": null,
+    "startLocation": "Salvage Yard (planning board)",
+    "requirement": "Own a Salvage Yard (from $1,620,000)",
+    "setups": [],
+    "finale": "The McTony Robbery",
+    "approaches": [],
+    "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
+    "eliteChallenge": null,
+    "description": "The crew infiltrates tech billionaire Tony McTony's Kosatka submarine to extract a car stored aboard. It is one of five robberies that rotate weekly.",
+    "tags": [
+      "chop shop",
+      "salvage yard",
+      "robbery",
+      "submarine",
+      "kosatka"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Sell the car only if undamaged, otherwise scrap it",
+        "why": "Damage cuts the sale value; scrapping pays a safe 80%."
+      },
+      {
+        "name": "Do not keep the car",
+        "why": "Claiming it forfeits most of the value."
+      },
+      {
+        "name": "Finish all three bonus challenges",
+        "why": "Worth up to $50k extra per robbery."
+      }
+    ],
+    "payout": {
+      "min": 250000,
+      "max": 405000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Solid pay per robbery",
+      "Unaffected by the 2026 cuts",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Value depends on the weekly car",
+      "Needs a Salvage Yard and tow truck",
+      "Setups can be long"
+    ]
+  },
+  {
+    "id": "oh-cluckin-bell-farm-raid",
+    "name": "The Cluckin' Bell Farm Raid",
+    "dlc": "The Chop Shop",
+    "year": 2024,
+    "players": "1-4",
+    "contact": "Vincent Effenburger",
+    "startLocation": null,
+    "requirement": null,
+    "setups": [
+      "Slush Fund",
+      "Breaking and Entering",
+      "Concealed Weapons",
+      "Hit and Run",
+      "Disorganized Crime"
+    ],
+    "finale": "Scene of the Crime",
+    "approaches": [],
+    "potentialTake": "Originally about $500,000 for the host; a later rework reportedly pays around $600,000 for the first finale each week and $400,000 for repeats.",
+    "eliteChallenge": null,
+    "description": "Corrupt cop Vincent Effenburger recruits the player to raid the Cluckin' Bell processing farm in Paleto Bay, which is fronting a criminal operation. It plays as a mini-heist with an intro, four setups and an action-heavy finale.",
+    "tags": [
+      "cluckin bell",
+      "vincent",
+      "paleto bay",
+      "mini heist",
+      "solo"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 400000,
+      "max": 600000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Host pay: $400k on repeats (cut from $500k in July 2026), $600k on the first run each week; associates get ~$40k. One-hour cooldown."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "No property to buy",
+      "Solo-friendly",
+      "Weekly boost"
+    ],
+    "cons": [
+      "Five missions before the finale",
+      "Associates earn very little",
+      "Payout cut in 2026"
+    ]
+  },
+  {
+    "id": "oh-bottom-dollar-most-wanted-bounties",
+    "name": "Bottom Dollar Bounties: Most Wanted Bounties",
+    "dlc": "Bottom Dollar Bounties",
+    "year": 2024,
+    "players": "1-4",
+    "contact": "Maude Eccles",
+    "startLocation": "Bail Office (Bail Enforcement System computer)",
+    "requirement": "Own a Bail Office (from $1,650,000)",
+    "setups": [],
+    "finale": null,
+    "approaches": [],
+    "potentialTake": "Most Wanted bounties typically pay over $120,000; standard bounties pay about $35,000-$40,000. Killing the target cuts the payout sharply, so capturing them alive pays best.",
+    "eliteChallenge": null,
+    "description": "Maude Eccles hands out bail-skipper targets through the Bail Office: three standard bounties plus one high-value Most Wanted target per day. Bringing them in alive to the office pays far more than delivering them dead to the coroner.",
+    "tags": [
+      "bounties",
+      "bail office",
+      "maude",
+      "bounty hunting"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Capture the target alive",
+        "why": "Killing the target cuts the reward by about 75%."
+      }
+    ],
+    "payout": {
+      "min": 120000,
+      "max": 130000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Per Most Wanted bounty when brought in alive; killed targets pay ~75% less. One new Most Wanted target per day."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Good pay for roughly 15 minutes",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Only one Most Wanted target a day",
+      "Needs a Bail Office"
+    ]
+  },
+  {
+    "id": "oh-agents-of-sabotage-fib-files",
+    "name": "The FIB Files",
+    "dlc": "Agents of Sabotage",
+    "year": 2024,
+    "players": "1-4",
+    "contact": "Jodi Marshall",
+    "startLocation": "Darnell Bros Garment Factory",
+    "requirement": "Own the Garment Factory ($2,350,000)",
+    "setups": [
+      "The Black Box File",
+      "The Brute Force File",
+      "The Fine Art File",
+      "The Project Breakaway File"
+    ],
+    "finale": null,
+    "approaches": [],
+    "potentialTake": "Each file pays about $150,000-$158,000, plus a $50,000 bonus for all finale challenges; the weekly Priority File pays double.",
+    "eliteChallenge": "Complete all three finale challenges for a $50,000 bonus ($150,000 for GTA+ members).",
+    "description": "Ex-FIB agent Jodi Marshall runs a series of mini-heists out of the Garment Factory, each with a setup fee, three planning missions and a finale. Targets include a cargo plane, Fort Zancudo, an art gallery and the Maze Bank Tower.",
+    "tags": [
+      "agents of sabotage",
+      "garment factory",
+      "fib",
+      "jodi marshall",
+      "mini heist"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Run the weekly Priority File",
+        "why": "Pays about double the normal file."
+      },
+      {
+        "name": "Complete all finale challenges",
+        "why": "Adds a $50k bonus."
+      }
+    ],
+    "payout": {
+      "min": 150000,
+      "max": 300000,
+      "eliteBonus": 50000,
+      "perHour": null,
+      "note": "Per file: ~$150k-158k normally, ~$300k for the weekly Priority File. $50k challenge bonus ($150k with GTA+). Unclear whether the July 2026 changes touched these."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Short: three setups and a finale",
+      "Can be started from the phone",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Modest base pay",
+      "Needs the Garment Factory (~$2.35M)"
+    ]
+  },
+  {
+    "id": "oh-oscar-guzman-flies-again",
+    "name": "Oscar Guzman Flies Again",
+    "dlc": "Oscar Guzman Flies Again",
+    "year": 2025,
+    "players": null,
+    "contact": "Oscar Guzman",
+    "startLocation": "McKenzie Field Hangar",
+    "requirement": "Own the McKenzie Field Hangar ($1,475,000)",
+    "setups": [
+      "Up and Running",
+      "Setup: Mogul",
+      "Setup: Intel",
+      "Setup: Iron Mule",
+      "Setup: Ammunition"
+    ],
+    "finale": "The Titan Job",
+    "approaches": [],
+    "potentialTake": "The finale is reported to pay up to roughly $1.1 million depending on difficulty; sources vary.",
+    "eliteChallenge": null,
+    "description": "Oscar Guzman returns from GTA V's story mode to lead an air-focused strand from McKenzie Field. The setups build toward stealing Eberhard Munitions' Titan 250 D gunship, with the difficulty picked in the intro mission applying to the whole strand.",
+    "tags": [
+      "oscar guzman",
+      "mckenzie field",
+      "titan 250 d",
+      "aircraft"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Pick Hard at the start",
+        "why": "Difficulty is locked for the whole series and Hard pays 50% more."
+      },
+      {
+        "name": "Steal the extra Mogul",
+        "why": "Oscar then gives air support in the finale."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 500000,
+      "max": 1125000,
+      "eliteBonus": null,
+      "perHour": null,
+      "note": "Finale: $500k Normal / $750k Hard repeats, $750k / $1.125M on the first run each week. Plus a one-time $250k leader award."
+    },
+    "soloPossible": true,
+    "tier": "B",
+    "pros": [
+      "Over $1M on a boosted Hard run",
+      "Solo-friendly"
+    ],
+    "cons": [
+      "Needs the McKenzie Field Hangar",
+      "Changing difficulty means restarting the series"
+    ]
+  },
+  {
+    "id": "oh-knoway-out",
+    "name": "KnoWay Out",
+    "dlc": "A Safehouse in the Hills",
+    "year": 2025,
+    "players": "1-4",
+    "contact": "Avi Schwartzman",
+    "startLocation": "Triggered by a text from Avi Schwartzman",
+    "requirement": null,
+    "setups": [
+      "Negative Press",
+      "Inside Job",
+      "Tunnel Vision",
+      "Trash Talking"
+    ],
+    "finale": "A Clean Break",
+    "approaches": [],
+    "potentialTake": "The host earns about $350,000 on Normal or $525,000 on Hard (associates far less), with a $250,000 first-completion bonus. A follow-up solo mission with Michael De Santa, 'Home Sweet Home', pays about $500,000 for Mansion owners.",
+    "eliteChallenge": "Completing every elite objective in one playthrough adds $50,000 ($100,000 on Hard).",
+    "description": "Avi Schwartzman enlists the player to sabotage KnoWay, a self-driving taxi tech company working with the FIB. Finishing the strand leads to the return of Michael De Santa, who helps defend the player's mansion.",
+    "tags": [
+      "knoway",
+      "avi",
+      "michael",
+      "mansion",
+      "safehouse in the hills"
+    ],
+    "bestApproach": null,
+    "bestChoices": [
+      {
+        "name": "Difficulty: Hard",
+        "why": "Pays the most per run of any difficulty."
+      },
+      {
+        "name": "Go for a clean run",
+        "why": "The Elite bonus needs no deaths, no failed hacks and no restarts."
+      },
+      {
+        "name": "Timing: first completion after the Thursday reset",
+        "why": "The first finale each week pays roughly 1.5x the repeat payout since July 2026."
+      }
+    ],
+    "payout": {
+      "min": 245000,
+      "max": 683550,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Host pay: $245k Normal / $367.5k Hard on repeats (cut ~30% in July 2026), $455.7k / $683.6k on the first run each week. One-time $250k first-completion bonus. Elite $50k Normal / $100k Hard."
+    },
+    "soloPossible": true,
+    "tier": "C",
+    "pros": [
+      "No property to buy",
+      "Weekly boost is large (~1.86x)",
+      "Big one-time bonus"
+    ],
+    "cons": [
+      "Low repeat pay after the cut",
+      "Associates earn far less"
+    ]
+  },
+  {
+    "id": "oh-the-kortz-center-heist",
+    "name": "The Kortz Center Heist",
+    "dlc": "The Kortz Center Heist",
+    "year": 2026,
+    "players": "1-4",
+    "contact": "Mr. Faber / Raf De Angelis",
+    "startLocation": "Mansion (Art Studio)",
+    "requirement": "Own a Mansion (from $11,500,000) with the Art Studio upgrade ($4,700,000)",
+    "setups": [
+      "Scope Out Kortz Center",
+      "Infiltration Gear (Staff Key Card, Tactical Equipment, Alpha Mail Disguise or Hazmat Suit)",
+      "Unmarked Weapons",
+      "Getaway Vehicle",
+      "Access Code",
+      "Hacking Device",
+      "Optional: EMP Charges",
+      "Optional: Guard Routes",
+      "Optional: Guard Shipments",
+      "Optional: Power Drills",
+      "Optional: Glass Cutter"
+    ],
+    "finale": "The Kortz Center Heist (Finale)",
+    "approaches": [
+      "Staff Entrance",
+      "Skylight",
+      "Loading Bay",
+      "Sewer"
+    ],
+    "potentialTake": "The first primary painting sold each week pays a large bonus (roughly $1.2-$1.9 million depending on the painting); repeat sales that week drop to around $300,000-$500,000, plus secondary art. Witnesses and damage lower the value.",
+    "eliteChallenge": "Finish in under 17:00 with over 90% accuracy, minimal value loss and the buyer's requested item secured; $50,000 bonus ($100,000 on Hard).",
+    "description": "The first major heist in years: Mr. Faber and his fixer Raf De Angelis plan a theft of paintings from the Kortz Center art museum in Pacific Bluffs. Counterfeiter Yong-Rae produces replicas in the Art Studio, and stealthy runs preserve the art's value.",
+    "tags": [
+      "kortz center",
+      "mansion",
+      "art studio",
+      "art",
+      "mr faber",
+      "solo",
+      "2026"
+    ],
+    "bestApproach": {
+      "name": "Staff Entrance",
+      "why": "Staff Key Card gives the fastest direct entry and works on any difficulty."
+    },
+    "bestChoices": [
+      {
+        "name": "Infiltration gear: Staff Key Card",
+        "why": "Opens the Staff Entrance, the most direct route."
+      },
+      {
+        "name": "Optional prep: Guard Shipments",
+        "why": "Thins out guards and helps the accuracy target."
+      },
+      {
+        "name": "Getaway: helicopter with Advanced Avionics",
+        "why": "Stops the auto-pilot crashing on the way to the drop-off."
+      },
+      {
+        "name": "Stay undetected",
+        "why": "Witnesses and camera evidence lower the art value."
+      },
+      {
+        "name": "Sell the painting, do not display it",
+        "why": "Displaying it in the Art Studio pays nothing."
+      },
+      {
+        "name": "Solo: avoid requests in Crisp Gallery",
+        "why": "That area needs two players and blocks the Elite bonus."
+      }
+    ],
+    "payout": {
+      "min": 304500,
+      "max": 2117500,
+      "eliteBonus": 100000,
+      "perHour": null,
+      "note": "Primary painting only: Normal repeat sale ~$305k-481k up to Hard first sale of the week (~$2.12M); first weekly sale on Normal ~$1.2M-1.9M. Secondary loot adds ~$220k-320k solo. Repeat setups cost $100k; ~2.4h cooldown. Elite $50k Normal / $100k Hard."
+    },
+    "soloPossible": true,
+    "tier": "S",
+    "pros": [
+      "Biggest weekly first-run payout for solo players",
+      "Four entry routes",
+      "Rich secondary loot"
+    ],
+    "cons": [
+      "Mansion plus Art Studio cost over $16M",
+      "Repeat runs pay far less",
+      "Some loot needs a second player"
+    ]
+  }
+]

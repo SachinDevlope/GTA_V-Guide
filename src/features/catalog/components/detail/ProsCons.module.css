@@ -1,0 +1,15 @@
+/* Pros & cons */
+.prosCons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.pcCol { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 14px 16px; }
+.pcCol h3 { margin: 0 0 10px; font-size: 14px; font-weight: 700; }
+.pros h3 { color: var(--accent); }
+.cons h3 { color: #f87171; }
+.pcCol ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.pcCol li { display: flex; gap: 8px; align-items: flex-start; font-size: 14px; line-height: 1.45; }
+.pcCol li svg { flex: none; margin-top: 2px; }
+.pros li svg { color: var(--accent); }
+.cons li svg { color: #f87171; }
+.pcNone { margin: 0; font-size: 13.5px; color: var(--muted); }
+@media (max-width: 860px) {
+  .prosCons { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,4452 @@
+[
+  {
+    "id": "w-knife",
+    "name": "Knife",
+    "category": "Melee",
+    "price": 100,
+    "basedOn": "UC-RB1 combat knife",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A basic fixed-blade combat knife. Quiet, cheap and quick for close-range takedowns.",
+    "tags": [
+      "blade",
+      "stealth",
+      "melee"
+    ],
+    "stats": {
+      "damage": 15,
+      "fireRate": 20,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Quick, quiet melee attacks",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-nightstick",
+    "name": "Nightstick",
+    "category": "Melee",
+    "price": 100,
+    "basedOn": "PR-24 side-handle baton",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A police-style side-handle baton that delivers blunt strikes. One of the first melee weapons you can buy.",
+    "tags": [
+      "baton",
+      "police",
+      "blunt"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Non-lethal-looking melee beatdowns",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-hammer",
+    "name": "Hammer",
+    "category": "Melee",
+    "price": 500,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "An ordinary claw hammer turned into a weapon. Special and Collector's Edition owners received it as a bonus in Online.",
+    "tags": [
+      "blunt",
+      "tool",
+      "collectors edition"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Basic close-range melee",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-baseball-bat",
+    "name": "Baseball Bat",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A wooden bat that can't be bought at Ammu-Nation; you pick it up out in the world instead.",
+    "tags": [
+      "bat",
+      "blunt",
+      "pickup"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 10,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Long-reach melee swings",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-crowbar",
+    "name": "Crowbar",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A steel pry bar found lying around the map rather than sold in stores. Heavy, slow swings.",
+    "tags": [
+      "blunt",
+      "tool",
+      "pickup"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Basic close-range melee",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-golf-club",
+    "name": "Golf Club",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A long-reach golf iron that works surprisingly well as a weapon. Picked up rather than purchased.",
+    "tags": [
+      "golf",
+      "blunt",
+      "pickup"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 10,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Long-reach melee swings",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-bottle",
+    "name": "Broken Bottle",
+    "category": "Melee",
+    "price": 300,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Beach Bum Update",
+    "mk2": false,
+    "description": "A smashed glass bottle used as a makeshift stabbing weapon. A bar-brawl classic.",
+    "tags": [
+      "bottle",
+      "glass",
+      "beach bum"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Improvised close-range melee",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-antique-cavalry-dagger",
+    "name": "Antique Cavalry Dagger",
+    "category": "Melee",
+    "price": 2000,
+    "basedOn": "Civil War-era cavalry / Bowie-style knife",
+    "availability": "Both",
+    "dlc": "I'm Not a Hipster Update",
+    "mk2": false,
+    "description": "An ornate old-fashioned blade with a knuckle-guard handle. More style than practicality.",
+    "tags": [
+      "dagger",
+      "blade",
+      "hipster"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 20,
+      "accuracy": null,
+      "range": 2
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Quick, quiet melee attacks",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-hatchet",
+    "name": "Hatchet",
+    "category": "Melee",
+    "price": 750,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Enhanced edition (returning player bonus)",
+    "mk2": false,
+    "description": "A short wood axe with a heavy chopping blow. Players returning from the PS3/Xbox 360 versions get it free.",
+    "tags": [
+      "axe",
+      "returning player",
+      "enhanced"
+    ],
+    "stats": {
+      "damage": 15,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Hard-hitting melee strikes",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-knuckle-dusters",
+    "name": "Knuckle Dusters",
+    "category": "Melee",
+    "price": 7500,
+    "basedOn": "Brass knuckles",
+    "availability": "Both",
+    "dlc": "Ill-Gotten Gains Part 2",
+    "mk2": false,
+    "description": "Metal knuckles worn over the fist that hit harder than bare punches. Several cosmetic variants exist.",
+    "tags": [
+      "brass knuckles",
+      "fist",
+      "ill-gotten gains"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 20,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Boosting unarmed punches",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-machete",
+    "name": "Machete",
+    "category": "Melee",
+    "price": 8900,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Lowriders",
+    "mk2": false,
+    "description": "A long jungle blade that gives melee attacks extra reach and power.",
+    "tags": [
+      "blade",
+      "lowriders"
+    ],
+    "stats": {
+      "damage": 15,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Hard-hitting melee strikes",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-flashlight",
+    "name": "Flashlight",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Halloween Surprise (2015)",
+    "mk2": false,
+    "description": "A heavy torch that lights up dark areas and doubles as a club. Popular for Halloween-themed play.",
+    "tags": [
+      "torch",
+      "halloween",
+      "light"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Lighting dark areas while staying armed",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-switchblade",
+    "name": "Switchblade",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Executives and Other Criminals",
+    "mk2": false,
+    "description": "A folding knife with a flashy flip-open animation and several handle finishes.",
+    "tags": [
+      "blade",
+      "folding knife",
+      "executives"
+    ],
+    "stats": {
+      "damage": 15,
+      "fireRate": 20,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Quick, quiet melee attacks",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pool-cue",
+    "name": "Pool Cue",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A billiards cue repurposed for bar fights, fitting the biker clubhouse theme.",
+    "tags": [
+      "billiards",
+      "blunt",
+      "bikers"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 10,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Long-reach melee swings",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pipe-wrench",
+    "name": "Pipe Wrench",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A heavy plumber's wrench that lands slow but solid hits.",
+    "tags": [
+      "wrench",
+      "tool",
+      "bikers"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Basic close-range melee",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-battle-axe",
+    "name": "Battle Axe",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A double-headed axe with an aggressive biker look and strong swings.",
+    "tags": [
+      "axe",
+      "bikers"
+    ],
+    "stats": {
+      "damage": 15,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Heavy melee hits",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-stone-hatchet",
+    "name": "Stone Hatchet",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "After Hours",
+    "mk2": false,
+    "description": "A primitive stone-headed axe earned as a reward by completing Maude's bounty targets and finding a hidden stash.",
+    "tags": [
+      "axe",
+      "reward",
+      "maude",
+      "bounty"
+    ],
+    "stats": {
+      "damage": 30,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": null,
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-candy-cane",
+    "name": "Candy Cane",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Los Santos Drug Wars",
+    "mk2": false,
+    "description": "An oversized festive candy cane that works as a holiday-themed club.",
+    "tags": [
+      "christmas",
+      "festive",
+      "holiday"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 10,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Festive melee fun",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-the-shocker",
+    "name": "The Shocker",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "GTA Online (October 2024)",
+    "mk2": false,
+    "description": "A novelty melee weapon added to GTA Online in late 2024.",
+    "tags": [
+      "electric",
+      "stun",
+      "melee"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 15,
+      "accuracy": null,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": null,
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pistol",
+    "name": "Pistol",
+    "category": "Handguns",
+    "price": 350,
+    "basedOn": "Taurus PT92",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "The standard semi-automatic sidearm and usually the first gun you get. Reliable but modest damage.",
+    "tags": [
+      "pistol",
+      "starter",
+      "9mm"
+    ],
+    "stats": {
+      "damage": 26,
+      "fireRate": 40,
+      "accuracy": 40,
+      "range": 25
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-pistol-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Cheap backup sidearm early on",
+    "attachmentPrices": {
+      "Extended Clip": 9175,
+      "Flashlight": 1675
+    },
+    "bestLoadoutCost": 10850
+  },
+  {
+    "id": "w-combat-pistol",
+    "name": "Combat Pistol",
+    "category": "Handguns",
+    "price": 600,
+    "basedOn": "HK P2000",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A polymer-frame pistol with a little more punch and accuracy than the basic Pistol.",
+    "tags": [
+      "pistol",
+      "sidearm"
+    ],
+    "stats": {
+      "damage": 27,
+      "fireRate": 40,
+      "accuracy": 50,
+      "range": 30
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Reliable all-round sidearm, including drive-bys",
+    "attachmentPrices": {
+      "Extended Clip": 9200,
+      "Flashlight": 1825
+    },
+    "bestLoadoutCost": 11025
+  },
+  {
+    "id": "w-ap-pistol",
+    "name": "AP Pistol",
+    "category": "Handguns",
+    "price": 1000,
+    "basedOn": "Colt SCAMP",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A fully automatic pistol that sprays bullets quickly. Great for drive-bys thanks to its rate of fire.",
+    "tags": [
+      "automatic",
+      "pistol",
+      "drive-by"
+    ],
+    "stats": {
+      "damage": 26,
+      "fireRate": 80,
+      "accuracy": 35,
+      "range": 30
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "Full-auto fire empties the stock magazine very fast"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Full-auto spraying from vehicles and on foot",
+    "attachmentPrices": {
+      "Extended Clip": 9400,
+      "Flashlight": 1975
+    },
+    "bestLoadoutCost": 11375
+  },
+  {
+    "id": "w-pistol-50",
+    "name": "Pistol .50",
+    "category": "Handguns",
+    "price": 4000,
+    "basedOn": "Desert Eagle",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A big-bore handgun that trades fire rate for heavy damage per shot.",
+    "tags": [
+      "deagle",
+      "desert eagle",
+      "50 cal"
+    ],
+    "stats": {
+      "damage": 51,
+      "fireRate": 40,
+      "accuracy": 55,
+      "range": 35
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Hard-hitting semi-auto sidearm",
+    "attachmentPrices": {
+      "Extended Clip": 9500,
+      "Flashlight": 2000
+    },
+    "bestLoadoutCost": 11500
+  },
+  {
+    "id": "w-sns-pistol",
+    "name": "SNS Pistol",
+    "category": "Handguns",
+    "price": 2750,
+    "basedOn": "HK P7M10",
+    "availability": "Both",
+    "dlc": "Beach Bum Update",
+    "mk2": false,
+    "description": "A compact 'Saturday night special' pocket pistol. Small, light and easy to conceal.",
+    "tags": [
+      "compact",
+      "pocket pistol",
+      "beach bum"
+    ],
+    "stats": {
+      "damage": 30,
+      "fireRate": 40,
+      "accuracy": 40,
+      "range": 20
+    },
+    "attachments": [
+      "Extended Clip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-sns-pistol-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      }
+    ],
+    "bestFor": "Compact backup pistol",
+    "attachmentPrices": {
+      "Extended Clip": 9150
+    },
+    "bestLoadoutCost": 9150
+  },
+  {
+    "id": "w-heavy-pistol",
+    "name": "Heavy Pistol",
+    "category": "Handguns",
+    "price": 1475,
+    "basedOn": "Enterprise Wide Body 1911",
+    "availability": "Both",
+    "dlc": "Business Update",
+    "mk2": false,
+    "description": "A beefy 1911-style pistol with strong stopping power and decent handling.",
+    "tags": [
+      "1911",
+      "pistol",
+      "business"
+    ],
+    "stats": {
+      "damage": 40,
+      "fireRate": 40,
+      "accuracy": 50,
+      "range": 35
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "High-damage semi-auto sidearm",
+    "attachmentPrices": {
+      "Extended Clip": 9200,
+      "Flashlight": 1775
+    },
+    "bestLoadoutCost": 10975
+  },
+  {
+    "id": "w-vintage-pistol",
+    "name": "Vintage Pistol",
+    "category": "Handguns",
+    "price": 3450,
+    "basedOn": "FN Model 1922",
+    "availability": "Both",
+    "dlc": "I'm Not a Hipster Update",
+    "mk2": false,
+    "description": "An early 20th-century style pistol with a classic look. Can take a suppressor.",
+    "tags": [
+      "retro",
+      "pistol",
+      "hipster"
+    ],
+    "stats": {
+      "damage": 35,
+      "fireRate": 40,
+      "accuracy": 40,
+      "range": 25
+    },
+    "attachments": [
+      "Extended Clip",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Suppressor",
+        "why": "Quiet shots for stealth play; may trim effective range"
+      },
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      }
+    ],
+    "bestFor": "Silenced pistol work in stealth missions",
+    "attachmentPrices": {
+      "Suppressor": 12150,
+      "Extended Clip": 9275
+    },
+    "bestLoadoutCost": 21425
+  },
+  {
+    "id": "w-marksman-pistol",
+    "name": "Marksman Pistol",
+    "category": "Handguns",
+    "price": 4350,
+    "basedOn": "Thompson/Center Contender G2",
+    "availability": "Both",
+    "dlc": "Ill-Gotten Gains Part 2",
+    "mk2": false,
+    "description": "A single-shot break-action pistol that must be reloaded after every round but hits extremely hard.",
+    "tags": [
+      "single shot",
+      "hand cannon",
+      "ill-gotten gains"
+    ],
+    "stats": {
+      "damage": 80,
+      "fireRate": 15,
+      "accuracy": 30,
+      "range": 35
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Single high-damage pistol shots",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-stun-gun",
+    "name": "Stun Gun",
+    "category": "Handguns",
+    "price": 100,
+    "basedOn": "Taser",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "Fires electrified darts that temporarily incapacitate a target without killing. It reached GTA Online years later with The Contract.",
+    "tags": [
+      "taser",
+      "non-lethal"
+    ],
+    "stats": {
+      "damage": 1,
+      "fireRate": 10,
+      "accuracy": 40,
+      "range": 5
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Incapacitating targets without killing them",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-flare-gun",
+    "name": "Flare Gun",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": "Orion flare pistol",
+    "availability": "Online",
+    "dlc": "Heists",
+    "mk2": false,
+    "description": "Fires bright signal flares. Mostly a novelty, though flares can set things alight.",
+    "tags": [
+      "flare",
+      "signal",
+      "heists"
+    ],
+    "stats": {
+      "damage": 20,
+      "fireRate": 10,
+      "accuracy": 30,
+      "range": 10
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Signalling and marking positions",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-heavy-revolver",
+    "name": "Heavy Revolver",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": "Taurus Raging Bull",
+    "availability": "Online",
+    "dlc": "Executives and Other Criminals",
+    "mk2": false,
+    "description": "A large-frame revolver with a slow fire rate and very high damage per shot.",
+    "tags": [
+      "revolver",
+      "magnum",
+      "executives"
+    ],
+    "stats": {
+      "damage": 70,
+      "fireRate": 20,
+      "accuracy": 65,
+      "range": 35
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-heavy-revolver-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Powerful but slow sidearm shots",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-double-action-revolver",
+    "name": "Double-Action Revolver",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": false,
+    "description": "An old-west style revolver unlocked by completing a treasure hunt in Online, tied in with the Red Dead Redemption 2 promotion.",
+    "tags": [
+      "revolver",
+      "treasure hunt",
+      "red dead",
+      "reward"
+    ],
+    "stats": {
+      "damage": 70,
+      "fireRate": 35,
+      "accuracy": 65,
+      "range": 20
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "High-damage revolver shots",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pistol-mk2",
+    "name": "Pistol Mk II",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "mk2": true,
+    "description": "An upgraded Pistol built at a Weapon Workshop, with special ammo types and extra attachments.",
+    "tags": [
+      "mk2",
+      "upgrade",
+      "gunrunning"
+    ],
+    "stats": {
+      "damage": 38,
+      "fireRate": 40,
+      "accuracy": 40,
+      "range": 25
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": "w-pistol",
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Versatile upgraded sidearm",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-sns-pistol-mk2",
+    "name": "SNS Pistol Mk II",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": true,
+    "description": "The pocket pistol reworked with Mk II features like special rounds and optics.",
+    "tags": [
+      "mk2",
+      "upgrade",
+      "compact"
+    ],
+    "stats": {
+      "damage": 30,
+      "fireRate": 40,
+      "accuracy": 40,
+      "range": 20
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Mounted Scope",
+      "Suppressor",
+      "Compensator"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Hollow Point, Full Metal Jacket",
+      "Extra attachments: Flashlight",
+      "Exclusive sights: Mounted Scope",
+      "Muzzle attachments: Suppressor, Compensator",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-sns-pistol",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Hollow Point Rounds",
+        "why": "Extra damage against unarmored enemies"
+      },
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Mounted Scope",
+        "why": "Easier, more precise aiming than iron sights"
+      },
+      {
+        "name": "Compensator",
+        "why": "Slightly less recoil for quick follow-up shots"
+      }
+    ],
+    "bestFor": "Compact sidearm with special-ammo punch",
+    "attachmentPrices": {
+      "Hollow Point Rounds": 47580,
+      "Extended Clip": 18300,
+      "Mounted Scope": 16250,
+      "Compensator": 21250
+    },
+    "bestLoadoutCost": 103380
+  },
+  {
+    "id": "w-heavy-revolver-mk2",
+    "name": "Heavy Revolver Mk II",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": true,
+    "description": "An upgraded Heavy Revolver that can take scopes, compensators and special ammunition.",
+    "tags": [
+      "mk2",
+      "revolver",
+      "upgrade"
+    ],
+    "stats": {
+      "damage": 75,
+      "fireRate": 30,
+      "accuracy": 65,
+      "range": 35
+    },
+    "attachments": [
+      "Holographic Sight",
+      "Small Scope",
+      "Flashlight",
+      "Compensator"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Hollow Point, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Small Scope",
+      "Extra attachments: Flashlight",
+      "Muzzle attachments: Compensator",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-heavy-revolver",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Hollow Point Rounds",
+        "why": "Can one-shot unarmored players and NPCs"
+      },
+      {
+        "name": "Full Metal Jacket Rounds",
+        "why": "Wrecks vehicles, tail rotors and bulletproof glass"
+      },
+      {
+        "name": "Holographic Sight",
+        "why": "Cleaner aim in close-to-mid range fights"
+      }
+    ],
+    "bestFor": "Heavy-hitting PvP sidearm",
+    "attachmentPrices": {
+      "Hollow Point Rounds": 43615,
+      "Full Metal Jacket Rounds": 57200,
+      "Holographic Sight": 16250
+    },
+    "bestLoadoutCost": 117065
+  },
+  {
+    "id": "w-up-n-atomizer",
+    "name": "Up-n-Atomizer",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Arena War",
+    "mk2": false,
+    "description": "A retro sci-fi ray gun that blasts people and vehicles away with a burst of energy instead of bullets.",
+    "tags": [
+      "raygun",
+      "sci-fi",
+      "alien",
+      "arena war"
+    ],
+    "stats": {
+      "damage": 80,
+      "fireRate": 10,
+      "accuracy": 10,
+      "range": 50
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Blasting enemies and vehicles away",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-ceramic-pistol",
+    "name": "Ceramic Pistol",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Diamond Casino Heist",
+    "mk2": false,
+    "description": "A compact pistol added alongside the Diamond Casino Heist update.",
+    "tags": [
+      "casino",
+      "stealth",
+      "pistol"
+    ],
+    "stats": {
+      "damage": 32,
+      "fireRate": 44,
+      "accuracy": 36,
+      "range": 20
+    },
+    "attachments": [
+      "Extended Clip",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Suppressor",
+        "why": "Quiet shots for stealthy approaches; may trim range"
+      },
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      }
+    ],
+    "bestFor": "Low-profile close-range sidearm",
+    "attachmentPrices": {
+      "Suppressor": 17500,
+      "Extended Clip": 15000
+    },
+    "bestLoadoutCost": 32500
+  },
+  {
+    "id": "w-navy-revolver",
+    "name": "Navy Revolver",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Diamond Casino Heist",
+    "mk2": false,
+    "description": "A cap-and-ball style antique revolver obtained by solving an in-game murder mystery.",
+    "tags": [
+      "revolver",
+      "antique",
+      "mystery",
+      "reward"
+    ],
+    "stats": {
+      "damage": 70,
+      "fireRate": 25,
+      "accuracy": 60,
+      "range": 35
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Hard-hitting revolver shots",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-perico-pistol",
+    "name": "Perico Pistol",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Cayo Perico Heist",
+    "mk2": false,
+    "description": "A compact pistol introduced with the Cayo Perico island heist update.",
+    "tags": [
+      "cayo perico",
+      "pistol"
+    ],
+    "stats": {
+      "damage": 80,
+      "fireRate": 15,
+      "accuracy": 30,
+      "range": 35
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": null,
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-wm-29-pistol",
+    "name": "WM 29 Pistol",
+    "category": "Handguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Los Santos Drug Wars",
+    "mk2": false,
+    "description": "A modern handgun added during the Drug Wars era of Online.",
+    "tags": [
+      "pistol",
+      "drug wars"
+    ],
+    "stats": {
+      "damage": 36,
+      "fireRate": 40,
+      "accuracy": 50,
+      "range": 35
+    },
+    "attachments": [
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Suppressor",
+        "why": "Its only attachment; quieter shots at a possible range cost"
+      }
+    ],
+    "bestFor": "Semi-auto sidearm for quieter engagements",
+    "attachmentPrices": {
+      "Suppressor": 12500
+    },
+    "bestLoadoutCost": 12500
+  },
+  {
+    "id": "w-micro-smg",
+    "name": "Micro SMG",
+    "category": "Submachine Guns",
+    "price": 850,
+    "basedOn": "Mini Uzi",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A tiny, fast-firing SMG that can be used one-handed from vehicles. Kicks a lot.",
+    "tags": [
+      "uzi",
+      "drive-by",
+      "smg"
+    ],
+    "stats": {
+      "damage": 21,
+      "fireRate": 60,
+      "accuracy": 30,
+      "range": 25
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Scope",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "Very high fire rate drains the stock magazine fast"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Spraying from vehicles in drive-bys",
+    "attachmentPrices": {
+      "Extended Clip": 9325,
+      "Flashlight": 1900
+    },
+    "bestLoadoutCost": 11225
+  },
+  {
+    "id": "w-smg",
+    "name": "SMG",
+    "category": "Submachine Guns",
+    "price": 1300,
+    "basedOn": "HK MP5",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A well-rounded submachine gun with manageable recoil, good for close to medium range.",
+    "tags": [
+      "mp5",
+      "smg"
+    ],
+    "stats": {
+      "damage": 22,
+      "fireRate": 55,
+      "accuracy": 40,
+      "range": 35
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine",
+      "Flashlight",
+      "Scope",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-smg-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Largest magazine option for long, sustained bursts"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Close-quarters and drive-by fire",
+    "attachmentPrices": {
+      "Drum Magazine": 23600,
+      "Scope": 10825,
+      "Flashlight": 2050
+    },
+    "bestLoadoutCost": 36475
+  },
+  {
+    "id": "w-assault-smg",
+    "name": "Assault SMG",
+    "category": "Submachine Guns",
+    "price": null,
+    "basedOn": "Magpul PDR / FN P90",
+    "availability": "Both",
+    "dlc": "Base game (Social Club bonus)",
+    "mk2": false,
+    "description": "A bullpup SMG originally unlocked free for players who linked a Rockstar Social Club account.",
+    "tags": [
+      "social club",
+      "p90",
+      "bullpup"
+    ],
+    "stats": {
+      "damage": 23,
+      "fireRate": 55,
+      "accuracy": 45,
+      "range": 40
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor",
+      "Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Fast-firing close-range fights",
+    "attachmentPrices": {
+      "Extended Clip": 9700,
+      "Scope": 10875,
+      "Flashlight": 2275
+    },
+    "bestLoadoutCost": 22850
+  },
+  {
+    "id": "w-combat-pdw",
+    "name": "Combat PDW",
+    "category": "Submachine Guns",
+    "price": 11750,
+    "basedOn": "SIG MPX",
+    "availability": "Both",
+    "dlc": "Ill-Gotten Gains Part 1",
+    "mk2": false,
+    "description": "A compact personal defense weapon with good accuracy and attachment options.",
+    "tags": [
+      "pdw",
+      "smg",
+      "ill-gotten gains"
+    ],
+    "stats": {
+      "damage": 25,
+      "fireRate": 50,
+      "accuracy": 45,
+      "range": 38
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine",
+      "Flashlight",
+      "Scope",
+      "Grip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Largest magazine option for long, sustained bursts"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Close-quarters and in-vehicle shooting",
+    "attachmentPrices": {
+      "Drum Magazine": 24900,
+      "Grip": 2400,
+      "Scope": 11350
+    },
+    "bestLoadoutCost": 38650
+  },
+  {
+    "id": "w-machine-pistol",
+    "name": "Machine Pistol",
+    "category": "Submachine Guns",
+    "price": 6250,
+    "basedOn": "TEC-9",
+    "availability": "Both",
+    "dlc": "Lowriders",
+    "mk2": false,
+    "description": "A cheap-looking automatic pistol with a fast rate of fire, usable from vehicles.",
+    "tags": [
+      "tec-9",
+      "lowriders",
+      "drive-by"
+    ],
+    "stats": {
+      "damage": 28,
+      "fireRate": 70,
+      "accuracy": 40,
+      "range": 30
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Huge capacity to match its rapid fire rate"
+      }
+    ],
+    "bestFor": "Rapid-fire drive-bys",
+    "attachmentPrices": {
+      "Drum Magazine": 22950
+    },
+    "bestLoadoutCost": 22950
+  },
+  {
+    "id": "w-mini-smg",
+    "name": "Mini SMG",
+    "category": "Submachine Guns",
+    "price": null,
+    "basedOn": "Skorpion",
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A small Skorpion-style SMG that is light and quick but has limited range.",
+    "tags": [
+      "skorpion",
+      "bikers",
+      "smg"
+    ],
+    "stats": {
+      "damage": 22,
+      "fireRate": 84,
+      "accuracy": 33,
+      "range": 30
+    },
+    "attachments": [
+      "Extended Clip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      }
+    ],
+    "bestFor": "Cheap rapid-fire drive-bys",
+    "attachmentPrices": {
+      "Extended Clip": 9520
+    },
+    "bestLoadoutCost": 9520
+  },
+  {
+    "id": "w-smg-mk2",
+    "name": "SMG Mk II",
+    "category": "Submachine Guns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "mk2": true,
+    "description": "An upgraded SMG with special ammo choices and extended customization from the Weapon Workshop.",
+    "tags": [
+      "mk2",
+      "smg",
+      "gunrunning"
+    ],
+    "stats": {
+      "damage": 22,
+      "fireRate": 55,
+      "accuracy": 40,
+      "range": 35
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Holographic Sight",
+      "Small Scope",
+      "Medium Scope",
+      "Suppressor",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Hollow Point, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Small Scope, Medium Scope",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-smg",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Hollow Point Rounds",
+        "why": "Extra damage against unarmored NPCs"
+      },
+      {
+        "name": "Holographic Sight",
+        "why": "Clean close-range sight picture"
+      },
+      {
+        "name": "Heavy Barrel",
+        "why": "Keeps more damage at long range (less falloff)"
+      }
+    ],
+    "bestFor": "Drive-bys and close-range PvE",
+    "attachmentPrices": {
+      "Extended Clip": 18300,
+      "Hollow Point Rounds": 43550,
+      "Holographic Sight": 14800,
+      "Heavy Barrel": 42000
+    },
+    "bestLoadoutCost": 118650
+  },
+  {
+    "id": "w-tactical-smg",
+    "name": "Tactical SMG",
+    "category": "Submachine Guns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "San Andreas Mercenaries",
+    "mk2": false,
+    "description": "A modern SMG introduced alongside the mercenary-themed update.",
+    "tags": [
+      "smg",
+      "mercenaries"
+    ],
+    "stats": {
+      "damage": 28,
+      "fireRate": 80,
+      "accuracy": 35,
+      "range": 30
+    },
+    "attachments": [
+      "Extended Clip",
+      "Suppressor",
+      "Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Close-range fights and drive-bys",
+    "attachmentPrices": {
+      "Extended Clip": 27500,
+      "Scope": 32500
+    },
+    "bestLoadoutCost": 60000
+  },
+  {
+    "id": "w-mg",
+    "name": "MG",
+    "category": "Light Machine Guns",
+    "price": 3000,
+    "basedOn": "PKM",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A belt-fed general-purpose machine gun with high damage but heavy recoil.",
+    "tags": [
+      "pkm",
+      "lmg"
+    ],
+    "stats": {
+      "damage": 50,
+      "fireRate": 60,
+      "accuracy": 40,
+      "range": 60
+    },
+    "attachments": [
+      "Extended Clip",
+      "Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Suppressing groups of enemies",
+    "attachmentPrices": {
+      "Extended Clip": 9850,
+      "Scope": 10925
+    },
+    "bestLoadoutCost": 20775
+  },
+  {
+    "id": "w-combat-mg",
+    "name": "Combat MG",
+    "category": "Light Machine Guns",
+    "price": 3700,
+    "basedOn": "M249 SAW",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A squad automatic weapon with a big magazine for sustained suppressive fire.",
+    "tags": [
+      "m249",
+      "saw",
+      "lmg"
+    ],
+    "stats": {
+      "damage": 55,
+      "fireRate": 65,
+      "accuracy": 45,
+      "range": 60
+    },
+    "attachments": [
+      "Extended Clip",
+      "Grip",
+      "Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-combat-mg-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Sustained fire against groups and vehicles",
+    "attachmentPrices": {
+      "Extended Clip": 10000,
+      "Grip": 4425,
+      "Scope": 10975
+    },
+    "bestLoadoutCost": 25400
+  },
+  {
+    "id": "w-gusenberg-sweeper",
+    "name": "Gusenberg Sweeper",
+    "category": "Light Machine Guns",
+    "price": 14600,
+    "basedOn": "Thompson M1928A1",
+    "availability": "Both",
+    "dlc": "Valentine's Day Massacre Special",
+    "mk2": false,
+    "description": "A prohibition-era drum-fed 'tommy gun' with a gangster look and strong damage.",
+    "tags": [
+      "tommy gun",
+      "thompson",
+      "valentines"
+    ],
+    "stats": {
+      "damage": 34,
+      "fireRate": 65,
+      "accuracy": 38,
+      "range": 56
+    },
+    "attachments": [
+      "Extended Clip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      }
+    ],
+    "bestFor": "Close-range spray with high damage",
+    "attachmentPrices": {
+      "Extended Clip": 9960
+    },
+    "bestLoadoutCost": 9960
+  },
+  {
+    "id": "w-combat-mg-mk2",
+    "name": "Combat MG Mk II",
+    "category": "Light Machine Guns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "mk2": true,
+    "description": "An upgraded Combat MG that supports special rounds, scopes and muzzle attachments.",
+    "tags": [
+      "mk2",
+      "lmg",
+      "gunrunning"
+    ],
+    "stats": {
+      "damage": 57,
+      "fireRate": 65,
+      "accuracy": 45,
+      "range": 60
+    },
+    "attachments": [
+      "Extended Clip",
+      "Grip",
+      "Holographic Sight",
+      "Medium Scope",
+      "Large Scope",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Armor Piercing, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Medium Scope, Large Scope",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-combat-mg",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "Doubles the box to 200 rounds of regular ammo"
+      },
+      {
+        "name": "Full Metal Jacket Rounds",
+        "why": "Sustained fire quickly shreds vehicles and aircraft"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Heavy Barrel",
+        "why": "Keeps more damage at long range (less falloff)"
+      }
+    ],
+    "bestFor": "Mowing down NPCs and vehicles in PvE",
+    "attachmentPrices": {
+      "Extended Clip": 28975,
+      "Full Metal Jacket Rounds": 94950,
+      "Grip": 20180,
+      "Heavy Barrel": 66500
+    },
+    "bestLoadoutCost": 210605
+  },
+  {
+    "id": "w-unholy-hellbringer",
+    "name": "Unholy Hellbringer",
+    "category": "Light Machine Guns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Arena War",
+    "mk2": false,
+    "description": "A sci-fi automatic energy weapon that fires streams of glowing bolts.",
+    "tags": [
+      "sci-fi",
+      "laser",
+      "arena war"
+    ],
+    "stats": {
+      "damage": 55,
+      "fireRate": 65,
+      "accuracy": 45,
+      "range": 60
+    },
+    "attachments": [],
+    "tints": 7,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Sustained fire against crowds",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-assault-rifle",
+    "name": "Assault Rifle",
+    "category": "Assault Rifles",
+    "price": 1400,
+    "basedOn": "Norinco Type 56-1 (AK-47 pattern)",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "An AK-style rifle with solid damage and noticeable recoil. A dependable all-rounder.",
+    "tags": [
+      "ak-47",
+      "ak",
+      "rifle"
+    ],
+    "stats": {
+      "damage": 30,
+      "fireRate": 60,
+      "accuracy": 45,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine",
+      "Grip",
+      "Flashlight",
+      "Scope",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-assault-rifle-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Largest magazine option for long, sustained bursts"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Budget all-round rifle",
+    "attachmentPrices": {
+      "Drum Magazine": 24250,
+      "Grip": 4200,
+      "Scope": 10850
+    },
+    "bestLoadoutCost": 39300
+  },
+  {
+    "id": "w-carbine-rifle",
+    "name": "Carbine Rifle",
+    "category": "Assault Rifles",
+    "price": 2100,
+    "basedOn": "AR-15 / HK416",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "An AR-pattern rifle known for accuracy and controllable recoil. One of the most-used guns in the game.",
+    "tags": [
+      "ar",
+      "m4",
+      "ar-15",
+      "rifle"
+    ],
+    "stats": {
+      "damage": 32,
+      "fireRate": 65,
+      "accuracy": 55,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Box Clip",
+      "Grip",
+      "Flashlight",
+      "Scope",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-carbine-rifle-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Box Clip",
+        "why": "Biggest magazine option for long sprays"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Accurate all-round rifle",
+    "attachmentPrices": {
+      "Box Clip": 25550,
+      "Grip": 4350,
+      "Scope": 10900
+    },
+    "bestLoadoutCost": 40800
+  },
+  {
+    "id": "w-advanced-rifle",
+    "name": "Advanced Rifle",
+    "category": "Assault Rifles",
+    "price": 3500,
+    "basedOn": "CTAR-21 / Kel-Tec RFB",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A bullpup rifle with a fast rate of fire and strong accuracy.",
+    "tags": [
+      "bullpup",
+      "tavor",
+      "rifle"
+    ],
+    "stats": {
+      "damage": 34,
+      "fireRate": 70,
+      "accuracy": 50,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Scope",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Accurate mid-range rifle fire",
+    "attachmentPrices": {
+      "Extended Clip": 9925,
+      "Scope": 10950
+    },
+    "bestLoadoutCost": 20875
+  },
+  {
+    "id": "w-special-carbine",
+    "name": "Special Carbine",
+    "category": "Assault Rifles",
+    "price": 14750,
+    "basedOn": "HK G36C",
+    "availability": "Both",
+    "dlc": "Business Update",
+    "mk2": false,
+    "description": "A compact carbine that balances damage, range and handling well.",
+    "tags": [
+      "g36",
+      "rifle",
+      "business"
+    ],
+    "stats": {
+      "damage": 34,
+      "fireRate": 65,
+      "accuracy": 55,
+      "range": 40
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine",
+      "Flashlight",
+      "Scope",
+      "Suppressor",
+      "Grip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-special-carbine-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Huge capacity; a long-standing community favourite setup"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "All-round PvE and PvP rifle",
+    "attachmentPrices": {
+      "Drum Magazine": 27500,
+      "Grip": 4350,
+      "Scope": 11550
+    },
+    "bestLoadoutCost": 43400
+  },
+  {
+    "id": "w-bullpup-rifle",
+    "name": "Bullpup Rifle",
+    "category": "Assault Rifles",
+    "price": 14500,
+    "basedOn": "QBZ-95",
+    "availability": "Both",
+    "dlc": "High Life Update",
+    "mk2": false,
+    "description": "A bullpup assault rifle with good stability and a high rate of fire.",
+    "tags": [
+      "qbz",
+      "bullpup",
+      "high life"
+    ],
+    "stats": {
+      "damage": 32,
+      "fireRate": 70,
+      "accuracy": 45,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Scope",
+      "Grip",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-bullpup-rifle-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Controllable mid-range rifle fire",
+    "attachmentPrices": {
+      "Extended Clip": 9950,
+      "Grip": 4275,
+      "Scope": 11350
+    },
+    "bestLoadoutCost": 25575
+  },
+  {
+    "id": "w-compact-rifle",
+    "name": "Compact Rifle",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": "Draco AK pistol",
+    "availability": "Online",
+    "dlc": "Lowriders: Custom Classics",
+    "mk2": false,
+    "description": "A cut-down AK pistol that can be fired from vehicles, giving rifle power on drive-bys.",
+    "tags": [
+      "draco",
+      "ak",
+      "drive-by"
+    ],
+    "stats": {
+      "damage": 36,
+      "fireRate": 60,
+      "accuracy": 35,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Largest magazine option for long, sustained bursts"
+      }
+    ],
+    "bestFor": "Rifle-strength drive-bys",
+    "attachmentPrices": {
+      "Drum Magazine": 26850
+    },
+    "bestLoadoutCost": 26850
+  },
+  {
+    "id": "w-assault-rifle-mk2",
+    "name": "Assault Rifle Mk II",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "mk2": true,
+    "description": "The AK-style rifle upgraded with special ammo types, optics and barrels.",
+    "tags": [
+      "mk2",
+      "ak",
+      "gunrunning"
+    ],
+    "stats": {
+      "damage": 33,
+      "fireRate": 60,
+      "accuracy": 45,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Grip",
+      "Flashlight",
+      "Holographic Sight",
+      "Small Scope",
+      "Large Scope",
+      "Suppressor",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Armor Piercing, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Small Scope, Large Scope",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-assault-rifle",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Armor Piercing Rounds",
+        "why": "More damage to armored players and NPCs"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Heavy Barrel",
+        "why": "Keeps more damage at long range (less falloff)"
+      }
+    ],
+    "bestFor": "High-damage all-round rifle",
+    "attachmentPrices": {
+      "Extended Clip": 21350,
+      "Armor Piercing Rounds": 63200,
+      "Grip": 14080,
+      "Heavy Barrel": 49000
+    },
+    "bestLoadoutCost": 147630
+  },
+  {
+    "id": "w-carbine-rifle-mk2",
+    "name": "Carbine Rifle Mk II",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "mk2": true,
+    "description": "A Weapon Workshop upgrade of the Carbine Rifle, prized for explosive and armor-piercing rounds.",
+    "tags": [
+      "mk2",
+      "m4",
+      "gunrunning"
+    ],
+    "stats": {
+      "damage": 36,
+      "fireRate": 65,
+      "accuracy": 55,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Grip",
+      "Flashlight",
+      "Holographic Sight",
+      "Small Scope",
+      "Large Scope",
+      "Suppressor",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Armor Piercing, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Small Scope, Large Scope",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-carbine-rifle",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Heavy Barrel",
+        "why": "Makes it much stronger at distance"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Full Metal Jacket Rounds",
+        "why": "Hits targets inside armored vehicles and through bulletproof glass"
+      }
+    ],
+    "bestFor": "Accurate mid-to-long range rifle fire",
+    "attachmentPrices": {
+      "Extended Clip": 25925,
+      "Heavy Barrel": 49000,
+      "Grip": 14080,
+      "Full Metal Jacket Rounds": 76200
+    },
+    "bestLoadoutCost": 165205
+  },
+  {
+    "id": "w-special-carbine-mk2",
+    "name": "Special Carbine Mk II",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": true,
+    "description": "An enhanced Special Carbine with Mk II ammo and attachment options.",
+    "tags": [
+      "mk2",
+      "g36",
+      "doomsday"
+    ],
+    "stats": {
+      "damage": 34,
+      "fireRate": 65,
+      "accuracy": 55,
+      "range": 40
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Holographic Sight",
+      "Small Scope",
+      "Large Scope",
+      "Suppressor",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Grip",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Armor Piercing, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Small Scope, Large Scope",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-special-carbine",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Armor Piercing Rounds",
+        "why": "More damage to armored targets; a popular pick in guides"
+      },
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Heavy Barrel",
+        "why": "Keeps more damage at long range (less falloff)"
+      }
+    ],
+    "bestFor": "Versatile rifle for almost any situation",
+    "attachmentPrices": {
+      "Armor Piercing Rounds": 90750,
+      "Extended Clip": 26450,
+      "Grip": 14080,
+      "Heavy Barrel": 49000
+    },
+    "bestLoadoutCost": 180280
+  },
+  {
+    "id": "w-bullpup-rifle-mk2",
+    "name": "Bullpup Rifle Mk II",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": true,
+    "description": "An upgraded Bullpup Rifle that can be fitted with special ammunition and scopes.",
+    "tags": [
+      "mk2",
+      "bullpup",
+      "doomsday"
+    ],
+    "stats": {
+      "damage": 35,
+      "fireRate": 72,
+      "accuracy": 45,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Holographic Sight",
+      "Small Scope",
+      "Medium Scope",
+      "Heavy Barrel",
+      "Suppressor",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Grip"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Armor Piercing, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Small Scope, Medium Scope",
+      "Heavy Barrel",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-bullpup-rifle",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Armor Piercing Rounds",
+        "why": "More damage to armored players and NPCs"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      }
+    ],
+    "bestFor": "Controllable mid-range rifle fire",
+    "attachmentPrices": {
+      "Extended Clip": 22100,
+      "Armor Piercing Rounds": 87320,
+      "Grip": 14080
+    },
+    "bestLoadoutCost": 123500
+  },
+  {
+    "id": "w-military-rifle",
+    "name": "Military Rifle",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Cayo Perico Heist",
+    "mk2": false,
+    "description": "An assault rifle added with the Cayo Perico island heist update.",
+    "tags": [
+      "cayo perico",
+      "bullpup",
+      "rifle"
+    ],
+    "stats": {
+      "damage": 38,
+      "fireRate": 55,
+      "accuracy": 45,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Scope",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Hard-hitting mid-range rifle fire",
+    "attachmentPrices": {
+      "Extended Clip": 57500,
+      "Scope": 32500
+    },
+    "bestLoadoutCost": 90000
+  },
+  {
+    "id": "w-heavy-rifle",
+    "name": "Heavy Rifle",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Contract",
+    "mk2": false,
+    "description": "A hard-hitting rifle introduced with The Contract, Franklin's agency update.",
+    "tags": [
+      "contract",
+      "rifle"
+    ],
+    "stats": {
+      "damage": 40,
+      "fireRate": 50,
+      "accuracy": 40,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Scope",
+      "Flashlight",
+      "Suppressor",
+      "Grip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "High-damage rifle for missions",
+    "attachmentPrices": {
+      "Extended Clip": 57500,
+      "Grip": 10050,
+      "Scope": 32500
+    },
+    "bestLoadoutCost": 100050
+  },
+  {
+    "id": "w-service-carbine",
+    "name": "Service Carbine",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": "M16A1 / M16A2",
+    "availability": "Online",
+    "dlc": "The Criminal Enterprises",
+    "mk2": false,
+    "description": "A classic M16-style military rifle added during The Criminal Enterprises update.",
+    "tags": [
+      "m16",
+      "rifle",
+      "criminal enterprises"
+    ],
+    "stats": {
+      "damage": 39,
+      "fireRate": 63,
+      "accuracy": 55,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Suppressor",
+      "Grip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "All-round carbine fire",
+    "attachmentPrices": {
+      "Extended Clip": 9950,
+      "Grip": 4275,
+      "Flashlight": 2575
+    },
+    "bestLoadoutCost": 16800
+  },
+  {
+    "id": "w-battle-rifle",
+    "name": "Battle Rifle",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Chop Shop",
+    "mk2": false,
+    "description": "A full-power rifle with heavy hits per round, added in late 2023.",
+    "tags": [
+      "rifle",
+      "chop shop"
+    ],
+    "stats": {
+      "damage": 41,
+      "fireRate": 52,
+      "accuracy": 42,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      }
+    ],
+    "bestFor": "High damage per shot at mid range",
+    "attachmentPrices": {
+      "Extended Clip": 46000
+    },
+    "bestLoadoutCost": 46000
+  },
+  {
+    "id": "w-el-strickler-military-rifle",
+    "name": "El Strickler Military Rifle",
+    "category": "Assault Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Agents of Sabotage",
+    "mk2": false,
+    "description": "A premium variant of the Military Rifle added in December 2024.",
+    "tags": [
+      "rifle",
+      "agents of sabotage"
+    ],
+    "stats": {
+      "damage": 38,
+      "fireRate": 55,
+      "accuracy": 45,
+      "range": 45
+    },
+    "attachments": [
+      "Extended Clip",
+      "Scope",
+      "Flashlight"
+    ],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Mid-range rifle fights",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pump-shotgun",
+    "name": "Pump Shotgun",
+    "category": "Shotguns",
+    "price": 550,
+    "basedOn": "Mossberg 590",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A classic pump-action shotgun. Brutal up close, weak at range.",
+    "tags": [
+      "pump",
+      "shotgun"
+    ],
+    "stats": {
+      "damage": 67,
+      "fireRate": 20,
+      "accuracy": 30,
+      "range": 20
+    },
+    "attachments": [
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-pump-shotgun-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Close-range fights on a budget",
+    "attachmentPrices": {
+      "Flashlight": 1750
+    },
+    "bestLoadoutCost": 1750
+  },
+  {
+    "id": "w-sawed-off-shotgun",
+    "name": "Sawed-Off Shotgun",
+    "category": "Shotguns",
+    "price": 300,
+    "basedOn": "Mossberg 500",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A shortened shotgun that can be fired one-handed from vehicles.",
+    "tags": [
+      "sawed off",
+      "drive-by",
+      "shotgun"
+    ],
+    "stats": {
+      "damage": 96,
+      "fireRate": 20,
+      "accuracy": 20,
+      "range": 15
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Point-blank blasts",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-assault-shotgun",
+    "name": "Assault Shotgun",
+    "category": "Shotguns",
+    "price": 1500,
+    "basedOn": "UTAS UTS-15",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A semi-automatic shotgun that fires quickly from a large magazine.",
+    "tags": [
+      "auto shotgun",
+      "shotgun"
+    ],
+    "stats": {
+      "damage": 77,
+      "fireRate": 50,
+      "accuracy": 25,
+      "range": 15
+    },
+    "attachments": [
+      "Extended Clip",
+      "Grip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      }
+    ],
+    "bestFor": "Close-quarters room clearing",
+    "attachmentPrices": {
+      "Extended Clip": 9625,
+      "Grip": 4275
+    },
+    "bestLoadoutCost": 13900
+  },
+  {
+    "id": "w-bullpup-shotgun",
+    "name": "Bullpup Shotgun",
+    "category": "Shotguns",
+    "price": 1250,
+    "basedOn": "Kel-Tec KSG",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A compact bullpup pump shotgun with a tight spread. A Special/Collector's Edition bonus in Online.",
+    "tags": [
+      "ksg",
+      "bullpup",
+      "collectors edition"
+    ],
+    "stats": {
+      "damage": 67,
+      "fireRate": 20,
+      "accuracy": 30,
+      "range": 20
+    },
+    "attachments": [
+      "Grip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Close-quarters fights",
+    "attachmentPrices": {
+      "Grip": 4100,
+      "Flashlight": 2300
+    },
+    "bestLoadoutCost": 6400
+  },
+  {
+    "id": "w-heavy-shotgun",
+    "name": "Heavy Shotgun",
+    "category": "Shotguns",
+    "price": 13550,
+    "basedOn": "Saiga-12",
+    "availability": "Both",
+    "dlc": "Last Team Standing",
+    "mk2": false,
+    "description": "A magazine-fed semi-auto shotgun with strong damage and a rapid follow-up.",
+    "tags": [
+      "saiga",
+      "shotgun",
+      "lts"
+    ],
+    "stats": {
+      "damage": 85,
+      "fireRate": 45,
+      "accuracy": 30,
+      "range": 25
+    },
+    "attachments": [
+      "Extended Clip",
+      "Drum Magazine",
+      "Grip",
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Drum Magazine",
+        "why": "Largest magazine option for long, sustained bursts"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      }
+    ],
+    "bestFor": "Devastating close-range damage",
+    "attachmentPrices": {
+      "Drum Magazine": 26200,
+      "Grip": 4375
+    },
+    "bestLoadoutCost": 30575
+  },
+  {
+    "id": "w-musket",
+    "name": "Musket",
+    "category": "Shotguns",
+    "price": 21400,
+    "basedOn": "Flintlock musket",
+    "availability": "Both",
+    "dlc": "Independence Day Special",
+    "mk2": false,
+    "description": "A muzzle-loading antique that fires one powerful shot before a long reload.",
+    "tags": [
+      "antique",
+      "independence day",
+      "flintlock"
+    ],
+    "stats": {
+      "damage": 97,
+      "fireRate": 10,
+      "accuracy": 65,
+      "range": 85
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Single powerful shots",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-double-barrel-shotgun",
+    "name": "Double Barrel Shotgun",
+    "category": "Shotguns",
+    "price": null,
+    "basedOn": "Double-barrel coach gun",
+    "availability": "Online",
+    "dlc": "Lowriders: Custom Classics",
+    "mk2": false,
+    "description": "Fires two barrels in quick succession for devastating close-range damage, and works from vehicles.",
+    "tags": [
+      "double barrel",
+      "drive-by",
+      "shotgun"
+    ],
+    "stats": {
+      "damage": 98,
+      "fireRate": 25,
+      "accuracy": 15,
+      "range": 10
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Two quick point-blank blasts",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-sweeper-shotgun",
+    "name": "Sweeper Shotgun",
+    "category": "Shotguns",
+    "price": null,
+    "basedOn": "Armsel Striker",
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A drum-fed revolving shotgun that can be fired one-handed.",
+    "tags": [
+      "striker",
+      "drum",
+      "bikers"
+    ],
+    "stats": {
+      "damage": 70,
+      "fireRate": 45,
+      "accuracy": 22,
+      "range": 20
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Rapid close-range fire",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pump-shotgun-mk2",
+    "name": "Pump Shotgun Mk II",
+    "category": "Shotguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": true,
+    "description": "An upgraded pump shotgun with options like explosive slugs and dragon's breath shells.",
+    "tags": [
+      "mk2",
+      "shotgun",
+      "doomsday"
+    ],
+    "stats": {
+      "damage": 67,
+      "fireRate": 20,
+      "accuracy": 30,
+      "range": 20
+    },
+    "attachments": [
+      "Flashlight",
+      "Holographic Sight",
+      "Small Scope",
+      "Medium Scope",
+      "Suppressor",
+      "Muzzle Brake"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Dragon's Breath, Flechette, Steel Buckshot, Explosive Slugs",
+      "Exclusive sights: Holographic Sight, Small Scope, Medium Scope",
+      "Muzzle attachments: Muzzle Brake",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-pump-shotgun",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Explosive Slugs",
+        "why": "Can destroy most NPC vehicles in a single shot"
+      },
+      {
+        "name": "Steel Buckshot",
+        "why": "Extra damage to armor and bulletproof helmets"
+      },
+      {
+        "name": "Muzzle Brake",
+        "why": "Tighter pellet spread for slightly more range"
+      },
+      {
+        "name": "Holographic Sight",
+        "why": "Accurate sight for close quarters"
+      }
+    ],
+    "bestFor": "Close-range vehicle and armored-enemy killing",
+    "attachmentPrices": {
+      "Explosive Slugs": 145850,
+      "Steel Buckshot": 96645,
+      "Muzzle Brake": 37650,
+      "Holographic Sight": 29260
+    },
+    "bestLoadoutCost": 309405
+  },
+  {
+    "id": "w-combat-shotgun",
+    "name": "Combat Shotgun",
+    "category": "Shotguns",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Cayo Perico Heist",
+    "mk2": false,
+    "description": "A tactical shotgun added in the Cayo Perico update with strong close-quarters damage.",
+    "tags": [
+      "cayo perico",
+      "shotgun"
+    ],
+    "stats": {
+      "damage": 77,
+      "fireRate": 50,
+      "accuracy": 25,
+      "range": 15
+    },
+    "attachments": [
+      "Flashlight",
+      "Suppressor"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Flashlight",
+        "why": "Helps spot targets in dark interiors and at night"
+      }
+    ],
+    "bestFor": "Close-quarters firepower",
+    "attachmentPrices": {
+      "Flashlight": 12500
+    },
+    "bestLoadoutCost": 12500
+  },
+  {
+    "id": "w-sniper-rifle",
+    "name": "Sniper Rifle",
+    "category": "Sniper Rifles",
+    "price": 5000,
+    "basedOn": "Accuracy International L96A1",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A bolt-action rifle with a high-power scope for long-range shots.",
+    "tags": [
+      "sniper",
+      "bolt action"
+    ],
+    "stats": {
+      "damage": 96,
+      "fireRate": 25,
+      "accuracy": 70,
+      "range": 95
+    },
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Advanced Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Advanced Scope",
+        "why": "Higher zoom for distant targets"
+      },
+      {
+        "name": "Suppressor",
+        "why": "Quieter shots help keep your position hidden"
+      }
+    ],
+    "bestFor": "Stealthy long-range picks",
+    "attachmentPrices": {
+      "Advanced Scope": 12500,
+      "Suppressor": 12050
+    },
+    "bestLoadoutCost": 24550
+  },
+  {
+    "id": "w-heavy-sniper",
+    "name": "Heavy Sniper",
+    "category": "Sniper Rifles",
+    "price": 9500,
+    "basedOn": "Barrett M82",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A .50-caliber anti-materiel rifle that can stop vehicles and drop targets in one hit.",
+    "tags": [
+      "barrett",
+      "50 cal",
+      "sniper"
+    ],
+    "stats": {
+      "damage": 98,
+      "fireRate": 20,
+      "accuracy": 90,
+      "range": 100
+    },
+    "attachments": [
+      "Scope",
+      "Advanced Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-heavy-sniper-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Advanced Scope",
+        "why": "Higher zoom for very distant targets"
+      }
+    ],
+    "bestFor": "One-shot long-range kills",
+    "attachmentPrices": {
+      "Advanced Scope": 12500
+    },
+    "bestLoadoutCost": 12500
+  },
+  {
+    "id": "w-marksman-rifle",
+    "name": "Marksman Rifle",
+    "category": "Sniper Rifles",
+    "price": 15750,
+    "basedOn": "M39 EMR",
+    "availability": "Both",
+    "dlc": "Last Team Standing",
+    "mk2": false,
+    "description": "A semi-automatic designated marksman rifle that fires quickly while still reaching far.",
+    "tags": [
+      "dmr",
+      "semi-auto",
+      "lts"
+    ],
+    "stats": {
+      "damage": 70,
+      "fireRate": 40,
+      "accuracy": 80,
+      "range": 90
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Scope",
+      "Suppressor",
+      "Grip"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": "w-marksman-rifle-mk2",
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Extended Clip",
+        "why": "More rounds before you have to reload"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      },
+      {
+        "name": "Scope",
+        "why": "Extra zoom for cleaner shots at mid range"
+      }
+    ],
+    "bestFor": "Fast follow-up shots at long range",
+    "attachmentPrices": {
+      "Extended Clip": 9030,
+      "Grip": 4400
+    },
+    "bestLoadoutCost": 13430
+  },
+  {
+    "id": "w-heavy-sniper-mk2",
+    "name": "Heavy Sniper Mk II",
+    "category": "Sniper Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "mk2": true,
+    "description": "The upgraded Heavy Sniper, famous for its explosive rounds and thermal scope option.",
+    "tags": [
+      "mk2",
+      "explosive",
+      "gunrunning"
+    ],
+    "stats": {
+      "damage": 98,
+      "fireRate": 20,
+      "accuracy": 90,
+      "range": 100
+    },
+    "attachments": [
+      "Extended Clip",
+      "Zoom Scope",
+      "Advanced Scope",
+      "Night Vision Scope",
+      "Thermal Scope",
+      "Suppressor",
+      "Squared Muzzle Brake",
+      "Bell-End Muzzle Brake",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Incendiary, Armor Piercing, Full Metal Jacket, Explosive",
+      "Extra attachments: Extended Clip",
+      "Exclusive sights: Zoom Scope, Night Vision Scope, Thermal Scope",
+      "Muzzle attachments: Suppressor, Squared Muzzle Brake, Bell-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-heavy-sniper",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Explosive Rounds",
+        "why": "The standard anti-vehicle pick; only 4 rounds per magazine"
+      },
+      {
+        "name": "Heavy Barrel",
+        "why": "Keeps damage high out to extreme range"
+      },
+      {
+        "name": "Zoom Scope",
+        "why": "Adjustable zoom for long-range shots"
+      }
+    ],
+    "bestFor": "Long-range vehicle killing in Online",
+    "attachmentPrices": {
+      "Explosive Rounds": 115450,
+      "Heavy Barrel": 69825,
+      "Zoom Scope": 29595
+    },
+    "bestLoadoutCost": 214870
+  },
+  {
+    "id": "w-marksman-rifle-mk2",
+    "name": "Marksman Rifle Mk II",
+    "category": "Sniper Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Doomsday Heist",
+    "mk2": true,
+    "description": "An enhanced Marksman Rifle with special ammo and extra optics.",
+    "tags": [
+      "mk2",
+      "dmr",
+      "doomsday"
+    ],
+    "stats": {
+      "damage": 70,
+      "fireRate": 40,
+      "accuracy": 80,
+      "range": 90
+    },
+    "attachments": [
+      "Extended Clip",
+      "Flashlight",
+      "Holographic Sight",
+      "Large Scope",
+      "Zoom Scope",
+      "Suppressor",
+      "Flat Muzzle Brake",
+      "Tactical Muzzle Brake",
+      "Fat-End Muzzle Brake",
+      "Precision Muzzle Brake",
+      "Heavy Duty Muzzle Brake",
+      "Slanted Muzzle Brake",
+      "Split-End Muzzle Brake",
+      "Grip",
+      "Heavy Barrel"
+    ],
+    "tints": 32,
+    "mk2Upgrades": [
+      "Special ammo: Tracer, Incendiary, Armor Piercing, Full Metal Jacket",
+      "Exclusive sights: Holographic Sight, Large Scope, Zoom Scope",
+      "Muzzle attachments: Flat Muzzle Brake, Tactical Muzzle Brake, Fat-End Muzzle Brake, Precision Muzzle Brake, Heavy Duty Muzzle Brake, Slanted Muzzle Brake, Split-End Muzzle Brake",
+      "Heavy Barrel",
+      "Camo liveries: 11 patterns, custom livery color",
+      "Expanded tint palette: 32 tints (vs 8 on the base weapon)"
+    ],
+    "upgradesTo": null,
+    "upgradedFrom": "w-marksman-rifle",
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Heavy Barrel",
+        "why": "Keeps more damage at long range (less falloff)"
+      },
+      {
+        "name": "Extended Clip",
+        "why": "Doubles regular ammo to 16 rounds per magazine"
+      },
+      {
+        "name": "Armor Piercing Rounds",
+        "why": "More damage to armored targets; 5-round magazines"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      }
+    ],
+    "bestFor": "Rapid semi-auto shots at long range",
+    "attachmentPrices": {
+      "Heavy Barrel": 73500,
+      "Extended Clip": 26850,
+      "Armor Piercing Rounds": 73560,
+      "Grip": 14080
+    },
+    "bestLoadoutCost": 187990
+  },
+  {
+    "id": "w-precision-rifle",
+    "name": "Precision Rifle",
+    "category": "Sniper Rifles",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Criminal Enterprises",
+    "mk2": false,
+    "description": "A bolt-action rifle that rewards accurate shots with very high damage.",
+    "tags": [
+      "bolt action",
+      "criminal enterprises"
+    ],
+    "stats": {
+      "damage": 88,
+      "fireRate": 27,
+      "accuracy": 70,
+      "range": 95
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Long-range bolt-action shots",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-grenade-launcher",
+    "name": "Grenade Launcher",
+    "category": "Heavy Weapons",
+    "price": 8100,
+    "basedOn": "Milkor MGL",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A revolving launcher that lobs explosive grenades in an arc.",
+    "tags": [
+      "explosive",
+      "launcher",
+      "mgl"
+    ],
+    "stats": {
+      "damage": 95,
+      "fireRate": 20,
+      "accuracy": 10,
+      "range": 50
+    },
+    "attachments": [
+      "Grip",
+      "Flashlight",
+      "Scope"
+    ],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [
+      {
+        "name": "Scope",
+        "why": "Extra zoom for aiming lobs at range"
+      },
+      {
+        "name": "Grip",
+        "why": "Improves accuracy during sustained fire"
+      }
+    ],
+    "bestFor": "Clearing groups with explosive splash",
+    "attachmentPrices": {
+      "Scope": 11000,
+      "Grip": 4500
+    },
+    "bestLoadoutCost": 15500
+  },
+  {
+    "id": "w-rpg",
+    "name": "RPG",
+    "category": "Heavy Weapons",
+    "price": 6500,
+    "basedOn": "RPG-7",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A shoulder-fired rocket launcher for taking out vehicles and aircraft.",
+    "tags": [
+      "rocket",
+      "launcher",
+      "explosive"
+    ],
+    "stats": {
+      "damage": 100,
+      "fireRate": 5,
+      "accuracy": 10,
+      "range": 70
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Destroying vehicles",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-minigun",
+    "name": "Minigun",
+    "category": "Heavy Weapons",
+    "price": 15000,
+    "basedOn": "M134 Minigun",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A rotary cannon that needs to spin up but then shreds anything in front of it.",
+    "tags": [
+      "gatling",
+      "m134"
+    ],
+    "stats": {
+      "damage": 30,
+      "fireRate": 100,
+      "accuracy": 40,
+      "range": 55
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Shredding crowds of NPCs",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-firework-launcher",
+    "name": "Firework Launcher",
+    "category": "Heavy Weapons",
+    "price": 65000,
+    "basedOn": "Panzerschreck-style tube",
+    "availability": "Both",
+    "dlc": "Independence Day Special",
+    "mk2": false,
+    "description": "Shoots colourful fireworks rockets. More of a celebration toy than a serious weapon.",
+    "tags": [
+      "fireworks",
+      "independence day"
+    ],
+    "stats": {
+      "damage": 45,
+      "fireRate": 5,
+      "accuracy": 12,
+      "range": 60
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Festive fireworks displays",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-homing-launcher",
+    "name": "Homing Launcher",
+    "category": "Heavy Weapons",
+    "price": 165000,
+    "basedOn": "SA-7 / FIM-92 Stinger",
+    "availability": "Both",
+    "dlc": "Festive Surprise 2014",
+    "mk2": false,
+    "description": "A lock-on launcher that fires guided missiles at vehicles.",
+    "tags": [
+      "lock-on",
+      "missile",
+      "stinger"
+    ],
+    "stats": {
+      "damage": 95,
+      "fireRate": 5,
+      "accuracy": 25,
+      "range": 75
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Locking onto vehicles and aircraft",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-railgun",
+    "name": "Railgun",
+    "category": "Heavy Weapons",
+    "price": 250000,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Enhanced edition (returning player bonus)",
+    "mk2": false,
+    "description": "A futuristic electromagnetic gun firing explosive slugs. Story access came via the returning-player bonus; it reached Online with Los Santos Drug Wars.",
+    "tags": [
+      "sci-fi",
+      "returning player",
+      "enhanced"
+    ],
+    "stats": {
+      "damage": 90,
+      "fireRate": 25,
+      "accuracy": 20,
+      "range": 70
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Heavy hits against vehicles and groups",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-compact-grenade-launcher",
+    "name": "Compact Grenade Launcher",
+    "category": "Heavy Weapons",
+    "price": null,
+    "basedOn": "M79",
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A single-shot break-open grenade launcher that's lighter than the full-size version.",
+    "tags": [
+      "m79",
+      "launcher",
+      "bikers"
+    ],
+    "stats": {
+      "damage": 95,
+      "fireRate": 10,
+      "accuracy": 15,
+      "range": 55
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Portable explosive splash damage",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-widowmaker",
+    "name": "Widowmaker",
+    "category": "Heavy Weapons",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Arena War",
+    "mk2": false,
+    "description": "A sci-fi minigun-style energy weapon that pours out laser fire.",
+    "tags": [
+      "sci-fi",
+      "laser",
+      "arena war"
+    ],
+    "stats": {
+      "damage": 30,
+      "fireRate": 100,
+      "accuracy": 40,
+      "range": 55
+    },
+    "attachments": [],
+    "tints": 7,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Continuous laser fire against groups",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-compact-emp-launcher",
+    "name": "Compact EMP Launcher",
+    "category": "Heavy Weapons",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "The Contract",
+    "mk2": false,
+    "description": "Fires EMP charges that temporarily kill the electronics of nearby vehicles.",
+    "tags": [
+      "emp",
+      "disable",
+      "contract"
+    ],
+    "stats": {
+      "damage": 95,
+      "fireRate": 10,
+      "accuracy": 15,
+      "range": 55
+    },
+    "attachments": [],
+    "tints": 8,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Temporarily disabling vehicles",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-snowball-launcher",
+    "name": "Snowball Launcher",
+    "category": "Heavy Weapons",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Festive event (2023)",
+    "mk2": false,
+    "description": "A holiday novelty launcher that fires snowballs.",
+    "tags": [
+      "snow",
+      "festive",
+      "christmas"
+    ],
+    "stats": {
+      "damage": 0,
+      "fireRate": 10,
+      "accuracy": 15,
+      "range": 55
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Festive snowball barrages",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-grenade",
+    "name": "Grenade",
+    "category": "Throwables",
+    "price": 150,
+    "basedOn": "M61 frag grenade",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A standard fragmentation grenade with a short fuse.",
+    "tags": [
+      "frag",
+      "explosive"
+    ],
+    "stats": {
+      "damage": 95,
+      "fireRate": 20,
+      "accuracy": 10,
+      "range": 15
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Flushing enemies out of cover",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-sticky-bomb",
+    "name": "Sticky Bomb",
+    "category": "Throwables",
+    "price": 400,
+    "basedOn": "C-4 charge",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A remote-detonated plastic explosive that sticks to surfaces and vehicles.",
+    "tags": [
+      "c4",
+      "remote",
+      "explosive"
+    ],
+    "stats": {
+      "damage": 95,
+      "fireRate": 10,
+      "accuracy": 30,
+      "range": 10
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Planting explosives on vehicles",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-tear-gas",
+    "name": "Tear Gas",
+    "category": "Throwables",
+    "price": 150,
+    "basedOn": "M18 smoke grenade",
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A canister that releases choking gas to drive enemies out of cover.",
+    "tags": [
+      "gas",
+      "non-lethal"
+    ],
+    "stats": {
+      "damage": 10,
+      "fireRate": 20,
+      "accuracy": 10,
+      "range": 15
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Forcing enemies out of enclosed spaces",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-molotov",
+    "name": "Molotov Cocktail",
+    "category": "Throwables",
+    "price": null,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A bottle of fuel with a burning rag that bursts into flames on impact.",
+    "tags": [
+      "fire",
+      "incendiary"
+    ],
+    "stats": {
+      "damage": 50,
+      "fireRate": 20,
+      "accuracy": 20,
+      "range": 8
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Area fire damage",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-proximity-mine",
+    "name": "Proximity Mine",
+    "category": "Throwables",
+    "price": 1000,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Festive Surprise 2014",
+    "mk2": false,
+    "description": "A mine placed on the ground that explodes when someone or something gets close.",
+    "tags": [
+      "mine",
+      "trap",
+      "explosive"
+    ],
+    "stats": {
+      "damage": 90,
+      "fireRate": 10,
+      "accuracy": 30,
+      "range": 20
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Trapping roads and chokepoints",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-pipe-bomb",
+    "name": "Pipe Bomb",
+    "category": "Throwables",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Bikers",
+    "mk2": false,
+    "description": "A homemade explosive that is thrown and detonates shortly after.",
+    "tags": [
+      "homemade",
+      "explosive",
+      "bikers"
+    ],
+    "stats": {
+      "damage": 85,
+      "fireRate": 10,
+      "accuracy": 35,
+      "range": 15
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Thrown explosive damage",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-snowball",
+    "name": "Snowball",
+    "category": "Throwables",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Festive Surprise",
+    "mk2": false,
+    "description": "Picked up during snowy holiday events and thrown for light, playful damage.",
+    "tags": [
+      "snow",
+      "festive",
+      "christmas"
+    ],
+    "stats": {
+      "damage": 1,
+      "fireRate": 10,
+      "accuracy": 10,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Festive snowball fights",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-jerry-can",
+    "name": "Jerry Can",
+    "category": "Throwables",
+    "price": 25,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A gas can used to pour trails of fuel that can be ignited.",
+    "tags": [
+      "petrol",
+      "fuel",
+      "fire"
+    ],
+    "stats": {
+      "damage": 0,
+      "fireRate": 10,
+      "accuracy": 30,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Pouring fuel trails to ignite",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-parachute",
+    "name": "Parachute",
+    "category": "Miscellaneous",
+    "price": null,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "Equipment for skydiving and BASE jumping from aircraft, buildings and mountains.",
+    "tags": [
+      "skydive",
+      "gear"
+    ],
+    "stats": {
+      "damage": null,
+      "fireRate": null,
+      "accuracy": null,
+      "range": null
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Skydiving and escaping aircraft",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-digiscanner",
+    "name": "Digiscanner",
+    "category": "Miscellaneous",
+    "price": null,
+    "basedOn": null,
+    "availability": "Story",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A handheld tracking device used only in a specific story mission to locate a target signal.",
+    "tags": [
+      "mission",
+      "scanner"
+    ],
+    "stats": {
+      "damage": null,
+      "fireRate": null,
+      "accuracy": null,
+      "range": null
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": null,
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-unarmed",
+    "name": "Unarmed (Fist)",
+    "category": "Melee",
+    "price": null,
+    "basedOn": null,
+    "availability": "Both",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "Your bare hands, always equipped by default. Punches are weak, but you never run out of them and they need no pickup.",
+    "tags": [
+      "fist",
+      "punch",
+      "default"
+    ],
+    "stats": {
+      "damage": 5,
+      "fireRate": 20,
+      "accuracy": null,
+      "range": 1
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Brawling when nothing else is equipped",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-ball",
+    "name": "Ball",
+    "category": "Throwables",
+    "price": null,
+    "basedOn": null,
+    "availability": "Story",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "Franklin's fetch toy for Chop. It goes into the throwable slot during dog walks and does no harm to anyone.",
+    "tags": [
+      "chop",
+      "fetch",
+      "dog"
+    ],
+    "stats": {
+      "damage": 0,
+      "fireRate": 10,
+      "accuracy": 10,
+      "range": 0
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Playing fetch with Chop",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  },
+  {
+    "id": "w-flare",
+    "name": "Flare",
+    "category": "Throwables",
+    "price": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Base game",
+    "mk2": false,
+    "description": "A hand-thrown signal flare that marks a spot with red smoke and light. Used to direct Merryweather airstrikes and cargo drops.",
+    "tags": [
+      "flare",
+      "signal",
+      "merryweather"
+    ],
+    "stats": {
+      "damage": 0,
+      "fireRate": 10,
+      "accuracy": 10,
+      "range": 25
+    },
+    "attachments": [],
+    "tints": null,
+    "mk2Upgrades": [],
+    "upgradesTo": null,
+    "upgradedFrom": null,
+    "upgradedStats": null,
+    "bestAttachments": [],
+    "bestFor": "Marking targets for airstrikes and drops",
+    "attachmentPrices": null,
+    "bestLoadoutCost": null
+  }
+]

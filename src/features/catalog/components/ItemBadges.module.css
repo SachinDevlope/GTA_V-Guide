@@ -1,0 +1,4 @@
+.overlay { position: absolute; top: 8px; right: 8px; display: flex; gap: 6px; z-index: 1; }
+.dot { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; box-shadow: 0 1px 4px rgb(0 0 0 / .35); }
+.pill { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px 2px 7px; border-radius: 999px; font-size: 12px; font-weight: 600; vertical-align: middle; }
+.electric { background: #facc15; color: #1f1600; }

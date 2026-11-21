@@ -1,0 +1,11 @@
+.top { position: sticky; top: 0; z-index: 1000; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: saturate(1.4) blur(12px); border-bottom: 1px solid var(--line); }
+.row { display: flex; align-items: center; gap: 16px; height: 64px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; flex: none; width: 224px; }
+.mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 14px; letter-spacing: -.02em; }
+.text { font-weight: 700; font-size: 16px; letter-spacing: -.01em; }
+.search { flex: 1; min-width: 0; max-width: 640px; }
+@media (max-width: 900px) {
+  .brand { width: auto; }
+  .text { display: none; }
+  .row { gap: 10px; }
+}

@@ -1,0 +1,25 @@
+.head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; padding-top: 28px; }
+.head h1 { margin: 0; font-size: clamp(24px, 3.2vw, 30px); font-weight: 750; letter-spacing: -.02em; }
+.head p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+.quick { height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--text); padding: 0 12px; font: inherit; width: min(100%, 300px); }
+.quick:focus { outline: none; border-color: var(--accent); }
+.status { color: var(--muted); font-size: 13px; margin: 14px 0 10px; }
+.map { height: min(78vh, 820px); min-height: 420px; border-radius: var(--radius); border: 1px solid var(--line); overflow: hidden; background: #12a7d6; font: inherit; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; margin: 10px 0 30px; font-size: 13px; color: var(--muted); }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; border: 1.5px solid #fff; box-shadow: 0 0 0 1px var(--line); }
+.note { flex-basis: 100%; font-size: 12px; }
+.note a { color: inherit; }
+
+/* Leaflet-generated markup */
+.pinWrap { background: none; border: 0; }
+.pin { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--pin); color: #fff; font: 700 12px/1 var(--font-body); border: 2px solid #fff; box-shadow: 0 2px 6px rgb(0 0 0 / .45); }
+.area { border-style: dashed; opacity: .92; }
+.popup { min-width: 180px; }
+.place { font-weight: 700; font-size: 14px; margin-bottom: 6px; color: var(--text); }
+.place span { font: 400 12px var(--font-body); color: var(--muted); }
+.row { display: flex; flex-direction: column; padding: 5px 6px; border-radius: 6px; text-decoration: none; color: var(--text) !important; }
+.row:hover { background: var(--surface-2); }
+.row b { font-weight: 600; font-size: 13.5px; }
+.row span { font-size: 12px; color: var(--muted); }
+.map :global(.leaflet-popup-content-wrapper), .map :global(.leaflet-popup-tip) { background: var(--surface); color: var(--text); }
+.map :global(.leaflet-popup-content) { margin: 10px 12px; }

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "s-stamina",
+    "name": "Stamina",
+    "summary": "How long you can sprint, swim and cycle before tiring.",
+    "howToImprove": [
+      "Sprint on foot for long stretches",
+      "Ride a bicycle (BMX, Scorcher, Tri-Cycles)",
+      "Swim",
+      "Complete triathlons"
+    ],
+    "description": "Higher Stamina lets your character run, cycle and swim for longer without slowing down. It also adds a little to how much damage you can take.",
+    "tags": [
+      "running",
+      "sprint",
+      "cycling",
+      "swimming",
+      "triathlon"
+    ],
+    "wikiPages": [
+      "Triathlon"
+    ]
+  },
+  {
+    "id": "s-shooting",
+    "name": "Shooting",
+    "summary": "Accuracy, recoil control, reload speed and ammo capacity.",
+    "howToImprove": [
+      "Get kills with firearms",
+      "Land headshots",
+      "Complete challenges at the Ammu-Nation shooting ranges"
+    ],
+    "description": "Shooting affects accuracy, recoil control, how fast you reload and how much ammo you can carry. The shooting range is the quickest way to raise it.",
+    "tags": [
+      "aim",
+      "accuracy",
+      "gun range",
+      "ammu-nation"
+    ],
+    "imageFrom": "weapons/w-carbine-rifle"
+  },
+  {
+    "id": "s-strength",
+    "name": "Strength",
+    "summary": "Melee damage and how much damage you can absorb.",
+    "howToImprove": [
+      "Punch and melee enemies",
+      "Play tennis or golf",
+      "Do pull-ups / workouts at Muscle Sands (Vespucci Beach)"
+    ],
+    "description": "Strength raises melee damage and makes your character a little tougher. Tennis and golf rallies raise it steadily.",
+    "tags": [
+      "melee",
+      "fist fight",
+      "tennis",
+      "golf",
+      "gym"
+    ],
+    "wikiPages": [
+      "Muscle Sands Gym",
+      "Tennis"
+    ]
+  },
+  {
+    "id": "s-stealth",
+    "name": "Stealth",
+    "summary": "How quietly you move while crouched/sneaking.",
+    "howToImprove": [
+      "Move around in stealth mode (crouch)",
+      "Get stealth kills (melee takedowns from behind)"
+    ],
+    "description": "Stealth lowers the noise you make while sneaking and makes you harder to spot on the minimap. Stealth takedowns raise it fastest.",
+    "tags": [
+      "sneak",
+      "crouch",
+      "takedown"
+    ],
+    "wikiPages": [
+      "Suppressor",
+      "Knife (HD Universe)",
+      "Knife"
+    ]
+  },
+  {
+    "id": "s-flying",
+    "name": "Flying",
+    "summary": "Plane and helicopter handling, and resistance to turbulence.",
+    "howToImprove": [
+      "Fly planes and helicopters",
+      "Complete lessons at the San Andreas Flight School",
+      "Fly under bridges and do knife flights",
+      "Land safely after flying"
+    ],
+    "description": "Flying makes aircraft steadier, more responsive and less affected by turbulence. Flight School lessons give big boosts.",
+    "tags": [
+      "pilot",
+      "plane",
+      "helicopter",
+      "flight school"
+    ],
+    "imageFrom": "vehicles/v-western-company-cuban-800"
+  },
+  {
+    "id": "s-driving",
+    "name": "Driving",
+    "summary": "Vehicle control, cornering and air control on jumps.",
+    "howToImprove": [
+      "Drive fast without crashing",
+      "Do wheelies on motorcycles",
+      "Get near misses with traffic",
+      "Complete stunt jumps and street races"
+    ],
+    "description": "Driving improves car control, traction while cornering and how well you control a car in the air. Franklin's special ability also benefits from practice behind the wheel.",
+    "tags": [
+      "car",
+      "wheelie",
+      "racing",
+      "stunt jumps"
+    ],
+    "imageFrom": "vehicles/v-annis-elegy-rh8"
+  },
+  {
+    "id": "s-lung-capacity",
+    "name": "Lung Capacity",
+    "summary": "How long you can stay underwater.",
+    "howToImprove": [
+      "Swim underwater",
+      "Collect submarine pieces / explore the seabed"
+    ],
+    "description": "Lung Capacity sets how long you can hold your breath underwater before you start losing health.",
+    "tags": [
+      "underwater",
+      "breath",
+      "diving",
+      "swim"
+    ],
+    "wikiPages": [
+      "Scuba Diving",
+      "Rebreather"
+    ]
+  },
+  {
+    "id": "s-special",
+    "name": "Special",
+    "summary": "Length of each character's special ability.",
+    "howToImprove": [
+      "Use your special ability often",
+      "Michael: Bullet Time while shooting",
+      "Franklin: slow-motion driving",
+      "Trevor: Red Mist rage mode in combat"
+    ],
+    "description": "Special controls how long the special ability bar lasts. Michael slows time while aiming, Franklin slows time while driving, and Trevor deals more damage and takes less while enraged.",
+    "tags": [
+      "special ability",
+      "bullet time",
+      "red mist",
+      "slow motion"
+    ],
+    "wikiPages": [
+      "Special Ability"
+    ]
+  }
+]

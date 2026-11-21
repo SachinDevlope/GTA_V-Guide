@@ -1,0 +1,6248 @@
+{
+  "oc-signal-jammers": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (decompiled GTA Online freemode script, func_7544 jammer position table). Cross-checked 50/50 against root-cause/v-spjammerhunt JammerHunt/Constants.cs and an older decompile (YimMenu/GTA-V-Decompiled-Scripts freemode.c). Hints generated from popzone zone boxes (root-cause/ragemp-zone-api data.json) plus script Z height.",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": 1006.372,
+        "y": -2881.68,
+        "hint": "Terminal, about 30 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": -980.242,
+        "y": -2637.703,
+        "hint": "Los Santos International Airport, about 89 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": -688.195,
+        "y": -1399.329,
+        "hint": "La Puerta, about 23 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": 1120.696,
+        "y": -1539.165,
+        "hint": "El Burro Heights, about 55 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 2455.134,
+        "y": -382.585,
+        "hint": "Tataviam Mountains, about 113 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 793.878,
+        "y": -717.299,
+        "hint": "La Mesa, about 48 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": -168.3,
+        "y": -590.153,
+        "hint": "Pillbox Hill, about 211 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": -1298.3429,
+        "y": -435.8369,
+        "hint": "Richards Majestic, about 108 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": -2276.4841,
+        "y": 335.0941,
+        "hint": "Pacific Bluffs, about 196 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -667.25,
+        "y": 228.545,
+        "hint": "West Vinewood, about 154 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": 682.561,
+        "y": 567.5302,
+        "hint": "Vinewood Hills, about 154 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": 2722.561,
+        "y": 1538.1031,
+        "hint": "Palmer-Taylor Power Station, about 85 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": 758.539,
+        "y": 1273.6871,
+        "hint": "Galileo Park, about 445 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -3079.2578,
+        "y": 768.5189,
+        "hint": "Banham Canyon, about 32 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -2359.338,
+        "y": 3246.831,
+        "hint": "Fort Zancudo, about 104 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": 1693.7318,
+        "y": 2656.602,
+        "hint": "Bolingbroke Penitentiary, about 61 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": 3555.018,
+        "y": 3684.98,
+        "hint": "Humane Labs and Research, about 61 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": 1869.0221,
+        "y": 3714.4348,
+        "hint": "Sandy Shores, about 117 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": 2902.552,
+        "y": 4324.699,
+        "hint": "San Chianski Mountain Range, about 101 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -508.6141,
+        "y": 4426.661,
+        "hint": "Raton Canyon, about 88 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -104.417,
+        "y": 6227.2783,
+        "hint": "Paleto Bay, about 64 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": 1607.5012,
+        "y": 6437.3154,
+        "hint": "Mount Chiliad, about 32 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": 2792.933,
+        "y": 5993.922,
+        "hint": "Mount Gordo, about 367 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 1720.6129,
+        "y": 4822.467,
+        "hint": "Grapeseed, about 60 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": -1661.0101,
+        "y": -1126.742,
+        "hint": "Del Perro Beach, about 30 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": -1873.49,
+        "y": 2058.357,
+        "hint": "Tongva Hills, about 154 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": 2122.4602,
+        "y": 1750.886,
+        "hint": "Ron Alternates Wind Farm, about 138 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": -417.424,
+        "y": 1153.1431,
+        "hint": "Galileo Observatory, about 339 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": 3303.9011,
+        "y": 5169.7925,
+        "hint": "Mount Gordo, about 29 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": -1005.8481,
+        "y": 4852.1475,
+        "hint": "Chiliad Mountain State Wilderness, about 302 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -306.627,
+        "y": 2824.859,
+        "hint": "Great Chaparral, about 70 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": 1660.6631,
+        "y": -28.07,
+        "hint": "Tataviam Mountains, about 179 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 754.647,
+        "y": 2584.067,
+        "hint": "Grand Senora Desert, about 134 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": -279.9081,
+        "y": -1915.608,
+        "hint": "Maze Bank Arena, about 54 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": -260.4421,
+        "y": -2411.8071,
+        "hint": "Elysian Island, about 126 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": 552.132,
+        "y": -2221.8528,
+        "hint": "Cypress Flats, about 73 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": 394.3919,
+        "y": -1402.144,
+        "hint": "Strawberry, about 76 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": 1609.7911,
+        "y": -2243.767,
+        "hint": "El Burro Heights, about 130 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": 234.2919,
+        "y": 220.771,
+        "hint": "Downtown Vinewood, about 169 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": -1237.1211,
+        "y": -850.4969,
+        "hint": "Vespucci Canals, about 83 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": -1272.7319,
+        "y": 317.9532,
+        "hint": "GWC and Golfing Society, about 90 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": 0.088,
+        "y": -1002.4039,
+        "hint": "Pillbox Hill, about 96 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": 470.5569,
+        "y": -105.049,
+        "hint": "Hawick, about 136 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": -548.5471,
+        "y": -197.9911,
+        "hint": "Burton, about 83 m above sea level"
+      },
+      {
+        "n": 45,
+        "x": 2581.0469,
+        "y": 461.9421,
+        "hint": "Tataviam Mountains, about 115 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 720.14,
+        "y": 4097.634,
+        "hint": "On the shore of the Alamo Sea, about 38 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": 1242.4711,
+        "y": 1876.0681,
+        "hint": "Grand Senora Desert, about 92 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": 2752.1128,
+        "y": 3472.779,
+        "hint": "San Chianski Mountain Range, about 68 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": -2191.856,
+        "y": 4292.4077,
+        "hint": "North Chumash, about 55 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": 450.475,
+        "y": 5581.514,
+        "hint": "Mount Chiliad, about 794 m above sea level"
+      }
+    ]
+  },
+  "oc-playing-cards": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2166 playing card position table). Cross-checked 54/54 against an older decompile (YimMenu/GTA-V-Decompiled-Scripts freemode.c). Hints from popzone zone boxes + Z height.",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": 1992.183,
+        "y": 3046.28,
+        "hint": "Grand Senora Desert, about 47 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": 120.38,
+        "y": -1297.669,
+        "hint": "Strawberry, about 29 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 79.293,
+        "y": 3704.578,
+        "hint": "Stab City, about 41 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": 2937.738,
+        "y": 5325.846,
+        "hint": "Mount Gordo, about 100 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 727.153,
+        "y": 4189.818,
+        "hint": "On the shore of the Alamo Sea, about 40 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": -103.14,
+        "y": 369.008,
+        "hint": "West Vinewood, about 112 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 99.959,
+        "y": 6619.539,
+        "hint": "Paleto Bay, about 32 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": -282.6689,
+        "y": 6226.274,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": 1707.556,
+        "y": 4921.021,
+        "hint": "Grapeseed, about 42 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -1581.8604,
+        "y": 5204.295,
+        "hint": "Paleto Cove, about 4 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": 10.8264,
+        "y": -1101.1573,
+        "hint": "Pillbox Hill, about 30 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": 1690.0428,
+        "y": 3589.0144,
+        "hint": "Sandy Shores, about 36 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": 1159.1442,
+        "y": -316.5876,
+        "hint": "Mirror Park, about 70 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": 2341.8074,
+        "y": 2571.737,
+        "hint": "Ron Alternates Wind Farm, about 48 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -3048.193,
+        "y": 585.2986,
+        "hint": "Banham Canyon, about 8 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": -3149.7073,
+        "y": 1115.8302,
+        "hint": "Chumash, about 21 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": -1840.641,
+        "y": -1235.3188,
+        "hint": "Del Perro Beach, about 13 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": 810.6056,
+        "y": -2978.7407,
+        "hint": "Terminal, about 6 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": 202.2747,
+        "y": -1645.2251,
+        "hint": "Davis, about 30 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": 253.2056,
+        "y": 215.9778,
+        "hint": "Downtown Vinewood, about 106 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -1166.183,
+        "y": -233.9277,
+        "hint": "Rockford Hills, about 38 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": 729.9886,
+        "y": 2514.7131,
+        "hint": "Grand Senora Desert, about 73 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": 188.1851,
+        "y": 3076.3318,
+        "hint": "Grand Senora Desert, about 43 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 3687.9143,
+        "y": 4569.0728,
+        "hint": "San Chianski Mountain Range, about 25 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 1876.9755,
+        "y": 6410.034,
+        "hint": "Mount Chiliad, about 47 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": 2121.1458,
+        "y": 4784.6865,
+        "hint": "Grapeseed, about 41 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": 900.0845,
+        "y": 3558.1562,
+        "hint": "Grand Senora Desert, about 34 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": 2695.2722,
+        "y": 4324.496,
+        "hint": "Grapeseed, about 46 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": -1829.4277,
+        "y": 798.4049,
+        "hint": "Richman Glen, about 138 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": -1203.7251,
+        "y": -1558.8663,
+        "hint": "Vespucci Beach, about 4 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -73.2829,
+        "y": -2005.4764,
+        "hint": "Davis, about 18 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": -1154.2014,
+        "y": -527.2959,
+        "hint": "Richards Majestic, about 32 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 990.0786,
+        "y": -1800.3907,
+        "hint": "La Mesa, about 31 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": 827.5513,
+        "y": -2158.7441,
+        "hint": "Cypress Flats, about 29 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": -1512.0801,
+        "y": -103.625,
+        "hint": "Richman, about 54 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": -970.7493,
+        "y": 104.3396,
+        "hint": "Rockford Hills, about 55 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": -428.6815,
+        "y": 1213.9049,
+        "hint": "Galileo Observatory, about 326 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": -167.8387,
+        "y": -297.1122,
+        "hint": "Burton, about 39 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": 2747.3215,
+        "y": 3465.1196,
+        "hint": "San Chianski Mountain Range, about 56 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": -1103.659,
+        "y": 2714.6895,
+        "hint": "Zancudo River, about 19 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": 549.4841,
+        "y": -189.3053,
+        "hint": "Hawick, about 54 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": -1287.6895,
+        "y": -1118.8177,
+        "hint": "Vespucci, about 6 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": 1131.428,
+        "y": -982.0297,
+        "hint": "Murrieta Heights, about 47 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": -1028.0834,
+        "y": -2746.9358,
+        "hint": "Los Santos International Airport, about 13 m above sea level"
+      },
+      {
+        "n": 45,
+        "x": -538.5779,
+        "y": -1278.5424,
+        "hint": "Little Seoul, about 26 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 1326.4489,
+        "y": -1651.2626,
+        "hint": "El Burro Heights, about 52 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": 183.3252,
+        "y": -685.2661,
+        "hint": "Pillbox Hill, about 43 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": 1487.8461,
+        "y": 1129.2,
+        "hint": "Vinewood Hills, about 114 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": -2305.538,
+        "y": 3387.973,
+        "hint": "North Chumash, about 31 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": -522.632,
+        "y": 4193.4595,
+        "hint": "Raton Canyon, about 194 m above sea level"
+      },
+      {
+        "n": 51,
+        "x": -748.9897,
+        "y": 5599.5337,
+        "hint": "Paleto Forest, about 42 m above sea level"
+      },
+      {
+        "n": 52,
+        "x": -288.0628,
+        "y": 2545.2104,
+        "hint": "Great Chaparral, about 74 m above sea level"
+      },
+      {
+        "n": 53,
+        "x": 2565.3264,
+        "y": 296.8703,
+        "hint": "Tataviam Mountains, about 109 m above sea level"
+      },
+      {
+        "n": 54,
+        "x": -408.2484,
+        "y": 585.783,
+        "hint": "Vinewood Hills, about 124 m above sea level"
+      }
+    ]
+  },
+  "oc-action-figures": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2167 action figure position table). Cross-checked 100/100 against root-cause/v-spactionfigures DefaultData/figures.xml and an older decompile (YimMenu/GTA-V-Decompiled-Scripts). Hints from popzone zone boxes + Z height.",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": -2557.4053,
+        "y": 2315.502,
+        "hint": "Lago Zancudo, about 34 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": 2487.128,
+        "y": 3759.327,
+        "hint": "Sandy Shores, about 42 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 457.198,
+        "y": 5573.861,
+        "hint": "Mount Chiliad, about 780 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": -1280.407,
+        "y": 2549.743,
+        "hint": "Great Chaparral, about 18 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": -107.722,
+        "y": -856.981,
+        "hint": "Pillbox Hill, about 38 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": -1050.513,
+        "y": -522.612,
+        "hint": "Richards Majestic, about 37 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 693.306,
+        "y": 1200.583,
+        "hint": "Galileo Park, about 345 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": 2500.654,
+        "y": -389.482,
+        "hint": "Tataviam Mountains, about 94 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": 483.4,
+        "y": -3110.621,
+        "hint": "Elysian Island, about 7 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -2169.277,
+        "y": 5192.986,
+        "hint": "Paleto Cove, about 16 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": 177.674,
+        "y": 6394.054,
+        "hint": "Mount Chiliad, about 31 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": 2416.9421,
+        "y": 4994.557,
+        "hint": "Grapeseed, about 45 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": 1702.9,
+        "y": 3291,
+        "hint": "Grand Senora Desert, about 49 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -600.813,
+        "y": 2088.011,
+        "hint": "Great Chaparral, about 132 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -3019.7935,
+        "y": 41.9486,
+        "hint": "Pacific Bluffs, about 10 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": -485.4648,
+        "y": -54.441,
+        "hint": "Burton, about 39 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": -1350.785,
+        "y": -1547.089,
+        "hint": "Vespucci Beach, about 5 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": 379.535,
+        "y": -1509.398,
+        "hint": "Rancho, about 29 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": 2548.713,
+        "y": 385.386,
+        "hint": "Tataviam Mountains, about 108 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -769.346,
+        "y": 877.307,
+        "hint": "Vinewood Hills, about 203 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -1513.54,
+        "y": 1517.184,
+        "hint": "Tongva Valley, about 111 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": -1023.899,
+        "y": 190.912,
+        "hint": "Rockford Hills, about 61 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": 1136.355,
+        "y": -666.404,
+        "hint": "Mirror Park, about 57 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 3799.76,
+        "y": 4473.048,
+        "hint": "San Chianski Mountain Range, about 6 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 1243.588,
+        "y": -2572.136,
+        "hint": "El Burro Heights, about 43 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": 219.811,
+        "y": 97.162,
+        "hint": "Downtown Vinewood, about 96 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": -1545.826,
+        "y": -449.397,
+        "hint": "Del Perro, about 40 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": -928.683,
+        "y": -2938.691,
+        "hint": "Los Santos International Airport, about 13 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": -1647.926,
+        "y": -1094.716,
+        "hint": "Del Perro Beach, about 13 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": -2185.939,
+        "y": 4249.814,
+        "hint": "North Chumash, about 49 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -262.339,
+        "y": 4729.229,
+        "hint": "Mount Chiliad, about 137 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": -311.701,
+        "y": 6315.024,
+        "hint": "Paleto Bay, about 32 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 3306.444,
+        "y": 5194.742,
+        "hint": "Mount Gordo, about 17 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": 1389.886,
+        "y": 3608.834,
+        "hint": "Sandy Shores, about 35 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": 852.846,
+        "y": 2166.327,
+        "hint": "Redwood Lights Track, about 53 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": -1501.96,
+        "y": 814.071,
+        "hint": "Richman Glen, about 181 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": 2634.972,
+        "y": 2931.061,
+        "hint": "Davis Quartz, about 45 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": 660.57,
+        "y": 549.947,
+        "hint": "Vinewood Hills, about 129 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": -710.626,
+        "y": -905.881,
+        "hint": "Little Seoul, about 19 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": 1207.701,
+        "y": -1479.537,
+        "hint": "El Burro Heights, about 35 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": -90.151,
+        "y": 939.849,
+        "hint": "Vinewood Hills, about 233 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": -180.059,
+        "y": -631.866,
+        "hint": "Pillbox Hill, about 49 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": -299.634,
+        "y": 2847.173,
+        "hint": "Great Chaparral, about 55 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": 621.365,
+        "y": -409.254,
+        "hint": "East Vinewood, about 1 m below sea level"
+      },
+      {
+        "n": 45,
+        "x": -988.92,
+        "y": -102.669,
+        "hint": "Rockford Hills, about 40 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 63.999,
+        "y": 3683.868,
+        "hint": "Stab City, about 40 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": -688.668,
+        "y": 5829.006,
+        "hint": "Paleto Forest, about 17 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": 1540.435,
+        "y": 6323.453,
+        "hint": "Mount Chiliad, about 24 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": 2725.806,
+        "y": 4142.14,
+        "hint": "Grapeseed, about 43 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": 1297.977,
+        "y": 4306.744,
+        "hint": "On the shore of the Alamo Sea, about 38 m above sea level"
+      },
+      {
+        "n": 51,
+        "x": 1189.579,
+        "y": 2641.222,
+        "hint": "Grand Senora Desert, about 38 m above sea level"
+      },
+      {
+        "n": 52,
+        "x": -440.796,
+        "y": 1596.48,
+        "hint": "Vinewood Hills, about 359 m above sea level"
+      },
+      {
+        "n": 53,
+        "x": -2237.557,
+        "y": 249.282,
+        "hint": "Pacific Bluffs, about 175 m above sea level"
+      },
+      {
+        "n": 54,
+        "x": -1211.932,
+        "y": -959.965,
+        "hint": "Vespucci Canals, at sea level"
+      },
+      {
+        "n": 55,
+        "x": 153.845,
+        "y": -3077.341,
+        "hint": "Elysian Island, about 7 m above sea level"
+      },
+      {
+        "n": 56,
+        "x": -66.231,
+        "y": -1451.825,
+        "hint": "Chamberlain Hills, about 31 m above sea level"
+      },
+      {
+        "n": 57,
+        "x": 987.982,
+        "y": -136.863,
+        "hint": "East Vinewood, about 73 m above sea level"
+      },
+      {
+        "n": 58,
+        "x": -507.032,
+        "y": 393.905,
+        "hint": "West Vinewood, about 96 m above sea level"
+      },
+      {
+        "n": 59,
+        "x": 172.1275,
+        "y": -564.1393,
+        "hint": "Downtown, about 22 m above sea level"
+      },
+      {
+        "n": 60,
+        "x": 1497.202,
+        "y": -2133.147,
+        "hint": "El Burro Heights, about 76 m above sea level"
+      },
+      {
+        "n": 61,
+        "x": -2958.706,
+        "y": 386.41,
+        "hint": "Banham Canyon, about 14 m above sea level"
+      },
+      {
+        "n": 62,
+        "x": 1413.963,
+        "y": 1162.483,
+        "hint": "Vinewood Hills, about 114 m above sea level"
+      },
+      {
+        "n": 63,
+        "x": -1648.058,
+        "y": 3018.313,
+        "hint": "Fort Zancudo, about 31 m above sea level"
+      },
+      {
+        "n": 64,
+        "x": -1120.2,
+        "y": 4977.292,
+        "hint": "Chiliad Mountain State Wilderness, about 185 m above sea level"
+      },
+      {
+        "n": 65,
+        "x": 1310.683,
+        "y": 6545.917,
+        "hint": "Mount Chiliad, about 5 m above sea level"
+      },
+      {
+        "n": 66,
+        "x": 1714.573,
+        "y": 4790.844,
+        "hint": "Grapeseed, about 42 m above sea level"
+      },
+      {
+        "n": 67,
+        "x": 1886.6438,
+        "y": 3913.7578,
+        "hint": "Sandy Shores, about 32 m above sea level"
+      },
+      {
+        "n": 68,
+        "x": 543.476,
+        "y": 3074.79,
+        "hint": "Grand Senora Desert, about 40 m above sea level"
+      },
+      {
+        "n": 69,
+        "x": 1408.045,
+        "y": 2157.34,
+        "hint": "Grand Senora Desert, about 98 m above sea level"
+      },
+      {
+        "n": 70,
+        "x": -3243.858,
+        "y": 996.179,
+        "hint": "Chumash, about 12 m above sea level"
+      },
+      {
+        "n": 71,
+        "x": -1905.566,
+        "y": -709.6311,
+        "hint": "Del Perro Beach, about 9 m above sea level"
+      },
+      {
+        "n": 72,
+        "x": -1462.089,
+        "y": 182.089,
+        "hint": "Richman, about 55 m above sea level"
+      },
+      {
+        "n": 73,
+        "x": 86.997,
+        "y": 812.619,
+        "hint": "Vinewood Hills, about 211 m above sea level"
+      },
+      {
+        "n": 74,
+        "x": -886.554,
+        "y": -2096.579,
+        "hint": "Los Santos International Airport, about 9 m above sea level"
+      },
+      {
+        "n": 75,
+        "x": 367.684,
+        "y": -2113.475,
+        "hint": "Rancho, about 16 m above sea level"
+      },
+      {
+        "n": 76,
+        "x": 679.009,
+        "y": -1522.824,
+        "hint": "La Mesa, about 9 m above sea level"
+      },
+      {
+        "n": 77,
+        "x": 1667.377,
+        "y": 0.119,
+        "hint": "Tataviam Mountains, about 165 m above sea level"
+      },
+      {
+        "n": 78,
+        "x": -293.486,
+        "y": -342.485,
+        "hint": "Rockford Hills, about 9 m above sea level"
+      },
+      {
+        "n": 79,
+        "x": 462.664,
+        "y": -765.675,
+        "hint": "Textile City, about 26 m above sea level"
+      },
+      {
+        "n": 80,
+        "x": -57.784,
+        "y": 1939.74,
+        "hint": "Grand Senora Desert, about 190 m above sea level"
+      },
+      {
+        "n": 81,
+        "x": 2618.4114,
+        "y": 1692.3947,
+        "hint": "Palmer-Taylor Power Station, about 32 m above sea level"
+      },
+      {
+        "n": 82,
+        "x": -1894.5538,
+        "y": 2043.5173,
+        "hint": "Tongva Hills, about 141 m above sea level"
+      },
+      {
+        "n": 83,
+        "x": 2221.8577,
+        "y": 5612.785,
+        "hint": "Mount Chiliad, about 54 m above sea level"
+      },
+      {
+        "n": 84,
+        "x": -551.3712,
+        "y": 5330.728,
+        "hint": "Mount Chiliad, about 74 m above sea level"
+      },
+      {
+        "n": 85,
+        "x": -2171.4058,
+        "y": 3441.188,
+        "hint": "Fort Zancudo, about 32 m above sea level"
+      },
+      {
+        "n": 86,
+        "x": 1848.131,
+        "y": 2700.702,
+        "hint": "Bolingbroke Penitentiary, about 63 m above sea level"
+      },
+      {
+        "n": 87,
+        "x": -1719.6017,
+        "y": -232.886,
+        "hint": "Pacific Bluffs, about 54 m above sea level"
+      },
+      {
+        "n": 88,
+        "x": -55.3785,
+        "y": -2519.7546,
+        "hint": "Elysian Island, about 7 m above sea level"
+      },
+      {
+        "n": 89,
+        "x": 874.8454,
+        "y": -2163.9976,
+        "hint": "Cypress Flats, about 32 m above sea level"
+      },
+      {
+        "n": 90,
+        "x": -43.6983,
+        "y": -1747.9608,
+        "hint": "Davis, about 29 m above sea level"
+      },
+      {
+        "n": 91,
+        "x": 173.324,
+        "y": -1208.43,
+        "hint": "Strawberry, about 30 m above sea level"
+      },
+      {
+        "n": 92,
+        "x": 2936.3228,
+        "y": 4620.4834,
+        "hint": "San Chianski Mountain Range, about 49 m above sea level"
+      },
+      {
+        "n": 93,
+        "x": 3514.6545,
+        "y": 3754.6873,
+        "hint": "Humane Labs and Research, about 34 m above sea level"
+      },
+      {
+        "n": 94,
+        "x": 656.9,
+        "y": -1046.9314,
+        "hint": "La Mesa, about 22 m above sea level"
+      },
+      {
+        "n": 95,
+        "x": -141.1536,
+        "y": 234.8366,
+        "hint": "West Vinewood, about 99 m above sea level"
+      },
+      {
+        "n": 96,
+        "x": -1806.68,
+        "y": 427.6159,
+        "hint": "Richman, about 132 m above sea level"
+      },
+      {
+        "n": 97,
+        "x": -908.9565,
+        "y": -1148.9175,
+        "hint": "Vespucci Canals, about 2 m above sea level"
+      },
+      {
+        "n": 98,
+        "x": 387.9323,
+        "y": 2570.408,
+        "hint": "Harmony, about 43 m above sea level"
+      },
+      {
+        "n": 99,
+        "x": 2399.5054,
+        "y": 3062.7463,
+        "hint": "Grand Senora Desert, about 53 m above sea level"
+      },
+      {
+        "n": 100,
+        "x": 2394.7214,
+        "y": 3062.6895,
+        "hint": "Grand Senora Desert, about 51 m above sea level"
+      }
+    ]
+  },
+  "oc-movie-props": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 0 = movie props). Only the 7 props placed in the world are listed; the 3 props carried inside vehicles have no fixed position in the script. Cross-checked 7/7 against an older decompile (YimMenu/GTA-V-Decompiled-Scripts).",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": 94.202,
+        "y": -1294.965,
+        "hint": "Strawberry, about 29 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": -1010.051,
+        "y": -502.175,
+        "hint": "Rockford Hills, about 36 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 2517.254,
+        "y": 3789.326,
+        "hint": "Sandy Shores, about 54 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": -2349.036,
+        "y": 3270.785,
+        "hint": "Fort Zancudo, about 33 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 1165.416,
+        "y": 247.5531,
+        "hint": "Inside the Diamond Casino & Resort"
+      },
+      {
+        "n": 6,
+        "x": -41.795,
+        "y": 2873.231,
+        "hint": "Grand Senora Desert, about 60 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": -1169.573,
+        "y": 4926.988,
+        "hint": "Chiliad Mountain State Wilderness, about 224 m above sea level"
+      }
+    ]
+  },
+  "oc-ld-organics": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 9 = LD Organics product, model reh_prop_reh_bag_weed_01a). Hints from popzone zone boxes + Z height.",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": -1002.254,
+        "y": 130.075,
+        "hint": "Rockford Hills, about 56 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": -1504.595,
+        "y": -36.351,
+        "hint": "Richman, about 55 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": -1677.4098,
+        "y": -443.6646,
+        "hint": "Del Perro, about 40 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": -842.328,
+        "y": -345.95,
+        "hint": "Rockford Hills, about 39 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": -430.64,
+        "y": 288.196,
+        "hint": "West Vinewood, about 86 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 1575.0677,
+        "y": -1732.0293,
+        "hint": "El Burro Heights, about 88 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": -2038.497,
+        "y": 539.83,
+        "hint": "Banham Canyon, about 110 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": -2973.7725,
+        "y": 20.3182,
+        "hint": "Pacific Bluffs, about 7 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": -3235.982,
+        "y": 1104.414,
+        "hint": "Chumash, about 3 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -2630.007,
+        "y": 1874.927,
+        "hint": "Tongva Hills, about 160 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": -1875.84,
+        "y": 2027.968,
+        "hint": "Tongva Hills, about 140 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": -1596.847,
+        "y": 3054.303,
+        "hint": "Fort Zancudo, about 33 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": 1740.868,
+        "y": 3327.709,
+        "hint": "Grand Senora Desert, about 41 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": 1323.174,
+        "y": 3008.294,
+        "hint": "Grand Senora Desert, about 44 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": 1766.628,
+        "y": 3916.891,
+        "hint": "Sandy Shores, about 35 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": 2704.12,
+        "y": 3521.006,
+        "hint": "San Chianski Mountain Range, about 62 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": 3608.93,
+        "y": 3625.699,
+        "hint": "Humane Labs and Research, about 41 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": 2141.796,
+        "y": 4790.2764,
+        "hint": "Grapeseed, about 41 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": 439.911,
+        "y": 6455.761,
+        "hint": "Mount Chiliad, about 36 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": 1444.224,
+        "y": 6331.349,
+        "hint": "Mount Chiliad, about 24 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -581.923,
+        "y": 5368.024,
+        "hint": "Paleto Forest, about 70 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": 497.611,
+        "y": 5606.312,
+        "hint": "Mount Chiliad, about 796 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": 1384.78,
+        "y": 4288.897,
+        "hint": "On the shore of the Alamo Sea, about 36 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 712.585,
+        "y": 4111.207,
+        "hint": "On the shore of the Alamo Sea, about 32 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 325.916,
+        "y": 4429.151,
+        "hint": "Mount Chiliad, about 65 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": -214.4409,
+        "y": 3601.9602,
+        "hint": "Mount Josiah, about 62 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": 66.001,
+        "y": 3760.242,
+        "hint": "Stab City, about 40 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": 98.651,
+        "y": 3601.149,
+        "hint": "Stab City, about 40 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": -1147.7292,
+        "y": 4949.988,
+        "hint": "Chiliad Mountain State Wilderness, about 221 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": -2511.306,
+        "y": 3613.96,
+        "hint": "North Chumash, about 13 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -1936.931,
+        "y": 3329.973,
+        "hint": "Fort Zancudo, about 33 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": 2497.9932,
+        "y": -429.74,
+        "hint": "Tataviam Mountains, about 93 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 3818.776,
+        "y": 4488.587,
+        "hint": "San Chianski Mountain Range, about 5 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": 96.5449,
+        "y": -255.7652,
+        "hint": "Alta, about 47 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": -1393.931,
+        "y": -1445.899,
+        "hint": "Vespucci Beach, about 4 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": -929.642,
+        "y": -746.513,
+        "hint": "Little Seoul, about 20 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": 154.263,
+        "y": 1098.689,
+        "hint": "Vinewood Hills, about 231 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": 2982.726,
+        "y": 6368.5,
+        "hint": "On the coast near Mount Gordo, about 2 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": -512.5049,
+        "y": -1626.8174,
+        "hint": "La Puerta, about 17 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": -56.232,
+        "y": 80.423,
+        "hint": "West Vinewood, about 72 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": 431.973,
+        "y": -2910.015,
+        "hint": "Elysian Island, about 7 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": 664.98,
+        "y": 1284.7817,
+        "hint": "Galileo Park, about 360 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": -452.9,
+        "y": 1079.414,
+        "hint": "Galileo Observatory, about 328 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": -196.239,
+        "y": -2354.753,
+        "hint": "Banning, about 9 m above sea level"
+      },
+      {
+        "n": 45,
+        "x": 248.439,
+        "y": 128.028,
+        "hint": "Downtown Vinewood, about 103 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 2661.16,
+        "y": 1640.974,
+        "hint": "Palmer-Taylor Power Station, about 25 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": 1668.438,
+        "y": -26.473,
+        "hint": "Tataviam Mountains, about 185 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": -37.931,
+        "y": 1937.999,
+        "hint": "Grand Senora Desert, about 190 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": -1591.535,
+        "y": 801.656,
+        "hint": "Richman Glen, about 186 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": 2193.213,
+        "y": 5593.691,
+        "hint": "Mount Chiliad, about 54 m above sea level"
+      },
+      {
+        "n": 51,
+        "x": 1641.563,
+        "y": 2656.195,
+        "hint": "Bolingbroke Penitentiary, about 55 m above sea level"
+      },
+      {
+        "n": 52,
+        "x": -1608.398,
+        "y": 5262.396,
+        "hint": "Paleto Cove, about 4 m above sea level"
+      },
+      {
+        "n": 53,
+        "x": -937.037,
+        "y": -1044.216,
+        "hint": "Vespucci Canals, at sea level"
+      },
+      {
+        "n": 54,
+        "x": -2200.313,
+        "y": 4237.116,
+        "hint": "North Chumash, about 48 m above sea level"
+      },
+      {
+        "n": 55,
+        "x": -1263.3214,
+        "y": -367.5901,
+        "hint": "Rockford Hills, about 45 m above sea level"
+      },
+      {
+        "n": 56,
+        "x": 1018.407,
+        "y": 2457.103,
+        "hint": "Redwood Lights Track, about 45 m above sea level"
+      },
+      {
+        "n": 57,
+        "x": -3091.239,
+        "y": 660.393,
+        "hint": "Banham Canyon, about 2 m above sea level"
+      },
+      {
+        "n": 58,
+        "x": -193.708,
+        "y": 793.051,
+        "hint": "Vinewood Hills, about 198 m above sea level"
+      },
+      {
+        "n": 59,
+        "x": 987.808,
+        "y": -105.7523,
+        "hint": "East Vinewood, about 74 m above sea level"
+      },
+      {
+        "n": 60,
+        "x": -927.8402,
+        "y": -2934.0337,
+        "hint": "Los Santos International Airport, about 14 m above sea level"
+      },
+      {
+        "n": 61,
+        "x": -1640.2965,
+        "y": -3165.1382,
+        "hint": "Los Santos International Airport, about 41 m above sea level"
+      },
+      {
+        "n": 62,
+        "x": -1011.2722,
+        "y": -1491.9674,
+        "hint": "La Puerta, about 5 m above sea level"
+      },
+      {
+        "n": 63,
+        "x": 343.7568,
+        "y": 946.6004,
+        "hint": "Baytree Canyon, about 204 m above sea level"
+      },
+      {
+        "n": 64,
+        "x": 750.829,
+        "y": 196.948,
+        "hint": "Vinewood Hills, about 86 m above sea level"
+      },
+      {
+        "n": 65,
+        "x": -331.626,
+        "y": 6285.987,
+        "hint": "Paleto Bay, about 35 m above sea level"
+      },
+      {
+        "n": 66,
+        "x": -311.981,
+        "y": -1626.432,
+        "hint": "La Puerta, about 31 m above sea level"
+      },
+      {
+        "n": 67,
+        "x": 819.625,
+        "y": -796.649,
+        "hint": "La Mesa, about 35 m above sea level"
+      },
+      {
+        "n": 68,
+        "x": 132.977,
+        "y": -576.783,
+        "hint": "Pillbox Hill, about 18 m above sea level"
+      },
+      {
+        "n": 69,
+        "x": -1442.642,
+        "y": 567.622,
+        "hint": "Vinewood Hills, about 122 m above sea level"
+      },
+      {
+        "n": 70,
+        "x": -363.567,
+        "y": 572.64,
+        "hint": "Vinewood Hills, about 127 m above sea level"
+      },
+      {
+        "n": 71,
+        "x": -763.812,
+        "y": 705.641,
+        "hint": "Vinewood Hills, about 145 m above sea level"
+      },
+      {
+        "n": 72,
+        "x": 1902.373,
+        "y": 572.778,
+        "hint": "Tataviam Mountains, about 177 m above sea level"
+      },
+      {
+        "n": 73,
+        "x": -672.715,
+        "y": 59.853,
+        "hint": "West Vinewood, about 62 m above sea level"
+      },
+      {
+        "n": 74,
+        "x": 43.7134,
+        "y": 2791.5322,
+        "hint": "Grand Senora Desert, about 58 m above sea level"
+      },
+      {
+        "n": 75,
+        "x": 1220.9852,
+        "y": 1902.9747,
+        "hint": "Grand Senora Desert, about 78 m above sea level"
+      },
+      {
+        "n": 76,
+        "x": 2517.942,
+        "y": 2615.929,
+        "hint": "Ron Alternates Wind Farm, about 38 m above sea level"
+      },
+      {
+        "n": 77,
+        "x": 3455.177,
+        "y": 5510.634,
+        "hint": "On the coast near Mount Gordo, about 19 m above sea level"
+      },
+      {
+        "n": 78,
+        "x": 1500.862,
+        "y": -2513.839,
+        "hint": "El Burro Heights, about 56 m above sea level"
+      },
+      {
+        "n": 79,
+        "x": 1467.102,
+        "y": 1096.74,
+        "hint": "Vinewood Hills, about 114 m above sea level"
+      },
+      {
+        "n": 80,
+        "x": 545.206,
+        "y": 2880.917,
+        "hint": "Grand Senora Desert, about 42 m above sea level"
+      },
+      {
+        "n": 81,
+        "x": 2612.129,
+        "y": 2782.483,
+        "hint": "Davis Quartz, about 34 m above sea level"
+      },
+      {
+        "n": 82,
+        "x": -14.178,
+        "y": 6491.451,
+        "hint": "Paleto Bay, about 37 m above sea level"
+      },
+      {
+        "n": 83,
+        "x": -788.846,
+        "y": -2086.048,
+        "hint": "Los Santos International Airport, about 9 m above sea level"
+      },
+      {
+        "n": 84,
+        "x": 981.079,
+        "y": -2583.384,
+        "hint": "Cypress Flats, about 10 m above sea level"
+      },
+      {
+        "n": 85,
+        "x": 964.371,
+        "y": -1811.011,
+        "hint": "La Mesa, about 31 m above sea level"
+      },
+      {
+        "n": 86,
+        "x": 511.737,
+        "y": -1335.028,
+        "hint": "La Mesa, about 29 m above sea level"
+      },
+      {
+        "n": 87,
+        "x": -69.0361,
+        "y": -1229.7703,
+        "hint": "Strawberry, about 29 m above sea level"
+      },
+      {
+        "n": 88,
+        "x": 202.812,
+        "y": -1758.72,
+        "hint": "Davis, about 33 m above sea level"
+      },
+      {
+        "n": 89,
+        "x": -328.378,
+        "y": -1372.415,
+        "hint": "Strawberry, about 41 m above sea level"
+      },
+      {
+        "n": 90,
+        "x": -1635.991,
+        "y": -1031.127,
+        "hint": "Del Perro Beach, about 13 m above sea level"
+      },
+      {
+        "n": 91,
+        "x": 955.454,
+        "y": 73.628,
+        "hint": "Vinewood Racetrack, about 113 m above sea level"
+      },
+      {
+        "n": 92,
+        "x": 265.722,
+        "y": -1335.354,
+        "hint": "Strawberry, about 36 m above sea level"
+      },
+      {
+        "n": 93,
+        "x": -1033.097,
+        "y": -825.029,
+        "hint": "Vespucci Canals, about 19 m above sea level"
+      },
+      {
+        "n": 94,
+        "x": -592.9804,
+        "y": -875.5658,
+        "hint": "Little Seoul, about 26 m above sea level"
+      },
+      {
+        "n": 95,
+        "x": -246.484,
+        "y": -786.507,
+        "hint": "Pillbox Hill, about 31 m above sea level"
+      },
+      {
+        "n": 96,
+        "x": 479.364,
+        "y": -574.451,
+        "hint": "Textile City, about 29 m above sea level"
+      },
+      {
+        "n": 97,
+        "x": 1098.204,
+        "y": -1528.952,
+        "hint": "La Mesa, about 34 m above sea level"
+      },
+      {
+        "n": 98,
+        "x": 580.785,
+        "y": -2284.23,
+        "hint": "Cypress Flats, about 6 m above sea level"
+      },
+      {
+        "n": 99,
+        "x": -295.973,
+        "y": -308.098,
+        "hint": "Burton, about 10 m above sea level"
+      },
+      {
+        "n": 100,
+        "x": -117.05,
+        "y": -1025.36,
+        "hint": "Pillbox Hill, about 27 m above sea level"
+      }
+    ]
+  },
+  "oc-peyote-plants": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2168 peyote plant position table, 76 spots incl. underwater ones). Cross-checked 76/76 against an older decompile (YimMenu/GTA-V-Decompiled-Scripts).",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": 171.4769,
+        "y": -1925.5862,
+        "hint": "Davis, about 20 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": -234.541,
+        "y": -1516.663,
+        "hint": "Chamberlain Hills, about 31 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": -213.5869,
+        "y": 6455.2397,
+        "hint": "Paleto Bay, about 30 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": 327.064,
+        "y": 6430.808,
+        "hint": "Mount Chiliad, about 30 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 2268.018,
+        "y": 4597.53,
+        "hint": "Grapeseed, about 34 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 3102.362,
+        "y": 6034.412,
+        "hint": "Mount Gordo, about 122 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": -35.2434,
+        "y": 2868.4004,
+        "hint": "Grand Senora Desert, about 58 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": 1733.005,
+        "y": 3850.126,
+        "hint": "Sandy Shores, about 34 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": 340.023,
+        "y": 3565.621,
+        "hint": "Zancudo River, about 32 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -1858.733,
+        "y": 4806.635,
+        "hint": "Chiliad Mountain State Wilderness, about 2 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": 490.588,
+        "y": 5530.081,
+        "hint": "Mount Chiliad, about 777 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": -2792.443,
+        "y": 1432.48,
+        "hint": "Banham Canyon, about 100 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -2999.09,
+        "y": 769.195,
+        "hint": "Banham Canyon, about 26 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -855.473,
+        "y": 572.053,
+        "hint": "Vinewood Hills, about 96 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": 1021.663,
+        "y": 2910.82,
+        "hint": "Grand Senora Desert, about 40 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": -3078.123,
+        "y": 3202.819,
+        "hint": "Fort Zancudo, at sea level"
+      },
+      {
+        "n": 17,
+        "x": -1557.408,
+        "y": 2581.642,
+        "hint": "Lago Zancudo, at sea level"
+      },
+      {
+        "n": 18,
+        "x": 2578.658,
+        "y": 5548.083,
+        "hint": "Mount Gordo, about 59 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": 2573.032,
+        "y": 1250.679,
+        "hint": "Tataviam Mountains, about 43 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -922.265,
+        "y": 4583.207,
+        "hint": "Chiliad Mountain State Wilderness, about 231 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": 2820.144,
+        "y": -759.318,
+        "hint": "On the coast near Palomino Highlands, at sea level"
+      },
+      {
+        "n": 22,
+        "x": 2385.41,
+        "y": 3335.046,
+        "hint": "Sandy Shores, about 46 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": -1275.095,
+        "y": 1895.234,
+        "hint": "Great Chaparral, about 101 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 1545.851,
+        "y": 1685.537,
+        "hint": "Grand Senora Desert, about 109 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 727.608,
+        "y": -235.347,
+        "hint": "East Vinewood, about 65 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": -111.254,
+        "y": -413.31,
+        "hint": "Burton, about 35 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": -1881.692,
+        "y": -607.578,
+        "hint": "Pacific Bluffs, about 15 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": 1071.716,
+        "y": -686.215,
+        "hint": "Mirror Park, about 57 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": 2066.84,
+        "y": 1940.29,
+        "hint": "Ron Alternates Wind Farm, about 82 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": 1614.594,
+        "y": 6611.073,
+        "hint": "Mount Gordo, about 15 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -1179.712,
+        "y": 3854.412,
+        "hint": "Mount Josiah, about 488 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": 2940.191,
+        "y": 2745.018,
+        "hint": "Davis Quartz, about 42 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 1288.918,
+        "y": -1059.638,
+        "hint": "Murrieta Heights, about 38 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": -1678.225,
+        "y": 357.721,
+        "hint": "Richman, about 84 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": -778.6017,
+        "y": 117.243,
+        "hint": "Rockford Hills, about 55 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": -794.2935,
+        "y": -727.5123,
+        "hint": "Little Seoul, about 26 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": 330.147,
+        "y": 440.902,
+        "hint": "Downtown Vinewood, about 144 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": -1314.857,
+        "y": -424.843,
+        "hint": "Del Perro, about 34 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": 224.4638,
+        "y": 49.089,
+        "hint": "Downtown Vinewood, about 83 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": 1276.405,
+        "y": -1720.52,
+        "hint": "El Burro Heights, about 54 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": -960.924,
+        "y": -2034.23,
+        "hint": "Los Santos International Airport, about 9 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": -838.726,
+        "y": -1216.943,
+        "hint": "La Puerta, about 6 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": 2029.5846,
+        "y": 498.1133,
+        "hint": "Tataviam Mountains, about 163 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": 2764.432,
+        "y": -1600.286,
+        "hint": "On the coast near Palomino Highlands, at sea level"
+      },
+      {
+        "n": 45,
+        "x": 1498.68,
+        "y": -2722.499,
+        "hint": "On the coast near El Burro Heights, about 2 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 217.1979,
+        "y": -980.8727,
+        "hint": "Mission Row, about 29 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": 686.64,
+        "y": -1109.484,
+        "hint": "La Mesa, about 21 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": -220.848,
+        "y": 1006.557,
+        "hint": "Vinewood Hills, about 231 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": 493.725,
+        "y": 1439.799,
+        "hint": "Galileo Park, about 351 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": -995.688,
+        "y": 6258.749,
+        "hint": "Paleto Forest, at sea level"
+      },
+      {
+        "n": 51,
+        "x": -2871.632,
+        "y": 2605.2683,
+        "hint": "Offshore near Lago Zancudo, underwater about 10 m deep"
+      },
+      {
+        "n": 52,
+        "x": 56.2666,
+        "y": 7365.265,
+        "hint": "Offshore near Paleto Bay, underwater about 5 m deep"
+      },
+      {
+        "n": 53,
+        "x": -2861.1204,
+        "y": 3900.557,
+        "hint": "Offshore near North Chumash, underwater about 34 m deep"
+      },
+      {
+        "n": 54,
+        "x": -1588.6914,
+        "y": 5312.9844,
+        "hint": "Paleto Cove, underwater about 5 m deep"
+      },
+      {
+        "n": 55,
+        "x": 475.3864,
+        "y": 6946.059,
+        "hint": "Offshore near Paleto Bay, underwater about 7 m deep"
+      },
+      {
+        "n": 56,
+        "x": 2453.2576,
+        "y": 6692.051,
+        "hint": "Offshore near Mount Gordo, underwater about 14 m deep"
+      },
+      {
+        "n": 57,
+        "x": 4235.6206,
+        "y": 4105.97,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 31 m deep"
+      },
+      {
+        "n": 58,
+        "x": -138.1969,
+        "y": 4060.7036,
+        "hint": "Underwater in the Alamo Sea, about 4 m below the surface"
+      },
+      {
+        "n": 59,
+        "x": 3395.229,
+        "y": 2252.5095,
+        "hint": "Offshore near Ron Alternates Wind Farm, underwater about 15 m deep"
+      },
+      {
+        "n": 60,
+        "x": 2946.109,
+        "y": 812.0292,
+        "hint": "Tataviam Mountains, underwater about 11 m deep"
+      },
+      {
+        "n": 61,
+        "x": 3194.6438,
+        "y": -356.9405,
+        "hint": "Offshore near Palomino Highlands, underwater about 33 m deep"
+      },
+      {
+        "n": 62,
+        "x": -1745.945,
+        "y": -1277.3726,
+        "hint": "Offshore near Del Perro Beach, underwater about 20 m deep"
+      },
+      {
+        "n": 63,
+        "x": -3320.8806,
+        "y": 1335.2634,
+        "hint": "Offshore near Chumash, underwater about 17 m deep"
+      },
+      {
+        "n": 64,
+        "x": 2183.961,
+        "y": -2714.1033,
+        "hint": "Offshore near Palomino Highlands, underwater about 29 m deep"
+      },
+      {
+        "n": 65,
+        "x": -169.7448,
+        "y": -2890.4065,
+        "hint": "Elysian Island, underwater about 25 m deep"
+      },
+      {
+        "n": 66,
+        "x": -164.6574,
+        "y": -2309.2812,
+        "hint": "Banning, underwater about 29 m deep"
+      },
+      {
+        "n": 67,
+        "x": 618.835,
+        "y": -2192.5525,
+        "hint": "Cypress Flats, underwater about 9 m deep"
+      },
+      {
+        "n": 68,
+        "x": 649.5286,
+        "y": -3232.5737,
+        "hint": "Elysian Island, underwater about 17 m deep"
+      },
+      {
+        "n": 69,
+        "x": -3078.0183,
+        "y": -104.2799,
+        "hint": "Offshore near Pacific Bluffs, underwater about 18 m deep"
+      },
+      {
+        "n": 70,
+        "x": -2205.0056,
+        "y": -681.4622,
+        "hint": "Offshore near Pacific Bluffs, underwater about 10 m deep"
+      },
+      {
+        "n": 71,
+        "x": 825.2657,
+        "y": -2790.5657,
+        "hint": "Terminal, underwater about 22 m deep"
+      },
+      {
+        "n": 72,
+        "x": 3415.271,
+        "y": 5253.468,
+        "hint": "Offshore near El Gordo Lighthouse, underwater about 12 m deep"
+      },
+      {
+        "n": 73,
+        "x": 1219.1924,
+        "y": 4119.4785,
+        "hint": "Underwater in the Alamo Sea, about 16 m below the surface"
+      },
+      {
+        "n": 74,
+        "x": -1014.5877,
+        "y": -1707.1688,
+        "hint": "La Puerta, underwater about 9 m deep"
+      },
+      {
+        "n": 75,
+        "x": 1674.9827,
+        "y": 5141.8975,
+        "hint": "Grapeseed, about 150 m above sea level"
+      },
+      {
+        "n": 76,
+        "x": -21.0273,
+        "y": -1424.1678,
+        "hint": "Strawberry, about 30 m above sea level"
+      }
+    ]
+  },
+  "oc-snowmen": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 16 = snowmen, xm3_prop_xm3_snowman models).",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": -374.0548,
+        "y": 6230.472,
+        "hint": "Paleto Bay, about 30 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": 1558.4845,
+        "y": 6449.3965,
+        "hint": "Mount Chiliad, about 23 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 3314.504,
+        "y": 5165.038,
+        "hint": "Mount Gordo, about 17 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": 1709.097,
+        "y": 4680.172,
+        "hint": "Grapeseed, about 42 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": -1414.734,
+        "y": 5101.661,
+        "hint": "Chiliad Mountain State Wilderness, about 59 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 1988.997,
+        "y": 3830.344,
+        "hint": "Sandy Shores, about 31 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 234.725,
+        "y": 3103.582,
+        "hint": "Grand Senora Desert, about 41 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": 2357.556,
+        "y": 2526.069,
+        "hint": "Ron Alternates Wind Farm, about 46 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": 1515.591,
+        "y": 1721.268,
+        "hint": "Grand Senora Desert, about 109 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -45.725,
+        "y": 1963.218,
+        "hint": "Grand Senora Desert, about 189 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": -1517.221,
+        "y": 2140.711,
+        "hint": "Tongva Valley, about 55 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": -2830.558,
+        "y": 1420.358,
+        "hint": "Banham Canyon, about 100 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -2974.7288,
+        "y": 713.9555,
+        "hint": "Banham Canyon, about 27 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -1938.257,
+        "y": 589.845,
+        "hint": "Vinewood Hills, about 119 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -456.1271,
+        "y": 1126.6056,
+        "hint": "Galileo Observatory, about 325 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": -820.763,
+        "y": 165.984,
+        "hint": "Rockford Hills, about 70 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": 218.7153,
+        "y": -104.1239,
+        "hint": "Hawick, about 69 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": 902.2285,
+        "y": -285.8174,
+        "hint": "Mirror Park, about 65 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": -777.0854,
+        "y": 880.5856,
+        "hint": "Vinewood Hills, about 202 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": 1270.0951,
+        "y": -645.7452,
+        "hint": "Mirror Park, about 67 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": 180.9037,
+        "y": -904.4719,
+        "hint": "Pillbox Hill, about 30 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": -958.819,
+        "y": -780.149,
+        "hint": "Vespucci Canals, about 17 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": -1105.3816,
+        "y": -1398.6503,
+        "hint": "Vespucci Canals, about 4 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": -252.2187,
+        "y": -1561.5228,
+        "hint": "Chamberlain Hills, about 31 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 1340.639,
+        "y": -1585.771,
+        "hint": "El Burro Heights, about 53 m above sea level"
+      }
+    ]
+  },
+  "oc-jack-o-lanterns": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 8 = Jack O' Lanterns / trick or treat, 200-spot pool).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": -189.701,
+        "y": -763.3126,
+        "hint": "Pillbox Hill, about 29 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": -233.321,
+        "y": -909.614,
+        "hint": "Pillbox Hill, about 31 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": -553.5505,
+        "y": -815.0607,
+        "hint": "Little Seoul, about 30 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": -728.8868,
+        "y": -678.7939,
+        "hint": "Little Seoul, about 29 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": -1185.5071,
+        "y": -566.7111,
+        "hint": "Richards Majestic, about 27 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": -1339.806,
+        "y": -409.658,
+        "hint": "Del Perro, about 35 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": -1536.5579,
+        "y": -423.9365,
+        "hint": "Del Perro, about 35 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": -1580.6218,
+        "y": -952.5058,
+        "hint": "Del Perro Beach, about 12 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": -1976.58,
+        "y": -532.485,
+        "hint": "Pacific Bluffs, about 11 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -1884.625,
+        "y": -366.126,
+        "hint": "Pacific Bluffs, about 48 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": -1289.2849,
+        "y": -1115.446,
+        "hint": "Vespucci, about 6 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": -1503.1207,
+        "y": -936.5198,
+        "hint": "Del Perro Beach, about 9 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -1334.7336,
+        "y": -1280.1775,
+        "hint": "Vespucci Beach, about 4 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -1183.4398,
+        "y": -1559.4344,
+        "hint": "Vespucci Beach, about 3 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -971.0191,
+        "y": -1093.4802,
+        "hint": "Vespucci Canals, at sea level"
+      },
+      {
+        "n": 16,
+        "x": -840.8212,
+        "y": -1207.8795,
+        "hint": "Vespucci Canals, about 6 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": -296.9001,
+        "y": -1334.1732,
+        "hint": "Strawberry, about 30 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": -225.556,
+        "y": -1500.448,
+        "hint": "Chamberlain Hills, about 31 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": -121.627,
+        "y": -1489.878,
+        "hint": "Chamberlain Hills, about 33 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -195.651,
+        "y": -1607.897,
+        "hint": "Chamberlain Hills, about 33 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -160.142,
+        "y": -1681.59,
+        "hint": "Chamberlain Hills, about 36 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": -81.4956,
+        "y": -1642.0433,
+        "hint": "Chamberlain Hills, about 28 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": -20.704,
+        "y": -1856.823,
+        "hint": "Davis, about 24 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 23.953,
+        "y": -1897.309,
+        "hint": "Davis, about 22 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 151.071,
+        "y": -1865.461,
+        "hint": "Davis, about 23 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": 177.9339,
+        "y": -1927.6476,
+        "hint": "Davis, about 20 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": 224.824,
+        "y": -2036.894,
+        "hint": "Rancho, about 17 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": 325.4174,
+        "y": -1946.5948,
+        "hint": "Rancho, about 24 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": 386.328,
+        "y": -1880.668,
+        "hint": "Rancho, about 25 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": 321.5227,
+        "y": -1758.7201,
+        "hint": "Rancho, about 28 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": 496.8552,
+        "y": -1819.1217,
+        "hint": "Rancho, about 28 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": 430.3069,
+        "y": -1724.5426,
+        "hint": "Rancho, about 29 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 413.243,
+        "y": -1487.521,
+        "hint": "Rancho, about 29 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": 376.6,
+        "y": -2067.951,
+        "hint": "Rancho, about 20 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": 297.152,
+        "y": -2096.86,
+        "hint": "Rancho, about 17 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": 1257.384,
+        "y": -1762.429,
+        "hint": "El Burro Heights, about 49 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": 1310.985,
+        "y": -1698.068,
+        "hint": "El Burro Heights, about 57 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": 1203.222,
+        "y": -1672.258,
+        "hint": "El Burro Heights, about 41 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": 1296.15,
+        "y": -1619.214,
+        "hint": "El Burro Heights, about 53 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": 1231.962,
+        "y": -1590.563,
+        "hint": "El Burro Heights, about 53 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": 1152.695,
+        "y": -1531.528,
+        "hint": "El Burro Heights, about 34 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": 1184.524,
+        "y": -1464.062,
+        "hint": "El Burro Heights, about 34 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": 1320.3418,
+        "y": -1557.6378,
+        "hint": "El Burro Heights, about 50 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": 1435.174,
+        "y": -1491.414,
+        "hint": "El Burro Heights, about 63 m above sea level"
+      },
+      {
+        "n": 45,
+        "x": 806.0478,
+        "y": -1073.2883,
+        "hint": "La Mesa, about 28 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 847.3984,
+        "y": -1021.431,
+        "hint": "La Mesa, about 27 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": 477.993,
+        "y": -976.005,
+        "hint": "Mission Row, about 27 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": 387.744,
+        "y": -973.043,
+        "hint": "Mission Row, about 28 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": 359.719,
+        "y": -1072.742,
+        "hint": "Mission Row, about 29 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": 262.8465,
+        "y": -1026.9795,
+        "hint": "Mission Row, about 28 m above sea level"
+      },
+      {
+        "n": 51,
+        "x": 244.76,
+        "y": -1073.888,
+        "hint": "Mission Row, about 28 m above sea level"
+      },
+      {
+        "n": 52,
+        "x": 1209.887,
+        "y": -1388.9767,
+        "hint": "Murrieta Heights, about 34 m above sea level"
+      },
+      {
+        "n": 53,
+        "x": 1142.299,
+        "y": -981.9567,
+        "hint": "Murrieta Heights, about 45 m above sea level"
+      },
+      {
+        "n": 54,
+        "x": 73.529,
+        "y": -1026.593,
+        "hint": "Pillbox Hill, about 28 m above sea level"
+      },
+      {
+        "n": 55,
+        "x": 68.017,
+        "y": -960.636,
+        "hint": "Pillbox Hill, about 29 m above sea level"
+      },
+      {
+        "n": 56,
+        "x": -16.947,
+        "y": -979.452,
+        "hint": "Pillbox Hill, about 29 m above sea level"
+      },
+      {
+        "n": 57,
+        "x": -1205.7654,
+        "y": -1135.7906,
+        "hint": "Vespucci Canals, about 7 m above sea level"
+      },
+      {
+        "n": 58,
+        "x": -1124.566,
+        "y": -1089.562,
+        "hint": "Vespucci Canals, about 2 m above sea level"
+      },
+      {
+        "n": 59,
+        "x": -1075.785,
+        "y": -1027.721,
+        "hint": "Vespucci Canals, about 4 m above sea level"
+      },
+      {
+        "n": 60,
+        "x": -961.535,
+        "y": -940.509,
+        "hint": "Vespucci Canals, at sea level"
+      },
+      {
+        "n": 61,
+        "x": -1028.6696,
+        "y": -920.2025,
+        "hint": "Vespucci Canals, about 4 m above sea level"
+      },
+      {
+        "n": 62,
+        "x": -1150.722,
+        "y": -990.091,
+        "hint": "Vespucci Canals, at sea level"
+      },
+      {
+        "n": 63,
+        "x": -1726.561,
+        "y": -192.421,
+        "hint": "Pacific Bluffs, about 58 m above sea level"
+      },
+      {
+        "n": 64,
+        "x": -62.999,
+        "y": -1450.7926,
+        "hint": "Strawberry, about 31 m above sea level"
+      },
+      {
+        "n": 65,
+        "x": -1548.042,
+        "y": -90.522,
+        "hint": "Richman, about 54 m above sea level"
+      },
+      {
+        "n": 66,
+        "x": -1465.655,
+        "y": -31.124,
+        "hint": "Richman, about 54 m above sea level"
+      },
+      {
+        "n": 67,
+        "x": -1475.253,
+        "y": 63.768,
+        "hint": "Richman, about 52 m above sea level"
+      },
+      {
+        "n": 68,
+        "x": -1565.532,
+        "y": 40.189,
+        "hint": "Richman, about 58 m above sea level"
+      },
+      {
+        "n": 69,
+        "x": -1650.799,
+        "y": 150.181,
+        "hint": "Richman, about 61 m above sea level"
+      },
+      {
+        "n": 70,
+        "x": -1538.653,
+        "y": 130.704,
+        "hint": "Richman, about 56 m above sea level"
+      },
+      {
+        "n": 71,
+        "x": -1179.64,
+        "y": 292.144,
+        "hint": "GWC and Golfing Society, about 68 m above sea level"
+      },
+      {
+        "n": 72,
+        "x": -1023.641,
+        "y": 358.387,
+        "hint": "Rockford Hills, about 70 m above sea level"
+      },
+      {
+        "n": 73,
+        "x": -1131.7239,
+        "y": 390.5965,
+        "hint": "GWC and Golfing Society, about 70 m above sea level"
+      },
+      {
+        "n": 74,
+        "x": -1214.8945,
+        "y": 461.5896,
+        "hint": "Vinewood Hills, about 91 m above sea level"
+      },
+      {
+        "n": 75,
+        "x": -1499.284,
+        "y": 523.861,
+        "hint": "Vinewood Hills, about 117 m above sea level"
+      },
+      {
+        "n": 76,
+        "x": -1290.1078,
+        "y": 648.5641,
+        "hint": "Vinewood Hills, about 140 m above sea level"
+      },
+      {
+        "n": 77,
+        "x": -1123.263,
+        "y": 575.838,
+        "hint": "Vinewood Hills, about 103 m above sea level"
+      },
+      {
+        "n": 78,
+        "x": -1025.834,
+        "y": 505.1749,
+        "hint": "Vinewood Hills, about 81 m above sea level"
+      },
+      {
+        "n": 79,
+        "x": -969.444,
+        "y": 434.741,
+        "hint": "Rockford Hills, about 80 m above sea level"
+      },
+      {
+        "n": 80,
+        "x": -864.8736,
+        "y": 389.6919,
+        "hint": "Rockford Hills, about 86 m above sea level"
+      },
+      {
+        "n": 81,
+        "x": -819.564,
+        "y": 266.954,
+        "hint": "Rockford Hills, about 85 m above sea level"
+      },
+      {
+        "n": 82,
+        "x": -597.9922,
+        "y": 278.1837,
+        "hint": "West Vinewood, about 81 m above sea level"
+      },
+      {
+        "n": 83,
+        "x": -571.93,
+        "y": 401.957,
+        "hint": "West Vinewood, about 100 m above sea level"
+      },
+      {
+        "n": 84,
+        "x": -585.74,
+        "y": 494.794,
+        "hint": "Vinewood Hills, about 106 m above sea level"
+      },
+      {
+        "n": 85,
+        "x": -718.91,
+        "y": 490.583,
+        "hint": "Vinewood Hills, about 108 m above sea level"
+      },
+      {
+        "n": 86,
+        "x": -884.518,
+        "y": 519.033,
+        "hint": "Vinewood Hills, about 91 m above sea level"
+      },
+      {
+        "n": 87,
+        "x": -937.445,
+        "y": 591.477,
+        "hint": "Vinewood Hills, about 100 m above sea level"
+      },
+      {
+        "n": 88,
+        "x": -702.494,
+        "y": 589.252,
+        "hint": "Vinewood Hills, about 141 m above sea level"
+      },
+      {
+        "n": 89,
+        "x": -888.666,
+        "y": 699.998,
+        "hint": "Vinewood Hills, about 150 m above sea level"
+      },
+      {
+        "n": 90,
+        "x": -1019.0078,
+        "y": 718.9766,
+        "hint": "Vinewood Hills, about 163 m above sea level"
+      },
+      {
+        "n": 91,
+        "x": -1163.977,
+        "y": 729.633,
+        "hint": "Vinewood Hills, about 155 m above sea level"
+      },
+      {
+        "n": 92,
+        "x": -578.299,
+        "y": 734.835,
+        "hint": "Vinewood Hills, about 183 m above sea level"
+      },
+      {
+        "n": 93,
+        "x": -549.275,
+        "y": 826.159,
+        "hint": "Vinewood Hills, about 197 m above sea level"
+      },
+      {
+        "n": 94,
+        "x": -493.592,
+        "y": 739.668,
+        "hint": "Vinewood Hills, about 162 m above sea level"
+      },
+      {
+        "n": 95,
+        "x": -447.063,
+        "y": 685.288,
+        "hint": "Vinewood Hills, about 152 m above sea level"
+      },
+      {
+        "n": 96,
+        "x": -344.611,
+        "y": 624.076,
+        "hint": "Vinewood Hills, about 170 m above sea level"
+      },
+      {
+        "n": 97,
+        "x": -247.952,
+        "y": 622.206,
+        "hint": "Vinewood Hills, about 187 m above sea level"
+      },
+      {
+        "n": 98,
+        "x": -137.8688,
+        "y": 592.7097,
+        "hint": "Vinewood Hills, about 204 m above sea level"
+      },
+      {
+        "n": 99,
+        "x": -178.251,
+        "y": 502.183,
+        "hint": "Vinewood Hills, about 136 m above sea level"
+      },
+      {
+        "n": 100,
+        "x": -353.838,
+        "y": 467.898,
+        "hint": "Vinewood Hills, about 112 m above sea level"
+      },
+      {
+        "n": 101,
+        "x": -370.018,
+        "y": 343.79,
+        "hint": "West Vinewood, about 109 m above sea level"
+      },
+      {
+        "n": 102,
+        "x": -250.332,
+        "y": 397.556,
+        "hint": "West Vinewood, about 110 m above sea level"
+      },
+      {
+        "n": 103,
+        "x": -85.666,
+        "y": 424.562,
+        "hint": "West Vinewood, about 112 m above sea level"
+      },
+      {
+        "n": 104,
+        "x": -822.3367,
+        "y": 813.652,
+        "hint": "Vinewood Hills, about 200 m above sea level"
+      },
+      {
+        "n": 105,
+        "x": -1313.3723,
+        "y": 451.3146,
+        "hint": "Vinewood Hills, about 100 m above sea level"
+      },
+      {
+        "n": 106,
+        "x": -1686.279,
+        "y": -290.491,
+        "hint": "Pacific Bluffs, about 51 m above sea level"
+      },
+      {
+        "n": 107,
+        "x": 82.5397,
+        "y": -91.9352,
+        "hint": "Hawick, about 60 m above sea level"
+      },
+      {
+        "n": 108,
+        "x": 124.799,
+        "y": 66.057,
+        "hint": "Downtown Vinewood, about 79 m above sea level"
+      },
+      {
+        "n": 109,
+        "x": 12.9173,
+        "y": -8.399,
+        "hint": "West Vinewood, about 69 m above sea level"
+      },
+      {
+        "n": 110,
+        "x": -176.8698,
+        "y": 86.8545,
+        "hint": "West Vinewood, about 69 m above sea level"
+      },
+      {
+        "n": 111,
+        "x": -438.5465,
+        "y": -67.3735,
+        "hint": "Burton, about 42 m above sea level"
+      },
+      {
+        "n": 112,
+        "x": -375.576,
+        "y": 44.577,
+        "hint": "West Vinewood, about 53 m above sea level"
+      },
+      {
+        "n": 113,
+        "x": -569.9086,
+        "y": 168.254,
+        "hint": "West Vinewood, about 66 m above sea level"
+      },
+      {
+        "n": 114,
+        "x": 1775.932,
+        "y": 3740.6697,
+        "hint": "Sandy Shores, about 34 m above sea level"
+      },
+      {
+        "n": 115,
+        "x": 1915.427,
+        "y": 3825.728,
+        "hint": "Sandy Shores, about 31 m above sea level"
+      },
+      {
+        "n": 116,
+        "x": 2002.334,
+        "y": 3780.291,
+        "hint": "Sandy Shores, about 31 m above sea level"
+      },
+      {
+        "n": 117,
+        "x": 1923.4122,
+        "y": 3916.0962,
+        "hint": "Sandy Shores, about 32 m above sea level"
+      },
+      {
+        "n": 118,
+        "x": 1759.4656,
+        "y": 3870.6042,
+        "hint": "Sandy Shores, about 34 m above sea level"
+      },
+      {
+        "n": 119,
+        "x": 1661.887,
+        "y": 3822.058,
+        "hint": "Sandy Shores, about 34 m above sea level"
+      },
+      {
+        "n": 120,
+        "x": 1419.6428,
+        "y": 3668.2358,
+        "hint": "Sandy Shores, about 39 m above sea level"
+      },
+      {
+        "n": 121,
+        "x": 439.621,
+        "y": 3571.637,
+        "hint": "Grand Senora Desert, about 32 m above sea level"
+      },
+      {
+        "n": 122,
+        "x": 247.488,
+        "y": 3167.516,
+        "hint": "Grand Senora Desert, about 42 m above sea level"
+      },
+      {
+        "n": 123,
+        "x": 197.3604,
+        "y": 3030.443,
+        "hint": "Grand Senora Desert, about 43 m above sea level"
+      },
+      {
+        "n": 124,
+        "x": -286.359,
+        "y": 2838.471,
+        "hint": "Great Chaparral, about 54 m above sea level"
+      },
+      {
+        "n": 125,
+        "x": -325.2867,
+        "y": 2816.4832,
+        "hint": "Great Chaparral, about 58 m above sea level"
+      },
+      {
+        "n": 126,
+        "x": -461.6427,
+        "y": 2859.4268,
+        "hint": "Zancudo River, about 34 m above sea level"
+      },
+      {
+        "n": 127,
+        "x": -37.136,
+        "y": 2869.897,
+        "hint": "Grand Senora Desert, about 59 m above sea level"
+      },
+      {
+        "n": 128,
+        "x": 470.221,
+        "y": 2607.623,
+        "hint": "Harmony, about 43 m above sea level"
+      },
+      {
+        "n": 129,
+        "x": 563.666,
+        "y": 2599.943,
+        "hint": "Harmony, about 42 m above sea level"
+      },
+      {
+        "n": 130,
+        "x": 733.646,
+        "y": 2524.984,
+        "hint": "Grand Senora Desert, about 72 m above sea level"
+      },
+      {
+        "n": 131,
+        "x": 721.333,
+        "y": 2331.018,
+        "hint": "Grand Senora Desert, about 51 m above sea level"
+      },
+      {
+        "n": 132,
+        "x": 789.176,
+        "y": 2180.511,
+        "hint": "Redwood Lights Track, about 52 m above sea level"
+      },
+      {
+        "n": 133,
+        "x": 843.259,
+        "y": 2113.888,
+        "hint": "Redwood Lights Track, about 51 m above sea level"
+      },
+      {
+        "n": 134,
+        "x": 1531.9417,
+        "y": 1729.3099,
+        "hint": "Grand Senora Desert, about 109 m above sea level"
+      },
+      {
+        "n": 135,
+        "x": 2588.599,
+        "y": 3167.521,
+        "hint": "Grand Senora Desert, about 50 m above sea level"
+      },
+      {
+        "n": 136,
+        "x": 2618.848,
+        "y": 3280.744,
+        "hint": "Grand Senora Desert, about 54 m above sea level"
+      },
+      {
+        "n": 137,
+        "x": 2985.0105,
+        "y": 3482.104,
+        "hint": "San Chianski Mountain Range, about 70 m above sea level"
+      },
+      {
+        "n": 138,
+        "x": 1356.3026,
+        "y": 1147.1112,
+        "hint": "Vinewood Hills, about 113 m above sea level"
+      },
+      {
+        "n": 139,
+        "x": 1533.893,
+        "y": 2219.8833,
+        "hint": "Grand Senora Desert, about 76 m above sea level"
+      },
+      {
+        "n": 140,
+        "x": -148.0881,
+        "y": 287.3474,
+        "hint": "West Vinewood, about 96 m above sea level"
+      },
+      {
+        "n": 141,
+        "x": 1989.794,
+        "y": 3054.594,
+        "hint": "Grand Senora Desert, about 46 m above sea level"
+      },
+      {
+        "n": 142,
+        "x": 2166.818,
+        "y": 3381.051,
+        "hint": "Sandy Shores, about 45 m above sea level"
+      },
+      {
+        "n": 143,
+        "x": 2180.096,
+        "y": 3497.3606,
+        "hint": "Sandy Shores, about 44 m above sea level"
+      },
+      {
+        "n": 144,
+        "x": 2418.844,
+        "y": 4021.485,
+        "hint": "Sandy Shores, about 36 m above sea level"
+      },
+      {
+        "n": 145,
+        "x": 346.24,
+        "y": 441.64,
+        "hint": "Downtown Vinewood, about 147 m above sea level"
+      },
+      {
+        "n": 146,
+        "x": 325.772,
+        "y": 536.228,
+        "hint": "Vinewood Hills, about 153 m above sea level"
+      },
+      {
+        "n": 147,
+        "x": 216.718,
+        "y": 621.505,
+        "hint": "Vinewood Hills, about 187 m above sea level"
+      },
+      {
+        "n": 148,
+        "x": 167.685,
+        "y": 487.5329,
+        "hint": "Vinewood Hills, about 142 m above sea level"
+      },
+      {
+        "n": 149,
+        "x": 57.1598,
+        "y": 451.9345,
+        "hint": "Vinewood Hills, about 146 m above sea level"
+      },
+      {
+        "n": 150,
+        "x": 8.554,
+        "y": 542.77,
+        "hint": "Vinewood Hills, about 175 m above sea level"
+      },
+      {
+        "n": 151,
+        "x": -148.985,
+        "y": 996.5,
+        "hint": "Vinewood Hills, about 236 m above sea level"
+      },
+      {
+        "n": 152,
+        "x": -2006.6747,
+        "y": 445.9337,
+        "hint": "Banham Canyon, about 102 m above sea level"
+      },
+      {
+        "n": 153,
+        "x": -1975.162,
+        "y": 629.493,
+        "hint": "Vinewood Hills, about 122 m above sea level"
+      },
+      {
+        "n": 154,
+        "x": -1812.3351,
+        "y": 342.8018,
+        "hint": "Richman, about 88 m above sea level"
+      },
+      {
+        "n": 155,
+        "x": -1963.542,
+        "y": 246.943,
+        "hint": "Richman, about 86 m above sea level"
+      },
+      {
+        "n": 156,
+        "x": -340.031,
+        "y": 6165.106,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 157,
+        "x": -404.723,
+        "y": 6316.063,
+        "hint": "Paleto Bay, about 28 m above sea level"
+      },
+      {
+        "n": 158,
+        "x": -305.281,
+        "y": 6329.808,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 159,
+        "x": -245.486,
+        "y": 6413.258,
+        "hint": "Paleto Bay, about 30 m above sea level"
+      },
+      {
+        "n": 160,
+        "x": -110.0724,
+        "y": 6460.96,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 161,
+        "x": -48.2033,
+        "y": 6580.343,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 162,
+        "x": 56.455,
+        "y": 6643.994,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 163,
+        "x": -103.7947,
+        "y": 6315.484,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 164,
+        "x": 2232.9812,
+        "y": 5611.867,
+        "hint": "Mount Chiliad, about 54 m above sea level"
+      },
+      {
+        "n": 165,
+        "x": 1856.4385,
+        "y": 3683.8718,
+        "hint": "Sandy Shores, about 33 m above sea level"
+      },
+      {
+        "n": 166,
+        "x": 3312.5024,
+        "y": 5176.1436,
+        "hint": "Mount Gordo, about 19 m above sea level"
+      },
+      {
+        "n": 167,
+        "x": 1662.391,
+        "y": 4775.14,
+        "hint": "Grapeseed, about 41 m above sea level"
+      },
+      {
+        "n": 168,
+        "x": 1724.5878,
+        "y": 4643.4307,
+        "hint": "Grapeseed, about 43 m above sea level"
+      },
+      {
+        "n": 169,
+        "x": 1968.356,
+        "y": 4622.632,
+        "hint": "Grapeseed, about 40 m above sea level"
+      },
+      {
+        "n": 170,
+        "x": 1309.1057,
+        "y": 4362.9126,
+        "hint": "Mount Chiliad, about 41 m above sea level"
+      },
+      {
+        "n": 171,
+        "x": 722.405,
+        "y": 4186.963,
+        "hint": "On the shore of the Alamo Sea, about 40 m above sea level"
+      },
+      {
+        "n": 172,
+        "x": 92.067,
+        "y": 3743.533,
+        "hint": "Stab City, about 39 m above sea level"
+      },
+      {
+        "n": 173,
+        "x": 33.199,
+        "y": 3668.209,
+        "hint": "Stab City, about 39 m above sea level"
+      },
+      {
+        "n": 174,
+        "x": -267.7338,
+        "y": 2628.924,
+        "hint": "Great Chaparral, about 61 m above sea level"
+      },
+      {
+        "n": 175,
+        "x": -263.6633,
+        "y": 2197.2686,
+        "hint": "Great Chaparral, about 129 m above sea level"
+      },
+      {
+        "n": 176,
+        "x": 749.868,
+        "y": 224.827,
+        "hint": "Vinewood Hills, about 86 m above sea level"
+      },
+      {
+        "n": 177,
+        "x": 133.2061,
+        "y": -567.3676,
+        "hint": "Downtown, about 43 m above sea level"
+      },
+      {
+        "n": 178,
+        "x": -1874.8036,
+        "y": 2030.1644,
+        "hint": "Tongva Hills, about 139 m above sea level"
+      },
+      {
+        "n": 179,
+        "x": -1114.113,
+        "y": 2689.1895,
+        "hint": "Zancudo River, about 18 m above sea level"
+      },
+      {
+        "n": 180,
+        "x": -3184.543,
+        "y": 1293.3907,
+        "hint": "Chumash, about 14 m above sea level"
+      },
+      {
+        "n": 181,
+        "x": -3205.8713,
+        "y": 1151.4941,
+        "hint": "Chumash, about 9 m above sea level"
+      },
+      {
+        "n": 182,
+        "x": -3233.1646,
+        "y": 933.7818,
+        "hint": "Chumash, about 16 m above sea level"
+      },
+      {
+        "n": 183,
+        "x": -2997.6167,
+        "y": 695.5018,
+        "hint": "Banham Canyon, about 25 m above sea level"
+      },
+      {
+        "n": 184,
+        "x": -3036.4973,
+        "y": 491.4613,
+        "hint": "Banham Canyon, about 6 m above sea level"
+      },
+      {
+        "n": 185,
+        "x": -3087.5505,
+        "y": 220.9675,
+        "hint": "Banham Canyon, about 13 m above sea level"
+      },
+      {
+        "n": 186,
+        "x": -769.6445,
+        "y": 5514.0327,
+        "hint": "Paleto Forest, about 34 m above sea level"
+      },
+      {
+        "n": 187,
+        "x": 1706.9729,
+        "y": 6425.33,
+        "hint": "Mount Chiliad, about 32 m above sea level"
+      },
+      {
+        "n": 188,
+        "x": 2452.6084,
+        "y": 4964.7036,
+        "hint": "Grapeseed, about 46 m above sea level"
+      },
+      {
+        "n": 189,
+        "x": 2638.9387,
+        "y": 4245.413,
+        "hint": "Grapeseed, about 44 m above sea level"
+      },
+      {
+        "n": 190,
+        "x": 964.9565,
+        "y": -545.2515,
+        "hint": "Mirror Park, about 58 m above sea level"
+      },
+      {
+        "n": 191,
+        "x": 961.9368,
+        "y": -596.4669,
+        "hint": "Mirror Park, about 59 m above sea level"
+      },
+      {
+        "n": 192,
+        "x": 997.1859,
+        "y": -728.1738,
+        "hint": "Mirror Park, about 57 m above sea level"
+      },
+      {
+        "n": 193,
+        "x": 1207.3008,
+        "y": -621.1257,
+        "hint": "Mirror Park, about 65 m above sea level"
+      },
+      {
+        "n": 194,
+        "x": 1371.0745,
+        "y": -555.7357,
+        "hint": "Mirror Park, about 74 m above sea level"
+      },
+      {
+        "n": 195,
+        "x": 1323.7899,
+        "y": -583.4503,
+        "hint": "Mirror Park, about 72 m above sea level"
+      },
+      {
+        "n": 196,
+        "x": 1261.8739,
+        "y": -428.6422,
+        "hint": "Mirror Park, about 69 m above sea level"
+      },
+      {
+        "n": 197,
+        "x": 1011.4825,
+        "y": -424.2754,
+        "hint": "Mirror Park, about 64 m above sea level"
+      },
+      {
+        "n": 198,
+        "x": -2553.464,
+        "y": 1914.7833,
+        "hint": "Tongva Hills, about 168 m above sea level"
+      },
+      {
+        "n": 199,
+        "x": 3688.2966,
+        "y": 4563.8584,
+        "hint": "San Chianski Mountain Range, about 24 m above sea level"
+      },
+      {
+        "n": 200,
+        "x": -1523.871,
+        "y": 852.2529,
+        "hint": "Richman Glen, about 181 m above sea level"
+      }
+    ]
+  },
+  "oc-shipwrecks": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 5 = shipwreck chest, 30-spot pool; one active per day). Cross-checked 30/30 against an older decompile (YimMenu/GTA-V-Decompiled-Scripts).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": -389.978,
+        "y": -2215.861,
+        "hint": "Washed-up wreck on the shore of Elysian Island"
+      },
+      {
+        "n": 2,
+        "x": -872.646,
+        "y": -3121.243,
+        "hint": "Washed-up wreck on the shore of Los Santos International Airport"
+      },
+      {
+        "n": 3,
+        "x": -1969.555,
+        "y": -3073.933,
+        "hint": "Washed-up wreck on the shore of Los Santos International Airport"
+      },
+      {
+        "n": 4,
+        "x": -1227.362,
+        "y": -1862.997,
+        "hint": "Washed-up wreck on the coast near Vespucci Beach"
+      },
+      {
+        "n": 5,
+        "x": -1684.489,
+        "y": -1077.488,
+        "hint": "Washed-up wreck on the shore of Del Perro Beach"
+      },
+      {
+        "n": 6,
+        "x": -2219.716,
+        "y": -438.266,
+        "hint": "Washed-up wreck on the shore of Pacific Bluffs"
+      },
+      {
+        "n": 7,
+        "x": -3099.804,
+        "y": 494.968,
+        "hint": "Washed-up wreck on the shore of Banham Canyon"
+      },
+      {
+        "n": 8,
+        "x": -3226.636,
+        "y": 1337.312,
+        "hint": "Washed-up wreck on the coast near Chumash"
+      },
+      {
+        "n": 9,
+        "x": -2879.233,
+        "y": 2247.547,
+        "hint": "Washed-up wreck on the shore of Lago Zancudo"
+      },
+      {
+        "n": 10,
+        "x": -1767.392,
+        "y": 2642.144,
+        "hint": "Washed-up wreck on the shore of Fort Zancudo"
+      },
+      {
+        "n": 11,
+        "x": -180.913,
+        "y": 3081.589,
+        "hint": "Washed-up wreck on the shore of Zancudo River"
+      },
+      {
+        "n": 12,
+        "x": -2198.02,
+        "y": 4606.557,
+        "hint": "Washed-up wreck on the shore of North Chumash"
+      },
+      {
+        "n": 13,
+        "x": -1356.295,
+        "y": 5379.136,
+        "hint": "Washed-up wreck on the shore of Paleto Cove"
+      },
+      {
+        "n": 14,
+        "x": -844.701,
+        "y": 6045.489,
+        "hint": "Washed-up wreck on the shore of Paleto Forest"
+      },
+      {
+        "n": 15,
+        "x": 126.747,
+        "y": 7095.39,
+        "hint": "Washed-up wreck on the shore of Paleto Bay"
+      },
+      {
+        "n": 16,
+        "x": 473.135,
+        "y": 6741.893,
+        "hint": "Washed-up wreck on the shore of Paleto Bay"
+      },
+      {
+        "n": 17,
+        "x": 1469.845,
+        "y": 6629.33,
+        "hint": "Washed-up wreck on the shore of Procopio Beach"
+      },
+      {
+        "n": 18,
+        "x": 2356.588,
+        "y": 6663.491,
+        "hint": "Washed-up wreck on the coast near Mount Gordo"
+      },
+      {
+        "n": 19,
+        "x": 3380.806,
+        "y": 5670.246,
+        "hint": "Washed-up wreck on the coast near Mount Gordo"
+      },
+      {
+        "n": 20,
+        "x": 3198.166,
+        "y": 5091.909,
+        "hint": "Washed-up wreck on the shore of Mount Gordo"
+      },
+      {
+        "n": 21,
+        "x": 3947.421,
+        "y": 4403.337,
+        "hint": "Washed-up wreck on the shore of San Chianski Mountain Range"
+      },
+      {
+        "n": 22,
+        "x": 3901.5327,
+        "y": 3323.1387,
+        "hint": "Washed-up wreck on the coast near San Chianski Mountain Range"
+      },
+      {
+        "n": 23,
+        "x": 3646.8667,
+        "y": 3120.687,
+        "hint": "Washed-up wreck on the shore of San Chianski Mountain Range"
+      },
+      {
+        "n": 24,
+        "x": 2891.847,
+        "y": 1790.7085,
+        "hint": "Washed-up wreck on the coast near Ron Alternates Wind Farm"
+      },
+      {
+        "n": 25,
+        "x": 2779.8674,
+        "y": 1106.5143,
+        "hint": "Washed-up wreck on the coast near Tataviam Mountains"
+      },
+      {
+        "n": 26,
+        "x": 2783.5151,
+        "y": 82.6473,
+        "hint": "Washed-up wreck on the coast near Tataviam Mountains"
+      },
+      {
+        "n": 27,
+        "x": 2820.225,
+        "y": -759.2029,
+        "hint": "Washed-up wreck on the coast near Palomino Highlands"
+      },
+      {
+        "n": 28,
+        "x": 2772.996,
+        "y": -1606.0311,
+        "hint": "Washed-up wreck on the coast near Palomino Highlands"
+      },
+      {
+        "n": 29,
+        "x": 1818.4303,
+        "y": -2718.4414,
+        "hint": "Washed-up wreck on the shore of Palomino Highlands"
+      },
+      {
+        "n": 30,
+        "x": 987.383,
+        "y": -2681.047,
+        "hint": "Washed-up wreck on the shore of Cypress Flats"
+      }
+    ]
+  },
+  "oc-hidden-caches": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 1 = hidden cache ammo box, 100-spot underwater pool; 10 active per day). Cross-checked 100/100 against an older decompile (YimMenu/GTA-V-Decompiled-Scripts).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": -150.585,
+        "y": -2852.332,
+        "hint": "Elysian Island, underwater about 18 m deep"
+      },
+      {
+        "n": 2,
+        "x": -540.975,
+        "y": -2465.579,
+        "hint": "Los Santos International Airport, underwater about 18 m deep"
+      },
+      {
+        "n": 3,
+        "x": 15.332,
+        "y": -2323.989,
+        "hint": "Banning, underwater about 14 m deep"
+      },
+      {
+        "n": 4,
+        "x": 461.483,
+        "y": -2386.212,
+        "hint": "Elysian Island, underwater about 10 m deep"
+      },
+      {
+        "n": 5,
+        "x": 839.554,
+        "y": -2782.746,
+        "hint": "Terminal, underwater about 21 m deep"
+      },
+      {
+        "n": 6,
+        "x": 1309.934,
+        "y": -2985.761,
+        "hint": "Terminal, underwater about 21 m deep"
+      },
+      {
+        "n": 7,
+        "x": 1394.588,
+        "y": -3371.972,
+        "hint": "Offshore near Terminal, underwater about 18 m deep"
+      },
+      {
+        "n": 8,
+        "x": 1067.032,
+        "y": -3610.489,
+        "hint": "Offshore near Terminal, underwater about 53 m deep"
+      },
+      {
+        "n": 9,
+        "x": 371.111,
+        "y": -3226.341,
+        "hint": "Elysian Island, underwater about 20 m deep"
+      },
+      {
+        "n": 10,
+        "x": -1365.19,
+        "y": -3701.575,
+        "hint": "Offshore near Los Santos International Airport, underwater about 32 m deep"
+      },
+      {
+        "n": 11,
+        "x": -1983.722,
+        "y": -2769.391,
+        "hint": "Offshore near Los Santos International Airport, underwater about 23 m deep"
+      },
+      {
+        "n": 12,
+        "x": -1295.859,
+        "y": -1948.583,
+        "hint": "Offshore near Los Santos International Airport, underwater about 7 m deep"
+      },
+      {
+        "n": 13,
+        "x": -1791.493,
+        "y": -1284.341,
+        "hint": "Del Perro Beach, underwater about 16 m deep"
+      },
+      {
+        "n": 14,
+        "x": -1879.817,
+        "y": -1111.846,
+        "hint": "Offshore near Del Perro Beach, underwater about 19 m deep"
+      },
+      {
+        "n": 15,
+        "x": -2086.537,
+        "y": -862.681,
+        "hint": "Offshore near Del Perro Beach, underwater about 37 m deep"
+      },
+      {
+        "n": 16,
+        "x": -2614.496,
+        "y": -636.549,
+        "hint": "Offshore near Pacific Bluffs, underwater about 35 m deep"
+      },
+      {
+        "n": 17,
+        "x": -2815.156,
+        "y": -585.703,
+        "hint": "Offshore near Pacific Bluffs, underwater about 60 m deep"
+      },
+      {
+        "n": 18,
+        "x": -3412.1304,
+        "y": 165.8565,
+        "hint": "Offshore near Banham Canyon, underwater about 33 m deep"
+      },
+      {
+        "n": 19,
+        "x": -3554.145,
+        "y": 817.679,
+        "hint": "Offshore near Chumash, underwater about 29 m deep"
+      },
+      {
+        "n": 20,
+        "x": -3440.336,
+        "y": 1416.229,
+        "hint": "Offshore near Chumash, underwater about 34 m deep"
+      },
+      {
+        "n": 21,
+        "x": -3295.557,
+        "y": 2020.828,
+        "hint": "Offshore near Tongva Hills, underwater about 20 m deep"
+      },
+      {
+        "n": 22,
+        "x": -3020.068,
+        "y": 2527.044,
+        "hint": "Offshore near Lago Zancudo, underwater about 23 m deep"
+      },
+      {
+        "n": 23,
+        "x": -3183.344,
+        "y": 3051.828,
+        "hint": "Offshore near Fort Zancudo, underwater about 39 m deep"
+      },
+      {
+        "n": 24,
+        "x": -3270.3245,
+        "y": 3670.6917,
+        "hint": "Offshore near Fort Zancudo, underwater about 27 m deep"
+      },
+      {
+        "n": 25,
+        "x": -2860.754,
+        "y": 3912.275,
+        "hint": "Offshore near North Chumash, underwater about 34 m deep"
+      },
+      {
+        "n": 26,
+        "x": -2752.189,
+        "y": 4572.626,
+        "hint": "Offshore near North Chumash, underwater about 21 m deep"
+      },
+      {
+        "n": 27,
+        "x": -2407.659,
+        "y": 4898.846,
+        "hint": "North Chumash, underwater about 45 m deep"
+      },
+      {
+        "n": 28,
+        "x": -1408.649,
+        "y": 5734.096,
+        "hint": "Paleto Cove, underwater about 36 m deep"
+      },
+      {
+        "n": 29,
+        "x": -1008.661,
+        "y": 6531.678,
+        "hint": "Offshore near Paleto Forest, underwater about 22 m deep"
+      },
+      {
+        "n": 30,
+        "x": -811.495,
+        "y": 6667.619,
+        "hint": "Offshore near Paleto Bay, underwater about 14 m deep"
+      },
+      {
+        "n": 31,
+        "x": -420.119,
+        "y": 7224.093,
+        "hint": "Offshore near Paleto Bay, underwater about 45 m deep"
+      },
+      {
+        "n": 32,
+        "x": 425.78,
+        "y": 7385.154,
+        "hint": "Offshore near Paleto Bay, underwater about 44 m deep"
+      },
+      {
+        "n": 33,
+        "x": 556.131,
+        "y": 7158.932,
+        "hint": "Offshore near Paleto Bay, underwater about 38 m deep"
+      },
+      {
+        "n": 34,
+        "x": 1441.456,
+        "y": 6828.521,
+        "hint": "Offshore near Procopio Beach, underwater about 45 m deep"
+      },
+      {
+        "n": 35,
+        "x": 1820.262,
+        "y": 7017.078,
+        "hint": "Offshore near Mount Gordo, underwater about 79 m deep"
+      },
+      {
+        "n": 36,
+        "x": 2396.039,
+        "y": 6939.861,
+        "hint": "Offshore near Mount Gordo, underwater about 105 m deep"
+      },
+      {
+        "n": 37,
+        "x": 2475.159,
+        "y": 6704.704,
+        "hint": "Offshore near Mount Gordo, underwater about 9 m deep"
+      },
+      {
+        "n": 38,
+        "x": 2696.607,
+        "y": 6655.181,
+        "hint": "Offshore near Mount Gordo, underwater about 22 m deep"
+      },
+      {
+        "n": 39,
+        "x": 3049.285,
+        "y": 6549.182,
+        "hint": "Offshore near Mount Gordo, underwater about 36 m deep"
+      },
+      {
+        "n": 40,
+        "x": 3411.339,
+        "y": 6308.514,
+        "hint": "Offshore near Mount Gordo, underwater about 53 m deep"
+      },
+      {
+        "n": 41,
+        "x": 3770.457,
+        "y": 5838.503,
+        "hint": "Offshore near Mount Gordo, underwater about 28 m deep"
+      },
+      {
+        "n": 42,
+        "x": 3625,
+        "y": 5543.203,
+        "hint": "Offshore near Mount Gordo, underwater about 27 m deep"
+      },
+      {
+        "n": 43,
+        "x": 3986.087,
+        "y": 3867.625,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 32 m deep"
+      },
+      {
+        "n": 44,
+        "x": 3846.006,
+        "y": 3683.454,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 17 m deep"
+      },
+      {
+        "n": 45,
+        "x": 4130.328,
+        "y": 3530.792,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 28 m deep"
+      },
+      {
+        "n": 46,
+        "x": 3897.776,
+        "y": 3050.804,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 19 m deep"
+      },
+      {
+        "n": 47,
+        "x": 3751.005,
+        "y": 2672.416,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 49 m deep"
+      },
+      {
+        "n": 48,
+        "x": 3559.241,
+        "y": 2070.137,
+        "hint": "Offshore near Ron Alternates Wind Farm, underwater about 38 m deep"
+      },
+      {
+        "n": 49,
+        "x": 3410.804,
+        "y": 1225.255,
+        "hint": "Offshore near Tataviam Mountains, underwater about 56 m deep"
+      },
+      {
+        "n": 50,
+        "x": 3373.351,
+        "y": 323.788,
+        "hint": "Offshore near Tataviam Mountains, underwater about 20 m deep"
+      },
+      {
+        "n": 51,
+        "x": 3152.983,
+        "y": -261.257,
+        "hint": "Offshore near Palomino Highlands, underwater about 8 m deep"
+      },
+      {
+        "n": 52,
+        "x": 3192.368,
+        "y": -367.909,
+        "hint": "Offshore near Palomino Highlands, underwater about 30 m deep"
+      },
+      {
+        "n": 53,
+        "x": 3178.722,
+        "y": -988.684,
+        "hint": "Offshore near Palomino Highlands, underwater about 25 m deep"
+      },
+      {
+        "n": 54,
+        "x": 2701.915,
+        "y": -1365.816,
+        "hint": "Offshore near Palomino Highlands, underwater about 13 m deep"
+      },
+      {
+        "n": 55,
+        "x": 3045.378,
+        "y": -1682.987,
+        "hint": "Offshore near Palomino Highlands, underwater about 32 m deep"
+      },
+      {
+        "n": 56,
+        "x": 2952.829,
+        "y": -2313.142,
+        "hint": "Offshore near Palomino Highlands, underwater about 94 m deep"
+      },
+      {
+        "n": 57,
+        "x": 2361.167,
+        "y": -2728.077,
+        "hint": "Offshore near Palomino Highlands, underwater about 67 m deep"
+      },
+      {
+        "n": 58,
+        "x": 1824.039,
+        "y": -2973.19,
+        "hint": "Offshore near Palomino Highlands, underwater about 42 m deep"
+      },
+      {
+        "n": 59,
+        "x": -575.734,
+        "y": -3132.886,
+        "hint": "Offshore near Elysian Island, underwater about 22 m deep"
+      },
+      {
+        "n": 60,
+        "x": -1872.968,
+        "y": -2087.878,
+        "hint": "Los Santos International Airport, underwater about 62 m deep"
+      },
+      {
+        "n": 61,
+        "x": -3205.486,
+        "y": -144.9,
+        "hint": "Offshore near Pacific Bluffs, underwater about 32 m deep"
+      },
+      {
+        "n": 62,
+        "x": -1760.539,
+        "y": 5721.301,
+        "hint": "Paleto Cove, underwater about 75 m deep"
+      },
+      {
+        "n": 63,
+        "x": -1293.948,
+        "y": 5886.757,
+        "hint": "Offshore near Paleto Cove, underwater about 27 m deep"
+      },
+      {
+        "n": 64,
+        "x": -6.032,
+        "y": 7464.313,
+        "hint": "Offshore near Paleto Bay, underwater about 12 m deep"
+      },
+      {
+        "n": 65,
+        "x": 3627.174,
+        "y": 5286.089,
+        "hint": "Offshore near El Gordo Lighthouse, underwater about 35 m deep"
+      },
+      {
+        "n": 66,
+        "x": 3978.554,
+        "y": 4987.259,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 70 m deep"
+      },
+      {
+        "n": 67,
+        "x": 3995.491,
+        "y": 4858.986,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 38 m deep"
+      },
+      {
+        "n": 68,
+        "x": 4218.075,
+        "y": 4116.594,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 29 m deep"
+      },
+      {
+        "n": 69,
+        "x": 3795.855,
+        "y": 2327.765,
+        "hint": "Offshore near Davis Quartz, underwater about 37 m deep"
+      },
+      {
+        "n": 70,
+        "x": 3247.753,
+        "y": 1395.029,
+        "hint": "Offshore near Tataviam Mountains, underwater about 50 m deep"
+      },
+      {
+        "n": 71,
+        "x": 3451.907,
+        "y": 278.014,
+        "hint": "Offshore near Tataviam Mountains, underwater about 100 m deep"
+      },
+      {
+        "n": 72,
+        "x": 1061.475,
+        "y": 7157.525,
+        "hint": "Offshore near Procopio Beach, underwater about 28 m deep"
+      },
+      {
+        "n": 73,
+        "x": -1551.109,
+        "y": 5558.511,
+        "hint": "Paleto Cove, underwater about 22 m deep"
+      },
+      {
+        "n": 74,
+        "x": -29.194,
+        "y": -3484.225,
+        "hint": "Offshore near Elysian Island, underwater about 34 m deep"
+      },
+      {
+        "n": 75,
+        "x": 2981.125,
+        "y": 843.773,
+        "hint": "Offshore near Tataviam Mountains, underwater about 5 m deep"
+      },
+      {
+        "n": 76,
+        "x": 2446.59,
+        "y": -2413.441,
+        "hint": "Offshore near Palomino Highlands, underwater about 35 m deep"
+      },
+      {
+        "n": 77,
+        "x": 423.342,
+        "y": -2864.345,
+        "hint": "Elysian Island, underwater about 17 m deep"
+      },
+      {
+        "n": 78,
+        "x": 668.404,
+        "y": -3173.142,
+        "hint": "Elysian Island, underwater about 6 m deep"
+      },
+      {
+        "n": 79,
+        "x": -2318.251,
+        "y": 4976.115,
+        "hint": "North Chumash, underwater about 101 m deep"
+      },
+      {
+        "n": 80,
+        "x": 806.924,
+        "y": 6846.94,
+        "hint": "Offshore near Procopio Beach, underwater about 4 m deep"
+      },
+      {
+        "n": 81,
+        "x": 4404.907,
+        "y": 4617.076,
+        "hint": "Offshore near San Chianski Mountain Range, underwater about 20 m deep"
+      },
+      {
+        "n": 82,
+        "x": 3276.699,
+        "y": 1648.139,
+        "hint": "Offshore near Palmer-Taylor Power Station, underwater about 44 m deep"
+      },
+      {
+        "n": 83,
+        "x": 2979.325,
+        "y": 1.033,
+        "hint": "Offshore near Palomino Highlands, underwater about 17 m deep"
+      },
+      {
+        "n": 84,
+        "x": -838.069,
+        "y": -1436.609,
+        "hint": "La Puerta, underwater about 10 m deep"
+      },
+      {
+        "n": 85,
+        "x": -3334.358,
+        "y": 3276.015,
+        "hint": "Offshore near Fort Zancudo, underwater about 27 m deep"
+      },
+      {
+        "n": 86,
+        "x": -808.456,
+        "y": 6165.307,
+        "hint": "Offshore near Paleto Forest, underwater about 3 m deep"
+      },
+      {
+        "n": 87,
+        "x": -397.854,
+        "y": 6783.974,
+        "hint": "Offshore near Paleto Bay, underwater about 19 m deep"
+      },
+      {
+        "n": 88,
+        "x": 95.133,
+        "y": 3898.854,
+        "hint": "Underwater in the Alamo Sea, about 6 m below the surface"
+      },
+      {
+        "n": 89,
+        "x": 660.099,
+        "y": 3760.461,
+        "hint": "Underwater in the Alamo Sea, about 11 m below the surface"
+      },
+      {
+        "n": 90,
+        "x": 2241.487,
+        "y": 4022.88,
+        "hint": "Underwater in the Alamo Sea, about 4 m below the surface"
+      },
+      {
+        "n": 91,
+        "x": 1553.867,
+        "y": 4321.805,
+        "hint": "Underwater in the Alamo Sea, about 10 m below the surface"
+      },
+      {
+        "n": 92,
+        "x": 857.875,
+        "y": 3958.953,
+        "hint": "Underwater in the Alamo Sea, about 24 m below the surface"
+      },
+      {
+        "n": 93,
+        "x": 3431.468,
+        "y": 717.226,
+        "hint": "Offshore near Tataviam Mountains, underwater about 94 m deep"
+      },
+      {
+        "n": 94,
+        "x": -1634.57,
+        "y": -1741.677,
+        "hint": "Offshore near Los Santos International Airport, underwater about 34 m deep"
+      },
+      {
+        "n": 95,
+        "x": -3378.466,
+        "y": 503.853,
+        "hint": "Offshore near Banham Canyon, underwater about 27 m deep"
+      },
+      {
+        "n": 96,
+        "x": -1732.212,
+        "y": 5336.15,
+        "hint": "Paleto Cove, underwater about 8 m deep"
+      },
+      {
+        "n": 97,
+        "x": -2612.415,
+        "y": 4266.765,
+        "hint": "Offshore near North Chumash, underwater about 31 m deep"
+      },
+      {
+        "n": 98,
+        "x": 3406.32,
+        "y": -584.198,
+        "hint": "Offshore near Palomino Highlands, underwater about 19 m deep"
+      },
+      {
+        "n": 99,
+        "x": -3106.876,
+        "y": 2432.615,
+        "hint": "Offshore near Lago Zancudo, underwater about 23 m deep"
+      },
+      {
+        "n": 100,
+        "x": -2172.952,
+        "y": -3199.194,
+        "hint": "Offshore near Los Santos International Airport, underwater about 33 m deep"
+      }
+    ]
+  },
+  "oc-treasure-chests": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 2 = Cayo Perico treasure chest, 20-spot pool; 2 active per day). Cross-checked 20/20 against an older decompile (YimMenu/GTA-V-Decompiled-Scripts).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": 4877.7646,
+        "y": -4781.151,
+        "hint": "North side of Cayo Perico, on the shoreline"
+      },
+      {
+        "n": 2,
+        "x": 4535.187,
+        "y": -4703.817,
+        "hint": "North-west side of Cayo Perico, on the shoreline"
+      },
+      {
+        "n": 3,
+        "x": 3900.6318,
+        "y": -4704.9194,
+        "hint": "Far north-west side of Cayo Perico, inland at about 3 m"
+      },
+      {
+        "n": 4,
+        "x": 4823.4844,
+        "y": -4323.176,
+        "hint": "Far north side of Cayo Perico, inland at about 5 m"
+      },
+      {
+        "n": 5,
+        "x": 5175.097,
+        "y": -4678.9375,
+        "hint": "North side of Cayo Perico, on the shoreline"
+      },
+      {
+        "n": 6,
+        "x": 5590.9507,
+        "y": -5216.8467,
+        "hint": "East side of Cayo Perico, inland at about 13 m"
+      },
+      {
+        "n": 7,
+        "x": 5457.7954,
+        "y": -5860.7734,
+        "hint": "South-east side of Cayo Perico, inland at about 19 m"
+      },
+      {
+        "n": 8,
+        "x": 4855.598,
+        "y": -5561.794,
+        "hint": "South side of Cayo Perico, inland at about 27 m"
+      },
+      {
+        "n": 9,
+        "x": 4854.77,
+        "y": -5162.7295,
+        "hint": "Central Cayo Perico, on the shoreline"
+      },
+      {
+        "n": 10,
+        "x": 4178.2944,
+        "y": -4357.763,
+        "hint": "North-west side of Cayo Perico, on the shoreline"
+      },
+      {
+        "n": 11,
+        "x": 4942.0825,
+        "y": -5168.135,
+        "hint": "Central Cayo Perico, in shallow water about 4 m deep"
+      },
+      {
+        "n": 12,
+        "x": 4560.804,
+        "y": -4356.775,
+        "hint": "North-west side of Cayo Perico, in shallow water about 8 m deep"
+      },
+      {
+        "n": 13,
+        "x": 5598.9644,
+        "y": -5604.2393,
+        "hint": "South-east side of Cayo Perico, in shallow water about 6 m deep"
+      },
+      {
+        "n": 14,
+        "x": 5264.7236,
+        "y": -4920.671,
+        "hint": "East side of Cayo Perico, in shallow water about 3 m deep"
+      },
+      {
+        "n": 15,
+        "x": 4944.2183,
+        "y": -4293.736,
+        "hint": "Far north side of Cayo Perico, in shallow water about 7 m deep"
+      },
+      {
+        "n": 16,
+        "x": 4560.804,
+        "y": -4356.775,
+        "hint": "North-west side of Cayo Perico, in shallow water about 8 m deep"
+      },
+      {
+        "n": 17,
+        "x": 3983.0261,
+        "y": -4540.1865,
+        "hint": "Far north-west side of Cayo Perico, in shallow water about 6 m deep"
+      },
+      {
+        "n": 18,
+        "x": 4414.676,
+        "y": -4651.4575,
+        "hint": "North-west side of Cayo Perico, in shallow water about 5 m deep"
+      },
+      {
+        "n": 19,
+        "x": 4540.07,
+        "y": -4774.899,
+        "hint": "North-west side of Cayo Perico, in shallow water about 4 m deep"
+      },
+      {
+        "n": 20,
+        "x": 4777.6006,
+        "y": -5394.6265,
+        "hint": "Central Cayo Perico, in shallow water about 5 m deep"
+      }
+    ]
+  },
+  "oc-buried-stashes": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 6 = buried stash dig spot on Cayo Perico, 20-spot pool; 2 active per day). Current build; 8 of 20 spots match an older decompile, the rest were moved in later updates.",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": 5579.7026,
+        "y": -5231.42,
+        "hint": "East side of Cayo Perico, at about 14 m"
+      },
+      {
+        "n": 2,
+        "x": 5481.595,
+        "y": -5855.187,
+        "hint": "South-east side of Cayo Perico, at about 19 m"
+      },
+      {
+        "n": 3,
+        "x": 5549.2407,
+        "y": -5747.577,
+        "hint": "South-east side of Cayo Perico, at about 10 m"
+      },
+      {
+        "n": 4,
+        "x": 5295.542,
+        "y": -5587.4307,
+        "hint": "South-east side of Cayo Perico, at about 61 m"
+      },
+      {
+        "n": 5,
+        "x": 5136.9844,
+        "y": -5524.6675,
+        "hint": "South side of Cayo Perico, at about 53 m"
+      },
+      {
+        "n": 6,
+        "x": 4794.91,
+        "y": -5546.516,
+        "hint": "South side of Cayo Perico, at about 21 m"
+      },
+      {
+        "n": 7,
+        "x": 4895.3125,
+        "y": -5335.3433,
+        "hint": "Central Cayo Perico, at about 9 m"
+      },
+      {
+        "n": 8,
+        "x": 4994.968,
+        "y": -5136.416,
+        "hint": "Central Cayo Perico, on the beach"
+      },
+      {
+        "n": 9,
+        "x": 5323.654,
+        "y": -5276.0596,
+        "hint": "East side of Cayo Perico, at about 33 m"
+      },
+      {
+        "n": 10,
+        "x": 5362.1177,
+        "y": -5170.0854,
+        "hint": "East side of Cayo Perico, at about 28 m"
+      },
+      {
+        "n": 11,
+        "x": 5164.5522,
+        "y": -4706.8384,
+        "hint": "North side of Cayo Perico, on the beach"
+      },
+      {
+        "n": 12,
+        "x": 4888.6104,
+        "y": -4789.4756,
+        "hint": "North side of Cayo Perico, on the beach"
+      },
+      {
+        "n": 13,
+        "x": 4735.3096,
+        "y": -4687.2236,
+        "hint": "North side of Cayo Perico, on the beach"
+      },
+      {
+        "n": 14,
+        "x": 4887.2036,
+        "y": -4630.111,
+        "hint": "North side of Cayo Perico, at about 13 m"
+      },
+      {
+        "n": 15,
+        "x": 4796.803,
+        "y": -4317.4175,
+        "hint": "Far north side of Cayo Perico, at about 4 m"
+      },
+      {
+        "n": 16,
+        "x": 4522.936,
+        "y": -4649.638,
+        "hint": "North-west side of Cayo Perico, at about 10 m"
+      },
+      {
+        "n": 17,
+        "x": 4408.228,
+        "y": -4470.875,
+        "hint": "North-west side of Cayo Perico, at about 3 m"
+      },
+      {
+        "n": 18,
+        "x": 4348.7827,
+        "y": -4311.3193,
+        "hint": "Far north-west side of Cayo Perico, on the beach"
+      },
+      {
+        "n": 19,
+        "x": 4235.67,
+        "y": -4552.0557,
+        "hint": "North-west side of Cayo Perico, at about 4 m"
+      },
+      {
+        "n": 20,
+        "x": 3901.899,
+        "y": -4720.187,
+        "hint": "Far north-west side of Cayo Perico, at about 3 m"
+      }
+    ]
+  },
+  "oc-g-caches": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 17 = G's Cache / daily dead drop: 15 search areas x 5 possible package spots = 75; one area and spot active per day).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": 1113.557,
+        "y": -645.957,
+        "hint": "Search area 1, spot 1: Mirror Park, about 56 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": 1142.874,
+        "y": -662.951,
+        "hint": "Search area 1, spot 2: Mirror Park, about 57 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 1146.691,
+        "y": -703.717,
+        "hint": "Search area 1, spot 3: Mirror Park, about 56 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": 1073.542,
+        "y": -678.236,
+        "hint": "Search area 1, spot 4: Mirror Park, about 57 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 1046.454,
+        "y": -722.915,
+        "hint": "Search area 1, spot 5: Mirror Park, about 56 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 2064.713,
+        "y": 3489.88,
+        "hint": "Search area 2, spot 1: Sandy Shores, about 44 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 2081.859,
+        "y": 3553.254,
+        "hint": "Search area 2, spot 2: Sandy Shores, about 42 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": 2014.72,
+        "y": 3551.499,
+        "hint": "Search area 2, spot 3: Sandy Shores, about 43 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": 1997.019,
+        "y": 3507.838,
+        "hint": "Search area 2, spot 4: Sandy Shores, about 40 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": 2045.597,
+        "y": 3564.346,
+        "hint": "Search area 2, spot 5: Sandy Shores, about 39 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": -1317.344,
+        "y": -1481.97,
+        "hint": "Search area 3, spot 1: Vespucci Beach, about 4 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": -1350.041,
+        "y": -1478.273,
+        "hint": "Search area 3, spot 2: Vespucci Beach, about 5 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -1393.87,
+        "y": -1445.139,
+        "hint": "Search area 3, spot 3: Vespucci Beach, about 3 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -1367.034,
+        "y": -1413.992,
+        "hint": "Search area 3, spot 4: Vespucci Beach, about 3 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -1269.861,
+        "y": -1426.272,
+        "hint": "Search area 3, spot 5: Vespucci Beach, about 4 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": -295.468,
+        "y": 2787.385,
+        "hint": "Search area 4, spot 1: Great Chaparral, about 60 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": -284.69,
+        "y": 2848.234,
+        "hint": "Search area 4, spot 2: Great Chaparral, about 53 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": -329.193,
+        "y": 2803.404,
+        "hint": "Search area 4, spot 3: Great Chaparral, about 58 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": -306.847,
+        "y": 2825.6,
+        "hint": "Search area 4, spot 4: Great Chaparral, about 58 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -336.046,
+        "y": 2829.988,
+        "hint": "Search area 4, spot 5: Great Chaparral, about 55 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -1725.245,
+        "y": 233.946,
+        "hint": "Search area 5, spot 1: Richman, about 58 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": -1639.892,
+        "y": 225.521,
+        "hint": "Search area 5, spot 2: Richman, about 60 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": -1648.48,
+        "y": 212.049,
+        "hint": "Search area 5, spot 3: Richman, about 60 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": -1693.318,
+        "y": 156.665,
+        "hint": "Search area 5, spot 4: Richman, about 64 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": -1699.193,
+        "y": 179.574,
+        "hint": "Search area 5, spot 5: Richman, about 63 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": -949.714,
+        "y": -710.658,
+        "hint": "Search area 6, spot 1: Little Seoul, about 20 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": -938.774,
+        "y": -781.817,
+        "hint": "Search area 6, spot 2: Vespucci Canals, about 20 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": -884.91,
+        "y": -786.863,
+        "hint": "Search area 6, spot 3: Little Seoul, about 15 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": -895.257,
+        "y": -729.943,
+        "hint": "Search area 6, spot 4: Little Seoul, about 19 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": -932.986,
+        "y": -746.452,
+        "hint": "Search area 6, spot 5: Vespucci Canals, about 19 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -425.948,
+        "y": 1213.342,
+        "hint": "Search area 7, spot 1: Galileo Observatory, about 325 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": -387.267,
+        "y": 1137.65,
+        "hint": "Search area 7, spot 2: Galileo Observatory, about 322 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": -477.999,
+        "y": 1135.36,
+        "hint": "Search area 7, spot 3: Galileo Observatory, about 320 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": -431.822,
+        "y": 1119.449,
+        "hint": "Search area 7, spot 4: Galileo Observatory, about 326 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": -387.902,
+        "y": 1161.655,
+        "hint": "Search area 7, spot 5: Galileo Observatory, about 325 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": -3381.278,
+        "y": 965.534,
+        "hint": "Search area 8, spot 1: Chumash, about 7 m above sea level"
+      },
+      {
+        "n": 37,
+        "x": -3427.724,
+        "y": 979.944,
+        "hint": "Search area 8, spot 2: Chumash, about 8 m above sea level"
+      },
+      {
+        "n": 38,
+        "x": -3413.606,
+        "y": 961.845,
+        "hint": "Search area 8, spot 3: Chumash, about 11 m above sea level"
+      },
+      {
+        "n": 39,
+        "x": -3419.585,
+        "y": 977.595,
+        "hint": "Search area 8, spot 4: Chumash, about 11 m above sea level"
+      },
+      {
+        "n": 40,
+        "x": -3425.687,
+        "y": 961.215,
+        "hint": "Search area 8, spot 5: Chumash, about 8 m above sea level"
+      },
+      {
+        "n": 41,
+        "x": -688.732,
+        "y": 5828.4,
+        "hint": "Search area 9, spot 1: Paleto Forest, about 17 m above sea level"
+      },
+      {
+        "n": 42,
+        "x": -673.425,
+        "y": 5799.744,
+        "hint": "Search area 9, spot 2: Paleto Forest, about 16 m above sea level"
+      },
+      {
+        "n": 43,
+        "x": -710.348,
+        "y": 5769.631,
+        "hint": "Search area 9, spot 3: Paleto Forest, about 17 m above sea level"
+      },
+      {
+        "n": 44,
+        "x": -699.926,
+        "y": 5801.619,
+        "hint": "Search area 9, spot 4: Paleto Forest, about 17 m above sea level"
+      },
+      {
+        "n": 45,
+        "x": -660.359,
+        "y": 5781.733,
+        "hint": "Search area 9, spot 5: Paleto Forest, about 19 m above sea level"
+      },
+      {
+        "n": 46,
+        "x": 38.717,
+        "y": 6264.173,
+        "hint": "Search area 10, spot 1: Paleto Bay, about 33 m above sea level"
+      },
+      {
+        "n": 47,
+        "x": 84.67,
+        "y": 6292.286,
+        "hint": "Search area 10, spot 2: Mount Chiliad, about 31 m above sea level"
+      },
+      {
+        "n": 48,
+        "x": 97.17,
+        "y": 6288.558,
+        "hint": "Search area 10, spot 3: Mount Chiliad, about 38 m above sea level"
+      },
+      {
+        "n": 49,
+        "x": 14.453,
+        "y": 6243.932,
+        "hint": "Search area 10, spot 4: Paleto Bay, about 35 m above sea level"
+      },
+      {
+        "n": 50,
+        "x": 67.52,
+        "y": 6261.744,
+        "hint": "Search area 10, spot 5: Mount Chiliad, about 32 m above sea level"
+      },
+      {
+        "n": 51,
+        "x": 2954.598,
+        "y": 4671.458,
+        "hint": "Search area 11, spot 1: San Chianski Mountain Range, about 50 m above sea level"
+      },
+      {
+        "n": 52,
+        "x": 2911.146,
+        "y": 4637.608,
+        "hint": "Search area 11, spot 2: San Chianski Mountain Range, about 49 m above sea level"
+      },
+      {
+        "n": 53,
+        "x": 2945.212,
+        "y": 4624.044,
+        "hint": "Search area 11, spot 3: San Chianski Mountain Range, about 49 m above sea level"
+      },
+      {
+        "n": 54,
+        "x": 2941.139,
+        "y": 4617.117,
+        "hint": "Search area 11, spot 4: San Chianski Mountain Range, about 52 m above sea level"
+      },
+      {
+        "n": 55,
+        "x": 2895.884,
+        "y": 4686.396,
+        "hint": "Search area 11, spot 5: San Chianski Mountain Range, about 48 m above sea level"
+      },
+      {
+        "n": 56,
+        "x": 1332.319,
+        "y": 4271.446,
+        "hint": "Search area 12, spot 1: On the shore of the Alamo Sea, about 31 m above sea level"
+      },
+      {
+        "n": 57,
+        "x": 1353.332,
+        "y": 4387.911,
+        "hint": "Search area 12, spot 2: Mount Chiliad, about 44 m above sea level"
+      },
+      {
+        "n": 58,
+        "x": 1337.892,
+        "y": 4321.563,
+        "hint": "Search area 12, spot 3: On the shore of the Alamo Sea, about 38 m above sea level"
+      },
+      {
+        "n": 59,
+        "x": 1386.603,
+        "y": 4366.511,
+        "hint": "Search area 12, spot 4: Mount Chiliad, about 42 m above sea level"
+      },
+      {
+        "n": 60,
+        "x": 1303.193,
+        "y": 4313.509,
+        "hint": "Search area 12, spot 5: On the shore of the Alamo Sea, about 37 m above sea level"
+      },
+      {
+        "n": 61,
+        "x": 2720.03,
+        "y": 1572.762,
+        "hint": "Search area 13, spot 1: Palmer-Taylor Power Station, about 20 m above sea level"
+      },
+      {
+        "n": 62,
+        "x": 2663.161,
+        "y": 1581.395,
+        "hint": "Search area 13, spot 2: Palmer-Taylor Power Station, about 24 m above sea level"
+      },
+      {
+        "n": 63,
+        "x": 2658.245,
+        "y": 1643.373,
+        "hint": "Search area 13, spot 3: Palmer-Taylor Power Station, about 24 m above sea level"
+      },
+      {
+        "n": 64,
+        "x": 2671.003,
+        "y": 1561.394,
+        "hint": "Search area 13, spot 4: Palmer-Taylor Power Station, about 24 m above sea level"
+      },
+      {
+        "n": 65,
+        "x": 2660.104,
+        "y": 1606.54,
+        "hint": "Search area 13, spot 5: Palmer-Taylor Power Station, about 29 m above sea level"
+      },
+      {
+        "n": 66,
+        "x": 211.775,
+        "y": -934.269,
+        "hint": "Search area 14, spot 1: Mission Row, about 23 m above sea level"
+      },
+      {
+        "n": 67,
+        "x": 198.265,
+        "y": -884.039,
+        "hint": "Search area 14, spot 2: Pillbox Hill, about 31 m above sea level"
+      },
+      {
+        "n": 68,
+        "x": 189.542,
+        "y": -919.726,
+        "hint": "Search area 14, spot 3: Pillbox Hill, about 30 m above sea level"
+      },
+      {
+        "n": 69,
+        "x": 169.504,
+        "y": -934.841,
+        "hint": "Search area 14, spot 4: Pillbox Hill, about 29 m above sea level"
+      },
+      {
+        "n": 70,
+        "x": 212.376,
+        "y": -934.807,
+        "hint": "Search area 14, spot 5: Mission Row, about 29 m above sea level"
+      },
+      {
+        "n": 71,
+        "x": 1330.113,
+        "y": -2520.754,
+        "hint": "Search area 15, spot 1: El Burro Heights, about 46 m above sea level"
+      },
+      {
+        "n": 72,
+        "x": 1328.954,
+        "y": -2538.302,
+        "hint": "Search area 15, spot 2: El Burro Heights, about 47 m above sea level"
+      },
+      {
+        "n": 73,
+        "x": 1237.506,
+        "y": -2572.335,
+        "hint": "Search area 15, spot 3: El Burro Heights, about 40 m above sea level"
+      },
+      {
+        "n": 74,
+        "x": 1244.602,
+        "y": -2563.721,
+        "hint": "Search area 15, spot 4: El Burro Heights, about 43 m above sea level"
+      },
+      {
+        "n": 75,
+        "x": 1278.421,
+        "y": -2565.117,
+        "hint": "Search area 15, spot 5: El Burro Heights, about 44 m above sea level"
+      }
+    ]
+  },
+  "oc-junk-energy-skydives": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 10 = Junk Energy Skydive start points, XP category COLLECTABLES_SKYDIVES; 25-spot pool, ticker counts 10 per day).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": -121.199,
+        "y": -962.557,
+        "hint": "Pillbox Hill, about 27 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": 153.572,
+        "y": -721.103,
+        "hint": "Pillbox Hill, about 46 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": -812.47,
+        "y": 299.77,
+        "hint": "Rockford Hills, about 85 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": -1223.345,
+        "y": 3856.44,
+        "hint": "Mount Josiah, about 488 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 426.341,
+        "y": 5612.683,
+        "hint": "Mount Chiliad, about 766 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 503.8174,
+        "y": 5506.424,
+        "hint": "Mount Chiliad, about 774 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 813.5065,
+        "y": 5720.6187,
+        "hint": "Mount Chiliad, about 694 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": -860.4413,
+        "y": 4729.499,
+        "hint": "Chiliad Mountain State Wilderness, about 276 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": 1717.6476,
+        "y": 3295.5166,
+        "hint": "Grand Senora Desert, about 40 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": 2033.4845,
+        "y": 4733.43,
+        "hint": "Grapeseed, about 41 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": -1167.212,
+        "y": -2494.621,
+        "hint": "Los Santos International Airport, about 13 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": 2790.4,
+        "y": 1465.635,
+        "hint": "Palmer-Taylor Power Station, about 24 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -782.166,
+        "y": -1452.285,
+        "hint": "La Puerta, about 4 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -559.43,
+        "y": -909.031,
+        "hint": "Little Seoul, about 23 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -136.551,
+        "y": 6356.967,
+        "hint": "Paleto Bay, about 30 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": 742.95,
+        "y": 2535.935,
+        "hint": "Grand Senora Desert, about 72 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": -2952.79,
+        "y": 441.363,
+        "hint": "Banham Canyon, about 14 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": -1522.113,
+        "y": 1491.642,
+        "hint": "Tongva Valley, about 111 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": 261.555,
+        "y": -209.291,
+        "hint": "Alta, about 61 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": 739.4191,
+        "y": -1223.1754,
+        "hint": "La Mesa, about 24 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -1724.4279,
+        "y": -1129.78,
+        "hint": "Del Perro Beach, about 12 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": 735.9623,
+        "y": 1303.1774,
+        "hint": "Galileo Park, about 359 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": 2555.3403,
+        "y": 301.0995,
+        "hint": "Tataviam Mountains, about 107 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": -1143.5713,
+        "y": 2683.302,
+        "hint": "Zancudo River, about 17 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": -917.5775,
+        "y": -1155.1293,
+        "hint": "Vespucci Canals, about 4 m above sea level"
+      }
+    ]
+  },
+  "oc-street-dealers": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_19258 street dealer position table, 50-spot pool; 3 picked per day by func_21580). Cross-checked 50/50 against fm_street_dealer.c func_330 in the same repo.",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": 550.8953,
+        "y": -1774.5175,
+        "hint": "Rancho"
+      },
+      {
+        "n": 2,
+        "x": -154.924,
+        "y": 6434.428,
+        "hint": "Paleto Bay"
+      },
+      {
+        "n": 3,
+        "x": 400.9768,
+        "y": 2635.3691,
+        "hint": "Harmony"
+      },
+      {
+        "n": 4,
+        "x": 1533.846,
+        "y": 3796.837,
+        "hint": "Sandy Shores"
+      },
+      {
+        "n": 5,
+        "x": -1666.642,
+        "y": -1080.0201,
+        "hint": "Del Perro Beach"
+      },
+      {
+        "n": 6,
+        "x": -1560.6105,
+        "y": -413.3221,
+        "hint": "Del Perro"
+      },
+      {
+        "n": 7,
+        "x": 819.2939,
+        "y": -2988.8562,
+        "hint": "Terminal"
+      },
+      {
+        "n": 8,
+        "x": 1001.701,
+        "y": -2162.448,
+        "hint": "Cypress Flats"
+      },
+      {
+        "n": 9,
+        "x": 1388.9678,
+        "y": -1506.0815,
+        "hint": "El Burro Heights"
+      },
+      {
+        "n": 10,
+        "x": -3054.574,
+        "y": 556.711,
+        "hint": "Banham Canyon"
+      },
+      {
+        "n": 11,
+        "x": -72.8903,
+        "y": 80.717,
+        "hint": "West Vinewood"
+      },
+      {
+        "n": 12,
+        "x": 198.6676,
+        "y": -167.0663,
+        "hint": "Hawick"
+      },
+      {
+        "n": 13,
+        "x": 814.636,
+        "y": -280.109,
+        "hint": "East Vinewood"
+      },
+      {
+        "n": 14,
+        "x": -237.004,
+        "y": -256.513,
+        "hint": "Burton"
+      },
+      {
+        "n": 15,
+        "x": -493.654,
+        "y": -720.734,
+        "hint": "Little Seoul"
+      },
+      {
+        "n": 16,
+        "x": 156.1586,
+        "y": 6656.525,
+        "hint": "Paleto Bay"
+      },
+      {
+        "n": 17,
+        "x": 1986.3129,
+        "y": 3786.75,
+        "hint": "Sandy Shores"
+      },
+      {
+        "n": 18,
+        "x": -685.5629,
+        "y": 5762.8706,
+        "hint": "Paleto Forest"
+      },
+      {
+        "n": 19,
+        "x": 1707.703,
+        "y": 4924.311,
+        "hint": "Grapeseed"
+      },
+      {
+        "n": 20,
+        "x": 1195.3047,
+        "y": 2630.4685,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 21,
+        "x": 167.0163,
+        "y": 2228.922,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 22,
+        "x": 2724.0076,
+        "y": 1483.066,
+        "hint": "Palmer-Taylor Power Station"
+      },
+      {
+        "n": 23,
+        "x": 1594.9329,
+        "y": 6452.817,
+        "hint": "Mount Chiliad"
+      },
+      {
+        "n": 24,
+        "x": -2177.397,
+        "y": 4275.945,
+        "hint": "North Chumash"
+      },
+      {
+        "n": 25,
+        "x": -2521.249,
+        "y": 2311.794,
+        "hint": "Lago Zancudo"
+      },
+      {
+        "n": 26,
+        "x": -3162.873,
+        "y": 1115.6418,
+        "hint": "Chumash"
+      },
+      {
+        "n": 27,
+        "x": -1145.026,
+        "y": -2048.466,
+        "hint": "Los Santos International Airport"
+      },
+      {
+        "n": 28,
+        "x": -1304.321,
+        "y": -1318.848,
+        "hint": "Vespucci Beach"
+      },
+      {
+        "n": 29,
+        "x": -946.727,
+        "y": 322.081,
+        "hint": "Rockford Hills"
+      },
+      {
+        "n": 30,
+        "x": -895.112,
+        "y": -776.624,
+        "hint": "Little Seoul"
+      },
+      {
+        "n": 31,
+        "x": -250.614,
+        "y": -1527.617,
+        "hint": "Chamberlain Hills"
+      },
+      {
+        "n": 32,
+        "x": -601.639,
+        "y": -1026.49,
+        "hint": "Little Seoul"
+      },
+      {
+        "n": 33,
+        "x": 2712.9868,
+        "y": 4324.1157,
+        "hint": "Grapeseed"
+      },
+      {
+        "n": 34,
+        "x": 726.772,
+        "y": 4169.101,
+        "hint": "On the shore of the Alamo Sea, about 40 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": 178.3272,
+        "y": 3086.2603,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 36,
+        "x": 2351.592,
+        "y": 2524.249,
+        "hint": "Ron Alternates Wind Farm"
+      },
+      {
+        "n": 37,
+        "x": 388.9941,
+        "y": 799.6882,
+        "hint": "Vinewood Hills"
+      },
+      {
+        "n": 38,
+        "x": 2587.9822,
+        "y": 433.6803,
+        "hint": "Tataviam Mountains"
+      },
+      {
+        "n": 39,
+        "x": 830.2875,
+        "y": -1052.7747,
+        "hint": "La Mesa"
+      },
+      {
+        "n": 40,
+        "x": -759.662,
+        "y": -208.396,
+        "hint": "Rockford Hills"
+      },
+      {
+        "n": 41,
+        "x": -43.7171,
+        "y": -2015.22,
+        "hint": "Davis"
+      },
+      {
+        "n": 42,
+        "x": 124.02,
+        "y": -1039.884,
+        "hint": "Pillbox Hill"
+      },
+      {
+        "n": 43,
+        "x": 479.0473,
+        "y": -597.5507,
+        "hint": "Textile City"
+      },
+      {
+        "n": 44,
+        "x": 959.67,
+        "y": 3619.036,
+        "hint": "On the shore of the Alamo Sea, about 32 m above sea level"
+      },
+      {
+        "n": 45,
+        "x": 2375.8994,
+        "y": 3162.9954,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 46,
+        "x": -1505.687,
+        "y": 1526.558,
+        "hint": "Tongva Valley"
+      },
+      {
+        "n": 47,
+        "x": 645.737,
+        "y": 242.173,
+        "hint": "Downtown Vinewood"
+      },
+      {
+        "n": 48,
+        "x": 1173.1378,
+        "y": -388.2896,
+        "hint": "Mirror Park"
+      },
+      {
+        "n": 49,
+        "x": -1801.85,
+        "y": 172.49,
+        "hint": "Richman"
+      },
+      {
+        "n": 50,
+        "x": 3729.2568,
+        "y": 4524.872,
+        "hint": "San Chianski Mountain Range"
+      }
+    ]
+  },
+  "oc-stash-houses": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_11879 stash house blip position table used for the \"DSH_BLP_LOC\" Stash House blip, 25 variations Daily_Stash_House_1-25; one per day).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": -156.345,
+        "y": 6292.5244,
+        "hint": "Paleto Bay"
+      },
+      {
+        "n": 2,
+        "x": -1101.3784,
+        "y": 4940.878,
+        "hint": "Chiliad Mountain State Wilderness"
+      },
+      {
+        "n": 3,
+        "x": 2258.4717,
+        "y": 5165.8105,
+        "hint": "Grapeseed"
+      },
+      {
+        "n": 4,
+        "x": 2881.7866,
+        "y": 4511.734,
+        "hint": "San Chianski Mountain Range"
+      },
+      {
+        "n": 5,
+        "x": 1335.4141,
+        "y": 4306.677,
+        "hint": "On the shore of the Alamo Sea, about 37 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 1857.9542,
+        "y": 3854.2195,
+        "hint": "Sandy Shores"
+      },
+      {
+        "n": 7,
+        "x": 905.7146,
+        "y": 3586.9836,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 8,
+        "x": 2404.0786,
+        "y": 3127.706,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 9,
+        "x": 550.6724,
+        "y": 2655.782,
+        "hint": "Harmony"
+      },
+      {
+        "n": 10,
+        "x": -1100.8274,
+        "y": 2722.5867,
+        "hint": "Zancudo River"
+      },
+      {
+        "n": 11,
+        "x": -125.9821,
+        "y": 1896.2302,
+        "hint": "Great Chaparral"
+      },
+      {
+        "n": 12,
+        "x": 1546.2168,
+        "y": 2166.431,
+        "hint": "Grand Senora Desert"
+      },
+      {
+        "n": 13,
+        "x": -3169.8516,
+        "y": 1034.2666,
+        "hint": "Chumash"
+      },
+      {
+        "n": 14,
+        "x": 121.2199,
+        "y": 318.9121,
+        "hint": "Downtown Vinewood"
+      },
+      {
+        "n": 15,
+        "x": -583.559,
+        "y": 195.3448,
+        "hint": "West Vinewood"
+      },
+      {
+        "n": 16,
+        "x": -1308.2467,
+        "y": -168.6344,
+        "hint": "Rockford Hills"
+      },
+      {
+        "n": 17,
+        "x": 99.3476,
+        "y": -240.9664,
+        "hint": "Alta"
+      },
+      {
+        "n": 18,
+        "x": 1152.2288,
+        "y": -431.8629,
+        "hint": "Mirror Park"
+      },
+      {
+        "n": 19,
+        "x": -546.0123,
+        "y": -873.7389,
+        "hint": "Little Seoul"
+      },
+      {
+        "n": 20,
+        "x": -1293.3013,
+        "y": -1259.5853,
+        "hint": "Vespucci"
+      },
+      {
+        "n": 21,
+        "x": 161.7004,
+        "y": -1306.8784,
+        "hint": "Strawberry"
+      },
+      {
+        "n": 22,
+        "x": 979.653,
+        "y": -1981.9202,
+        "hint": "Cypress Flats"
+      },
+      {
+        "n": 23,
+        "x": 1124.7676,
+        "y": -1010.5512,
+        "hint": "Murrieta Heights"
+      },
+      {
+        "n": 24,
+        "x": 167.95,
+        "y": -2222.4854,
+        "hint": "Banning"
+      },
+      {
+        "n": 25,
+        "x": -559.2866,
+        "y": -1803.9038,
+        "hint": "La Puerta"
+      }
+    ]
+  },
+  "oc-ls-tags": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 19 = LS Tags posters to spray, 30-spot pool; 5 per day).",
+    "rotating": true,
+    "points": [
+      {
+        "n": 1,
+        "x": -977.6928,
+        "y": -2639.573,
+        "hint": "Los Santos International Airport, about 16 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": 819.4288,
+        "y": -2227.2385,
+        "hint": "Cypress Flats, about 33 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 37.9683,
+        "y": -1469.2217,
+        "hint": "Strawberry, about 32 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": -768.9666,
+        "y": -1321.6681,
+        "hint": "La Puerta, about 7 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": 1209.1267,
+        "y": -1505.5887,
+        "hint": "El Burro Heights, about 36 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 845.3231,
+        "y": -1203.0039,
+        "hint": "La Mesa, about 27 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 188.2855,
+        "y": -1843.3844,
+        "hint": "Davis, about 29 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": 182.0389,
+        "y": -941.2879,
+        "hint": "Pillbox Hill, about 32 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": -501.2574,
+        "y": -684.436,
+        "hint": "Little Seoul, about 35 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -1636.3019,
+        "y": -1063.8951,
+        "hint": "Del Perro Beach, about 15 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": 1165.2151,
+        "y": -314.1255,
+        "hint": "Mirror Park, about 71 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": 369.5584,
+        "y": -326.8165,
+        "hint": "Alta, about 49 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -942.4161,
+        "y": -343.455,
+        "hint": "Rockford Hills, about 41 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": -2066,
+        "y": -345.2393,
+        "hint": "Pacific Bluffs, about 16 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": -359.6902,
+        "y": 141.5108,
+        "hint": "West Vinewood, about 69 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": 2581.005,
+        "y": 487.5057,
+        "hint": "Tataviam Mountains, about 111 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": 760.227,
+        "y": 583.9885,
+        "hint": "Vinewood Hills, about 128 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": -481.0848,
+        "y": 1112.5974,
+        "hint": "Galileo Observatory, about 322 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": -1834.4456,
+        "y": 788.6052,
+        "hint": "Richman Glen, about 141 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -3195.2385,
+        "y": 1318.3502,
+        "hint": "On the coast near Chumash, about 12 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -2557.941,
+        "y": 2302.0186,
+        "hint": "Lago Zancudo, about 35 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": -2219.9644,
+        "y": 4222.4917,
+        "hint": "North Chumash, about 49 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": 2469.77,
+        "y": 4082.911,
+        "hint": "Grapeseed, about 40 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 575.3076,
+        "y": 2676.81,
+        "hint": "Harmony, about 44 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 2741.5925,
+        "y": 3453.4548,
+        "hint": "San Chianski Mountain Range, about 58 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": 1928.9758,
+        "y": 3736.5696,
+        "hint": "Sandy Shores, about 35 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": 1723.0552,
+        "y": 4790.159,
+        "hint": "Grapeseed, about 44 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": -756.7117,
+        "y": 5600.3823,
+        "hint": "Paleto Forest, about 39 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": 1.7607,
+        "y": 6410.2383,
+        "hint": "Paleto Bay, about 34 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": 1411.0867,
+        "y": 3608.7688,
+        "hint": "Sandy Shores, about 37 m above sea level"
+      }
+    ]
+  },
+  "oc-yuanbao": {
+    "source": "https://github.com/root-cause/v-decompiled-scripts/blob/master/freemode.c (func_2169 collectible table, type 21 = Yuanbao, help text COL24CNYHELPCAN 'collect the Yuanbao', m24_2_prop_m42_treasure models).",
+    "rotating": false,
+    "points": [
+      {
+        "n": 1,
+        "x": -1120.689,
+        "y": -3422.574,
+        "hint": "Los Santos International Airport, about 15 m above sea level"
+      },
+      {
+        "n": 2,
+        "x": -1180.531,
+        "y": -2053.92,
+        "hint": "Los Santos International Airport, about 14 m above sea level"
+      },
+      {
+        "n": 3,
+        "x": 218.507,
+        "y": -1527.742,
+        "hint": "Davis, about 36 m above sea level"
+      },
+      {
+        "n": 4,
+        "x": 297.35,
+        "y": 208.676,
+        "hint": "Downtown Vinewood, about 116 m above sea level"
+      },
+      {
+        "n": 5,
+        "x": -167.208,
+        "y": -1442.337,
+        "hint": "Chamberlain Hills, about 37 m above sea level"
+      },
+      {
+        "n": 6,
+        "x": 1902.529,
+        "y": 3718.78,
+        "hint": "Sandy Shores, about 36 m above sea level"
+      },
+      {
+        "n": 7,
+        "x": 1112.469,
+        "y": -642.014,
+        "hint": "Mirror Park, about 56 m above sea level"
+      },
+      {
+        "n": 8,
+        "x": -1141.207,
+        "y": -1.957,
+        "hint": "GWC and Golfing Society, about 49 m above sea level"
+      },
+      {
+        "n": 9,
+        "x": -2222.705,
+        "y": 265.771,
+        "hint": "Pacific Bluffs, about 185 m above sea level"
+      },
+      {
+        "n": 10,
+        "x": -3106.753,
+        "y": 301.746,
+        "hint": "Banham Canyon, about 8 m above sea level"
+      },
+      {
+        "n": 11,
+        "x": -1004.495,
+        "y": 4851.613,
+        "hint": "Chiliad Mountain State Wilderness, about 274 m above sea level"
+      },
+      {
+        "n": 12,
+        "x": -379.758,
+        "y": 6032.034,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 13,
+        "x": -181.7757,
+        "y": 6305.9824,
+        "hint": "Paleto Bay, about 31 m above sea level"
+      },
+      {
+        "n": 14,
+        "x": 1802.5061,
+        "y": 4601.2456,
+        "hint": "Grapeseed, about 37 m above sea level"
+      },
+      {
+        "n": 15,
+        "x": 0.821,
+        "y": -708.807,
+        "hint": "Pillbox Hill, about 46 m above sea level"
+      },
+      {
+        "n": 16,
+        "x": -915.678,
+        "y": -346.504,
+        "hint": "Rockford Hills, about 39 m above sea level"
+      },
+      {
+        "n": 17,
+        "x": -911.097,
+        "y": 745.881,
+        "hint": "Vinewood Hills, about 182 m above sea level"
+      },
+      {
+        "n": 18,
+        "x": -1600.762,
+        "y": 846.4665,
+        "hint": "Richman Glen, about 186 m above sea level"
+      },
+      {
+        "n": 19,
+        "x": -1589.4058,
+        "y": 2793.292,
+        "hint": "Fort Zancudo, about 17 m above sea level"
+      },
+      {
+        "n": 20,
+        "x": -213.81,
+        "y": -2356.633,
+        "hint": "Banning, about 26 m above sea level"
+      },
+      {
+        "n": 21,
+        "x": -282.426,
+        "y": -2782.826,
+        "hint": "Elysian Island, about 4 m above sea level"
+      },
+      {
+        "n": 22,
+        "x": -155.124,
+        "y": -952.196,
+        "hint": "Pillbox Hill, about 254 m above sea level"
+      },
+      {
+        "n": 23,
+        "x": -267.99,
+        "y": 282.176,
+        "hint": "West Vinewood, about 105 m above sea level"
+      },
+      {
+        "n": 24,
+        "x": 770.403,
+        "y": -1791.812,
+        "hint": "Cypress Flats, about 55 m above sea level"
+      },
+      {
+        "n": 25,
+        "x": 738.426,
+        "y": -976.089,
+        "hint": "La Mesa, about 37 m above sea level"
+      },
+      {
+        "n": 26,
+        "x": 914.629,
+        "y": -7.809,
+        "hint": "Vinewood Hills, about 111 m above sea level"
+      },
+      {
+        "n": 27,
+        "x": 1281.2179,
+        "y": -1766.5231,
+        "hint": "El Burro Heights, about 52 m above sea level"
+      },
+      {
+        "n": 28,
+        "x": 1242.1023,
+        "y": -3053.7625,
+        "hint": "Terminal, about 14 m above sea level"
+      },
+      {
+        "n": 29,
+        "x": 1572.0837,
+        "y": -2167.2332,
+        "hint": "El Burro Heights, about 78 m above sea level"
+      },
+      {
+        "n": 30,
+        "x": -1661.709,
+        "y": -149.666,
+        "hint": "Pacific Bluffs, about 58 m above sea level"
+      },
+      {
+        "n": 31,
+        "x": -1199.482,
+        "y": -1159.825,
+        "hint": "Vespucci Canals, about 13 m above sea level"
+      },
+      {
+        "n": 32,
+        "x": -2310.027,
+        "y": 4377.879,
+        "hint": "North Chumash, about 10 m above sea level"
+      },
+      {
+        "n": 33,
+        "x": 711.269,
+        "y": 4097.148,
+        "hint": "On the shore of the Alamo Sea, about 36 m above sea level"
+      },
+      {
+        "n": 34,
+        "x": 2443.325,
+        "y": 5823.494,
+        "hint": "Mount Gordo, about 59 m above sea level"
+      },
+      {
+        "n": 35,
+        "x": 1014.965,
+        "y": 99.436,
+        "hint": "Vinewood Racetrack, about 88 m above sea level"
+      },
+      {
+        "n": 36,
+        "x": 546.6995,
+        "y": 2662.438,
+        "hint": "Harmony, about 42 m above sea level"
+      }
+    ]
+  }
+}

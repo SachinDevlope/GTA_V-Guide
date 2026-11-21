@@ -1,0 +1,766 @@
+[
+  {
+    "id": "ch-michael-de-santa",
+    "name": "Michael De Santa",
+    "role": "Protagonist",
+    "aliases": [
+      "Michael Townley",
+      "Mikey"
+    ],
+    "voiceActor": "Ned Luke",
+    "affiliation": "De Santa family; FIB (under a witness protection deal); Lester's heist crew",
+    "specialAbility": "Bullet Time (slows time while aiming)",
+    "description": "A retired bank robber who faked his death after a botched 2004 heist in North Yankton and now lives a comfortable but miserable life in Rockford Hills. A costly mistake pulls him back into crime, reuniting him with old partner Trevor and making him a mentor to Franklin.",
+    "tags": [
+      "michael",
+      "protagonist",
+      "townley",
+      "de santa"
+    ]
+  },
+  {
+    "id": "ch-franklin-clinton",
+    "name": "Franklin Clinton",
+    "role": "Protagonist",
+    "aliases": [
+      "Frank",
+      "F"
+    ],
+    "voiceActor": "Shawn Fonteno",
+    "affiliation": "Simeon's dealership (former); Lamar; Michael and Trevor's crew",
+    "specialAbility": "Driving Focus (slows time while driving for precise handling)",
+    "description": "A young repo man from South Los Santos who wants something bigger than street hustling. After crossing paths with Michael he becomes part of a high-stakes heist crew, and years later returns in GTA Online's The Contract running a celebrity 'solutions' agency.",
+    "tags": [
+      "franklin",
+      "protagonist",
+      "repo man",
+      "the contract"
+    ]
+  },
+  {
+    "id": "ch-trevor-philips",
+    "name": "Trevor Philips",
+    "role": "Protagonist",
+    "aliases": [
+      "T",
+      "Uncle T"
+    ],
+    "voiceActor": "Steven Ogg",
+    "affiliation": "Trevor Philips Industries; Michael's former heist crew",
+    "specialAbility": "Red Mist (rage mode: deals extra damage and takes less)",
+    "description": "Michael's volatile former partner and a one-time military pilot, now running a meth and gun operation out of Sandy Shores. Violent and unpredictable, he is also fiercely loyal in his own twisted way.",
+    "tags": [
+      "trevor",
+      "protagonist",
+      "tpi",
+      "sandy shores"
+    ]
+  },
+  {
+    "id": "ch-lester-crest",
+    "name": "Lester Crest",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Jay Klaitz",
+    "affiliation": "Heist planner for Michael's crew; GTA Online heist contact",
+    "specialAbility": null,
+    "description": "A brilliant reclusive hacker and heist planner who has worked with Michael since the old days. Despite a debilitating illness he masterminds most of the big scores, and he remains a central contact in GTA Online.",
+    "tags": [
+      "lester",
+      "hacker",
+      "heist planner"
+    ]
+  },
+  {
+    "id": "ch-lamar-davis",
+    "name": "Lamar Davis",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Gerald 'Slink' Johnson",
+    "affiliation": "Chamberlain Gangster Families; Franklin",
+    "specialAbility": null,
+    "description": "Franklin's loud, hustling best friend who keeps dragging him into street schemes. He owns Chop and later becomes a popular contact in GTA Online.",
+    "tags": [
+      "lamar",
+      "families",
+      "franklin's friend"
+    ]
+  },
+  {
+    "id": "ch-amanda-de-santa",
+    "name": "Amanda De Santa",
+    "role": "Family",
+    "aliases": [],
+    "voiceActor": "Vicki Van Tassel",
+    "affiliation": "De Santa family",
+    "specialAbility": null,
+    "description": "Michael's wife, a former stripper who spends her days on shopping, yoga and affairs. Her marriage to Michael is strained throughout the story.",
+    "tags": [
+      "amanda",
+      "wife",
+      "de santa"
+    ]
+  },
+  {
+    "id": "ch-jimmy-de-santa",
+    "name": "Jimmy De Santa",
+    "role": "Family",
+    "aliases": [],
+    "voiceActor": "Danny Tamberelli",
+    "affiliation": "De Santa family",
+    "specialAbility": null,
+    "description": "Michael's lazy, entitled son who spends most of his time gaming and smoking weed. His schemes and bad decisions regularly cause trouble for his father.",
+    "tags": [
+      "jimmy",
+      "son",
+      "de santa"
+    ]
+  },
+  {
+    "id": "ch-tracey-de-santa",
+    "name": "Tracey De Santa",
+    "role": "Family",
+    "aliases": [],
+    "voiceActor": "Michal Sinnott",
+    "affiliation": "De Santa family",
+    "specialAbility": null,
+    "description": "Michael's daughter, desperate for fame and attention. Her attempts to break into show business, including a talent show appearance, lead to several awkward missions.",
+    "tags": [
+      "tracey",
+      "daughter",
+      "de santa",
+      "fame or shame"
+    ]
+  },
+  {
+    "id": "ch-dave-norton",
+    "name": "Dave Norton",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Julian Gamble",
+    "affiliation": "FIB",
+    "specialAbility": null,
+    "description": "The FIB agent who arranged Michael's fake death and witness protection back in North Yankton. He is pressured by his boss Steve Haines and ends up both using and helping the protagonists.",
+    "tags": [
+      "dave",
+      "fib",
+      "agent"
+    ]
+  },
+  {
+    "id": "ch-steve-haines",
+    "name": "Steve Haines",
+    "role": "Antagonist",
+    "aliases": [],
+    "voiceActor": "Robert T. Bogue",
+    "affiliation": "FIB",
+    "specialAbility": null,
+    "description": "A corrupt, publicity-hungry FIB agent who forces Michael, Trevor and Franklin to carry out dirty jobs for him. He is one of the targets in the game's 'Deathwish' ending.",
+    "tags": [
+      "haines",
+      "fib",
+      "corrupt",
+      "villain"
+    ]
+  },
+  {
+    "id": "ch-devin-weston",
+    "name": "Devin Weston",
+    "role": "Antagonist",
+    "aliases": [],
+    "voiceActor": "Jonathan Walker",
+    "affiliation": "Weston family business; Merryweather connections",
+    "specialAbility": null,
+    "description": "An arrogant billionaire venture capitalist who hires the crew to steal cars and then refuses to pay. He becomes a major antagonist in the final act.",
+    "tags": [
+      "devin",
+      "billionaire",
+      "villain"
+    ]
+  },
+  {
+    "id": "ch-wei-cheng",
+    "name": "Wei Cheng",
+    "role": "Antagonist",
+    "aliases": [],
+    "voiceActor": "George Cheung",
+    "affiliation": "Cheng family / Triads",
+    "specialAbility": null,
+    "description": "The head of a Triad crime family who clashes with Trevor over the methamphetamine trade in Blaine County. He is another target of the final mission.",
+    "tags": [
+      "wei",
+      "triads",
+      "cheng"
+    ]
+  },
+  {
+    "id": "ch-tao-cheng",
+    "name": "Tao Cheng",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Richard Hsu",
+    "affiliation": "Cheng family / Triads",
+    "specialAbility": null,
+    "description": "Wei Cheng's eccentric, party-loving son who is always accompanied by his translator. He returns in GTA Online as part of the Diamond Casino storyline.",
+    "tags": [
+      "tao",
+      "cheng",
+      "translator",
+      "casino"
+    ]
+  },
+  {
+    "id": "ch-ron-jakowski",
+    "name": "Ron Jakowski",
+    "role": "Supporting",
+    "aliases": [
+      "Nervous Ron"
+    ],
+    "voiceActor": "David Mogentale",
+    "affiliation": "Trevor Philips Industries",
+    "specialAbility": null,
+    "description": "Trevor's jittery, conspiracy-obsessed business partner in Sandy Shores. He handles much of the day-to-day of TPI and later appears as a contact in GTA Online.",
+    "tags": [
+      "ron",
+      "tpi",
+      "conspiracy"
+    ]
+  },
+  {
+    "id": "ch-wade-hebert",
+    "name": "Wade Hebert",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Matthew Maher",
+    "affiliation": "Trevor Philips Industries",
+    "specialAbility": null,
+    "description": "A dim-witted, good-natured drifter who tags along with Trevor. He leads Trevor to his cousin Floyd's apartment in Los Santos.",
+    "tags": [
+      "wade",
+      "tpi",
+      "sandy shores"
+    ]
+  },
+  {
+    "id": "ch-chop",
+    "name": "Chop",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": null,
+    "affiliation": "Lamar Davis; Franklin Clinton",
+    "specialAbility": null,
+    "description": "Lamar's Rottweiler, who ends up living with Franklin. He can join Franklin on walks and help in certain missions by tracking and attacking targets.",
+    "tags": [
+      "dog",
+      "rottweiler",
+      "pet"
+    ]
+  },
+  {
+    "id": "ch-martin-madrazo",
+    "name": "Martin Madrazo",
+    "role": "Antagonist",
+    "aliases": [],
+    "voiceActor": "Alfredo Huereca",
+    "affiliation": "Madrazo Cartel",
+    "specialAbility": null,
+    "description": "A powerful Mexican cartel boss whose property Michael wrecks early in the story, landing Michael with a huge debt. Trevor later takes revenge by kidnapping his wife.",
+    "tags": [
+      "madrazo",
+      "cartel",
+      "mexican"
+    ]
+  },
+  {
+    "id": "ch-patricia-madrazo",
+    "name": "Patricia Madrazo",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Olivia Negron",
+    "affiliation": "Madrazo family",
+    "specialAbility": null,
+    "description": "Martin Madrazo's wife, taken by Trevor as leverage. Instead of being frightened, she forms an unusually tender bond with Trevor during her captivity.",
+    "tags": [
+      "patricia",
+      "madrazo",
+      "kidnapped"
+    ]
+  },
+  {
+    "id": "ch-solomon-richards",
+    "name": "Solomon Richards",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Joel Rooks",
+    "affiliation": "Richards Majestic Productions",
+    "specialAbility": null,
+    "description": "A veteran Vinewood film producer who brings Michael onto his movie as a consultant. He fulfils Michael's long-held dream of working in the film business.",
+    "tags": [
+      "solomon",
+      "producer",
+      "vinewood",
+      "movie"
+    ]
+  },
+  {
+    "id": "ch-simeon-yetarian",
+    "name": "Simeon Yetarian",
+    "role": "Supporting",
+    "aliases": [],
+    "voiceActor": "Demosthenes Chrysan",
+    "affiliation": "Premium Deluxe Motorsport",
+    "specialAbility": null,
+    "description": "A shady Armenian car dealer who employs Franklin and Lamar to repossess vehicles. He reappears as a contact in GTA Online.",
+    "tags": [
+      "simeon",
+      "car dealer",
+      "repo"
+    ]
+  },
+  {
+    "id": "ch-harold-stretch-joseph",
+    "name": "Harold 'Stretch' Joseph",
+    "role": "Antagonist",
+    "aliases": [
+      "Stretch"
+    ],
+    "voiceActor": "Hassan Johnson",
+    "affiliation": "Chamberlain Gangster Families (former); Ballas",
+    "specialAbility": null,
+    "description": "An old friend of Lamar who comes out of prison changed and secretly sells his friends out to rivals. He is one of the targets in the 'Deathwish' finale.",
+    "tags": [
+      "stretch",
+      "traitor",
+      "families"
+    ]
+  },
+  {
+    "id": "ch-brad-snider",
+    "name": "Brad Snider",
+    "role": "Minor",
+    "aliases": [
+      "Bradley Snider"
+    ],
+    "voiceActor": "Ryan Woodle",
+    "affiliation": "Michael and Trevor's old crew",
+    "specialAbility": null,
+    "description": "A member of the crew from the 2004 North Yankton job. Trevor believes he is locked up, but the truth about his fate ties directly to Michael's faked death.",
+    "tags": [
+      "brad",
+      "north yankton",
+      "prologue"
+    ]
+  },
+  {
+    "id": "ch-floyd-hebert",
+    "name": "Floyd Hebert",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Jimmy Ray Bennett",
+    "affiliation": "Port of Los Santos dock worker",
+    "specialAbility": null,
+    "description": "Wade's nervous cousin, a dock worker whose Vespucci apartment Trevor takes over. Trevor pushes him into helping scout the docks.",
+    "tags": [
+      "floyd",
+      "docks",
+      "wade's cousin"
+    ]
+  },
+  {
+    "id": "ch-denise-clinton",
+    "name": "Denise Clinton",
+    "role": "Family",
+    "aliases": [
+      "Aunt Denise"
+    ],
+    "voiceActor": "Janet Hubert",
+    "affiliation": "Clinton family",
+    "specialAbility": null,
+    "description": "Franklin's outspoken aunt who lives in his childhood home on Forum Drive. She is constantly involved in self-help and empowerment groups and rarely has a kind word for him.",
+    "tags": [
+      "denise",
+      "aunt",
+      "franklin's family"
+    ]
+  },
+  {
+    "id": "ch-tanisha-jackson",
+    "name": "Tanisha Jackson",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Yasha Jackson",
+    "affiliation": "Forum Drive neighbourhood",
+    "specialAbility": null,
+    "description": "Franklin's ex-girlfriend who has moved on to a more stable life. She warns Franklin when Lamar gets into serious trouble.",
+    "tags": [
+      "tanisha",
+      "ex-girlfriend"
+    ]
+  },
+  {
+    "id": "ch-andreas-sanchez",
+    "name": "Andreas Sanchez",
+    "role": "Minor",
+    "aliases": [
+      "Agent Sanchez"
+    ],
+    "voiceActor": "Abdel Gonzalez",
+    "affiliation": "FIB",
+    "specialAbility": null,
+    "description": "An FIB agent who works alongside Steve Haines and Dave Norton during the agency's off-the-books operations.",
+    "tags": [
+      "sanchez",
+      "fib",
+      "agent"
+    ]
+  },
+  {
+    "id": "ch-mrs-philips",
+    "name": "Mrs. Philips",
+    "role": "Family",
+    "aliases": [],
+    "voiceActor": "Geraldine Moffat",
+    "affiliation": "Philips family",
+    "specialAbility": null,
+    "description": "Trevor's abusive, manipulative mother. Her brief appearance reveals a lot about where Trevor's issues come from.",
+    "tags": [
+      "trevor's mom",
+      "mother"
+    ]
+  },
+  {
+    "id": "ch-don-percival",
+    "name": "Don Percival",
+    "role": "Antagonist",
+    "aliases": [],
+    "voiceActor": null,
+    "affiliation": "Merryweather Security",
+    "specialAbility": null,
+    "description": "The ex-Navy SEAL founder and CEO of the private military company Merryweather. He never appears on screen in the story and is only heard from through an email.",
+    "tags": [
+      "merryweather",
+      "pmc",
+      "ceo"
+    ]
+  },
+  {
+    "id": "ch-cris-formage",
+    "name": "Cris Formage",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Fred Melamed",
+    "affiliation": "Epsilon Program",
+    "specialAbility": null,
+    "description": "The smooth-talking leader of the Epsilon Program cult. Michael can join the cult in a long side quest that pokes fun at celebrity religions.",
+    "tags": [
+      "epsilon",
+      "cult",
+      "side quest"
+    ]
+  },
+  {
+    "id": "ch-hao",
+    "name": "Hao",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Rob Yang",
+    "affiliation": "Los Santos street racing scene",
+    "specialAbility": null,
+    "description": "A car-tuning expert and street race organiser. He runs Franklin's street races in the story and later lends his name to Hao's Special Works upgrades.",
+    "tags": [
+      "street racing",
+      "tuner",
+      "hao's special works"
+    ]
+  },
+  {
+    "id": "ch-beverly-felton",
+    "name": "Beverly Felton",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Geoffrey Cantor",
+    "affiliation": "Paparazzi",
+    "specialAbility": null,
+    "description": "A sleazy celebrity photographer who recruits Franklin to help him get scandalous shots in a series of Strangers and Freaks missions.",
+    "tags": [
+      "paparazzo",
+      "photographer",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-dom-beasley",
+    "name": "Dom Beasley",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Tony von Halle",
+    "affiliation": "Extreme sports enthusiast",
+    "specialAbility": null,
+    "description": "An adrenaline junkie who drags Franklin into extreme stunts such as skydiving and downhill biking. His thrill-seeking eventually goes too far.",
+    "tags": [
+      "extreme sports",
+      "adrenaline",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-barry",
+    "name": "Barry",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Tuck Milligan",
+    "affiliation": "Marijuana legalization activist",
+    "specialAbility": null,
+    "description": "A pro-legalization activist who offers the protagonists 'samples', leading to surreal hallucination missions against clowns and aliens.",
+    "tags": [
+      "weed",
+      "hallucination",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-mary-ann-quinn",
+    "name": "Mary-Ann Quinn",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Dawn McGee",
+    "affiliation": "Fitness enthusiast",
+    "specialAbility": null,
+    "description": "A hyper-competitive fitness fanatic who challenges Franklin to running, cycling and swimming races.",
+    "tags": [
+      "fitness",
+      "races",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-nigel",
+    "name": "Nigel",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Richard Easton",
+    "affiliation": "Celebrity memorabilia hunters",
+    "specialAbility": null,
+    "description": "An elderly English tourist obsessed with celebrities who, with Mrs. Thornhill, sends Trevor to collect bizarre souvenirs from famous people.",
+    "tags": [
+      "celebrity",
+      "tourists",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-mrs-thornhill",
+    "name": "Mrs. Thornhill",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Patricia Kilgarriff",
+    "affiliation": "Celebrity memorabilia hunters",
+    "specialAbility": null,
+    "description": "Nigel's genteel, celebrity-obsessed companion. The pair's increasingly unhinged requests lead Trevor into some dark comedy.",
+    "tags": [
+      "celebrity",
+      "tourists",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-josh-bernstein",
+    "name": "Josh Bernstein",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Joseph Adams",
+    "affiliation": "Real estate agent",
+    "specialAbility": null,
+    "description": "A failing real estate agent who hires Trevor to carry out arson on properties, with predictably messy results.",
+    "tags": [
+      "realtor",
+      "arson",
+      "strangers and freaks"
+    ]
+  },
+  {
+    "id": "ch-lazlow-jones",
+    "name": "Lazlow Jones",
+    "role": "Minor",
+    "aliases": [
+      "Lazlow"
+    ],
+    "voiceActor": "Lazlow Jones",
+    "affiliation": "Fame or Shame (TV)",
+    "specialAbility": null,
+    "description": "The long-running GTA radio personality, here hosting the trashy talent show Fame or Shame. Michael and Trevor humiliate him after Tracey's appearance on the show.",
+    "tags": [
+      "lazlow",
+      "tv host",
+      "fame or shame"
+    ]
+  },
+  {
+    "id": "ch-fabien-larouche",
+    "name": "Fabien LaRouche",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Michael Giese",
+    "affiliation": "Yoga instructor",
+    "specialAbility": null,
+    "description": "Amanda's pretentious French yoga instructor. Michael is roped into an awkward yoga session with him.",
+    "tags": [
+      "yoga",
+      "instructor"
+    ]
+  },
+  {
+    "id": "ch-kyle-chavis",
+    "name": "Kyle Chavis",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Brad Schmidt",
+    "affiliation": "Tennis coach",
+    "specialAbility": null,
+    "description": "Amanda's tennis coach and lover. Michael's furious pursuit of him leads to the disaster that puts Michael in debt to Martin Madrazo.",
+    "tags": [
+      "tennis coach",
+      "affair"
+    ]
+  },
+  {
+    "id": "ch-molly-schultz",
+    "name": "Molly Schultz",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Elizabeth Mason",
+    "affiliation": "Devin Weston",
+    "specialAbility": null,
+    "description": "Devin Weston's cold, efficient lawyer and assistant who handles his dirty business. She comes to a gruesome end at Los Santos airport.",
+    "tags": [
+      "lawyer",
+      "assistant",
+      "devin"
+    ]
+  },
+  {
+    "id": "ch-maude-eccles",
+    "name": "Maude Eccles",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Jodie Lynne McClintock",
+    "affiliation": "Bail bonds",
+    "specialAbility": null,
+    "description": "A bail bond agent in Blaine County who hands Trevor bounties on fugitives. She also gives out bounty target jobs in GTA Online.",
+    "tags": [
+      "bail bonds",
+      "bounty hunting",
+      "trevor"
+    ]
+  },
+  {
+    "id": "ch-tonya-wiggins",
+    "name": "Tonya Wiggins",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Brianna Colette",
+    "affiliation": "Forum Drive neighbourhood",
+    "specialAbility": null,
+    "description": "An acquaintance of Franklin who asks him to cover tow truck jobs for her boyfriend. These lead to the tow truck side activity.",
+    "tags": [
+      "tow truck",
+      "towing",
+      "franklin"
+    ]
+  },
+  {
+    "id": "ch-cletus-ewing",
+    "name": "Cletus Ewing",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Ian Scott McGregor",
+    "affiliation": "Blaine County hunter",
+    "specialAbility": null,
+    "description": "A backwoods hunter who teaches Trevor hunting, unlocking the hunting activity in the countryside.",
+    "tags": [
+      "hunting",
+      "countryside",
+      "trevor"
+    ]
+  },
+  {
+    "id": "ch-omega",
+    "name": "Omega",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Alex Bilu",
+    "affiliation": "UFO enthusiast",
+    "specialAbility": null,
+    "description": "A spacey hippie convinced aliens are among us, who has Franklin collect spaceship parts scattered across the map.",
+    "tags": [
+      "aliens",
+      "spaceship parts",
+      "collectibles"
+    ]
+  },
+  {
+    "id": "ch-patrick-mcreary",
+    "name": "Patrick 'Packie' McReary",
+    "role": "Minor",
+    "aliases": [
+      "Packie"
+    ],
+    "voiceActor": "Ryan Johnston",
+    "affiliation": "Heist crew member (gunman)",
+    "specialAbility": null,
+    "description": "An Irish-American career criminal returning from GTA IV who can be recruited as a gunman for heists after being rescued in a random event.",
+    "tags": [
+      "packie",
+      "gta iv",
+      "heist crew",
+      "gunman"
+    ]
+  },
+  {
+    "id": "ch-jay-norris",
+    "name": "Jay Norris",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "David Cope",
+    "affiliation": "Lifeinvader",
+    "specialAbility": null,
+    "description": "The smug founder of the social network Lifeinvader. Lester arranges his assassination during a live product launch.",
+    "tags": [
+      "lifeinvader",
+      "tech ceo",
+      "assassination"
+    ]
+  },
+  {
+    "id": "ch-ferdinand-kerimov",
+    "name": "Ferdinand Kerimov",
+    "role": "Minor",
+    "aliases": [
+      "Mr. K"
+    ],
+    "voiceActor": "Armin Amiri",
+    "affiliation": "Captured by the FIB",
+    "specialAbility": null,
+    "description": "A man the FIB believes knows the location of a terror suspect. His interrogation by Trevor is one of the game's most notorious scenes.",
+    "tags": [
+      "mr k",
+      "interrogation",
+      "by the book"
+    ]
+  },
+  {
+    "id": "ch-abigail-mathers",
+    "name": "Abigail Mathers",
+    "role": "Minor",
+    "aliases": [],
+    "voiceActor": "Beth Chamberlin",
+    "affiliation": "Submarine parts quest",
+    "specialAbility": null,
+    "description": "A woman investigating a mysterious submarine who asks Michael to retrieve its scattered parts from the ocean floor.",
+    "tags": [
+      "submarine parts",
+      "collectibles",
+      "michael"
+    ]
+  }
+]

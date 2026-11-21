@@ -1,0 +1,11 @@
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); white-space: nowrap; }
+.money { color: var(--accent); font-weight: 600; background: var(--accent-soft); }
+.badge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); white-space: nowrap; }
+.copy { border: 1px solid var(--line); background: var(--surface-2); border-radius: 8px; padding: 5px 12px; cursor: pointer; font-size: 12.5px; font-weight: 500; flex: none; }
+.copy:hover { border-color: var(--accent); color: var(--accent); }
+.empty { grid-column: 1 / -1; text-align: center; padding: 64px 16px; color: var(--muted); border: 1px dashed var(--line); border-radius: var(--radius); margin: 8px 0 40px; }
+.empty strong { display: block; color: var(--text); font-size: 16px; margin-bottom: 4px; }
+.iconBtn { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; flex: none; color: var(--text); margin-left: auto; }
+.iconBtn svg { width: 17px; height: 17px; fill: currentColor; }
+.iconBtn:hover { border-color: var(--line-strong); background: var(--surface-2); }

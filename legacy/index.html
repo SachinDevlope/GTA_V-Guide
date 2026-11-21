@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LS Index</title>
+  <meta name="description" content="Unofficial searchable GTA V and GTA Online reference: missions, heists, businesses, vehicles, weapons, characters, cheats, skills and collectibles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#/" aria-label="Home">
+        <span class="brand-mark">LS</span>
+        <span class="brand-text">Index <small>GTA V &amp; Online reference</small></span>
+      </a>
+      <div class="search">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.93 12.1l4.24 4.23-1.42 1.42-4.23-4.24A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+        <input id="q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search missions, heists, vehicles, weapons, cheats…  (press /)" aria-label="Search"
+               role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggest">
+        <kbd class="kbd">/</kbd>
+        <div id="suggest" class="suggest" role="listbox" hidden></div>
+      </div>
+      <button id="theme" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+      </button>
+    </div>
+    <div class="wrap modes" id="modes" role="group" aria-label="Game mode"></div>
+    <nav class="wrap tabs" id="tabs" aria-label="Categories"></nav>
+  </header>
+
+  <main class="wrap">
+    <section id="toolbar" class="toolbar" hidden></section>
+    <p id="status" class="status" aria-live="polite"></p>
+    <section id="home" class="home"></section>
+    <section id="results" class="grid"></section>
+    <section id="mapview" class="mapview" hidden>
+      <div id="map" class="map" role="region" aria-label="Map of mission locations"></div>
+      <div class="map-legend">
+        <span><i style="--pin:var(--p-michael)"></i>Michael</span><span><i style="--pin:var(--p-franklin)"></i>Franklin</span>
+        <span><i style="--pin:var(--p-trevor)"></i>Trevor</span><span><i style="--pin:var(--p-multi)"></i>Several</span>
+        <span class="map-note">Pins are approximate start points. Number = missions at that spot. Map: <a href="https://gta.fandom.com/wiki/File:SouthernSanAndreas-GTAV-Map.jpg" target="_blank" rel="noopener noreferrer">GTA Wiki</a></span>
+      </div>
+    </section>
+  </main>
+
+  <div id="drawer-backdrop" class="backdrop" hidden></div>
+  <aside id="drawer" class="drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="d-title">
+    <div class="drawer-head">
+      <span id="d-cat" class="badge"></span>
+      <button id="d-close" class="icon-btn" aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6.4 5 5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6 10.6 12 5 6.4Z"/></svg>
+      </button>
+    </div>
+    <div id="d-body" class="drawer-body"></div>
+  </aside>
+
+  <footer class="wrap foot">
+    Unofficial fan reference. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.
+    Data compiled from community sources; verify anything important in-game.
+  </footer>
+
+  <script src="data/missions.js"></script>
+  <script src="data/vehicles.js"></script>
+  <script src="data/weapons.js"></script>
+  <script src="data/characters.js"></script>
+  <script src="data/cheats.js"></script>
+  <script src="data/skills.js"></script>
+  <script src="data/online.js"></script>
+  <script src="data/images.js"></script>
+  <script src="data/places.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

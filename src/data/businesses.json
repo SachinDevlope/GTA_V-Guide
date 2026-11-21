@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "ob-ceo-office",
+    "name": "Executive Office (CEO Office)",
+    "type": "Business",
+    "dlc": "Further Adventures in Finance and Felony",
+    "buyFrom": "Dynasty 8 Executive",
+    "priceMin": 1000000,
+    "priceMax": 4000000,
+    "requires": null,
+    "income": "Unlocks CEO work, VIP Work and Special Cargo; the office computer is used to buy warehouses and run cargo missions.",
+    "description": "The headquarters for a SecuroServ CEO, available in four towers around the city. It is the gateway to Special Cargo and Vehicle Cargo businesses and can be decorated and expanded with garages.",
+    "tags": [
+      "ceo",
+      "office",
+      "securoserv",
+      "special cargo"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "The office itself earns nothing; its value comes from the Special Cargo and Vehicle Warehouse businesses it unlocks.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "B",
+    "pros": [
+      "Required gateway to crate and vehicle cargo businesses",
+      "Relatively cheap entry point at the base tier",
+      "Can be expanded with office garages and a vehicle workshop"
+    ],
+    "cons": [
+      "Generates no income on its own",
+      "Upgrades and decor add a lot to the price without boosting earnings"
+    ],
+    "verdict": "Worth buying the cheapest one, since it is the key to two solid CEO businesses; the expensive towers add nothing but looks."
+  },
+  {
+    "id": "ob-special-cargo-warehouse",
+    "name": "Special Cargo Warehouse",
+    "type": "Business",
+    "dlc": "Further Adventures in Finance and Felony",
+    "buyFrom": "Executive Office computer (SecuroServ)",
+    "priceMin": 250000,
+    "priceMax": 3500000,
+    "requires": "Own an Executive Office and be a CEO",
+    "income": "Source crates through buy missions, store them, then sell in bulk; bigger sales pay more per crate.",
+    "description": "Storage for crates of contraband sourced by a CEO. Warehouses come in small (16 crates), medium (42) and large (111) sizes, and up to five can be owned.",
+    "tags": [
+      "ceo",
+      "crates",
+      "special cargo",
+      "warehouse"
+    ],
+    "earnings": {
+      "perHour": 200000,
+      "perHourNote": "Middle of guide estimates (about $150K-$226K/hr) for sourcing and selling a full large warehouse; a full 111-crate sale is about $2.22M against roughly $666K in crate costs.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": 1
+    },
+    "tier": "B",
+    "pros": [
+      "A full large-warehouse sale is one of the biggest single paydays in the game",
+      "Sourcing missions are short and can be done alone",
+      "Small warehouses are very cheap"
+    ],
+    "cons": [
+      "Sourcing a large warehouse takes many hours of repetitive missions",
+      "Big sales can roll multiple delivery vehicles, which is risky solo",
+      "Crates must be bought, so there is an upfront cost per run"
+    ],
+    "verdict": "A decent active grind if you buy the large warehouse and sell in one go, but slower and more tedious than newer options."
+  },
+  {
+    "id": "ob-vehicle-warehouse",
+    "name": "Vehicle Warehouse",
+    "type": "Business",
+    "dlc": "Import/Export",
+    "buyFrom": "Executive Office computer (SecuroServ)",
+    "priceMin": 1500000,
+    "priceMax": 2850000,
+    "requires": "Own an Executive Office and be a CEO",
+    "income": "Steal high-end cars, store them and export them to buyers; condition on delivery affects the payout.",
+    "description": "An underground warehouse for stolen high-end vehicles, run as part of the Import/Export business. Only one can be owned, and filling collections unlocks bonus vehicles for Special Vehicle Work.",
+    "tags": [
+      "ceo",
+      "import export",
+      "cars",
+      "vehicle cargo"
+    ],
+    "earnings": {
+      "perHour": 230000,
+      "perHourNote": "Middle of widely varying estimates ($150K to $400K/hr) for stealing and exporting Top Range cars at about $80K net each; repairs and cooldowns lower the real figure.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": 7
+    },
+    "tier": "B",
+    "pros": [
+      "Top Range exports pay around $80K each",
+      "Each steal and sale is quick and handled with one car",
+      "Good use of the CEO Office alongside crates"
+    ],
+    "cons": [
+      "Damage on delivery cuts the payout",
+      "Sale cooldowns limit how fast you can cash out",
+      "Needs a full warehouse for the best car mix"
+    ],
+    "verdict": "Solid solo money for players who enjoy driving, but sale cooldowns and damage penalties keep it below the top earners."
+  },
+  {
+    "id": "ob-mc-clubhouse",
+    "name": "MC Clubhouse",
+    "type": "Business",
+    "dlc": "Bikers",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 200000,
+    "priceMax": 495000,
+    "requires": null,
+    "income": "Unlocks Clubhouse Contracts and MC work for a Motorcycle Club President, and is required for the MC drug and forgery businesses.",
+    "description": "A biker hangout that lets the owner found a Motorcycle Club. It includes a bar, a garage and a custom bike shop, and serves as the base for the MC businesses.",
+    "tags": [
+      "bikers",
+      "mc",
+      "clubhouse",
+      "president"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable hourly figure; the bar earns small sums from resupplies and Clubhouse Contracts pay modest amounts.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Cheap way to become an MC President",
+      "Required to own the five MC drug and forgery businesses",
+      "Bar resupplies add a little background income"
+    ],
+    "cons": [
+      "Its own income streams are small",
+      "Mostly valuable only as a stepping stone"
+    ],
+    "verdict": "Buy the cheapest one only if you want MC businesses; on its own it is not a money maker."
+  },
+  {
+    "id": "ob-cocaine-lockup",
+    "name": "Cocaine Lockup",
+    "type": "Business",
+    "dlc": "Bikers",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 975000,
+    "priceMax": 1852500,
+    "requires": "Own an MC Clubhouse",
+    "income": "Resupply-and-sell: buy or steal supplies, let staff process them into cocaine, then run sell missions.",
+    "description": "The highest-value of the original MC drug businesses. Four locations are available, and Equipment and Staff upgrades raise production speed and product value.",
+    "tags": [
+      "bikers",
+      "mc business",
+      "cocaine",
+      "drugs"
+    ],
+    "earnings": {
+      "perHour": 60000,
+      "perHourNote": "Middle of guide figures for a fully upgraded lockup selling far ($46K-$90K/hr net); un-upgraded it earns far less.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 16
+    },
+    "tier": "B",
+    "pros": [
+      "Highest-paying MC business",
+      "Produces while you do other things",
+      "Feeds goods into the Nightclub warehouse"
+    ],
+    "cons": [
+      "Needs costly staff and equipment upgrades to pay well",
+      "Larger sales can need several vehicles, which is hard alone",
+      "Supplies must be bought or stolen regularly"
+    ],
+    "verdict": "The only MC business most guides still recommend; worth it once upgraded, especially if you also own a Nightclub."
+  },
+  {
+    "id": "ob-meth-lab",
+    "name": "Methamphetamine Lab",
+    "type": "Business",
+    "dlc": "Bikers",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 910000,
+    "priceMax": 1729000,
+    "requires": "Own an MC Clubhouse",
+    "income": "Resupply-and-sell: supplies are cooked into meth over time and then delivered to buyers.",
+    "description": "An MC business producing meth, offered at four locations. It is one of the more profitable MC businesses once fully upgraded.",
+    "tags": [
+      "bikers",
+      "mc business",
+      "meth",
+      "drugs"
+    ],
+    "earnings": {
+      "perHour": 40000,
+      "perHourNote": "Middle of guide figures for a fully upgraded lab ($28K-$65K/hr net); sources disagree a lot.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 23
+    },
+    "tier": "C",
+    "pros": [
+      "Second-best MC business by value",
+      "Runs in the background",
+      "Adds stock to a Nightclub warehouse"
+    ],
+    "cons": [
+      "Outclassed by the cheaper-to-run Acid Lab",
+      "Can lose money un-upgraded if you buy supplies",
+      "Multi-vehicle sales are awkward solo"
+    ],
+    "verdict": "Only worth it fully upgraded and paired with a Nightclub; newer businesses earn more for the effort."
+  },
+  {
+    "id": "ob-weed-farm",
+    "name": "Weed Farm",
+    "type": "Business",
+    "dlc": "Bikers",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 715000,
+    "priceMax": 1358500,
+    "requires": "Own an MC Clubhouse",
+    "income": "Resupply-and-sell: grow weed from supplies and sell the product; owning Smoke on the Water raises its value.",
+    "description": "A grow operation for cannabis, available at four locations. It is cheaper than the other drug businesses but earns less per unit.",
+    "tags": [
+      "bikers",
+      "mc business",
+      "weed",
+      "drugs"
+    ],
+    "earnings": {
+      "perHour": 26000,
+      "perHourNote": "Sources disagree strongly (about $16K-$37K/hr when upgraded); this is the middle value.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 28
+    },
+    "tier": "C",
+    "pros": [
+      "Cheapest MC drug business",
+      "Smoke on the Water raises its product value",
+      "Contributes Nightclub stock"
+    ],
+    "cons": [
+      "Low earnings even with upgrades",
+      "Smaller solo sale limits"
+    ],
+    "verdict": "A low earner; buy it mainly for Nightclub stock or completionism rather than direct profit."
+  },
+  {
+    "id": "ob-counterfeit-cash-factory",
+    "name": "Counterfeit Cash Factory",
+    "type": "Business",
+    "dlc": "Bikers",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 845000,
+    "priceMax": 1605000,
+    "requires": "Own an MC Clubhouse",
+    "income": "Resupply-and-sell: print fake bills from supplies and sell them; owning the Hands On Car Wash raises its value.",
+    "description": "An MC business that prints counterfeit money, offered at four locations. Upgrades speed up printing and increase the value of each batch.",
+    "tags": [
+      "bikers",
+      "mc business",
+      "counterfeit",
+      "cash"
+    ],
+    "earnings": {
+      "perHour": 37500,
+      "perHourNote": "Middle of guide figures for a fully upgraded factory ($27K-$48K/hr net).",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 23
+    },
+    "tier": "C",
+    "pros": [
+      "Decent mid-range MC business",
+      "Hands On Car Wash ownership raises its value",
+      "Feeds Nightclub stock"
+    ],
+    "cons": [
+      "Can run at a loss un-upgraded with bought supplies",
+      "Earns far less than active work"
+    ],
+    "verdict": "Fine as a background earner once upgraded, but not a priority purchase."
+  },
+  {
+    "id": "ob-document-forgery-office",
+    "name": "Document Forgery Office",
+    "type": "Business",
+    "dlc": "Bikers",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 650000,
+    "priceMax": 1235000,
+    "requires": "Own an MC Clubhouse",
+    "income": "Resupply-and-sell: produce forged documents from supplies and sell them; the lowest-earning MC business.",
+    "description": "The cheapest MC business, producing fake IDs and paperwork. Four locations are available.",
+    "tags": [
+      "bikers",
+      "mc business",
+      "forgery",
+      "documents"
+    ],
+    "earnings": {
+      "perHour": 22500,
+      "perHourNote": "Middle of guide figures ($12K-$30K/hr net when upgraded); widely called the weakest MC business.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 29
+    },
+    "tier": "C",
+    "pros": [
+      "Cheapest MC business",
+      "Small solo-friendly sales"
+    ],
+    "cons": [
+      "Lowest earnings of any MC business",
+      "Can lose money un-upgraded on bought supplies",
+      "Long payback time"
+    ],
+    "verdict": "Skip it unless you are collecting every business; almost anything else is a better use of the money."
+  },
+  {
+    "id": "ob-bunker",
+    "name": "Bunker",
+    "type": "Business",
+    "dlc": "Gunrunning",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1165000,
+    "priceMax": 2375000,
+    "requires": null,
+    "income": "Resupply-and-sell weapons manufacturing; staff can also be assigned to research that unlocks vehicle and weapon upgrades.",
+    "description": "An underground arms factory available at eleven locations across the map. It also stores the Mobile Operations Center and unlocks weaponized vehicles.",
+    "tags": [
+      "gunrunning",
+      "weapons",
+      "bunker",
+      "research"
+    ],
+    "earnings": {
+      "perHour": 70000,
+      "perHourNote": "Middle of guide estimates for a fully upgraded bunker on bought supplies (about $45K-$110K/hr); a full sale is about $1.05M selling far.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 17
+    },
+    "tier": "B",
+    "pros": [
+      "Big full-stock sales",
+      "Produces in the background while you play",
+      "Research unlocks useful vehicle and weapon upgrades",
+      "Feeds the Nightclub warehouse"
+    ],
+    "cons": [
+      "Needs expensive upgrades to earn well",
+      "Full sales can need several vehicles, tough alone",
+      "Long wait to fill"
+    ],
+    "verdict": "A reliable semi-passive earner once upgraded and a strong partner for the Nightclub; worth owning for most players."
+  },
+  {
+    "id": "ob-mobile-operations-center",
+    "name": "Mobile Operations Center",
+    "type": "Vehicle Property",
+    "dlc": "Gunrunning",
+    "buyFrom": "Warstock Cache & Carry",
+    "priceMin": 1225000,
+    "priceMax": 2790000,
+    "requires": "Own a Bunker",
+    "income": "No direct income; it houses vehicle and weapon workshops and is used for Gunrunning-related missions.",
+    "description": "A mobile command trailer hauled by a truck cab. It can be fitted with a vehicle workshop, weapon workshop and command center, and lives inside the Bunker.",
+    "tags": [
+      "gunrunning",
+      "moc",
+      "trailer",
+      "mobile base"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Mobile weapon and vehicle workshop",
+      "Used for some Gunrunning content"
+    ],
+    "cons": [
+      "Earns no money",
+      "Expensive for what it adds"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-hangar",
+    "name": "Hangar",
+    "type": "Business",
+    "dlc": "Smuggler's Run",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1200000,
+    "priceMax": 3250000,
+    "requires": null,
+    "income": "Air Freight Cargo: source smuggled goods by air and sell them in bulk; Higgins Helitours raises its value.",
+    "description": "An aircraft hangar at LSIA or Fort Zancudo that stores personal aircraft and runs the Air Freight smuggling business. It is also where the Avenger's Operations Terminal is fitted.",
+    "tags": [
+      "smuggler's run",
+      "hangar",
+      "aircraft",
+      "air freight"
+    ],
+    "earnings": {
+      "perHour": 450000,
+      "perHourNote": "Guides disagree: about $360K/hr for fast land sourcing at $30K a crate, up to $500K-$700K/hr when rotating cargo types; this is the middle value and assumes a fast aircraft or Oppressor Mk II.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": 3
+    },
+    "tier": "A",
+    "pros": [
+      "Crate values were tripled in 2022, making it one of the best active businesses",
+      "Full 50-crate sales of top cargo pay over $2.4M",
+      "Higgins Helitours adds a 10% bonus",
+      "Sourcing works solo"
+    ],
+    "cons": [
+      "Solo sourcing brings in one crate at a time",
+      "Air sourcing missions are slow; good rates rely on a fast vehicle",
+      "Large sales in busy lobbies are risky"
+    ],
+    "verdict": "Underrated and very profitable for the price if you grind land sourcing with a fast vehicle; one of the best active buys."
+  },
+  {
+    "id": "ob-facility",
+    "name": "Facility",
+    "type": "Property",
+    "dlc": "The Doomsday Heist",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1250000,
+    "priceMax": 2950000,
+    "requires": null,
+    "income": "No passive income; it hosts The Doomsday Heist and can be fitted with an Orbital Cannon and other upgrades.",
+    "description": "A Cold War-era underground base used to plan The Doomsday Heist. Nine locations exist, mostly in Blaine County.",
+    "tags": [
+      "doomsday",
+      "facility",
+      "orbital cannon",
+      "heist"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable hourly figure; its income comes from The Doomsday Heist, which needs a crew.",
+      "style": "Active",
+      "soloFriendly": false,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Hosts The Doomsday Heist",
+      "First weekly completion of classic heists now gets a large bonus",
+      "Orbital Cannon and other upgrades"
+    ],
+    "cons": [
+      "Doomsday needs two to four players",
+      "No passive income",
+      "Heist payouts were reduced in July 2026"
+    ],
+    "verdict": "Only worth it for players with a regular heist crew; solo players get little money from it."
+  },
+  {
+    "id": "ob-avenger",
+    "name": "Avenger",
+    "type": "Vehicle Property",
+    "dlc": "The Doomsday Heist",
+    "buyFrom": "Warstock Cache & Carry",
+    "priceMin": 3450000,
+    "priceMax": 6237500,
+    "requires": null,
+    "income": "No direct income; with the Operations Terminal upgrade it starts Project Overthrow and other Los Santos Angels jobs.",
+    "description": "A VTOL cargo aircraft that doubles as a flying base with optional workshops. A Facility used to be required, but since 2023 it can be bought without one and stored in a Hangar.",
+    "tags": [
+      "doomsday",
+      "mercenaries",
+      "avenger",
+      "aircraft",
+      "mobile base"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable current hourly figure; LSA Operations reportedly pay around $45K-$70K plus a bonus, and recent payout changes lowered solo rewards.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Operations Terminal unlocks repeatable missions that can be done solo",
+      "Also works as a mobile workshop and flying base"
+    ],
+    "cons": [
+      "Very expensive once the terminal is added",
+      "Mission payouts are modest",
+      "No passive income"
+    ],
+    "verdict": "A fun toy, but too expensive to buy purely for money."
+  },
+  {
+    "id": "ob-nightclub",
+    "name": "Nightclub",
+    "type": "Business",
+    "dlc": "After Hours",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1080000,
+    "priceMax": 1700000,
+    "requires": null,
+    "income": "Passive: a safe fills based on club popularity, and technicians in the basement warehouse accumulate goods from your other businesses for sale.",
+    "description": "A club with resident DJs and a multi-level basement warehouse. It is considered one of the best passive earners because it needs no resupplying.",
+    "tags": [
+      "after hours",
+      "nightclub",
+      "passive income",
+      "warehouse"
+    ],
+    "earnings": {
+      "perHour": 62500,
+      "perHourNote": "Safe only: $50K per in-game day (48 minutes) at full popularity, a figure most guides agree on. Warehouse goods from linked businesses add more on top.",
+      "style": "Passive",
+      "soloFriendly": true,
+      "paybackHours": 17
+    },
+    "tier": "A",
+    "pros": [
+      "Best passive earner in the game",
+      "Warehouse turns your other businesses into extra stock with no supplies needed",
+      "Big warehouse sales fit in one delivery vehicle",
+      "Very low effort"
+    ],
+    "cons": [
+      "Popularity drops over time and must be topped up",
+      "Warehouse income depends on owning other businesses",
+      "Earns only while you are in a session"
+    ],
+    "verdict": "A must-own for almost everyone: cheap upkeep, real passive income, and it boosts the value of every other business you own."
+  },
+  {
+    "id": "ob-terrorbyte",
+    "name": "Terrorbyte",
+    "type": "Vehicle Property",
+    "dlc": "After Hours",
+    "buyFrom": "Warstock Cache & Carry",
+    "priceMin": 1375000,
+    "priceMax": 3459500,
+    "requires": "Own a Nightclub or the Garment Factory",
+    "income": "No direct income; it unlocks Client Jobs and can be upgraded with a drone station and specialized workshop.",
+    "description": "A mobile command truck with computer and drone facilities. It parks in the Nightclub or Garment Factory and is often used to manage businesses remotely.",
+    "tags": [
+      "after hours",
+      "terrorbyte",
+      "truck",
+      "mobile base",
+      "client jobs"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No hourly figure; Client Jobs pay roughly $30K-$35K each.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Client Jobs are easy to solo",
+      "Can be fitted with a drone and specialized workshop"
+    ],
+    "cons": [
+      "Low payouts per job",
+      "Expensive for the income it unlocks"
+    ],
+    "verdict": "Not worth buying for money alone; consider it only if you want its upgrades or utility."
+  },
+  {
+    "id": "ob-arena-workshop",
+    "name": "Arena Workshop",
+    "type": "Garage",
+    "dlc": "Arena War",
+    "buyFrom": "arenawar.tv",
+    "priceMin": 995000,
+    "priceMax": 4365000,
+    "requires": null,
+    "income": "No direct income; it converts vehicles into Arena War variants and stores them.",
+    "description": "A workshop beneath the Maze Bank Arena where mechanic Sacha Yetarian builds arena vehicles. It connects to a garage with optional extra floors.",
+    "tags": [
+      "arena war",
+      "workshop",
+      "garage",
+      "vehicles"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Builds Arena War vehicles",
+      "Extra vehicle storage"
+    ],
+    "cons": [
+      "Earns no money",
+      "Arena War modes have small lobbies today"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-casino-penthouse",
+    "name": "Casino Penthouse",
+    "type": "Property",
+    "dlc": "The Diamond Casino & Resort",
+    "buyFrom": "The Diamond Casino & Resort website",
+    "priceMin": 1500000,
+    "priceMax": 6533500,
+    "requires": null,
+    "income": "No passive income; it unlocks Casino Work missions from Agatha Baker and a free daily casino perks set.",
+    "description": "A luxury suite atop The Diamond Casino & Resort, available in several themed packages. Options include a party area, bar, spa and private dealer.",
+    "tags": [
+      "casino",
+      "penthouse",
+      "diamond casino",
+      "luxury"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable hourly figure for Casino Work; it is not a regular grind.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Unlocks Casino Work missions",
+      "Daily casino perks",
+      "Luxury interior"
+    ],
+    "cons": [
+      "Very small earnings for the price",
+      "Most of the cost is cosmetic"
+    ],
+    "verdict": "Buy it for style or casino perks, not as an investment."
+  },
+  {
+    "id": "ob-arcade",
+    "name": "Arcade",
+    "type": "Business",
+    "dlc": "The Diamond Casino Heist",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1235000,
+    "priceMax": 2530000,
+    "requires": null,
+    "income": "A small passive safe that grows with the number of arcade cabinets installed; also the hub for The Diamond Casino Heist.",
+    "description": "A retro arcade front with Lester's planning room in the basement. Six locations are available, and owners can play the games they install.",
+    "tags": [
+      "casino heist",
+      "arcade",
+      "lester",
+      "passive income"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "Arcade safe makes up to $5K per in-game day (about $6,250/hr); its real value is The Diamond Casino Heist, which has no reliable hourly figure after the July 2026 changes.",
+      "style": "Mixed",
+      "soloFriendly": false,
+      "paybackHours": null
+    },
+    "tier": "B",
+    "pros": [
+      "Hosts The Diamond Casino Heist, still one of the biggest crew paydays",
+      "Small passive safe from arcade machines",
+      "First weekly heist completion carries a large bonus"
+    ],
+    "cons": [
+      "The heist needs at least two players",
+      "Repeat runs in the same week pay less after the 2026 changes",
+      "Safe income is tiny"
+    ],
+    "verdict": "Worth it if you have a crew for the Casino Heist; solo players should prioritize other properties."
+  },
+  {
+    "id": "ob-kosatka",
+    "name": "Kosatka",
+    "type": "Vehicle Property",
+    "dlc": "The Cayo Perico Heist",
+    "buyFrom": "Warstock Cache & Carry",
+    "priceMin": 2200000,
+    "priceMax": 9085000,
+    "requires": "Meet Miguel Madrazo at The Music Locker",
+    "income": "No passive income; it is the base for The Cayo Perico Heist, and its sonar helps find Hidden Caches.",
+    "description": "A massive submarine HQ with a planning screen, moon pool and optional missile and helicopter upgrades. It can be called to various points around the coast.",
+    "tags": [
+      "cayo",
+      "kosatka",
+      "submarine",
+      "pavel"
+    ],
+    "earnings": {
+      "perHour": 200000,
+      "perHourNote": "Middle of guide figures that count the solo cooldown (about $90K-$340K/hr); estimates ignoring cooldowns run over $1M/hr. The July 2026 update made the lower-value Tequila primary far more common.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": 11
+    },
+    "tier": "S",
+    "pros": [
+      "Hosts The Cayo Perico Heist, still a top solo payday",
+      "Fully soloable",
+      "Pays back in only a few runs",
+      "Sonar helps find hidden caches"
+    ],
+    "cons": [
+      "July 2026 nerf cut the best primary targets and lowered average payouts",
+      "Long solo cooldown between runs",
+      "Repeat setups carry a fee"
+    ],
+    "verdict": "Still one of the strongest purchases for solo players even after the 2026 nerf; fill the cooldown with other businesses."
+  },
+  {
+    "id": "ob-auto-shop",
+    "name": "Auto Shop",
+    "type": "Business",
+    "dlc": "Los Santos Tuners",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1670000,
+    "priceMax": 1920000,
+    "requires": null,
+    "income": "Robbery Contracts for KDJ and Sessanta, plus modifying and delivering customer cars brought in by staff.",
+    "description": "A tuner garage with a contract planning board and customer service bays. Five locations exist, and an LS Car Meet membership is often bought alongside it.",
+    "tags": [
+      "tuners",
+      "auto shop",
+      "robbery contracts",
+      "car meet"
+    ],
+    "earnings": {
+      "perHour": 320000,
+      "perHourNote": "Middle of guide figures ($300K-$400K/hr) for back-to-back Robbery Contracts; contracts net about $153K-$166K each and the Union Depository about $270K solo.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": 5
+    },
+    "tier": "A",
+    "pros": [
+      "Among the best hourly rates for solo players",
+      "All contracts can be done alone",
+      "Exotic Exports and customer cars add extra cash",
+      "Pays back quickly"
+    ],
+    "cons": [
+      "Requires active play every session",
+      "Contract cut and setup costs reduce the take",
+      "Customer car deliveries pay little"
+    ],
+    "verdict": "One of the best buys in the game for solo players: cheap, fast payback, and consistently high hourly income."
+  },
+  {
+    "id": "ob-ls-car-meet-membership",
+    "name": "LS Car Meet Membership",
+    "type": "Property",
+    "dlc": "Los Santos Tuners",
+    "buyFrom": "LS Car Meet (in person) or with an Auto Shop",
+    "priceMin": 50000,
+    "priceMax": 50000,
+    "requires": null,
+    "income": "No income; it unlocks Car Meet reputation rewards, the test track and tuner-related content.",
+    "description": "Membership to the underground car meet in Cypress Flats. Members earn reputation levels that unlock discounts, clothing and car modifications.",
+    "tags": [
+      "tuners",
+      "car meet",
+      "membership"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Very cheap",
+      "Unlocks Car Meet rewards, test track and tuner content"
+    ],
+    "cons": [
+      "Earns no money directly"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-agency",
+    "name": "Agency",
+    "type": "Business",
+    "dlc": "The Contract",
+    "buyFrom": "Dynasty 8 Executive",
+    "priceMin": 2010000,
+    "priceMax": 2830000,
+    "requires": null,
+    "income": "Security Contracts, Payphone Hits and the Dr. Dre VIP Contract, plus a passive safe that pays more as contracts are completed.",
+    "description": "Franklin Clinton's celebrity solutions firm, co-owned with the player. Four locations are available, and it includes Record A Studios access.",
+    "tags": [
+      "the contract",
+      "agency",
+      "franklin",
+      "security contracts",
+      "payphone hits"
+    ],
+    "earnings": {
+      "perHour": 250000,
+      "perHourNote": "Middle of guide estimates (about $180K-$400K/hr) depending on the mix of Dr. Dre replays (about $900K each, $1.1M first weekly), Payphone Hits and Security Contracts; the safe adds up to $20K per in-game day.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 8
+    },
+    "tier": "S",
+    "pros": [
+      "Dr. Dre contract pays close to $1M per run",
+      "Payphone Hits are quick and lucrative",
+      "Passive safe grows as you complete contracts",
+      "Everything can be done solo"
+    ],
+    "cons": [
+      "Safe needs many contracts before it pays well",
+      "Dre contract has a cooldown between replays",
+      "More expensive than most businesses"
+    ],
+    "verdict": "A top-tier purchase: several strong solo income streams in one property, and it pays itself back quickly."
+  },
+  {
+    "id": "ob-acid-lab",
+    "name": "Acid Lab (Brickade 6x6)",
+    "type": "Vehicle Property",
+    "dlc": "Los Santos Drug Wars",
+    "buyFrom": "Warstock Cache & Carry (or unlocked through First Dose)",
+    "priceMin": 1450000,
+    "priceMax": 1450000,
+    "requires": "Complete First Dose (then pay Mutt $750,000 to convert it) or buy it outright",
+    "income": "Resupply-and-sell: supplies are turned into acid and sold; an equipment upgrade unlocked by Fooligan Jobs boosts output.",
+    "description": "A Brickade 6x6 truck converted into a mobile drug lab. It is one of the few businesses that can be run without being a CEO or MC President.",
+    "tags": [
+      "drug wars",
+      "acid lab",
+      "brickade",
+      "fooligan jobs"
+    ],
+    "earnings": {
+      "perHour": 80000,
+      "perHourNote": "Guides vary widely ($36K-$150K/hr) depending on supply costs and the Equipment Upgrade; about $80K/hr is the middle for an upgraded lab, with full batches around $335K.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 18
+    },
+    "tier": "S",
+    "pros": [
+      "Best solo resupply-and-sell business",
+      "Every sale fits on one bike, so no multi-vehicle sells",
+      "Produces while you do other things",
+      "Cheap to resupply"
+    ],
+    "cons": [
+      "Needs the Equipment Upgrade (unlocked via Fooligan Jobs) to earn well",
+      "Smaller stock cap than the Bunker",
+      "Must be resupplied regularly"
+    ],
+    "verdict": "An easy recommendation for solo players: steady background income with painless single-vehicle sales."
+  },
+  {
+    "id": "ob-eclipse-blvd-garage",
+    "name": "Eclipse Blvd Garage",
+    "type": "Garage",
+    "dlc": "Los Santos Drug Wars",
+    "buyFrom": "Dynasty 8 Real Estate",
+    "priceMin": 2740000,
+    "priceMax": null,
+    "requires": null,
+    "income": "No income; it is large-capacity personal vehicle storage.",
+    "description": "A multi-floor garage on Eclipse Boulevard designed to hold dozens of personal vehicles. It was added in the continuation of Los Santos Drug Wars.",
+    "tags": [
+      "drug wars",
+      "garage",
+      "storage",
+      "vehicles"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Huge vehicle storage capacity"
+    ],
+    "cons": [
+      "Earns no money",
+      "Expensive for storage alone"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-salvage-yard",
+    "name": "Salvage Yard",
+    "type": "Business",
+    "dlc": "The Chop Shop",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1620000,
+    "priceMax": 2690000,
+    "requires": null,
+    "income": "Vehicle robberies whose cars are sold or salvaged, tow truck jobs, and a passive safe.",
+    "description": "A chop shop business that plans the weekly vehicle robberies. Five locations exist, from Paleto Bay to La Puerta.",
+    "tags": [
+      "chop shop",
+      "salvage yard",
+      "robberies",
+      "tow truck"
+    ],
+    "earnings": {
+      "perHour": 280000,
+      "perHourNote": "Middle of guide figures ($117K-$700K/hr; most cluster around $200K-$390K) while running robberies, which pay about $240K-$410K each but are limited to three per week; tow jobs and the safe add up to about $24K per in-game day.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 6
+    },
+    "tier": "A",
+    "pros": [
+      "Robberies pay very well and are fully soloable",
+      "Tow truck work and the safe add passive income",
+      "Fast payback"
+    ],
+    "cons": [
+      "Only three robberies are available each week",
+      "A tow truck must be bought separately",
+      "Safe rate falls if you stop towing"
+    ],
+    "verdict": "A strong buy for regular players thanks to big weekly robbery payouts plus a little passive income."
+  },
+  {
+    "id": "ob-bail-office",
+    "name": "Bail Office",
+    "type": "Business",
+    "dlc": "Bottom Dollar Bounties",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1650000,
+    "priceMax": 2620000,
+    "requires": null,
+    "income": "Active bounty hunting (standard and Most Wanted targets) plus passive income from hired agents who fill a safe.",
+    "description": "Maude Eccles' bail enforcement business, available at five locations. Hired agents speed up bounty processing and earn money while the player is away.",
+    "tags": [
+      "bounties",
+      "bail office",
+      "maude",
+      "passive income"
+    ],
+    "earnings": {
+      "perHour": 150000,
+      "perHourNote": "Mainly one detailed guide estimate (about $140K-$150K/hr for a bounty session); hired agents add only about $12K-$15K/hr.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": 11
+    },
+    "tier": "C",
+    "pros": [
+      "Most Wanted targets pay well once per day",
+      "Hired agents earn small semi-passive cash",
+      "Varied, quick missions"
+    ],
+    "cons": [
+      "Standard bounties pay modestly and refresh slowly",
+      "Agents are expensive and take very long to pay back",
+      "Dead targets pay much less"
+    ],
+    "verdict": "Fun variety with okay money, but other businesses pay more per hour; buy it after the essentials."
+  },
+  {
+    "id": "ob-garment-factory",
+    "name": "Darnell Bros Garment Factory",
+    "type": "Business",
+    "dlc": "Agents of Sabotage",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 2350000,
+    "priceMax": 2350000,
+    "requires": null,
+    "income": "The FIB Files mini-heists for Jodi Marshall plus a small passive office safe.",
+    "description": "An old clothing factory converted into an operations base. The price includes a garage, a Terrorbyte bay and an MK II weapon workshop.",
+    "tags": [
+      "agents of sabotage",
+      "garment factory",
+      "fib files",
+      "jodi marshall"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No consistent hourly figure; FIB File finales pay about $150K, the weekly Priority File about $300K, and the safe only $1.5K-$2K per in-game day.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "B",
+    "pros": [
+      "FIB Files pay well and can be done solo",
+      "Weekly Priority File gives a bigger payday",
+      "Small passive office safe"
+    ],
+    "cons": [
+      "Passive safe is tiny",
+      "Pricey for a single mission strand"
+    ],
+    "verdict": "Worth it for the FIB Files rather than the safe; a good mid-priority purchase for active players."
+  },
+  {
+    "id": "ob-mckenzie-field-hangar",
+    "name": "McKenzie Field Hangar",
+    "type": "Business",
+    "dlc": "Oscar Guzman Flies Again",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1475000,
+    "priceMax": 1475000,
+    "requires": null,
+    "income": "Arms Trafficking: source goods and deliver them in sell missions; also unlocks Oscar Guzman's mission strand.",
+    "description": "A rural airfield hangar in Grapeseed run with Oscar Guzman. It adds extra aircraft storage on top of a personal hangar.",
+    "tags": [
+      "oscar guzman",
+      "hangar",
+      "arms trafficking",
+      "grapeseed"
+    ],
+    "earnings": {
+      "perHour": 257500,
+      "perHourNote": "One detailed guide puts The Titan Job at about $240K-$275K/hr on Normal (more on Hard or the first weekly run); no reliable figure was found for Arms Trafficking.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": 6
+    },
+    "tier": "A",
+    "pros": [
+      "Unlocks The Titan Job, a strong solo heist with a weekly first-run bonus",
+      "Arms Trafficking adds extra missions",
+      "Relatively cheap"
+    ],
+    "cons": [
+      "Titan Job takes about an hour per run",
+      "Arms Trafficking payouts are not well documented"
+    ],
+    "verdict": "Good value for solo players thanks to The Titan Job; pays itself back in a handful of runs."
+  },
+  {
+    "id": "ob-hands-on-car-wash",
+    "name": "Hands On Car Wash",
+    "type": "Business",
+    "dlc": "Money Fronts",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 1000000,
+    "priceMax": 1000000,
+    "requires": null,
+    "income": "Launders dirty money for a passive safe that grows with the number of other businesses owned; raises Counterfeit Cash value.",
+    "description": "A Strawberry car wash that serves as a money laundering front for Martin Madrazo's associates. It must be bought before the other Money Fronts businesses.",
+    "tags": [
+      "money fronts",
+      "car wash",
+      "laundering",
+      "passive income"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "Sources conflict: safe estimates range from about $1.5K to $30K per in-game day depending on progress and owned businesses, so no single hourly figure is given.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "B",
+    "pros": [
+      "Safe grows with the number of businesses you own",
+      "Laundering missions are solo-friendly",
+      "Boosts Counterfeit Cash value",
+      "Unlocks the other Money Fronts"
+    ],
+    "cons": [
+      "Heat must be kept low or income stops",
+      "Safe cap is small",
+      "Full value needs lots of other businesses"
+    ],
+    "verdict": "A sensible pick for players who already own many businesses; less useful for newcomers."
+  },
+  {
+    "id": "ob-higgins-helitours",
+    "name": "Higgins Helitours",
+    "type": "Business",
+    "dlc": "Money Fronts",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 900000,
+    "priceMax": 900000,
+    "requires": "Own the Hands On Car Wash",
+    "income": "A laundering front that boosts Air Freight Cargo value and lets owners spawn helicopters there.",
+    "description": "A helicopter tour company at the Vespucci helipad. Buying it includes a Higgins-branded Maverick.",
+    "tags": [
+      "money fronts",
+      "helicopter",
+      "laundering",
+      "hangar"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable hourly figure; its main value is a 10% bonus to Hangar Air Freight Cargo.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "10% boost to Hangar cargo value",
+      "Handy helicopter spawn point"
+    ],
+    "cons": [
+      "Requires owning the Car Wash first",
+      "Only pays off if you sell a lot of Hangar cargo"
+    ],
+    "verdict": "Worth it only for regular Hangar sellers; everyone else can skip it."
+  },
+  {
+    "id": "ob-smoke-on-the-water",
+    "name": "Smoke on the Water",
+    "type": "Business",
+    "dlc": "Money Fronts",
+    "buyFrom": "Maze Bank Foreclosures",
+    "priceMin": 850000,
+    "priceMax": 850000,
+    "requires": "Own the Hands On Car Wash",
+    "income": "A laundering front that boosts Weed Farm product value and offers daily product pickups for cash and RP.",
+    "description": "A legal weed dispensary in La Puerta near Vespucci Beach. It ties the Money Fronts system to the MC Weed Farm.",
+    "tags": [
+      "money fronts",
+      "weed shop",
+      "dispensary",
+      "laundering"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable hourly figure; it mainly boosts Weed Farm value and offers small daily pickups.",
+      "style": "Mixed",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Raises Weed Farm product value",
+      "Daily product pickups give cash and RP"
+    ],
+    "cons": [
+      "The Weed Farm it boosts is a weak earner",
+      "Small direct income"
+    ],
+    "verdict": "Low priority; only for Weed Farm owners or Money Fronts completionists."
+  },
+  {
+    "id": "ob-mansion",
+    "name": "Mansion",
+    "type": "Property",
+    "dlc": "A Safehouse in the Hills",
+    "buyFrom": "Prix Luxury Real Estate",
+    "priceMin": 11500000,
+    "priceMax": 12800000,
+    "requires": null,
+    "income": "No direct income; an AI concierge can boost a business's production, mansion security reduces raids, and it hosts Michael's mission and The Kortz Center Heist.",
+    "description": "The most expensive homes in GTA Online: the Tongva Estate, the Vinewood Residence and the Richman Villa. Prices quoted are the commonly listed figures, which some sources say include a discount for completing earlier New Listing missions.",
+    "tags": [
+      "mansion",
+      "safehouse in the hills",
+      "luxury",
+      "prix"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No direct income; the AI concierge production boost and The Kortz Center Heist (which also needs the Art Studio) are where its value lies.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "AI concierge can speed up a business",
+      "Security reduces raids",
+      "Required for the Art Studio and The Kortz Center Heist"
+    ],
+    "cons": [
+      "Extremely expensive",
+      "Earns nothing directly",
+      "Very long payback even with the heist"
+    ],
+    "verdict": "A luxury purchase; only worth it for wealthy players who also want The Kortz Center Heist."
+  },
+  {
+    "id": "ob-art-studio",
+    "name": "Art Studio (Mansion upgrade)",
+    "type": "Property",
+    "dlc": "The Kortz Center Heist",
+    "buyFrom": "Prix Luxury Real Estate (Mansion upgrade)",
+    "priceMin": 4700000,
+    "priceMax": 4700000,
+    "requires": "Own a Mansion",
+    "income": "No passive income; it is required to host The Kortz Center Heist.",
+    "description": "A studio added to a Mansion where counterfeiter Yong-Rae forges replica paintings. It serves as the planning hub for the Kortz Center Heist.",
+    "tags": [
+      "kortz center",
+      "art studio",
+      "mansion",
+      "heist"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No fixed hourly figure; The Kortz Center Heist pays roughly $2M on the first weekly solo completion and about $300K-$480K on repeat runs that week.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "B",
+    "pros": [
+      "Hosts The Kortz Center Heist, with a large first weekly payout",
+      "Mostly soloable"
+    ],
+    "cons": [
+      "Requires a Mansion, so the full setup costs around $16M",
+      "Repeat runs pay far less",
+      "Takes many weeks to break even"
+    ],
+    "verdict": "Good weekly money once you own a Mansion, but the total entry cost is so high that it is a late-game buy."
+  },
+  {
+    "id": "ob-high-end-apartment",
+    "name": "High-End Apartment",
+    "type": "Property",
+    "dlc": null,
+    "buyFrom": "Dynasty 8 Real Estate",
+    "priceMin": 200000,
+    "priceMax": 500000,
+    "requires": null,
+    "income": "No income; it includes the Heist Planning Room needed to host the original heists.",
+    "description": "Top-tier city apartments with a 10-car garage. They are the cheapest way to host the original 2015 heists.",
+    "tags": [
+      "apartment",
+      "heists",
+      "dynasty 8",
+      "planning room"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Heist Planning Room for the original heists",
+      "Cheap at the low end"
+    ],
+    "cons": [
+      "Earns no money by itself",
+      "Original heists need a full crew"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-stilt-house",
+    "name": "Stilt House",
+    "type": "Property",
+    "dlc": "Executives and Other Criminals",
+    "buyFrom": "Dynasty 8 Real Estate",
+    "priceMin": 449000,
+    "priceMax": 800000,
+    "requires": null,
+    "income": "No income; it counts as a high-end property with a heist planning room.",
+    "description": "Hillside homes in the Vinewood Hills perched on stilts, each with a 10-car garage. Prices vary by address.",
+    "tags": [
+      "apartment",
+      "stilt house",
+      "vinewood hills",
+      "dynasty 8"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Counts as a high-end property with a heist room",
+      "Unique hillside views"
+    ],
+    "cons": [
+      "Earns no money"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-custom-apartment",
+    "name": "Executive Custom Apartment",
+    "type": "Property",
+    "dlc": "Executives and Other Criminals",
+    "buyFrom": "Dynasty 8 Real Estate",
+    "priceMin": 905000,
+    "priceMax": 1100000,
+    "requires": null,
+    "income": "No income; it offers selectable interior styles and a heist planning room.",
+    "description": "Penthouse-style apartments whose interior style can be chosen and changed. The most expensive is Eclipse Towers Penthouse Suite 3.",
+    "tags": [
+      "apartment",
+      "penthouse",
+      "custom",
+      "dynasty 8"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": null,
+      "style": "None",
+      "soloFriendly": null,
+      "paybackHours": null
+    },
+    "tier": null,
+    "pros": [
+      "Choice of interior styles",
+      "Heist planning room"
+    ],
+    "cons": [
+      "Earns no money",
+      "Costs more than a standard high-end apartment"
+    ],
+    "verdict": null
+  },
+  {
+    "id": "ob-galaxy-super-yacht",
+    "name": "Galaxy Super Yacht",
+    "type": "Property",
+    "dlc": "Executives and Other Criminals",
+    "buyFrom": "DockTease",
+    "priceMin": 6000000,
+    "priceMax": 8000000,
+    "requires": null,
+    "income": "No passive income; later updates added Yacht Missions playable from it.",
+    "description": "A huge private yacht in three models (Orion, Pisces and Aquarius) that can be moored at locations around the coast. It includes a helipad and a hot tub.",
+    "tags": [
+      "yacht",
+      "luxury",
+      "docktease",
+      "boat"
+    ],
+    "earnings": {
+      "perHour": null,
+      "perHourNote": "No reliable hourly figure for Yacht Missions.",
+      "style": "Active",
+      "soloFriendly": true,
+      "paybackHours": null
+    },
+    "tier": "C",
+    "pros": [
+      "Yacht Missions add some playable content",
+      "Prestige and a mobile spawn point"
+    ],
+    "cons": [
+      "Very expensive",
+      "Mission payouts are small for the price"
+    ],
+    "verdict": "A status symbol rather than an investment; do not buy it to make money."
+  }
+]

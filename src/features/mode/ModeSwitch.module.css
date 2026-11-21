@@ -1,0 +1,5 @@
+.seg { display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; padding: 3px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--line); width: 100%; min-width: 190px; }
+.opt { border: 0; background: transparent; padding: 5px 10px; border-radius: 7px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--muted); white-space: nowrap; }
+.opt:hover { color: var(--text); }
+.opt[aria-checked='true'] { background: var(--surface); color: var(--text); font-weight: 600; box-shadow: 0 1px 2px rgb(0 0 0 / .12), 0 0 0 1px var(--line); }
+.opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
