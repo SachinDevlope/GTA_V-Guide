@@ -1,0 +1,26 @@
+/* Buying order */
+.order { list-style: none; margin: 0; padding: 4px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.order li + li { border-top: 1px solid var(--line); }
+.step { display: flex; align-items: center; gap: 14px; padding: 12px 0; text-decoration: none; color: inherit; min-width: 0; }
+.step:hover .name { color: var(--accent); }
+.num { flex: none; width: 28px; height: 28px; display: grid; place-items: center; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-size: 13px; font-weight: 800; }
+.text { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.name { font-size: 14.5px; font-weight: 650; }
+.why { font-size: 13px; line-height: 1.45; color: var(--muted); }
+.price { flex: none; font-size: 13.5px; font-weight: 650; color: var(--accent); font-variant-numeric: tabular-nums; }
+
+/* Groups */
+.group { margin-top: 26px; }
+.group h3 { margin: 0 0 12px; font-size: 16px; font-weight: 700; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+.card { display: flex; flex-direction: column; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: border-color .15s, box-shadow .15s; }
+.card:hover { border-color: var(--line-strong); box-shadow: var(--shadow); }
+.body { display: flex; flex-direction: column; gap: 3px; padding: 12px 14px 14px; }
+.role { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); }
+.meta { display: flex; align-items: center; gap: 10px; margin-top: 6px; }
+
+@media (max-width: 640px) {
+  .order { padding: 4px 12px; }
+  .step { gap: 10px; }
+  .price { display: none; }
+}

@@ -1,4 +1,4 @@
-import { ArrowRight, MapPin } from 'lucide-react';
+import { ArrowRight, MapPin, Trophy } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { CardGrid } from '@/features/catalog/components/CardGrid';
@@ -38,6 +38,15 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <Link href="/best#online-must-haves" className={styles.mapPromo}>
+        <Trophy size={20} aria-hidden="true" />
+        <span>
+          <strong>Best to have in GTA Online</strong>
+          <span>The must-own vehicles, weapons and businesses — and what to buy first.</span>
+        </span>
+        <ArrowRight size={18} aria-hidden="true" />
+      </Link>
 
       <section className={styles.section}>
         <div className={styles.sectionHead}>

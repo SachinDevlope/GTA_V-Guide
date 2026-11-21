@@ -1,0 +1,282 @@
+{
+  "updated": "2026-11",
+  "buyingOrder": [
+    {
+      "ref": "vehicles/v-karin-kuruma-armored",
+      "why": "Cheap bulletproof car that makes early contact missions and heist setups far safer and quicker."
+    },
+    {
+      "ref": "businesses/ob-acid-lab",
+      "why": "Low entry cost, runs in the background and sells with one bike, so it suits brand-new solo players."
+    },
+    {
+      "ref": "businesses/ob-agency",
+      "why": "Security Contracts, Payphone Hits and the Dr. Dre contract give steady solo work plus a passive safe."
+    },
+    {
+      "ref": "businesses/ob-kosatka",
+      "why": "Cayo Perico was trimmed in July 2026 but is still a strong solo run once per cooldown."
+    },
+    {
+      "ref": "vehicles/v-sparrow",
+      "why": "Add it to the Kosatka for quick Cayo prep and a helicopter that spawns right beside you."
+    },
+    {
+      "ref": "businesses/ob-bunker",
+      "why": "Reliable semi-passive earner once upgraded, and it feeds extra stock into a Nightclub later."
+    },
+    {
+      "ref": "businesses/ob-nightclub",
+      "why": "Buy once you own feeder businesses; its warehouse turns them into hands-off passive income."
+    },
+    {
+      "ref": "vehicles/v-pegassi-oppressor-mk-ii",
+      "why": "Pricey, but cuts travel time on every mission, resupply and sale across the map."
+    },
+    {
+      "ref": "businesses/ob-auto-shop",
+      "why": "Short, repeatable robbery contracts with fast payback make it a solid mid-game upgrade."
+    },
+    {
+      "ref": "businesses/ob-salvage-yard",
+      "why": "Weekly robberies pay well and the tow truck adds a bit of passive income on top."
+    }
+  ],
+  "groups": [
+    {
+      "title": "Vehicles",
+      "items": [
+        {
+          "ref": "vehicles/v-pegassi-oppressor-mk-ii",
+          "role": "Fastest way around the map",
+          "why": "Flying bike with boost and homing missiles; the go-to choice for grinding missions and sell runs."
+        },
+        {
+          "ref": "vehicles/v-karin-kuruma-armored",
+          "role": "Armored car for missions",
+          "why": "Stops nearly all gunfire, making AI-heavy missions and heist setups easy, though explosives still kill it."
+        },
+        {
+          "ref": "vehicles/v-sparrow",
+          "role": "Kosatka helicopter",
+          "why": "Small, quick chopper that spawns next to you, ideal for Cayo scoping and fast trips."
+        },
+        {
+          "ref": "vehicles/v-pegassi-toreador",
+          "role": "Land and sea all-rounder",
+          "why": "Fast car that dives underwater, boosts and fires missiles, so it handles almost any job."
+        },
+        {
+          "ref": "vehicles/v-nagasaki-buzzard-attack-chopper",
+          "role": "Budget attack helicopter",
+          "why": "Armed, nimble and free to call in as a CEO, making it a cheap all-purpose air option."
+        },
+        {
+          "ref": "vehicles/v-bravado-banshee-gts",
+          "role": "Fastest race car",
+          "why": "With the HSW upgrade it tops the speed charts, great for races and time trials."
+        },
+        {
+          "ref": "vehicles/v-akula",
+          "role": "Stealth gunship",
+          "why": "Stays off enemy radar and carries heavy weapons, handy for combat-heavy missions and griefers."
+        },
+        {
+          "ref": "vehicles/v-grotti-vigilante",
+          "role": "Rocket-boosted muscle",
+          "why": "Tough, very fast in a straight line and packs missiles, a fun alternative to flying."
+        }
+      ]
+    },
+    {
+      "title": "Weapons",
+      "items": [
+        {
+          "ref": "weapons/w-special-carbine-mk2",
+          "role": "Best all-round rifle",
+          "why": "Accurate, hard-hitting and versatile; the backbone of most recommended loadouts."
+        },
+        {
+          "ref": "weapons/w-heavy-sniper-mk2",
+          "role": "Best sniper",
+          "why": "Highest sniper damage, and explosive rounds let it take out vehicles from range."
+        },
+        {
+          "ref": "weapons/w-homing-launcher",
+          "role": "Anti-vehicle",
+          "why": "Lock-on rockets make short work of cars, helicopters and flying bikes."
+        },
+        {
+          "ref": "weapons/w-combat-mg-mk2",
+          "role": "Heavy firepower",
+          "why": "Big magazine and strong damage for clearing large groups of enemies in missions."
+        },
+        {
+          "ref": "weapons/w-ap-pistol",
+          "role": "Sidearm and drive-bys",
+          "why": "Fully automatic pistol that shreds enemies when shooting from a car or bike."
+        },
+        {
+          "ref": "weapons/w-pump-shotgun-mk2",
+          "role": "Close-quarters",
+          "why": "Huge damage up close, ideal for tight interiors during heists and raids."
+        },
+        {
+          "ref": "weapons/w-sticky-bomb",
+          "role": "Utility explosive",
+          "why": "Remote-detonated charges for destroying targets, vehicles and blocked paths."
+        }
+      ]
+    },
+    {
+      "title": "Businesses",
+      "items": [
+        {
+          "ref": "businesses/ob-agency",
+          "role": "Best all-round money maker",
+          "why": "Several solo income streams in one property, plus a safe that fills on its own."
+        },
+        {
+          "ref": "businesses/ob-acid-lab",
+          "role": "Best starter business",
+          "why": "Cheap to run, solo-friendly, and every sale uses a single easy delivery bike."
+        },
+        {
+          "ref": "businesses/ob-kosatka",
+          "role": "Heist hub",
+          "why": "Unlocks Cayo Perico; still worth running once per cooldown after the 2026 payout cuts."
+        },
+        {
+          "ref": "businesses/ob-nightclub",
+          "role": "Passive income hub",
+          "why": "Collects goods from your other businesses with no supply runs needed."
+        },
+        {
+          "ref": "businesses/ob-bunker",
+          "role": "Semi-passive earner",
+          "why": "Dependable gunrunning income once upgraded, and it boosts Nightclub stock."
+        },
+        {
+          "ref": "businesses/ob-auto-shop",
+          "role": "Quick-payback contracts",
+          "why": "Repeatable robbery contracts and customer car deliveries pay off the price fast."
+        },
+        {
+          "ref": "businesses/ob-salvage-yard",
+          "role": "Weekly robbery payouts",
+          "why": "Big weekly robbery jobs plus some tow-truck passive income for regular players."
+        },
+        {
+          "ref": "businesses/ob-hangar",
+          "role": "Best active grind for the price",
+          "why": "Air cargo sourcing pays very well for its cost if you have a fast aircraft to haul it."
+        }
+      ]
+    },
+    {
+      "title": "Heists to run",
+      "items": [
+        {
+          "ref": "heists/oh-the-cayo-perico-heist",
+          "role": "Best solo heist",
+          "why": "Still the top solo heist even after the July 2026 cuts; run it once per cooldown."
+        },
+        {
+          "ref": "heists/oh-the-diamond-casino-heist",
+          "role": "Best crew heist",
+          "why": "Big take and flexible approaches; the boosted first weekly finish makes it worth doing every week."
+        },
+        {
+          "ref": "heists/oh-the-kortz-center-heist",
+          "role": "Big weekly bonus",
+          "why": "Newest heist with a large first-sale-of-the-week bonus, though it needs a Mansion and Art Studio."
+        },
+        {
+          "ref": "heists/oh-the-contract-dr-dre",
+          "role": "Agency story finale",
+          "why": "Solo-friendly contract with a large one-off payout, best repeated when weekly bonuses hit."
+        },
+        {
+          "ref": "heists/oh-auto-shop-union-depository-contract",
+          "role": "Best Auto Shop contract",
+          "why": "The highest-paying Auto Shop job, short setups and fully doable alone."
+        },
+        {
+          "ref": "heists/oh-the-pacific-standard-job",
+          "role": "Classic heist with bonus",
+          "why": "Kept its base pay in 2026 and gets a weekly first-completion boost; great with friends."
+        },
+        {
+          "ref": "heists/oh-doomsday-act-3-the-doomsday-scenario",
+          "role": "Highest Doomsday payout",
+          "why": "The richest Doomsday act; a worthwhile weekly run for crews with a Facility."
+        },
+        {
+          "ref": "heists/oh-cluckin-bell-farm-raid",
+          "role": "No-property solo heist",
+          "why": "Needs no business to start, can be done alone and is a good earner for new players."
+        }
+      ]
+    },
+    {
+      "title": "Properties & mobile bases",
+      "items": [
+        {
+          "ref": "businesses/ob-terrorbyte",
+          "role": "Mobile business office",
+          "why": "Run businesses from anywhere, source Nightclub goods and upgrade the Oppressor Mk II."
+        },
+        {
+          "ref": "businesses/ob-facility",
+          "role": "Doomsday Heist base",
+          "why": "Required for the Doomsday Heist and its weekly bonus runs; also holds the Orbital Cannon."
+        },
+        {
+          "ref": "businesses/ob-arcade",
+          "role": "Casino Heist base",
+          "why": "Needed for the Diamond Casino Heist and can host a Master Control Terminal for businesses."
+        },
+        {
+          "ref": "businesses/ob-mobile-operations-center",
+          "role": "Weapon and vehicle workshop",
+          "why": "Unlocks weapon Mk II upgrades and armored vehicle workshop mods that many players rely on."
+        },
+        {
+          "ref": "businesses/ob-avenger",
+          "role": "Flying command center",
+          "why": "A huge mobile base with a vehicle workshop; a luxury rather than a money maker."
+        }
+      ]
+    },
+    {
+      "title": "Solo money jobs",
+      "items": [
+        {
+          "ref": "online-missions/om-vehicle-recovery",
+          "role": "Agency Security Contract",
+          "why": "Quick Agency contracts that pay solidly and also level up the Agency safe."
+        },
+        {
+          "ref": "online-missions/om-the-judge",
+          "role": "Payphone Hit",
+          "why": "Short assassination job with a big bonus for meeting the target conditions."
+        },
+        {
+          "ref": "online-missions/om-headhunter",
+          "role": "Fast CEO work",
+          "why": "Take out four targets for quick cash with a short cooldown between runs."
+        },
+        {
+          "ref": "online-missions/om-sightseer",
+          "role": "Easy CEO work",
+          "why": "Collect a few hidden packages; simple, fast money that suits fast vehicles."
+        },
+        {
+          "ref": "online-missions/om-hangar-air-freight",
+          "role": "Hangar grind",
+          "why": "Repeatable air cargo runs that turn the Hangar into one of the best active earners."
+        }
+      ]
+    }
+  ]
+}
