@@ -46,7 +46,17 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
 /* App shell: header on top, sidebar + content below. */
 .shell { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
 .layout { display: grid; grid-template-columns: 224px minmax(0, 1fr); gap: 32px; }
-.sidebar { position: sticky; top: 64px; align-self: start; max-height: calc(100vh - 64px); overflow-y: auto; scrollbar-width: thin; }
+.sidebar {
+  position: sticky; top: 64px; align-self: start; max-height: calc(100vh - 64px); overflow-y: auto;
+  /* Thin scrollbar that only shows while hovering the sidebar */
+  scrollbar-width: thin; scrollbar-color: transparent transparent; scrollbar-gutter: stable;
+}
+.sidebar:hover { scrollbar-color: var(--line-strong) transparent; }
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-button { display: none; height: 0; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar::-webkit-scrollbar-thumb { background: transparent; border-radius: 8px; border: 2px solid var(--bg); }
+.sidebar:hover::-webkit-scrollbar-thumb { background: var(--line-strong); }
 .content { min-width: 0; min-height: 70vh; }
 @media (max-width: 900px) {
   .shell { padding: 0 16px; }

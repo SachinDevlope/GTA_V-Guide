@@ -29,7 +29,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeBootScript }} />
       </head>
-      <body>
+      {/* Browser extensions (e.g. ColorZilla's cz-shortcut-listen) add attributes to <body> before React loads. */}
+      <body suppressHydrationWarning>
         <ModeProvider>
           <SearchIndexProvider categories={CATEGORY_META} counts={getCountsByMode()}>
             <SiteHeader />
