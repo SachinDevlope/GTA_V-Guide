@@ -12,6 +12,7 @@
     "data:convert-legacy": "node scripts/convert-legacy-data.mjs"
   },
   "dependencies": {
+    "@next/third-parties": "^16.4.6",
     "leaflet": "1.9.4",
     "lucide-react": "1.77.0",
     "next": "16.4.6",
