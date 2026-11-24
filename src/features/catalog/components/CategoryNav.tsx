@@ -1,6 +1,6 @@
 'use client';
 
-import { House, TrendingUp, Trophy } from 'lucide-react';
+import { CalendarClock, House, TrendingUp, Trophy } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ModeSwitch } from '@/features/mode/ModeSwitch';
@@ -13,7 +13,7 @@ import styles from './CategoryNav.module.css';
 interface NavItem {
   href: string;
   label: string;
-  icon: CategoryKey | 'map' | 'home' | 'best' | 'income';
+  icon: CategoryKey | 'map' | 'home' | 'best' | 'income' | 'challenges';
   count?: number;
 }
 
@@ -45,7 +45,12 @@ export function CategoryNav({ mapCount }: { mapCount: number }) {
     },
     {
       title: 'GTA Online',
-      items: [...toItems(online), ...(mode !== 'Story' ? [{ href: '/income', label: 'Business income', icon: 'income' as const }] : [])],
+      items: [...toItems(online), ...(mode !== 'Story'
+          ? [
+              { href: '/income', label: 'Business income', icon: 'income' as const },
+              { href: '/challenges', label: 'Daily & weekly', icon: 'challenges' as const },
+            ]
+          : [])],
     },
     { title: 'Game world', items: toItems(everywhere) },
   ].filter((g) => g.items.length);
@@ -68,6 +73,8 @@ export function CategoryNav({ mapCount }: { mapCount: number }) {
                 <Trophy size={18} strokeWidth={1.75} aria-hidden="true" />
               ) : it.icon === 'income' ? (
                 <TrendingUp size={18} strokeWidth={1.75} aria-hidden="true" />
+              ) : it.icon === 'challenges' ? (
+                <CalendarClock size={18} strokeWidth={1.75} aria-hidden="true" />
               ) : (
                 <CategoryIcon cat={it.icon} size={18} />
               )}

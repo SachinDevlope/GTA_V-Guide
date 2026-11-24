@@ -1,0 +1,6 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
+.box { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.label { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--muted); }
+.label svg { color: var(--accent); }
+.time { font-size: 28px; font-weight: 750; color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.when { font-size: 12.5px; color: var(--text-2); }

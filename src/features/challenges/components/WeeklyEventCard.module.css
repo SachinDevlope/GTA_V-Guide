@@ -1,0 +1,14 @@
+.card { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.card h3 { margin: 0; font-size: 17px; font-weight: 700; line-height: 1.35; }
+.date { font-size: 12px; font-weight: 600; color: var(--muted); }
+.subtitle { margin: 0; font-size: 14px; color: var(--text-2); }
+.summary { margin: 0; font-size: 13.5px; line-height: 1.5; }
+.stale { display: flex; gap: 8px; align-items: flex-start; margin: 0 0 4px; padding: 9px 12px; border-radius: 10px; background: color-mix(in srgb, #f5b400 14%, transparent); color: var(--text); font-size: 12.5px; line-height: 1.45; }
+.stale svg { flex: none; margin-top: 1px; color: #f5b400; }
+.challenge { display: flex; gap: 10px; padding: 11px 14px; border-radius: 10px; background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
+.challenge svg { flex: none; margin-top: 2px; color: var(--accent); }
+.challenge > span { display: flex; flex-direction: column; gap: 2px; font-size: 13.5px; }
+.challenge strong { font-size: 13px; color: var(--accent); }
+.bonuses { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 13.5px; }
+.link { align-self: flex-start; display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; }
+.link:hover { text-decoration: underline; }

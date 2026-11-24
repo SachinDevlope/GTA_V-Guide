@@ -1,0 +1,899 @@
+{
+  "resets": {
+    "daily": "06:00 UTC every day (2am EDT / 1am EST, 11pm PDT / 10pm PST the previous day, 7am BST)",
+    "dailyUtcHour": 6,
+    "weekly": "Thursday 10:00 UTC, together with the weekly event update",
+    "weeklyUtcDay": 4,
+    "weeklyUtcHour": 10,
+    "note": "Daily reset 06:00 UTC (gta.wiki, GTA BOOM). Weekly reset Thursday 10:00 UTC with the weekly update (gtaboss.gg); gta.wiki says weekly progress resets at 07:00 UTC."
+  },
+  "daily": {
+    "count": 3,
+    "rewardEach": null,
+    "rewardForAllThree": 30000,
+    "rpForAllThree": 5000,
+    "rewardText": "$30,000 and 5,000 RP for completing all three Daily Challenges in one day. Before the Diamond Casino & Resort update (2019) it was $25,000 and 3,000 RP. The cash goes straight into the bank account. Each character slot gets its own set and its own rewards.",
+    "streaks": [
+      {
+        "name": "7-day streak",
+        "reward": 150000,
+        "rp": 20000,
+        "text": "$150,000 and 20,000 RP for every 7 days in a row of completing all three (was $100,000 and 15,000 RP before the Casino update). It repeats every 7 days."
+      },
+      {
+        "name": "28-day streak",
+        "reward": 750000,
+        "rp": 50000,
+        "text": "$750,000 and 50,000 RP for every 28 days in a row (was $500,000 and 50,000 RP before the Casino update)."
+      },
+      {
+        "name": "10th completed activity",
+        "reward": 10000,
+        "rp": null,
+        "text": "One-time $10,000 bonus for your 10th completed activity."
+      },
+      {
+        "name": "20th completed activity",
+        "reward": 20000,
+        "rp": null,
+        "text": "One-time $20,000 bonus for your 20th completed activity."
+      },
+      {
+        "name": "50th completed activity",
+        "reward": 50000,
+        "rp": null,
+        "text": "One-time $50,000 bonus for your 50th completed activity."
+      },
+      {
+        "name": "100th completed activity",
+        "reward": 100000,
+        "rp": null,
+        "text": "One-time $100,000 bonus for your 100th completed activity."
+      }
+    ],
+    "howTo": "Open the Interaction Menu (M on PC, touch pad on PlayStation, View/Back button on Xbox) > Challenges > Daily Challenges. A tick appears beside each completed objective. A help text 'You have new Daily Objectives' appears when a new set arrives.",
+    "note": "Reward amounts come from gta.wiki; Rockstar has not published official figures. Guides disagree on whether a missed day breaks the streak."
+  },
+  "weekly": {
+    "reward": 100000,
+    "rp": 10000,
+    "rewardText": "Usually GTA$100,000 and 10,000 RP. Many weeks also give a clothing item (for example a smoking jacket or T-shirt). Some weeks pay more: in June 2026, 'Earn GTA$500,000 selling Special Cargo' paid a GTA$500,000 bonus and a T-shirt.",
+    "howTo": "Interaction Menu > Challenges > Weekly Challenge. There is one challenge per event week, the same for everyone. Rockstar also announces it in the weekly Newswire post.",
+    "note": "Weekly Challenges were added in The Chop Shop update (Dec 2023). Recent weeks are from gtaboss.gg and gtabase, which sometimes disagree on dates."
+  },
+  "dailyPool": [
+    {
+      "text": "Participate in a Deathmatch",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Team Deathmatch",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Vehicle Deathmatch",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Last Team Standing",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Versus Mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in a Capture: Contend",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Capture: GTA",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Capture: Hold",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Capture: Raid",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Survival",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Survival Series",
+      "category": "Combat"
+    },
+    {
+      "text": "Participate in a Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Land Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Bike Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Sea Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in an Air Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Fly under a bridge in an Air Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Rally Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a GTA Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Non-Contact Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Parachute Jump",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Contact Mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Flight School lesson",
+      "category": "Other"
+    },
+    {
+      "text": "Go for a round at the Shooting Range",
+      "category": "Other"
+    },
+    {
+      "text": "Play a game of Tennis",
+      "category": "Social"
+    },
+    {
+      "text": "Play a game of Darts",
+      "category": "Social"
+    },
+    {
+      "text": "Play a round of Golf",
+      "category": "Social"
+    },
+    {
+      "text": "Participate in the Featured Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the SASS Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Adversary Series",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in the Bunker Series",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in the Race Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Special Race Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Stunt Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Arena War Series",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Bomb Ball",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Buzzer Beater",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Carnage",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Flag War",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Games Masters",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Here Come The Monsters",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Hot Bomb",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Tag Team",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Wreck It",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Sumo",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Sumo (Remix)",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Resurrection",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in Assault on Cayo Perico",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in the Cayo Perico Series",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in the Community Series",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in the Street Race Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Pursuit Race Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Drag Races Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in the Drift Race Series",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a HSW Race",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in Turf Wars",
+      "category": "Jobs"
+    },
+    {
+      "text": "Participate in a Business Battle",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Participate in a Freemode Challenge",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Participate in a Freemode Event",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Participate in Club Work",
+      "category": "Business"
+    },
+    {
+      "text": "Participate in VIP Work",
+      "category": "Business"
+    },
+    {
+      "text": "Participate in a Client Job",
+      "category": "Business"
+    },
+    {
+      "text": "Participate in a Clubhouse Contract",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Gang Attack",
+      "category": "Combat"
+    },
+    {
+      "text": "Hold up a store",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Kill 5/10/20 players",
+      "category": "Combat"
+    },
+    {
+      "text": "Collect a Bounty",
+      "category": "Combat"
+    },
+    {
+      "text": "Steal 10 vehicles",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Destroy 10 vehicles",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Mod a vehicle at a car mod shop",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Ride on one of the Fairground Rides",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Go to the Movies",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Steal a vehicle from the military base",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Fall 325 feet and survive",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Parachute from 325/500/600/650 feet",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Parachute dangerously",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Deploy your parachute near the ground",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Escape a 2-5 star Wanted Level",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Perform a wheelie for 10 seconds",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Kill a revealed player",
+      "category": "Combat"
+    },
+    {
+      "text": "Kill a player while Off the Radar",
+      "category": "Combat"
+    },
+    {
+      "text": "Bribe the Cops then cause havoc",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Use some Bull Shark Testosterone",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Call a Mugger on another player",
+      "category": "Combat"
+    },
+    {
+      "text": "Collect an Ammo Drop",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Complete a Heist Setup",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Heist Finale",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Doomsday Heist Prep",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Doomsday Heist Setup",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Doomsday Heist Finale",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Diamond Casino Heist Prep",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete The Diamond Casino Heist Finale",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Kortz Center Heist Prep",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete The Kortz Center Heist Finale",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Lowrider mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Dispatch mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Special Vehicle Work",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Simeon Repo",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete an Investigation for Dr. Dre",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Robbery Contract Planning Work",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Contract for KDJ and Sessanta",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Security Contract",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Payphone hit",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Short Trip",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a First Dose mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Last Dose mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Fooligan Job",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Project Overthrow mission",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete an LSA Operation",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Community Mission Series mission (E&E only)",
+      "category": "Jobs"
+    },
+    {
+      "text": "Complete a Casino mission for The Diamond Casino & Resort",
+      "category": "Jobs"
+    },
+    {
+      "text": "Resupply an MC Business",
+      "category": "Business"
+    },
+    {
+      "text": "Sell from an MC Business",
+      "category": "Business"
+    },
+    {
+      "text": "Sell Goods from your Nightclub",
+      "category": "Business"
+    },
+    {
+      "text": "Sell Weapons",
+      "category": "Business"
+    },
+    {
+      "text": "Resupply the Bunker",
+      "category": "Business"
+    },
+    {
+      "text": "Source Special Cargo",
+      "category": "Business"
+    },
+    {
+      "text": "Sell Special Cargo",
+      "category": "Business"
+    },
+    {
+      "text": "Source Vehicle Cargo",
+      "category": "Business"
+    },
+    {
+      "text": "Export Vehicle Cargo",
+      "category": "Business"
+    },
+    {
+      "text": "Deliver an Export vehicle to Simeon",
+      "category": "Business"
+    },
+    {
+      "text": "Source Air-Freight Cargo",
+      "category": "Business"
+    },
+    {
+      "text": "Sell Air-Freight Cargo",
+      "category": "Business"
+    },
+    {
+      "text": "Complete Club Management",
+      "category": "Business"
+    },
+    {
+      "text": "Complete Casino Management",
+      "category": "Business"
+    },
+    {
+      "text": "Complete a Resupply Mission for the Acid Lab",
+      "category": "Business"
+    },
+    {
+      "text": "Deliver an Exotic Exports Vehicle to the Docks",
+      "category": "Business"
+    },
+    {
+      "text": "Raid a Stash House",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Recover a vehicle using the Tow Truck",
+      "category": "Business"
+    },
+    {
+      "text": "Sell any product to a Street Dealer",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Collect G's Cache",
+      "category": "Free Mode"
+    },
+    {
+      "text": "Complete a Junk Energy Time Trial",
+      "category": "Racing"
+    },
+    {
+      "text": "Complete one fare during Taxi Work",
+      "category": "Jobs"
+    },
+    {
+      "text": "Hire a player for your Organization",
+      "category": "Social"
+    },
+    {
+      "text": "Hire a player for your Motorcycle Club",
+      "category": "Social"
+    },
+    {
+      "text": "Set yourself as Looking for Work",
+      "category": "Social"
+    },
+    {
+      "text": "Set yourself as Looking for an MC",
+      "category": "Social"
+    },
+    {
+      "text": "Modify a MkII weapon",
+      "category": "Other"
+    },
+    {
+      "text": "Modify an aircraft at your Hangar",
+      "category": "Other"
+    },
+    {
+      "text": "Modify a vehicle at Benny's Original Motor Works",
+      "category": "Other"
+    },
+    {
+      "text": "Modify a vehicle at your Arena Workshop",
+      "category": "Other"
+    },
+    {
+      "text": "Modify a vehicle in the Avenger",
+      "category": "Other"
+    },
+    {
+      "text": "Modify a vehicle in the Mobile Operations Center",
+      "category": "Other"
+    },
+    {
+      "text": "Modify a vehicle at the Clubhouse",
+      "category": "Other"
+    },
+    {
+      "text": "Play the Shooting Range at a Bunker",
+      "category": "Other"
+    },
+    {
+      "text": "Dance in a player owned Nightclub",
+      "category": "Social"
+    },
+    {
+      "text": "Dance in The Music Locker",
+      "category": "Social"
+    },
+    {
+      "text": "Dance at the Cayo Perico Beach Party",
+      "category": "Social"
+    },
+    {
+      "text": "Order a drink from a bar",
+      "category": "Social"
+    },
+    {
+      "text": "Relax in a hot tub",
+      "category": "Social"
+    },
+    {
+      "text": "Visit The Diamond Casino & Resort",
+      "category": "Social"
+    },
+    {
+      "text": "Spin the Lucky Wheel",
+      "category": "Social"
+    },
+    {
+      "text": "Play any game in an Arcade",
+      "category": "Social"
+    },
+    {
+      "text": "Visit Record A Studios",
+      "category": "Social"
+    },
+    {
+      "text": "Visit The Freakshop",
+      "category": "Social"
+    },
+    {
+      "text": "Visit the LS Car Meet",
+      "category": "Racing"
+    },
+    {
+      "text": "Visit the LS Car Meet with a Personal Vehicle",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Sprint at the LS Car Meet",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Scramble at the LS Car Meet",
+      "category": "Racing"
+    },
+    {
+      "text": "Participate in a Head-to-Head at the LS Car Meet",
+      "category": "Racing"
+    },
+    {
+      "text": "Complete 1 Lap of the Time Trial at the LS Car Meet",
+      "category": "Racing"
+    },
+    {
+      "text": "Drive an LS Car Meet Vehicle in the Test Track",
+      "category": "Racing"
+    },
+    {
+      "text": "Spectate the Test Track inside the LS Car Meet",
+      "category": "Racing"
+    },
+    {
+      "text": "Fly a Drone",
+      "category": "Other"
+    },
+    {
+      "text": "Drive an RC Bandito",
+      "category": "Other"
+    },
+    {
+      "text": "Go Scuba Diving",
+      "category": "Other"
+    },
+    {
+      "text": "Get a headshot with the Double-Action Revolver",
+      "category": "Combat"
+    },
+    {
+      "text": "Rampage with the Stone Hatchet",
+      "category": "Combat"
+    },
+    {
+      "text": "Have a snowball fight (Festive Surprise only)",
+      "category": "Social"
+    },
+    {
+      "text": "Photograph an animal for the LS Tourist Board (E&E only)",
+      "category": "Other"
+    }
+  ],
+  "dailyPoolNote": "Built from the gta.wiki 'List of Daily Challenges', reworded slightly and with duplicates merged (Deathmatch, Survival and the race types are listed twice on the wiki). Items the wiki marks 'Removed' are left out: Challenge a player at Darts/Golf, Arm Wrestling, Flight School Gold Medal, Vanilla Unicorn private dance, Stunt Jump, One on One Deathmatch and Impromptu Race. The wiki warns that some older PvP objectives may also have been removed since the 2019 Casino update. Its '(*) confirmed available' markers are incomplete, so availability of the older Game Mode items is not guaranteed. 'Pull a parachute 30 meters from the ground' is folded into 'Deploy your parachute near the ground'. 'E&E only' means PS5, Xbox Series X|S and PC Enhanced.",
+  "weeklyExamples": [
+    {
+      "text": "Complete three Gerald's Last Play missions",
+      "reward": "Not stated in source (likely GTA$100,000)",
+      "week": "2026-11-19 to 2026-11-25",
+      "source": "gtaboss.gg"
+    },
+    {
+      "text": "Win two Stunt Races",
+      "reward": "GTA$100,000",
+      "week": "2026-11-12 to 2026-11-18",
+      "source": "gtaboss.gg; CONFLICT: gtabase's rolling page shows this for Nov 19-25"
+    },
+    {
+      "text": "Win an Adversary Mode",
+      "reward": "GTA$100,000",
+      "week": "2026-11-05 to 2026-11-11",
+      "source": "gtaboss.gg"
+    },
+    {
+      "text": "Earn GTA$500,000 selling Special Cargo",
+      "reward": "GTA$500,000 + Rockstar Razor Aged T-Shirt",
+      "week": "2026-06-11 to 2026-06-17",
+      "source": "gtabase / multiple outlets"
+    },
+    {
+      "text": "Complete two Salvage Yard Robberies",
+      "reward": "GTA$100,000",
+      "week": "March 2026",
+      "source": "esports.net (search summary)"
+    },
+    {
+      "text": "Complete 3 A Superyacht Life Missions",
+      "reward": "GTA$100,000 + Vibrant Check Smoking Jacket",
+      "week": "2025-11-27",
+      "source": "gtabase"
+    },
+    {
+      "text": "Complete two Casino Work Missions",
+      "reward": "GTA$100,000",
+      "week": "June 2025",
+      "source": "ginx.tv (search summary)"
+    },
+    {
+      "text": "Complete The Diamond Casino Heist two times",
+      "reward": "GTA$100,000 + Diamond Strike Vest",
+      "week": "Nov 20-26 (year unverified)",
+      "source": "rockstarintel.com (search summary)"
+    },
+    {
+      "text": "Complete 6 Dispatch Works",
+      "reward": "GTA$100,000",
+      "week": "date unverified",
+      "source": "gtabase (search summary)"
+    },
+    {
+      "text": "Complete 3 Terrorbyte Client Jobs",
+      "reward": "GTA$100,000",
+      "week": "date unverified",
+      "source": "gtabase (search summary)"
+    },
+    {
+      "text": "Win 2 Open Wheel Races",
+      "reward": "GTA$100,000 + Dark Manor Suit",
+      "week": "date unverified",
+      "source": "gtabase (search summary)"
+    }
+  ],
+  "weeklyPoolFromWiki": [
+    "Achieve a gold medal in 5 Junk Energy Skydives",
+    "Complete 1/3 Business Battles",
+    "Complete 1/2 Heist finales",
+    "Complete 1/2/3 Salvage Yard Robberies",
+    "Complete 2/3 Casino Works for Agatha Baker",
+    "Complete 2/3 FIB Files",
+    "Complete 3 fares during Taxi Work",
+    "Complete 3 A Superyacht Life Missions",
+    "Complete 3 Bunker Research Missions",
+    "Complete 3 CEO or VIP Works",
+    "Complete 3/5 deliveries for Pizza This...",
+    "Complete 3/5/6 Dispatch Works",
+    "Complete 3 Fooligan Jobs",
+    "Complete 3 G's Caches",
+    "Complete 3 Gerald's Last Play Missions",
+    "Complete 3 jobs from Smoke on the Water",
+    "Complete 3 jobs from the Hands On Car Wash",
+    "Complete 3 Madrazo Hits",
+    "Complete 3 Mobile Operations",
+    "Complete 3/5 Nightclub Management Missions",
+    "Complete 3 Premium Deluxe Repo Work Missions",
+    "Complete 3 Terrorbyte Client Jobs",
+    "Complete 5 Arms Trafficking Missions",
+    "Complete 5 Business Resupply Missions",
+    "Complete 5 Mr. Faber Works",
+    "Complete 5 waves in Stoner Survival",
+    "Complete all 10 waves of a Survival",
+    "Complete any Diamond Casino Heist Elite Challenge",
+    "Complete Don't Fuck With Dre",
+    "Complete Scene of the Crime",
+    "Complete The Cayo Perico Heist 1 time",
+    "Complete The Cayo Perico Heist without dying",
+    "Complete The Diamond Casino Heist (1 or 2 times)",
+    "Complete The Doomsday Scenario",
+    "Complete The Kortz Center Heist 1 time",
+    "Complete The Kortz Center Heist without dying",
+    "Complete The Titan Job as leader",
+    "Create a Job in the Job Creator",
+    "Deliver 2 Export vehicles to Simeon",
+    "Deliver 3 vehicles for the Auto Shop Service",
+    "Earn $50,000/$100,000 in wages as an Associate or Bodyguard",
+    "Earn $100,000/$200,000 from selling Product",
+    "Earn $300,000/$500,000/$1,000,000 from selling Special Cargo",
+    "Kill your clone in Clone Slasher",
+    "Make 3 Safeguard Deliveries",
+    "Make all deliveries for QuickiePharm 5 times",
+    "Participate in 2 Arena War modes",
+    "Participate in 2 Drag Races",
+    "Participate in 3/4/6 Drift Races",
+    "Recover 5 vehicles using the Tow Truck",
+    "Rob the Daily Vault in The Diamond Casino Heist",
+    "Secure 2/3/6/8 Bail Office bounties",
+    "Sell $100,000/$300,000/$500,000 across all businesses",
+    "Steal from 2/3 Stash Houses",
+    "Survive 2/3/4 waves in a Survival without dying",
+    "Win Assault on ATT-16 2 times",
+    "Win Hunting Pack (Get Lamar) 2 times",
+    "Win 1/2/4/5 Adversary Modes",
+    "Win 2/3 Deathmatches",
+    "Win 2 Drag or Drift Races",
+    "Win 2/3 Open Wheel Races",
+    "Win 2/3 Races",
+    "Win 2 Stunt Races",
+    "Win 2/3 LS Car Meet Races",
+    "Photograph 3 animals for Shoot Animals Photography (E&E only)",
+    "Complete 1 Community Mission Series mission (E&E only)"
+  ],
+  "sources": [
+    "https://gta.wiki/w/Challenges_in_GTA_Online",
+    "https://gta.wiki/w/Daily_Objectives",
+    "https://support.rockstargames.com/articles/52mq4lkIYroqlliAhdcSb4/gtav-title-update-1-68-notes-ps5-ps4-xbox-series-x-s-xbox-one-pc",
+    "https://support.rockstargames.com/articles/6ti4bM6bCaAwDXz5X5Y0Kz/how-to-access-daily-objectives-in-gta-online",
+    "https://gtabase.com/gta-online/weekly-update-bonuses-discounts",
+    "https://www.gtabase.com/articles/grand-theft-auto-v/news/gta-online-5x-rewards-on-a-superyacht-life-missions-new-unlocks-weekly-challenge-and-much-more-this-week",
+    "https://www.gtaboss.gg/gta-5-online/gta-online-weekly-updates/2026-11-19",
+    "https://www.gtaboss.gg/gta-5-online/gta-online-weekly-updates/2026-11-12",
+    "https://www.gtaboss.gg/gta-5-online/gta-online-weekly-updates/2026-11-05",
+    "https://ginx.tv/en/gta-online/weekly-challenges",
+    "https://wiki.gtaboom.com/wiki/grand-theft-auto-online-daily-objectives-guide",
+    "https://primagames.com/gaming/gta-online-daily-and-weekly-reset-schedule",
+    "https://sportskeeda.com/gta/news-gta-online-daily-objective-rewards-adjusted-players-can-earn-45-000-everyday-completing"
+  ],
+  "sourceNotes": "Rockstar Support pages timed out on every fetch (WebFetch and curl). Their content comes only from search-result snippets: TU 1.68 notes (Dec 2023) say 'Daily Challenges replace the existing daily objectives located in the Interaction Menu' and add Weekly Challenges, and the access article (updated Mar 2024) describes the Interaction Menu path. No official Rockstar source with reward amounts was found, so all amounts rest on gta.wiki plus third-party sites. gtabase has no standalone Daily Challenges page; it covers the weekly challenge in its weekly update articles."
+}

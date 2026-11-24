@@ -16,6 +16,7 @@ An unofficial, searchable reference for GTA V and GTA Online: story missions, On
 - **Best upgrades** for vehicles (with Los Santos Customs and Hao's Special Works prices and the fully upgraded price) and **best attachments** for weapons (with prices).
 - **Heists**: best approach, key choices and payout range.
 - **Business income by upgrade level**: what each business earns with no upgrades, with each upgrade and fully upgraded (per real-world hour, supply cost and profit after supplies), plus a sortable **Business income** comparison page.
+- **Daily & weekly challenges**: live countdowns to the daily (06:00 UTC) and weekly (Thursday 10:00 UTC) resets, this week's event and Weekly Challenge (from `src/data/weekly-event.json`, flagged when out of date), rewards, streak bonuses and the list of possible daily challenges.
 - **Business locations & prices**: every purchasable location with its price, the best pick and why, pinned on the map.
 - **Best of** page with leaderboards for businesses, heists, weapons per type and vehicles per class.
 - **Mission map** of story mission start points, and **collectible maps** for 18 GTA Online sets (1,023 spots) with a "found" checklist saved in the browser.
@@ -85,6 +86,7 @@ All content lives in `src/data/*.json` and is bundled at build time — there is
 |---|---|
 | `missions.json`, `online-missions.json`, `heists.json` | Story missions, Online missions, heists (with best approach and payouts) |
 | `businesses.json` | Online businesses and properties with earnings, tiers, pros/cons, upgrades and income per upgrade level |
+| `challenges.json`, `weekly-event.json` | Challenge rewards and pool; the current weekly event (update after each Thursday reset) |
 | `business-locations.json` | Every location of each business with price, best pick and map coordinates |
 | `vehicles.json`, `weapons.json` | Vehicles and weapons with stats, upgrades, prices and recommendations |
 | `characters.json`, `cheats.json`, `skills.json` | Characters, cheat codes, skills |
