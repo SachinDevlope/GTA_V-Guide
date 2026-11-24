@@ -36,7 +36,7 @@ export const heistsCategory: CategoryDefinition<Heist> = {
     { label: 'Requirement', value: h.requirement },
     { label: 'Finale', value: h.finale },
     { label: 'Potential take', value: h.potentialTake },
-    { label: 'Elite Challenge', value: h.eliteChallenge },
+    { label: 'Elite Challenge', value: h.elite ? null : h.eliteChallenge },
     { label: 'Payout note', value: h.payout?.note },
   ],
   recommendations: (h) => {

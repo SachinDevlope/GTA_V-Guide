@@ -913,7 +913,94 @@
         "note": "50 crates x $30,000 with a +50% same-type bonus = $2,250,000 before Ron's 5% cut ($2,137,500 after). Far column shows the +10% Higgins Helitours bonus."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Same-type crate bonus",
+        "intro": "Store crates of one cargo type and every crate of that type sells for more. The bonus steps up with how many of that type you hold.",
+        "columns": [
+          "Crates of one type",
+          "No bonus (mixed)",
+          "Narcotics, Chemicals, Medical",
+          "Animal, Art, Jewelry",
+          "Tobacco, Counterfeit"
+        ],
+        "rows": [
+          [
+            "5",
+            "$150,000",
+            "$150,000",
+            "$150,000",
+            "+5% · $157,500"
+          ],
+          [
+            "10",
+            "$300,000",
+            "$300,000",
+            "+12% · $336,000",
+            "+10% · $330,000"
+          ],
+          [
+            "15",
+            "$450,000",
+            "$450,000",
+            "+12% · $504,000",
+            "+15% · $517,500"
+          ],
+          [
+            "20",
+            "$600,000",
+            "$600,000",
+            "+24% · $744,000",
+            "+20% · $720,000"
+          ],
+          [
+            "25",
+            "$750,000",
+            "+35% · $1,012,500",
+            "+24% · $930,000",
+            "+25% · $937,500"
+          ],
+          [
+            "30",
+            "$900,000",
+            "+35% · $1,215,000",
+            "+36% · $1,224,000",
+            "+30% · $1,170,000"
+          ],
+          [
+            "35",
+            "$1,050,000",
+            "+35% · $1,417,500",
+            "+36% · $1,428,000",
+            "+35% · $1,417,500"
+          ],
+          [
+            "40",
+            "$1,200,000",
+            "+35% · $1,620,000",
+            "+48% · $1,776,000",
+            "+40% · $1,680,000"
+          ],
+          [
+            "45",
+            "$1,350,000",
+            "+35% · $1,822,500",
+            "+48% · $1,998,000",
+            "+45% · $1,957,500"
+          ],
+          [
+            "50",
+            "$1,500,000",
+            "+70% · $2,550,000",
+            "+60% · $2,400,000",
+            "+50% · $2,250,000"
+          ]
+        ],
+        "highlightRow": 9,
+        "note": "Base value $30,000 per crate (sell payouts were tripled in Dec 2022). Bonus rules from the GTA Wiki: Narcotics, Chemicals and Medical Supplies +35% for each 25 crates; Animal Materials, Art & Antiques and Jewelry & Gemstones +12% for each 10 crates; Tobacco & Alcohol and Counterfeit Goods +5% for each 5 crates. The hangar holds 50 crates. Values are before Ron's 5% cut; owning Higgins Helitours adds +10%. The steps between 25 and 50 for the top group are worked out from the wiki rule."
+      }
+    ]
   },
   {
     "id": "ob-facility",

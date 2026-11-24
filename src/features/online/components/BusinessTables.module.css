@@ -1,0 +1,26 @@
+.wrap { display: flex; flex-direction: column; gap: 18px; }
+.block { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.block h3 { margin: 0; font-size: 14px; font-weight: 650; }
+.intro { margin: 0; font-size: 13px; color: var(--text-2); }
+.table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: 13px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.table th, .table td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; vertical-align: top; }
+.table tbody tr:last-child th, .table tbody tr:last-child td { border-bottom: 0; }
+.table thead th { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--surface-2); }
+.table tbody th { font-weight: 650; }
+.best th, .best td { background: var(--accent-soft); }
+.best td { color: var(--accent); font-weight: 650; }
+.note { margin: 0; font-size: 12px; line-height: 1.45; color: var(--muted); }
+/* Phones: each row becomes a small labelled block so numbers never wrap mid-value. */
+@media (max-width: 700px) {
+  .table, .table tbody, .table tr, .table th, .table td { display: block; }
+  .table thead { display: none; }
+  .table tbody tr { padding: 8px 12px; border-bottom: 1px solid var(--line); }
+  .table tbody tr:last-child { border-bottom: 0; }
+  .table tbody th, .table tbody td { padding: 2px 0; border: 0; }
+  .table tbody th { font-size: 13.5px; margin-bottom: 2px; }
+  .table tbody th::before { content: attr(data-label) ": "; color: var(--muted); font-weight: 500; }
+  .table tbody td { display: flex; justify-content: space-between; gap: 12px; font-size: 12.5px; overflow-wrap: normal; }
+  .table tbody td::before { content: attr(data-label); color: var(--muted); font-weight: 400; }
+  .best { background: var(--accent-soft); }
+  .best th, .best td { background: none; }
+}

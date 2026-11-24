@@ -10,9 +10,11 @@ import { getCollectibleLocations } from '@/features/collectibles/lib/locations';
 import { DetailSection } from '@/features/catalog/components/detail/DetailSection';
 import { MAP_IMAGE } from '@/features/map/lib/geocode';
 import { BusinessLocations } from '@/features/online/components/BusinessLocations';
+import { HeistElite } from '@/features/online/components/HeistElite';
+import { BusinessTables } from '@/features/online/components/BusinessTables';
 import { IncomeLevels } from '@/features/online/components/IncomeLevels';
 import { getBusinessLocations } from '@/features/online/lib/locations';
-import type { Business } from '@/features/online/types';
+import type { Business, Heist } from '@/features/online/types';
 import { getMapMission } from '@/features/map/lib/missions';
 import styles from './page.module.css';
 
@@ -57,6 +59,7 @@ export default async function ItemPage({ params }: Params) {
   // Collectible sets with known coordinates get a map of every spot.
   const locations = def.key === 'collectibles' ? getCollectibleLocations(item.id) : null;
   const biz = def.key === 'businesses' ? (item as Business) : null;
+  const elite = def.key === 'heists' ? ((item as Heist).elite ?? null) : null;
   const bizLocations = biz ? getBusinessLocations(biz.id) : null;
   const hasIncome = biz && ((biz.incomeLevels?.length ?? 0) > 0 || (biz.upgrades?.length ?? 0) > 0 || biz.passiveIncome);
   const extra = locations ? (
@@ -70,12 +73,21 @@ export default async function ItemPage({ params }: Params) {
           <IncomeLevels levels={biz.incomeLevels ?? []} upgrades={biz.upgrades ?? []} passive={biz.passiveIncome ?? null} />
         </DetailSection>
       )}
+      {(biz.tables?.length ?? 0) > 0 && (
+        <DetailSection title="Special mechanics">
+          <BusinessTables tables={biz.tables!} />
+        </DetailSection>
+      )}
       {bizLocations && (
         <DetailSection title={`Locations & prices (${bizLocations.locations.length})`}>
           <BusinessLocations name={biz.name} locations={bizLocations.locations} note={bizLocations.note} image={MAP_IMAGE} />
         </DetailSection>
       )}
     </>
+  ) : elite ? (
+    <DetailSection title="Elite Challenge">
+      <HeistElite elite={elite} />
+    </DetailSection>
   ) : null;
 
   return <ItemDetail def={def} item={item} actions={actions} extra={extra} />;

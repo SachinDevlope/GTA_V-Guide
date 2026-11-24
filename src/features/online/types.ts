@@ -25,6 +25,17 @@ export interface Heist extends BaseItem {
   tier?: 'S' | 'A' | 'B' | 'C' | null;
   pros?: string[];
   cons?: string[];
+  elite?: HeistElite | null;
+}
+
+/** Elite Challenge requirements and what completing it pays. */
+export interface HeistElite {
+  challenges: string[];
+  eliteBonus: { normal: number | null; hard: number | null; text: string | null };
+  repeatable: boolean | null;
+  oneTimeBonuses: { name: string; amount: number | null; text: string | null }[];
+  totalAfterElite: string | null;
+  note: string | null;
 }
 
 export interface Business extends BaseItem {
@@ -49,6 +60,8 @@ export interface Business extends BaseItem {
   upgrades?: BusinessUpgrade[];
   incomeLevels?: IncomeLevel[];
   passiveIncome?: PassiveIncome | null;
+  /** Business-specific mechanics shown as small tables (e.g. Hangar same-type crate bonus). */
+  tables?: BusinessTable[];
 }
 
 /** A purchasable upgrade that changes how much a business earns. */
@@ -78,4 +91,15 @@ export interface PassiveIncome {
   maxPerDay: number | null;
   maxStored: number | null;
   requirement: string | null;
+}
+
+/** A small table of business-specific mechanics. Cells are display strings. */
+export interface BusinessTable {
+  title: string;
+  intro: string | null;
+  columns: string[];
+  rows: string[][];
+  /** Index of the row to highlight as the best option. */
+  highlightRow: number | null;
+  note: string | null;
 }

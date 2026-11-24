@@ -15,7 +15,7 @@
     "finale": "The Fleeca Job",
     "approaches": [],
     "potentialTake": "The smallest of the original heists: roughly $100,000 on Easy up to about $250,000 on Hard after the latest payout changes.",
-    "eliteChallenge": "Finish in under 5:20 with less than 6% vehicle damage and no crew deaths; worth a $50,000 bonus.",
+    "eliteChallenge": "Complete in under 5:20; Vehicle damage under 6%; Nobody gets wasted; No quick restart / no Trip Skip — $50,000 per player (same on every difficulty per sources)",
     "description": "The introductory two-player heist that teaches the planning-board system. One player drills into a Fleeca safety deposit box on the Great Ocean Highway while the other handles crowd control, then the pair escape in an armored Kuruma.",
     "tags": [
       "original heists",
@@ -53,7 +53,35 @@
       "Lowest payout of any heist",
       "Needs exactly two players",
       "Needs a high-end apartment"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 5:20",
+        "Vehicle damage under 6%",
+        "Nobody gets wasted",
+        "No quick restart / no Trip Skip"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 50000,
+        "text": "$50,000 per player (same on every difficulty per sources)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Head For Heists award",
+          "amount": 50000,
+          "text": "First completion of The Fleeca Job"
+        },
+        {
+          "name": "Elite T-shirt",
+          "amount": null,
+          "text": "Clothing unlock for completing the Elite Challenge of all five original heists (no cash)"
+        }
+      ],
+      "totalAfterElite": "~$264K–$371K for the leader on Hard incl. $50K Elite",
+      "note": "Total take on Hard: $251,563 repeat, $377,344 first of the week (1.5x since the July 2026 update; gta.wiki, gtaboom). 2-player heist, so the leader takes at most 85%: $213,829–$320,742, plus $50,000 = $263,829–$370,742. Normal: $201,250 / $301,875. Fleeca counts toward the original heists' Criminal Mastermind, All in Order and Loyalty awards (see Pacific Standard). Elite pays each crew member on top of their cut. Trip Skip or quick restart forfeits it (gta.wiki). Sources don't say whether the Elite amount changes with difficulty; here it is the same on every difficulty. Leader cut assumes the 15% minimum per other crew member. The leader's replay setup cost (10% of base take) is not deducted."
+    }
   },
   {
     "id": "oh-the-prison-break",
@@ -73,7 +101,7 @@
     "finale": "The Prison Break",
     "approaches": [],
     "potentialTake": "About $350,000 on Easy, $700,000 on Normal and $875,000 on Hard (current repeat values).",
-    "eliteChallenge": "Keep Rashkovsky's damage at 1% or less, extract in under 4:40 and have nobody die; $100,000 bonus.",
+    "eliteChallenge": "Rashkovsky takes 1% damage or less; Extraction in under 4:40; Nobody gets wasted — $100,000 per player (same on every difficulty per sources)",
     "description": "A four-player job to spring Maxim Rashkovsky out of Bolingbroke Penitentiary. Roles split between a disguised prison guard, a fake prisoner on a bus, a pilot flying the Velum getaway plane and a demolition specialist.",
     "tags": [
       "original heists",
@@ -109,7 +137,29 @@
       "Needs a full crew of four",
       "Plane role can be tricky for the Elite time",
       "Four setups first"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Rashkovsky takes 1% damage or less",
+        "Extraction in under 4:40",
+        "Nobody gets wasted"
+      ],
+      "eliteBonus": {
+        "normal": 100000,
+        "hard": 100000,
+        "text": "$100,000 per player (same on every difficulty per sources)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Go To Jail award",
+          "amount": 100000,
+          "text": "First completion of The Prison Break"
+        }
+      ],
+      "totalAfterElite": "~$581K–$822K for the leader on Hard incl. $100K Elite",
+      "note": "Total take on Hard: $875,000 repeat, $1,312,500 first of the week (gta.wiki, gtabase, gtaboom). 4-player heist, so the leader takes at most 55%: $481,250–$721,875, plus $100,000 = $581,250–$821,875. Normal: $700,000 / $1,050,000. The extraction timer starts at the Rashkovsky cutscene; if Agent 14 says 'hurry up', the time objective has failed. Elite pays each crew member on top of their cut. Trip Skip or quick restart forfeits it (gta.wiki). Sources don't say whether the Elite amount changes with difficulty; here it is the same on every difficulty. Leader cut assumes the 15% minimum per other crew member. The leader's replay setup cost (10% of base take) is not deducted."
+    }
   },
   {
     "id": "oh-the-humane-labs-raid",
@@ -130,7 +180,7 @@
     "finale": "The Humane Labs Raid",
     "approaches": [],
     "potentialTake": "About $472,500 on Easy, $945,000 on Normal and roughly $1.18 million on Hard (current repeat values).",
-    "eliteChallenge": "Finish in under 11:00 with under 2% vehicle damage and no crew deaths; $100,000 bonus.",
+    "eliteChallenge": "Complete in under 11:00; Vehicle damage under 2%; Nobody gets wasted — $100,000 per player (same on every difficulty per sources)",
     "description": "An IAA-sponsored assault on the Humane Labs research facility to retrieve sensitive data. The crew steals an EMP and a Valkyrie helicopter during setups, then splits between an underwater infiltration and air or ground cover for the finale.",
     "tags": [
       "original heists",
@@ -166,7 +216,29 @@
     "cons": [
       "Needs four players",
       "Several setups including hard flying ones"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 11:00",
+        "Vehicle damage under 2%",
+        "Nobody gets wasted"
+      ],
+      "eliteBonus": {
+        "normal": 100000,
+        "hard": 100000,
+        "text": "$100,000 per player (same on every difficulty per sources)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Lab Report award",
+          "amount": 100000,
+          "text": "First completion of The Humane Labs Raid"
+        }
+      ],
+      "totalAfterElite": "~$750K–$1.07M for the leader on Hard incl. $100K Elite",
+      "note": "Total take on Hard: $1,181,250 repeat, $1,771,875 first of the week (gta.wiki, gtabase, gtaboom). Leader max 55% of a 4-player crew: $649,688–$974,531, plus $100,000 = $749,688–$1,074,531. Normal: $945,000 / $1,417,500. Elite pays each crew member on top of their cut. Trip Skip or quick restart forfeits it (gta.wiki). Sources don't say whether the Elite amount changes with difficulty; here it is the same on every difficulty. Leader cut assumes the 15% minimum per other crew member. The leader's replay setup cost (10% of base take) is not deducted."
+    }
   },
   {
     "id": "oh-series-a-funding",
@@ -187,7 +259,7 @@
     "finale": "Series A Funding",
     "approaches": [],
     "potentialTake": "About $353,500 on Easy, $707,000 on Normal and $883,750 on Hard (current repeat values).",
-    "eliteChallenge": "Finish in under 6:30 with at least 75 kills and nobody dying; $100,000 bonus.",
+    "eliteChallenge": "Complete in under 6:30; Kill 75 enemies; Nobody gets wasted; No quick restart — $100,000 per player (same on every difficulty per sources)",
     "description": "Trevor tasks the crew with gathering drug stock from rival gangs to bankroll a deal. The setups are mostly drug-stealing jobs around Los Santos, ending with a shootout-heavy delivery finale.",
     "tags": [
       "original heists",
@@ -223,7 +295,30 @@
       "Longest setup chain of the originals",
       "Needs four players",
       "Elite needs 75 kills under 6:30"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 6:30",
+        "Kill 75 enemies",
+        "Nobody gets wasted",
+        "No quick restart"
+      ],
+      "eliteBonus": {
+        "normal": 100000,
+        "hard": 100000,
+        "text": "$100,000 per player (same on every difficulty per sources)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Product Placement award",
+          "amount": 100000,
+          "text": "First completion of Series A Funding"
+        }
+      ],
+      "totalAfterElite": "~$586K–$829K for the leader on Hard incl. $100K Elite",
+      "note": "Total take on Hard: $883,750 repeat, $1,325,625 first of the week (gta.wiki, gtabase, gtaboom). Leader max 55%: $486,063–$729,094, plus $100,000 = $586,063–$829,094. Normal: $707,000 / $1,060,500. Elite pays each crew member on top of their cut. Trip Skip or quick restart forfeits it (gta.wiki). Sources don't say whether the Elite amount changes with difficulty; here it is the same on every difficulty. Leader cut assumes the 15% minimum per other crew member. The leader's replay setup cost (10% of base take) is not deducted."
+    }
   },
   {
     "id": "oh-the-pacific-standard-job",
@@ -244,7 +339,7 @@
     "finale": "The Pacific Standard Job",
     "approaches": [],
     "potentialTake": "The biggest of the originals: about $750,000 on Easy, $1.5 million on Normal and $1.875 million on Hard (current repeat values).",
-    "eliteChallenge": "Finish in under 10:15 without the NOOSE being called and with no crew deaths; $100,000 bonus.",
+    "eliteChallenge": "Complete in under 10:15; NOOSE not called (don't kill two hostages); Nobody gets wasted — $100,000 per player (same on every difficulty per sources)",
     "description": "The capstone of the original heist series, robbing the Pacific Standard bank vault in Downtown Vinewood. The crew escapes on dirt bikes and then by boat while carrying the cash.",
     "tags": [
       "original heists",
@@ -281,7 +376,54 @@
       "Five setups",
       "Needs four players",
       "Bike escape is easy to fail"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 10:15",
+        "NOOSE not called (don't kill two hostages)",
+        "Nobody gets wasted"
+      ],
+      "eliteBonus": {
+        "normal": 100000,
+        "hard": 100000,
+        "text": "$100,000 per player (same on every difficulty per sources)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Smooth Sailing award",
+          "amount": 100000,
+          "text": "First completion of The Pacific Standard Job"
+        },
+        {
+          "name": "All in Order",
+          "amount": 1000000,
+          "text": "$1,000,000 per player: all original heist setups and finales in order"
+        },
+        {
+          "name": "Loyalty",
+          "amount": 1000000,
+          "text": "$1,000,000 per player: all setups and finales with the same crew"
+        },
+        {
+          "name": "Criminal Mastermind",
+          "amount": 10000000,
+          "text": "$10,000,000 per player: all setups and finales in order, on Hard, same crew, no lives lost (includes All in Order and Loyalty conditions)"
+        },
+        {
+          "name": "Another Perspective",
+          "amount": 100000,
+          "text": "$100,000: all setups and finales in first person (host locks the camera); PS4/PS5/Xbox One/Series X|S/PC"
+        },
+        {
+          "name": "Supporting Role",
+          "amount": 100000,
+          "text": "$100,000: all 26 setup and finale jobs as a crew member"
+        }
+      ],
+      "totalAfterElite": "~$1.13M–$1.65M for the leader on Hard incl. $100K Elite (one-time Criminal Mastermind adds $10M)",
+      "note": "Total take on Hard: $1,875,000 repeat, $2,812,500 first of the week (gta.wiki, gtaboom; the older site figure of $2,212,500 looks like a typo). Leader max 55%: $1,031,250–$1,546,875, plus $100,000 = $1,131,250–$1,646,875. Damaged money bags can cut the take to as little as 55% of the maximum. Normal: $1,500,000 / $2,250,000. The challenge awards cover all five original heists and are paid when this finale completes them, once per character (gta.wiki Original Heists). Elite pays each crew member on top of their cut. Trip Skip or quick restart forfeits it (gta.wiki). Sources don't say whether the Elite amount changes with difficulty; here it is the same on every difficulty. Leader cut assumes the 15% minimum per other crew member. The leader's replay setup cost (10% of base take) is not deducted."
+    }
   },
   {
     "id": "oh-doomsday-act-1-the-data-breaches",
@@ -300,7 +442,7 @@
     "finale": "The Data Breaches",
     "approaches": [],
     "potentialTake": "About $877,500 on Normal and $1.1 million on Hard for repeats; the first completion each week pays more (around $1.34 million on Hard).",
-    "eliteChallenge": "Finish in under 15:00 with less than 10% vehicle damage and nobody dying; $50,000 bonus.",
+    "eliteChallenge": "Complete in under 5:30; 78 kills; Nobody gets wasted — $50,000 per player (no source shows a Hard increase)",
     "description": "The opening act of a three-part story about a rogue AI and a plot to trigger nuclear war. The crew recovers stolen data and finishes by breaking into a secret IAA server farm.",
     "tags": [
       "doomsday",
@@ -336,7 +478,29 @@
     "cons": [
       "Needs at least two players",
       "Requires a Facility"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 5:30",
+        "78 kills",
+        "Nobody gets wasted"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 50000,
+        "text": "$50,000 per player (no source shows a Hard increase)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Act I award",
+          "amount": 50000,
+          "text": "First completion of Act I"
+        }
+      ],
+      "totalAfterElite": "~$982K–$1.19M for the leader of a duo on Hard incl. $50K Elite",
+      "note": "CONFLICT: gta.wiki and gtabase list 5:30 / 78 kills / nobody wasted; gtaboom (and the site's current text) list 15:00 / under 10% vehicle damage / nobody wasted. This entry uses wiki + gtabase. Total take on Hard: $1,096,875 repeat, $1,340,381 first of the week (x1.222 after the July 2026 changes; gta.wiki). Each crew member keeps at least 15%, so a duo leader takes at most 85%: $932,344–$1,139,324, plus $50,000 = $982,344–$1,189,324. Normal: $877,500 / $1,072,305. Doomsday needs 2–4 players. Setup cost is $25,000 per gta.wiki or $65,000 per gtaboom (not deducted). The challenge awards are listed under Act III."
+    }
   },
   {
     "id": "oh-doomsday-act-2-the-bogdan-problem",
@@ -356,7 +520,7 @@
     "finale": "The Bogdan Problem",
     "approaches": [],
     "potentialTake": "About $1.28 million on Normal and $1.6 million on Hard for repeats; the first completion each week can reach roughly $1.96 million on Hard.",
-    "eliteChallenge": "Finish in under 15:00 with less than 5% vehicle damage and nobody dying; $50,000 bonus.",
+    "eliteChallenge": "Complete in under 15:00; Vehicle damage 5% or less; Nobody gets wasted — $50,000 per player (no source shows a Hard increase)",
     "description": "The second act sends the crew after Russian hacker Bogdan, who is hiding aboard a nuclear submarine. The finale has players boarding the sub and forcing access to its systems.",
     "tags": [
       "doomsday",
@@ -393,7 +557,29 @@
       "Many setups",
       "Needs at least two players",
       "Finale is long"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 15:00",
+        "Vehicle damage 5% or less",
+        "Nobody gets wasted"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 50000,
+        "text": "$50,000 per player (no source shows a Hard increase)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Act II award",
+          "amount": 50000,
+          "text": "First completion of Act II"
+        }
+      ],
+      "totalAfterElite": "~$1.41M–$1.72M for the leader of a duo on Hard incl. $50K Elite",
+      "note": "Requirements agree across gta.wiki, gtabase and gtaboom. Total take on Hard: $1,603,125 repeat, $1,959,019 first of the week (gtaboom; gta.wiki shows $1,969,019, which looks like a typo since 1,603,125 x 1.222 = 1,959,019). Duo leader max 85%: $1,362,656–$1,665,166, plus $50,000 = $1,412,656–$1,715,166. Normal: $1,282,500 / $1,567,215. Setup cost not deducted."
+    }
   },
   {
     "id": "oh-doomsday-act-3-the-doomsday-scenario",
@@ -414,7 +600,7 @@
     "finale": "The Doomsday Scenario",
     "approaches": [],
     "potentialTake": "About $1.62 million on Normal and $2.03 million on Hard for repeats; the first completion each week can reach roughly $2.47 million on Hard.",
-    "eliteChallenge": "Finish in under 30:00 with at least 150 headshots and nobody dying; $50,000 bonus.",
+    "eliteChallenge": "Complete in under 30:00; 0 hacks failed; 150 headshots; Nobody gets wasted — $50,000 per player (no source shows a Hard increase)",
     "description": "The final act pits the crew against tech billionaire Avon Hertz and his AI, Clifford, inside a hidden base under Mount Chiliad. It ends with a race to stop a nuclear launch.",
     "tags": [
       "doomsday",
@@ -452,7 +638,50 @@
       "Long setup chain",
       "Hard finale with a flying section",
       "Needs at least two players"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 30:00",
+        "0 hacks failed",
+        "150 headshots",
+        "Nobody gets wasted"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 50000,
+        "text": "$50,000 per player (no source shows a Hard increase)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Act III award",
+          "amount": 50000,
+          "text": "First completion of Act III"
+        },
+        {
+          "name": "All In Order II",
+          "amount": 500000,
+          "text": "$500,000 per player: all Doomsday setups and finales in order"
+        },
+        {
+          "name": "Loyalty II / III / IV",
+          "amount": 375000,
+          "text": "Per player, same crew for all 29 jobs: $75,000 (2 players), $175,000 (3) or $375,000 (4)"
+        },
+        {
+          "name": "Criminal Mastermind II / III / IV",
+          "amount": 3750000,
+          "text": "Per player, in order, same crew, Hard, no deaths: $750,000 (2 players), $1,750,000 (3) or $3,750,000 (4)"
+        },
+        {
+          "name": "Supporting Role II",
+          "amount": 50000,
+          "text": "$50,000: all 29 jobs as a crew member"
+        }
+      ],
+      "totalAfterElite": "~$1.77M–$2.15M for the leader of a duo on Hard incl. $50K Elite (one-time Criminal Mastermind adds up to $3.75M per player)",
+      "note": "Requirements agree on gta.wiki and gtabase; gtaboom omits '0 hacks failed'. Total take on Hard: $2,025,000 repeat ($2,250,000 before the July 2026 update), $2,474,550 first of the week. Duo leader max 85%: $1,721,250–$2,103,368, plus $50,000 = $1,771,250–$2,153,368. Normal: $1,620,000 / $1,979,640. The finale also pays $100,000 if the crew picked the Barrage setup or $50,000 for the Khanjali (gta.wiki, gtabase). The awards' amount fields show the 4-player tier (gta.wiki)."
+    }
   },
   {
     "id": "oh-the-diamond-casino-heist",
@@ -484,7 +713,7 @@
       "Aggressive"
     ],
     "potentialTake": "Depends on the vault contents: roughly $1.48 million for cash up to about $2.3 million for diamonds on Normal (repeat values), with Hard adding about 10%.",
-    "eliteChallenge": "Finish in under 15:00 with nobody dying, plus an approach-specific condition (staying undetected for stealth approaches, 80 headshots for Aggressive); $50,000 on Normal or $100,000 on Hard.",
+    "eliteChallenge": "All approaches: complete in under 15:00 and nobody gets wasted; Silent & Sneaky: 0 hacks failed and not detected; The Big Con: not detected; Aggressive: 80 headshots; Quick restart voids it — $50,000 per player (Hard: $100,000)",
     "description": "Lester and Georgina Cheng plan a raid on The Diamond Casino & Resort vault, run from the player's Arcade. Players choose one of three approaches and hire gunmen, drivers and hackers who take a cut of the take.",
     "tags": [
       "casino",
@@ -541,7 +770,41 @@
       "Needs at least two players",
       "Long list of setups and preps",
       "Cash vault rolls pay poorly"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "All approaches: complete in under 15:00 and nobody gets wasted",
+        "Silent & Sneaky: 0 hacks failed and not detected",
+        "The Big Con: not detected",
+        "Aggressive: 80 headshots",
+        "Quick restart voids it"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 100000,
+        "text": "$50,000 per player (Hard: $100,000)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Elite Thief award",
+          "amount": 350000,
+          "text": "Complete the Elite Challenge for all three approaches"
+        },
+        {
+          "name": "Professional award",
+          "amount": 250000,
+          "text": "Complete on Hard without losing a life"
+        },
+        {
+          "name": "All Rounder award",
+          "amount": 300000,
+          "text": "Complete all three approaches"
+        }
+      ],
+      "totalAfterElite": "~$1.24M (Hard cash, repeat) to ~$3.38M (Hard diamonds, first of the week) for a duo leader incl. $100K Elite, theoretical max",
+      "note": "Potential take on Hard: $1,628,550 (cash) to $2,533,300 (diamonds) on repeats, $3,029,103 to $4,711,938 on the first run of the week (1.86x after the July 2026 30% base cut; gtabase, gtaboom). Normal repeat is $1,480,500 to $2,303,000. Example: take x 0.82 (Lester 5% plus the cheapest crew, 5% + 5% + 3%), then x 0.85 (duo leader), then + $100,000. Cash repeat: 1,628,550 x 0.82 x 0.85 + 100,000 = $1,235,099. Diamonds first of the week: 4,711,938 x 0.82 x 0.85 + 100,000 = $3,384,221. Real takes are lower: cheap crew lose loot, and bag capacity limits what a duo can carry. gta.wiki's Silent & Sneaky page omits 'not detected', which gtabase and gtaboom list. Setup costs $25,000 on repeats."
+    }
   },
   {
     "id": "oh-the-cayo-perico-heist",
@@ -575,7 +838,7 @@
       "Longfin"
     ],
     "potentialTake": "The primary target sets the base: about $400,000 for tequila up to $1.9 million for the event-only Panther Statue on Normal (around 10% more on Hard), plus secondary loot such as gold, cocaine, weed, paintings and cash.",
-    "eliteChallenge": "Finish in under 15 minutes with full loot bags and no failed hacks; $50,000 on Normal or $100,000 on Hard.",
+    "eliteChallenge": "Complete in under 15:00; 0 hacks failed; Full loot bags; Nobody gets wasted; Not detected inside the compound; Quick restart voids it — $50,000 per player (Hard: $100,000)",
     "description": "The first heist that can be played solo: the player raids El Rubio's private island compound to recover files for Miguel Madrazo. Scouting the island reveals entry points, escape routes and extra loot, and stealth keeps the finale far easier.",
     "tags": [
       "cayo",
@@ -630,7 +893,47 @@
       "Tequila rolls 80% of the time on repeats",
       "Long solo cooldown",
       "Kosatka costs $2.2M"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 15:00",
+        "0 hacks failed",
+        "Full loot bags",
+        "Nobody gets wasted",
+        "Not detected inside the compound",
+        "Quick restart voids it"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 100000,
+        "text": "$50,000 per player (Hard: $100,000)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Elitist award",
+          "amount": 200000,
+          "text": "Complete the Elite Challenge for the first time"
+        },
+        {
+          "name": "Blow Hard award",
+          "amount": 200000,
+          "text": "Complete on Hard without losing a life"
+        },
+        {
+          "name": "The Cayo Perico Heist award",
+          "amount": 200000,
+          "text": "First completion"
+        },
+        {
+          "name": "Going Alone award",
+          "amount": 100000,
+          "text": "Complete with one player"
+        }
+      ],
+      "totalAfterElite": "~$0.75M (Tequila) to ~$1.3M (Pink Diamond) solo on Hard incl. $100K Elite",
+      "note": "Hard primary targets after the July 2026 nerf: Tequila $440,000, Ruby Necklace $616,000, Bearer Bonds $677,600, Pink Diamond $1,001,000 (Normal: $400K / $560K / $616K / $910K; gta.wiki patch notes, gtabase, gtaboom; the wiki's $1,000,100 is a typo). A solo bag holds about $290K–$300K of secondaries (gold is $295.5K–$300K per stack after a 10% cut). Then x 0.88 (Pavel 2% + fence 10%), plus the safe ($18K–$99K) and the Elite. Tequila: (440,000 + 295,000) x 0.88 + ~50,000 + 100,000 = ~$797K. Pink Diamond: (1,001,000 + 295,000) x 0.88 + ~50,000 + 100,000 = ~$1.29M. The $100,000 setup fee on repeats is not deducted. Since July 2026 the first run of the week gets better primary odds (0% Tequila), not a cash multiplier."
+    }
   },
   {
     "id": "oh-the-contract-dr-dre",
@@ -1277,7 +1580,7 @@
     "finale": "The Cargo Ship Robbery",
     "approaches": [],
     "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000, with a dirty sale paying about 80%.",
-    "eliteChallenge": null,
+    "eliteChallenge": "No lives lost ($10K); Reach the bridge undetected ($10K); Skylift over 80% health ($10K); All three completed (+$20K) — Up to $50,000: $10,000 per challenge, plus $20,000 for all three (no difficulty setting)",
     "description": "The crew boards a guarded cargo ship at sea to steal a container holding the target vehicle. Each robbery follows a scope-out, planning work and free-mode tasks before the finale.",
     "tags": [
       "chop shop",
@@ -1303,7 +1606,7 @@
     "payout": {
       "min": 250000,
       "max": 405000,
-      "eliteBonus": null,
+      "eliteBonus": 50000,
       "perHour": null,
       "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
     },
@@ -1318,7 +1621,30 @@
       "Value depends on the weekly car",
       "Needs a Salvage Yard and tow truck",
       "Setups can be long"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "No lives lost ($10K)",
+        "Reach the bridge undetected ($10K)",
+        "Skylift over 80% health ($10K)",
+        "All three completed (+$20K)"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": null,
+        "text": "Up to $50,000: $10,000 per challenge, plus $20,000 for all three (no difficulty setting)"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "Perfect Run award",
+          "amount": 50000,
+          "text": "Complete all the Elite Challenges for a Salvage Yard Robbery"
+        }
+      ],
+      "totalAfterElite": "Vehicle value (~$250K–$408K) + up to $50K, about $300K–$458K",
+      "note": "gta.wiki calls these 'Bonus Challenges'; the Perfect Run award calls them Elite Challenges. The take is the weekly target car's max sell value (scrapping pays 80%). The Cargo Ship Robbery is not in the 19 Nov 2026 rotation. Sources don't say whether the challenge cash is paid on every run."
+    }
   },
   {
     "id": "oh-salvage-yard-gangbanger-robbery",
@@ -1333,7 +1659,7 @@
     "finale": "The Gangbanger Robbery",
     "approaches": [],
     "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
-    "eliteChallenge": null,
+    "eliteChallenge": "No cop lives lost ($10K); Jailbreak in 3 minutes ($10K); King Tiny keeps 75% health ($10K); All three completed (+$20K) — Up to $50,000: $10,000 per challenge, plus $20,000 for all three",
     "description": "Players break gang figure King Tiny out of custody to learn where a prized car is kept, then steal it. The stolen car can be sold on or broken down for parts.",
     "tags": [
       "chop shop",
@@ -1359,7 +1685,7 @@
     "payout": {
       "min": 250000,
       "max": 405000,
-      "eliteBonus": null,
+      "eliteBonus": 50000,
       "perHour": null,
       "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
     },
@@ -1374,7 +1700,30 @@
       "Value depends on the weekly car",
       "Needs a Salvage Yard and tow truck",
       "Setups can be long"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "No cop lives lost ($10K)",
+        "Jailbreak in 3 minutes ($10K)",
+        "King Tiny keeps 75% health ($10K)",
+        "All three completed (+$20K)"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": null,
+        "text": "Up to $50,000: $10,000 per challenge, plus $20,000 for all three"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "Perfect Run award",
+          "amount": 50000,
+          "text": "Complete all the Elite Challenges for a Salvage Yard Robbery (once, any robbery)"
+        }
+      ],
+      "totalAfterElite": "$446K this week (Stinger TT $396K + $50K)",
+      "note": "Week of 19 Nov 2026: Grotti Stinger TT, max sell $396,000 (salvage $316,800), so $396,000 + $50,000 = $446,000 (gta.wiki). Other weeks are about $250K–$408K + $50K. Sources don't say whether the challenge cash repeats."
+    }
   },
   {
     "id": "oh-salvage-yard-duggan-robbery",
@@ -1389,7 +1738,7 @@
     "finale": "The Duggan Robbery",
     "approaches": [],
     "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
-    "eliteChallenge": null,
+    "eliteChallenge": "Over 15 headshots ($10K); Disable the target vehicle on the first attempt ($10K); Reach Hao in 1 minute ($10K); All three completed (+$20K) — Up to $50,000: $10,000 per challenge, plus $20,000 for all three",
     "description": "The crew lifts a car from a Duggan crime family event held at the Maze Bank Arena. The robbery rotates in and out of the weekly Salvage Yard lineup.",
     "tags": [
       "chop shop",
@@ -1415,7 +1764,7 @@
     "payout": {
       "min": 250000,
       "max": 405000,
-      "eliteBonus": null,
+      "eliteBonus": 50000,
       "perHour": null,
       "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
     },
@@ -1430,7 +1779,30 @@
       "Value depends on the weekly car",
       "Needs a Salvage Yard and tow truck",
       "Setups can be long"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Over 15 headshots ($10K)",
+        "Disable the target vehicle on the first attempt ($10K)",
+        "Reach Hao in 1 minute ($10K)",
+        "All three completed (+$20K)"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": null,
+        "text": "Up to $50,000: $10,000 per challenge, plus $20,000 for all three"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "Perfect Run award",
+          "amount": 50000,
+          "text": "Complete all the Elite Challenges for a Salvage Yard Robbery (once, any robbery)"
+        }
+      ],
+      "totalAfterElite": "$393K this week (Dominator ASP $343K + $50K)",
+      "note": "Week of 19 Nov 2026: Vapid Dominator ASP, max sell $343,000 (salvage $274,400), so $343,000 + $50,000 = $393,000 (gta.wiki). Other weeks are about $250K–$408K + $50K."
+    }
   },
   {
     "id": "oh-salvage-yard-podium-robbery",
@@ -1445,7 +1817,7 @@
     "finale": "The Podium Robbery",
     "approaches": [],
     "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
-    "eliteChallenge": null,
+    "eliteChallenge": "No lives lost ($10K); Reach the elevator hatch undetected ($10K); Escape the casino in 1 minute ($10K); All three completed (+$20K) — Up to $50,000: $10,000 per challenge, plus $20,000 for all three",
     "description": "Players steal the display car from the podium of The Diamond Casino & Resort. Planning involves getting past casino security to reach the vehicle.",
     "tags": [
       "chop shop",
@@ -1472,7 +1844,7 @@
     "payout": {
       "min": 250000,
       "max": 405000,
-      "eliteBonus": null,
+      "eliteBonus": 50000,
       "perHour": null,
       "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
     },
@@ -1487,7 +1859,30 @@
       "Value depends on the weekly car",
       "Needs a Salvage Yard and tow truck",
       "Setups can be long"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "No lives lost ($10K)",
+        "Reach the elevator hatch undetected ($10K)",
+        "Escape the casino in 1 minute ($10K)",
+        "All three completed (+$20K)"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": null,
+        "text": "Up to $50,000: $10,000 per challenge, plus $20,000 for all three"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "Perfect Run award",
+          "amount": 50000,
+          "text": "Complete all the Elite Challenges for a Salvage Yard Robbery (once, any robbery)"
+        }
+      ],
+      "totalAfterElite": "$314K this week (Kanjo SJ $264K + $50K)",
+      "note": "Week of 19 Nov 2026: Dinka Kanjo SJ, max sell $264,000 (salvage $211,200), so $264,000 + $50,000 = $314,000 (gta.wiki). Other weeks are about $250K–$408K + $50K."
+    }
   },
   {
     "id": "oh-salvage-yard-mctony-robbery",
@@ -1502,7 +1897,7 @@
     "finale": "The McTony Robbery",
     "approaches": [],
     "potentialTake": "Varies by target car; Salvage Yard robbery vehicles usually sell for roughly $250,000-$400,000.",
-    "eliteChallenge": null,
+    "eliteChallenge": "Over 15 headshots ($10K); Find the Head of Security in 1 minute ($10K); No lives lost ($10K); All three completed (+$20K) — Up to $50,000: $10,000 per challenge, plus $20,000 for all three",
     "description": "The crew infiltrates tech billionaire Tony McTony's Kosatka submarine to extract a car stored aboard. It is one of five robberies that rotate weekly.",
     "tags": [
       "chop shop",
@@ -1529,7 +1924,7 @@
     "payout": {
       "min": 250000,
       "max": 405000,
-      "eliteBonus": null,
+      "eliteBonus": 50000,
       "perHour": null,
       "note": "Value of the target car, which changes weekly; scrapping pays ~80%. Up to $50k extra from challenges. Not changed in July 2026; a clean week of three robberies is ~$1M."
     },
@@ -1544,7 +1939,30 @@
       "Value depends on the weekly car",
       "Needs a Salvage Yard and tow truck",
       "Setups can be long"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Over 15 headshots ($10K)",
+        "Find the Head of Security in 1 minute ($10K)",
+        "No lives lost ($10K)",
+        "All three completed (+$20K)"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": null,
+        "text": "Up to $50,000: $10,000 per challenge, plus $20,000 for all three"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "Perfect Run award",
+          "amount": 50000,
+          "text": "Complete all the Elite Challenges for a Salvage Yard Robbery (once, any robbery)"
+        }
+      ],
+      "totalAfterElite": "Vehicle value (~$250K–$408K) + up to $50K, about $300K–$458K",
+      "note": "Not in the 19 Nov 2026 rotation. The take depends on the weekly target car (gta.wiki)."
+    }
   },
   {
     "id": "oh-cluckin-bell-farm-raid",
@@ -1665,7 +2083,7 @@
     "finale": null,
     "approaches": [],
     "potentialTake": "Each file pays about $150,000-$158,000, plus a $50,000 bonus for all finale challenges; the weekly Priority File pays double.",
-    "eliteChallenge": "Complete all three finale challenges for a $50,000 bonus ($150,000 for GTA+ members).",
+    "eliteChallenge": "Three challenges per file, e.g. Brute Force: reach the base in under 5 min, enter Area A undetected, destroy 5 vehicles with the Scarab; Fine Art: enter the penthouse undetected, flick the switch in 60 s, take all cabinet contents; Project Breakaway: locate Project Breakaway in 5 min, 15 headshots, recover the Black Books and Server Blades; Black Box File: challenges not listed in sources — $50,000 for all three challenges in a file ($150,000 for GTA+ members per gtaboom)",
     "description": "Ex-FIB agent Jodi Marshall runs a series of mini-heists out of the Garment Factory, each with a setup fee, three planning missions and a finale. Targets include a cargo plane, Fort Zancudo, an art gallery and the Maze Bank Tower.",
     "tags": [
       "agents of sabotage",
@@ -1702,7 +2120,35 @@
     "cons": [
       "Modest base pay",
       "Needs the Garment Factory (~$2.35M)"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Three challenges per file, e.g. Brute Force: reach the base in under 5 min, enter Area A undetected, destroy 5 vehicles with the Scarab",
+        "Fine Art: enter the penthouse undetected, flick the switch in 60 s, take all cabinet contents",
+        "Project Breakaway: locate Project Breakaway in 5 min, 15 headshots, recover the Black Books and Server Blades",
+        "Black Box File: challenges not listed in sources"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": null,
+        "text": "$50,000 for all three challenges in a file ($150,000 for GTA+ members per gtaboom)"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "Bonus Points award",
+          "amount": 50000,
+          "text": "Complete all mission challenges for an FIB File"
+        },
+        {
+          "name": "File completion awards",
+          "amount": 50000,
+          "text": "$50,000 each for finishing each of the four files as leader"
+        }
+      ],
+      "totalAfterElite": "~$200K–$208K per file incl. $50K (Priority File ~$350K; GTA+ up to ~$100K more)",
+      "note": "gta.wiki pages for each file call these 'Elite Challenges' worth $50,000. Base pay is about $150K–$158K per file, and the weekly Priority File pays double (~$300K): 150,000–158,000 + 50,000 = $200K–$208K; Priority 300,000 + 50,000 = ~$350K. The GTA+ $150,000 figure is a membership perk and may change. Sources don't say whether the bonus repeats, and the July 2026 changes to these are unconfirmed."
+    }
   },
   {
     "id": "oh-oscar-guzman-flies-again",
@@ -1723,7 +2169,7 @@
     "finale": "The Titan Job",
     "approaches": [],
     "potentialTake": "The finale is reported to pay up to roughly $1.1 million depending on difficulty; sources vary.",
-    "eliteChallenge": null,
+    "eliteChallenge": "Steal the extra Mogul in Setup: Mogul; Steal all extra vehicles in Setup: Iron Mule (three DH-7 Iron Mules and an Insurgent Pick-Up Custom); Steal all extra equipment in Setup: Ammunition (heavy armor, weapon crate, Mogul upgrades) — $60,000 bonus on The Titan Job if all optional setup objectives were done (not an Elite Challenge)",
     "description": "Oscar Guzman returns from GTA V's story mode to lead an air-focused strand from McKenzie Field. The setups build toward stealing Eberhard Munitions' Titan 250 D gunship, with the difficulty picked in the intro mission applying to the whole strand.",
     "tags": [
       "oscar guzman",
@@ -1749,7 +2195,7 @@
     "payout": {
       "min": 500000,
       "max": 1125000,
-      "eliteBonus": null,
+      "eliteBonus": 60000,
       "perHour": null,
       "note": "Finale: $500k Normal / $750k Hard repeats, $750k / $1.125M on the first run each week. Plus a one-time $250k leader award."
     },
@@ -1762,7 +2208,34 @@
     "cons": [
       "Needs the McKenzie Field Hangar",
       "Changing difficulty means restarting the series"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Steal the extra Mogul in Setup: Mogul",
+        "Steal all extra vehicles in Setup: Iron Mule (three DH-7 Iron Mules and an Insurgent Pick-Up Custom)",
+        "Steal all extra equipment in Setup: Ammunition (heavy armor, weapon crate, Mogul upgrades)"
+      ],
+      "eliteBonus": {
+        "normal": 60000,
+        "hard": 60000,
+        "text": "$60,000 bonus on The Titan Job if all optional setup objectives were done (not an Elite Challenge)"
+      },
+      "repeatable": null,
+      "oneTimeBonuses": [
+        {
+          "name": "The Titan Job award",
+          "amount": 250000,
+          "text": "Complete The Titan Job as leader"
+        },
+        {
+          "name": "Permanent Contract award",
+          "amount": 100000,
+          "text": "Complete all Oscar Guzman Flies Again missions as a crew member"
+        }
+      ],
+      "totalAfterElite": "$560K–$810K on Normal, $810K–$1.185M on Hard (host, incl. $60K bonus)",
+      "note": "Included as the closest equivalent; there is no finale Elite Challenge. gta.wiki host pay: Normal $500,000 repeat / $750,000 first of the week; Hard $750,000 / $1,125,000; associates $50K / $100K. Adding $60,000 gives $560K–$810K on Normal and $810K–$1,185K on Hard. A GTA+ May 2025 promo image for this bonus suggests it may have started as a GTA+ perk, and sources don't say whether associates get it or whether it repeats."
+    }
   },
   {
     "id": "oh-knoway-out",
@@ -1782,7 +2255,7 @@
     "finale": "A Clean Break",
     "approaches": [],
     "potentialTake": "The host earns about $350,000 on Normal or $525,000 on Hard (associates far less), with a $250,000 first-completion bonus. A follow-up solo mission with Michael De Santa, 'Home Sweet Home', pays about $500,000 for Mansion owners.",
-    "eliteChallenge": "Completing every elite objective in one playthrough adds $50,000 ($100,000 on Hard).",
+    "eliteChallenge": "A Clean Break finale: complete in under 10:00; Nobody gets wasted; No hacks failed; 35 headshots — $50,000 per player (Hard: $100,000)",
     "description": "Avi Schwartzman enlists the player to sabotage KnoWay, a self-driving taxi tech company working with the FIB. Finishing the strand leads to the return of Michael De Santa, who helps defend the player's mansion.",
     "tags": [
       "knoway",
@@ -1823,7 +2296,40 @@
     "cons": [
       "Low repeat pay after the cut",
       "Associates earn far less"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "A Clean Break finale: complete in under 10:00",
+        "Nobody gets wasted",
+        "No hacks failed",
+        "35 headshots"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 100000,
+        "text": "$50,000 per player (Hard: $100,000)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "A Clean Break award",
+          "amount": 250000,
+          "text": "Complete A Clean Break as leader"
+        },
+        {
+          "name": "Willing Accomplice award",
+          "amount": 250000,
+          "text": "Complete all KnoWay Out missions as a crew member"
+        },
+        {
+          "name": "The Cleanest Break award",
+          "amount": null,
+          "text": "Complete the Elite Challenge for A Clean Break (no cash listed)"
+        }
+      ],
+      "totalAfterElite": "Host: $295K–$506K on Normal, $467.5K–$784K on Hard incl. Elite",
+      "note": "gta.wiki host pay: $245,000 Normal / $367,500 Hard (associates $50K / $75K), each listed with its Elite. Hard: 367,500 + 100,000 = $467,500. First-of-the-week pay (KnoWay Out is in the July 2026 weekly-bonus list) is $455,700 / $683,550 per the site's data (1.86x), not confirmed in wiki text: 455,700 + 50,000 = $505,700 and 683,550 + 100,000 = $783,550. Repeatability of the Elite is not stated outright; the wiki lists it alongside the per-run reward."
+    }
   },
   {
     "id": "oh-the-kortz-center-heist",
@@ -1855,7 +2361,7 @@
       "Sewer"
     ],
     "potentialTake": "The first primary painting sold each week pays a large bonus (roughly $1.2-$1.9 million depending on the painting); repeat sales that week drop to around $300,000-$500,000, plus secondary art. Witnesses and damage lower the value.",
-    "eliteChallenge": "Finish in under 17:00 with over 90% accuracy, minimal value loss and the buyer's requested item secured; $50,000 bonus ($100,000 on Hard).",
+    "eliteChallenge": "Complete in under 17:00; Value loss under $15,000 (gta.wiki says $75,000); Shooting accuracy over 90% (crew and each member); Complete the Buyer's Request list; Quick restart voids it — $50,000 per player (Hard: $100,000)",
     "description": "The first major heist in years: Mr. Faber and his fixer Raf De Angelis plan a theft of paintings from the Kortz Center art museum in Pacific Bluffs. Counterfeiter Yong-Rae produces replicas in the Art Studio, and stealthy runs preserve the art's value.",
     "tags": [
       "kortz center",
@@ -1914,6 +2420,45 @@
       "Mansion plus Art Studio cost over $16M",
       "Repeat runs pay far less",
       "Some loot needs a second player"
-    ]
+    ],
+    "elite": {
+      "challenges": [
+        "Complete in under 17:00",
+        "Value loss under $15,000 (gta.wiki says $75,000)",
+        "Shooting accuracy over 90% (crew and each member)",
+        "Complete the Buyer's Request list",
+        "Quick restart voids it"
+      ],
+      "eliteBonus": {
+        "normal": 50000,
+        "hard": 100000,
+        "text": "$50,000 per player (Hard: $100,000)"
+      },
+      "repeatable": true,
+      "oneTimeBonuses": [
+        {
+          "name": "Masterpiece award",
+          "amount": 200000,
+          "text": "Complete the Elite Challenge for the first time"
+        },
+        {
+          "name": "The Kortz Center Heist award",
+          "amount": 200000,
+          "text": "First completion"
+        },
+        {
+          "name": "Go Hard award",
+          "amount": 200000,
+          "text": "Complete on Hard without losing a life"
+        },
+        {
+          "name": "One Man Job award",
+          "amount": 100000,
+          "text": "Complete solo"
+        }
+      ],
+      "totalAfterElite": "~$650K (Normal repeat) to ~$1.8M (Hard first sale of the week) solo incl. Elite",
+      "note": "CONFLICT: value-loss limit is $15,000 per gtabase and gtaboom, $75,000 per gta.wiki. The separate Buyer's Request bonus is also $50K Normal / $100K Hard. gtaboom solo runs: Consumato Normal repeat 308,000 + 238,000 secondary + 50,000 Buyer's Request + 5,000 getaway + 50,000 Elite = $651,000. Downfall of Rome Hard first sale 1,342,000 + 267,000 + 100,000 + 100,000 = $1,809,000. The first sale each week is about 4x the repeat value (e.g. $1,268,000 vs $317,000). La Dernière Débauche on the first-ever run is $1,925,000, so about $2.3M with loot and bonuses (estimate). The $100,000 setup fee after the free weekly first run is not deducted. gtaboom confirms the Elite is paid per player on Normal; on Hard it only recorded solo runs."
+    }
   }
 ]
