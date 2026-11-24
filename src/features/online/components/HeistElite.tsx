@@ -1,4 +1,4 @@
-import { Check, Gift, Trophy } from 'lucide-react';
+import { Check, Gift, Info, Trophy } from 'lucide-react';
 import { money } from '@/shared/lib/format';
 import type { HeistElite as Elite } from '../types';
 import styles from './HeistElite.module.css';
@@ -68,7 +68,15 @@ export function HeistElite({ elite }: { elite: Elite }) {
           ))}
         </ul>
       )}
-      {elite.note && <p className={styles.note}>{elite.note}</p>}
+      {elite.note && (
+        <div className={styles.note}>
+          <Info size={15} aria-hidden="true" />
+          <p>
+            <strong>How it is worked out</strong>
+            {elite.note}
+          </p>
+        </div>
+      )}
     </div>
   );
 }

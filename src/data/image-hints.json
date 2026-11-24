@@ -6,6 +6,7 @@
   "heists/oh-auto-shop-ecu-job": { "imageFrom": "heists/oh-auto-shop-bank-contract" },
   "missions/m-predator": { "wikiPages": ["Predator (mission)"] },
   "missions/m-fresh-meat": { "imageFrom": "characters/ch-michael-de-santa" },
+  "heists/oh-the-cayo-perico-heist": { "wikiFile": "TheCayoPericoHeist-GTAO-Artwork.jpg" },
   "missions/m-rampage-rednecks": { "wikiFile": "Rampages-GTAV-Rednecks.png" },
   "missions/m-rampage-vagos": { "wikiFile": "Rampages-GTAV-Vagos.png" },
   "missions/m-rampage-ballas": { "wikiFile": "Rampages-GTAV-Ballas.png" },

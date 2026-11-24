@@ -1,3 +1,4 @@
+import { Info } from 'lucide-react';
 import type { BusinessTable } from '../types';
 import styles from './BusinessTables.module.css';
 
@@ -37,7 +38,12 @@ export function BusinessTables({ tables }: { tables: BusinessTable[] }) {
               ))}
             </tbody>
           </table>
-          {t.note && <p className={styles.note}>{t.note}</p>}
+          {t.note && (
+            <div className={styles.note}>
+              <Info size={15} aria-hidden="true" />
+              <p>{t.note}</p>
+            </div>
+          )}
         </section>
       ))}
     </div>

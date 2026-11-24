@@ -117,7 +117,151 @@
         "note": "111 x $20,000; 37 three-crate buys cost $666,000. Warehouse staff can also source 1-4 crates every 48 real minutes for $7,500 a trip."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Sale value by crates sold",
+        "intro": "The price per crate rises with the number of crates you sell at once.",
+        "columns": [
+          "Crates sold",
+          "Per crate",
+          "Total",
+          "After sourcing"
+        ],
+        "rows": [
+          [
+            "1",
+            "$10,000",
+            "$10,000",
+            "$4,000"
+          ],
+          [
+            "3",
+            "$12,000",
+            "$36,000",
+            "$18,000"
+          ],
+          [
+            "5",
+            "$13,000",
+            "$65,000",
+            "$35,000"
+          ],
+          [
+            "10",
+            "$14,500",
+            "$145,000",
+            "$85,000"
+          ],
+          [
+            "16 (Small full)",
+            "$15,000",
+            "$240,000",
+            "$144,000"
+          ],
+          [
+            "20",
+            "$15,500",
+            "$310,000",
+            "$190,000"
+          ],
+          [
+            "30",
+            "$16,500",
+            "$495,000",
+            "$315,000"
+          ],
+          [
+            "42 (Medium full)",
+            "$17,500",
+            "$735,000",
+            "$483,000"
+          ],
+          [
+            "50",
+            "$18,000",
+            "$900,000",
+            "$600,000"
+          ],
+          [
+            "60",
+            "$18,250",
+            "$1,095,000",
+            "$735,000"
+          ],
+          [
+            "80",
+            "$18,750",
+            "$1,500,000",
+            "$1,020,000"
+          ],
+          [
+            "100",
+            "$19,500",
+            "$1,950,000",
+            "$1,350,000"
+          ],
+          [
+            "111 (Large full)",
+            "$20,000",
+            "$2,220,000",
+            "$1,554,000"
+          ]
+        ],
+        "highlightRow": 12,
+        "note": "After sourcing assumes 3-crate buys at $6,000 a crate (1 crate costs $2,000, 2 crates $4,000 each). Lobby size can add a bonus on top. Source: gta.wiki Warehouses."
+      },
+      {
+        "title": "Special Items",
+        "intro": "Rare single items that sometimes replace a normal crate pickup; they sell for five times what they cost.",
+        "columns": [
+          "Item",
+          "Category",
+          "Cost",
+          "Sells for"
+        ],
+        "rows": [
+          [
+            "Film Reel",
+            "Counterfeit Goods",
+            "$19,000",
+            "$95,000"
+          ],
+          [
+            "Rare Hide",
+            "Animal Materials",
+            "$21,000",
+            "$105,000"
+          ],
+          [
+            "Golden Minigun",
+            "Weapons & Ammo",
+            "$23,000",
+            "$115,000"
+          ],
+          [
+            "Ornamental Egg",
+            "Art & Antiques",
+            "$25,000",
+            "$125,000"
+          ],
+          [
+            "Large Diamond",
+            "Gemstones",
+            "$27,000",
+            "$135,000"
+          ],
+          [
+            "Rare Pocket Watch",
+            "Jewelry",
+            "$30,000",
+            "$150,000"
+          ]
+        ],
+        "highlightRow": 5,
+        "note": "Source: gta.wiki Special Cargo."
+      }
+    ]
   },
   {
     "id": "ob-vehicle-warehouse",
@@ -188,7 +332,118 @@
         "note": "Specialist Dealer price; $80,000 after the $20,000 modification cost. Private Buyer pays $40,000. Damage repairs come off the profit, and completed collections add a bonus."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Payout by range and buyer",
+        "intro": "Net payout per car after the buyer's upfront modification cost, with no damage.",
+        "columns": [
+          "Range",
+          "Private Buyer",
+          "Showroom",
+          "Specialist Dealer",
+          "Specialist mods"
+        ],
+        "rows": [
+          [
+            "Top",
+            "$40,000",
+            "$60,000",
+            "$80,000",
+            "$20,000"
+          ],
+          [
+            "Mid",
+            "$25,000",
+            "$37,500",
+            "$50,000",
+            "$12,500"
+          ],
+          [
+            "Standard",
+            "$15,000",
+            "$22,500",
+            "$30,000",
+            "$7,500"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Gross Specialist prices are $100,000 / $62,500 / $37,500. Damage taken while stealing is billed by the mechanic on arrival at the warehouse, up to $34,000; damage during the export also lowers the payout (exact formula not documented). High Demand Bonus: +2.5% per rival player, up to +50%. Source: gta.wiki Vehicle Cargo and Sell Missions."
+      },
+      {
+        "title": "Vehicles in each range",
+        "intro": "The car a steal mission gives you is picked at random from these lists.",
+        "columns": [
+          "Top Range",
+          "Mid Range",
+          "Standard Range"
+        ],
+        "rows": [
+          [
+            "X80 Proto",
+            "Cheetah",
+            "Nightshade"
+          ],
+          [
+            "T20",
+            "Entity XF",
+            "Bestia GTS"
+          ],
+          [
+            "Osiris",
+            "Coquette BlackFin",
+            "Feltzer"
+          ],
+          [
+            "Tyrus",
+            "Zentorno",
+            "Sabre Turbo Custom"
+          ],
+          [
+            "FMJ",
+            "Coquette Classic",
+            "Tampa"
+          ],
+          [
+            "811",
+            "Verlierer",
+            "Alpha"
+          ],
+          [
+            "Mamba",
+            "Omnis",
+            "Massacro"
+          ],
+          [
+            "Reaper",
+            "Tropos Rallye",
+            "Jester"
+          ],
+          [
+            "ETR1",
+            "Sultan RS",
+            "Banshee 900R"
+          ],
+          [
+            "Stirling GT",
+            "Seven-70",
+            "Turismo R"
+          ],
+          [
+            "Roosevelt Valor",
+            "—",
+            "—"
+          ],
+          [
+            "Z-Type",
+            "—",
+            "—"
+          ]
+        ],
+        "highlightRow": null,
+        "note": "12 Top, 10 Mid and 10 Standard cars. Source: gta.wiki Vehicle Cargo."
+      }
+    ]
   },
   {
     "id": "ob-mc-clubhouse",
@@ -227,7 +482,65 @@
     "verdict": "Buy the cheapest one only if you want MC businesses; on its own it is not a money maker.",
     "upgrades": [],
     "incomeLevels": [],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by MC business",
+        "intro": "What one full supply bar ($75,000) turns into in each fully upgraded MC business.",
+        "columns": [
+          "Business",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "Cocaine Lockup",
+            "4",
+            "2h",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ],
+          [
+            "Weed Farm",
+            "50",
+            "3h 20m",
+            "$131,250",
+            "$196,875",
+            "+$121,875"
+          ],
+          [
+            "Counterfeit Cash",
+            "20",
+            "2h 40m",
+            "$122,500",
+            "$183,750",
+            "+$108,750"
+          ],
+          [
+            "Meth Lab",
+            "8",
+            "2h 24m",
+            "$119,000",
+            "$178,500",
+            "+$103,500"
+          ],
+          [
+            "Document Forgery",
+            "50",
+            "2h 30m",
+            "$87,500",
+            "$131,250",
+            "+$56,250"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Equipment + Staff upgrades. Profit is the far sale minus the $75,000 bar. Without Equipment, supplies run out faster (exact rate not documented). The 35% Car Wash / Smoke on the Water bonus is not included. Source: gta.wiki Biker Businesses."
+      }
+    ]
   },
   {
     "id": "ob-cocaine-lockup",
@@ -314,7 +627,65 @@
         "note": "10 units x $35,000, one unit every 30 min; selling far pays $525,000. A full stock uses 2.5 supply bars ($187,500 at $75,000 per bar); net selling far is about $67,500/hr."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by MC business",
+        "intro": "What one full supply bar ($75,000) turns into in each fully upgraded MC business.",
+        "columns": [
+          "Business",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "Cocaine Lockup",
+            "4",
+            "2h",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ],
+          [
+            "Weed Farm",
+            "50",
+            "3h 20m",
+            "$131,250",
+            "$196,875",
+            "+$121,875"
+          ],
+          [
+            "Counterfeit Cash",
+            "20",
+            "2h 40m",
+            "$122,500",
+            "$183,750",
+            "+$108,750"
+          ],
+          [
+            "Meth Lab",
+            "8",
+            "2h 24m",
+            "$119,000",
+            "$178,500",
+            "+$103,500"
+          ],
+          [
+            "Document Forgery",
+            "50",
+            "2h 30m",
+            "$87,500",
+            "$131,250",
+            "+$56,250"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Equipment + Staff upgrades. Profit is the far sale minus the $75,000 bar. Without Equipment, supplies run out faster (exact rate not documented). The 35% Car Wash / Smoke on the Water bonus is not included. Source: gta.wiki Biker Businesses."
+      }
+    ]
   },
   {
     "id": "ob-meth-lab",
@@ -401,7 +772,65 @@
         "note": "20 units x $14,875, one unit every 18 min; selling far pays $446,250. A full stock uses 2.5 supply bars ($187,500); net selling far is about $43,125/hr."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by MC business",
+        "intro": "What one full supply bar ($75,000) turns into in each fully upgraded MC business.",
+        "columns": [
+          "Business",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "Cocaine Lockup",
+            "4",
+            "2h",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ],
+          [
+            "Weed Farm",
+            "50",
+            "3h 20m",
+            "$131,250",
+            "$196,875",
+            "+$121,875"
+          ],
+          [
+            "Counterfeit Cash",
+            "20",
+            "2h 40m",
+            "$122,500",
+            "$183,750",
+            "+$108,750"
+          ],
+          [
+            "Meth Lab",
+            "8",
+            "2h 24m",
+            "$119,000",
+            "$178,500",
+            "+$103,500"
+          ],
+          [
+            "Document Forgery",
+            "50",
+            "2h 30m",
+            "$87,500",
+            "$131,250",
+            "+$56,250"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Equipment + Staff upgrades. Profit is the far sale minus the $75,000 bar. Without Equipment, supplies run out faster (exact rate not documented). The 35% Car Wash / Smoke on the Water bonus is not included. Source: gta.wiki Biker Businesses."
+      }
+    ]
   },
   {
     "id": "ob-weed-farm",
@@ -502,7 +931,65 @@
         "note": "80 units x $3,544, one unit every 4 min; selling far pays $425,250. Unit value is $2,625 x 1.35; assumes the 35% bonus stacks with the far-sale bonus."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by MC business",
+        "intro": "What one full supply bar ($75,000) turns into in each fully upgraded MC business.",
+        "columns": [
+          "Business",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "Cocaine Lockup",
+            "4",
+            "2h",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ],
+          [
+            "Weed Farm",
+            "50",
+            "3h 20m",
+            "$131,250",
+            "$196,875",
+            "+$121,875"
+          ],
+          [
+            "Counterfeit Cash",
+            "20",
+            "2h 40m",
+            "$122,500",
+            "$183,750",
+            "+$108,750"
+          ],
+          [
+            "Meth Lab",
+            "8",
+            "2h 24m",
+            "$119,000",
+            "$178,500",
+            "+$103,500"
+          ],
+          [
+            "Document Forgery",
+            "50",
+            "2h 30m",
+            "$87,500",
+            "$131,250",
+            "+$56,250"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Equipment + Staff upgrades. Profit is the far sale minus the $75,000 bar. Without Equipment, supplies run out faster (exact rate not documented). The 35% Car Wash / Smoke on the Water bonus is not included. Source: gta.wiki Biker Businesses."
+      }
+    ]
   },
   {
     "id": "ob-counterfeit-cash-factory",
@@ -603,7 +1090,65 @@
         "note": "40 units x $8,269, one unit every 8 min; selling far pays $496,125. Unit value is $6,125 x 1.35; assumes the 35% Car Wash bonus stacks with the far-sale bonus."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by MC business",
+        "intro": "What one full supply bar ($75,000) turns into in each fully upgraded MC business.",
+        "columns": [
+          "Business",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "Cocaine Lockup",
+            "4",
+            "2h",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ],
+          [
+            "Weed Farm",
+            "50",
+            "3h 20m",
+            "$131,250",
+            "$196,875",
+            "+$121,875"
+          ],
+          [
+            "Counterfeit Cash",
+            "20",
+            "2h 40m",
+            "$122,500",
+            "$183,750",
+            "+$108,750"
+          ],
+          [
+            "Meth Lab",
+            "8",
+            "2h 24m",
+            "$119,000",
+            "$178,500",
+            "+$103,500"
+          ],
+          [
+            "Document Forgery",
+            "50",
+            "2h 30m",
+            "$87,500",
+            "$131,250",
+            "+$56,250"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Equipment + Staff upgrades. Profit is the far sale minus the $75,000 bar. Without Equipment, supplies run out faster (exact rate not documented). The 35% Car Wash / Smoke on the Water bonus is not included. Source: gta.wiki Biker Businesses."
+      }
+    ]
   },
   {
     "id": "ob-document-forgery-office",
@@ -689,7 +1234,65 @@
         "note": "60 units x $1,750, one unit every 3 min; selling far pays $157,500. A full stock uses 1.2 supply bars ($90,000); net selling far is about $22,500/hr."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by MC business",
+        "intro": "What one full supply bar ($75,000) turns into in each fully upgraded MC business.",
+        "columns": [
+          "Business",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "Cocaine Lockup",
+            "4",
+            "2h",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ],
+          [
+            "Weed Farm",
+            "50",
+            "3h 20m",
+            "$131,250",
+            "$196,875",
+            "+$121,875"
+          ],
+          [
+            "Counterfeit Cash",
+            "20",
+            "2h 40m",
+            "$122,500",
+            "$183,750",
+            "+$108,750"
+          ],
+          [
+            "Meth Lab",
+            "8",
+            "2h 24m",
+            "$119,000",
+            "$178,500",
+            "+$103,500"
+          ],
+          [
+            "Document Forgery",
+            "50",
+            "2h 30m",
+            "$87,500",
+            "$131,250",
+            "+$56,250"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Equipment + Staff upgrades. Profit is the far sale minus the $75,000 bar. Without Equipment, supplies run out faster (exact rate not documented). The 35% Car Wash / Smoke on the Water bonus is not included. Source: gta.wiki Biker Businesses."
+      }
+    ]
   },
   {
     "id": "ob-bunker",
@@ -787,7 +1390,89 @@
         "note": "100 units x $7,000, one unit every 7 min; selling far pays $1,050,000. Manufacturing only (no research). A full stock needs 5 supply bars ($375,000). Net profit selling far is about $57,857/hr. Daily bunker fees are not included."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "One supply bar, by upgrade",
+        "intro": "What one full supply bar ($75,000) turns into at each upgrade level (manufacturing only).",
+        "columns": [
+          "Upgrades",
+          "Units / bar",
+          "Time to use bar",
+          "Sale nearby",
+          "Sale far",
+          "Profit far"
+        ],
+        "rows": [
+          [
+            "None",
+            "10",
+            "1h 40m",
+            "$50,000",
+            "$75,000",
+            "$0"
+          ],
+          [
+            "Staff only",
+            "10",
+            "1h 25m",
+            "$60,000",
+            "$90,000",
+            "+$15,000"
+          ],
+          [
+            "Equipment only",
+            "20",
+            "2h 50m",
+            "$120,000",
+            "$180,000",
+            "+$105,000"
+          ],
+          [
+            "Equipment + Staff",
+            "20",
+            "2h 20m",
+            "$140,000",
+            "$210,000",
+            "+$135,000"
+          ]
+        ],
+        "highlightRow": 3,
+        "note": "Worked out from the unit values and times and the Equipment upgrade making supplies last twice as long (a full 100-unit stock needs 10 bars without it, 5 with it). Guides agree a full bar lasts 2h 20m when fully upgraded. Daily bunker fees not included."
+      },
+      {
+        "title": "Research fast-track cost",
+        "intro": "Paying to finish the current research project costs less the further along it is.",
+        "columns": [
+          "Research progress",
+          "Fast-track cost"
+        ],
+        "rows": [
+          [
+            "0–20%",
+            "$225,000"
+          ],
+          [
+            "21–40%",
+            "$180,000"
+          ],
+          [
+            "41–60%",
+            "$135,000"
+          ],
+          [
+            "61–80%",
+            "$90,000"
+          ],
+          [
+            "Over 80%",
+            "$45,000"
+          ]
+        ],
+        "highlightRow": 4,
+        "note": "There are 51 research items. Setting staff to Research only halves research time compared with splitting them between stock and research. Guides report about 3.5 h per project fully upgraded and about 8.5 h with no upgrades (sources disagree). Source: gta.wiki Bunker Research."
+      }
+    ]
   },
   {
     "id": "ob-mobile-operations-center",
@@ -1040,7 +1725,65 @@
     "verdict": "Only worth it for players with a regular heist crew; solo players get little money from it.",
     "upgrades": [],
     "incomeLevels": [],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Doomsday Heist finale payouts",
+        "intro": "Potential take for each act's finale since the July 2026 economy changes.",
+        "columns": [
+          "Act",
+          "Repeat run",
+          "First run of the week"
+        ],
+        "rows": [
+          [
+            "Act I: The Data Breaches",
+            "$877,500",
+            "$1,072,305"
+          ],
+          [
+            "Act II: The Bogdan Problem",
+            "$1,282,500",
+            "$1,567,215"
+          ],
+          [
+            "Act III: The Doomsday Scenario",
+            "$1,620,000",
+            "$1,979,640"
+          ]
+        ],
+        "highlightRow": 2,
+        "note": "Before July 2026 the acts paid $975,000 / $1,425,000 / $1,800,000. Rockstar first cut them to $585,000 / $855,000 / $1,080,000, then quietly raised them to these values. The first finale the host completes each week gets 1.22x. Normal vs Hard split not confirmed. Sources: Gfinity, Rockstar Intel; gta.wiki still lists the old values."
+      },
+      {
+        "title": "Criminal Mastermind bonuses",
+        "intro": "One-time awards for finishing all 29 Doomsday setups and finales in order on Hard with the same crew and no deaths.",
+        "columns": [
+          "Crew size",
+          "Criminal Mastermind",
+          "Loyalty (same crew)"
+        ],
+        "rows": [
+          [
+            "2 players",
+            "$750,000",
+            "$75,000"
+          ],
+          [
+            "3 players",
+            "$1,750,000",
+            "$175,000"
+          ],
+          [
+            "4 players",
+            "$3,750,000",
+            "$375,000"
+          ]
+        ],
+        "highlightRow": 2,
+        "note": "Loyalty only needs every job done with the same crew size. Source: gta.wiki The Doomsday Heist."
+      }
+    ]
   },
   {
     "id": "ob-avenger",
@@ -1218,7 +1961,189 @@
       "maxPerDay": 50000,
       "maxStored": 250000,
       "requirement": "Popularity at 95% or higher, kept up with Promote Club missions"
-    }
+    },
+    "tables": [
+      {
+        "title": "Warehouse goods",
+        "intro": "Each goods type a technician can collect, what it needs, and how fast it builds up.",
+        "columns": [
+          "Goods",
+          "Needs",
+          "Value / unit",
+          "Time / unit (base / upgraded)",
+          "Max (1 floor)",
+          "Max (5 floors)"
+        ],
+        "rows": [
+          [
+            "South American Imports",
+            "Cocaine Lockup",
+            "$27,000",
+            "4h / 2h",
+            "2",
+            "10"
+          ],
+          [
+            "Pharmaceutical Research",
+            "Meth Lab",
+            "$11,475",
+            "2h / 1h",
+            "4",
+            "20"
+          ],
+          [
+            "Cash Creation",
+            "Counterfeit Cash",
+            "$4,725",
+            "1h / 30m",
+            "8",
+            "40"
+          ],
+          [
+            "Cargo and Shipments",
+            "Warehouse or Hangar",
+            "$10,000",
+            "2h 20m / 1h 10m",
+            "10",
+            "50"
+          ],
+          [
+            "Sporting Goods",
+            "Bunker",
+            "$5,000",
+            "1h 20m / 40m",
+            "20",
+            "100"
+          ],
+          [
+            "Organic Produce",
+            "Weed Farm",
+            "$2,025",
+            "40m / 20m",
+            "16",
+            "80"
+          ],
+          [
+            "Printing & Copying",
+            "Document Forgery",
+            "$1,350",
+            "30m / 15m",
+            "12",
+            "60"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Upgraded = Equipment Upgrade, which halves production time. Rows are ordered by value per hour. Cargo and Sporting Goods are worth $500,000 each at 5 floors but take 58h 20m and 66h 40m to fill; the others fill in 15–27 h. No supplies needed. Source: gta.wiki Nightclubs/Warehouse Management."
+      },
+      {
+        "title": "Popularity and safe payout",
+        "intro": "How much the club safe receives every in-game day (48 real minutes) at each popularity level.",
+        "columns": [
+          "Popularity",
+          "Per 48 min",
+          "Per real hour"
+        ],
+        "rows": [
+          [
+            "95–100%",
+            "$50,000",
+            "$62,500"
+          ],
+          [
+            "90%",
+            "$45,000",
+            "$56,250"
+          ],
+          [
+            "85%",
+            "$25,000",
+            "$31,250"
+          ],
+          [
+            "80%",
+            "$24,000",
+            "$30,000"
+          ],
+          [
+            "75%",
+            "$23,000",
+            "$28,750"
+          ],
+          [
+            "70%",
+            "$22,000",
+            "$27,500"
+          ],
+          [
+            "65%",
+            "$21,000",
+            "$26,250"
+          ],
+          [
+            "60%",
+            "$20,000",
+            "$25,000"
+          ],
+          [
+            "55%",
+            "$10,000",
+            "$12,500"
+          ],
+          [
+            "50%",
+            "$9,500",
+            "$11,875"
+          ],
+          [
+            "45%",
+            "$9,000",
+            "$11,250"
+          ],
+          [
+            "40%",
+            "$8,500",
+            "$10,625"
+          ],
+          [
+            "35%",
+            "$8,000",
+            "$10,000"
+          ],
+          [
+            "30%",
+            "$2,500",
+            "$3,125"
+          ],
+          [
+            "25%",
+            "$2,200",
+            "$2,750"
+          ],
+          [
+            "20%",
+            "$2,000",
+            "$2,500"
+          ],
+          [
+            "15%",
+            "$1,800",
+            "$2,250"
+          ],
+          [
+            "10%",
+            "$1,600",
+            "$2,000"
+          ],
+          [
+            "0–5%",
+            "$1,500",
+            "$1,875"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "The safe holds up to $250,000 and fills only while you are in a session. Source: gta.wiki Nightclubs."
+      }
+    ]
   },
   {
     "id": "ob-terrorbyte",
@@ -1396,7 +2321,52 @@
       "maxPerDay": 5000,
       "maxStored": 100000,
       "requirement": "Every floor slot filled with a cabinet"
-    }
+    },
+    "tables": [
+      {
+        "title": "Diamond Casino Heist vault targets",
+        "intro": "Maximum take for each vault target before crew cuts, since the July 2026 economy changes.",
+        "columns": [
+          "Target",
+          "Repeat (Normal)",
+          "Repeat (Hard)",
+          "First of week (Normal)",
+          "First of week (Hard)"
+        ],
+        "rows": [
+          [
+            "Cash",
+            "$1,480,500",
+            "$1,628,550",
+            "$2,753,730",
+            "$3,029,103"
+          ],
+          [
+            "Artwork",
+            "$1,645,000",
+            "$1,809,500",
+            "$3,059,700",
+            "$3,365,670"
+          ],
+          [
+            "Gold",
+            "$1,809,500",
+            "$1,990,450",
+            "$3,365,670",
+            "$3,702,237"
+          ],
+          [
+            "Diamonds",
+            "$2,303,000",
+            "$2,533,300",
+            "$4,283,580",
+            "$4,711,938"
+          ]
+        ],
+        "highlightRow": 3,
+        "note": "Base values were cut 30% in the July 2026 Kortz Center Heist update; the host's first finale each week pays 1.86x. Lester takes 5%, the hacker 3–10%, gunman and driver 5–10% each. Small crews cannot carry a full vault. Sources: gtabase, GTA BOOM, Gfinity."
+      }
+    ]
   },
   {
     "id": "ob-kosatka",
@@ -1488,7 +2458,99 @@
         "note": "Only offered during certain events."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Secondary loot",
+        "intro": "Value of each loot stack and how much of one bag it fills.",
+        "columns": [
+          "Loot",
+          "Value / stack",
+          "Bag per stack",
+          "Full bag",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Gold",
+            "$295,500–$300,000",
+            "66.7%",
+            "$443,250–$450,000",
+            "Needs 2 players"
+          ],
+          [
+            "Cocaine",
+            "$178,200–$182,250",
+            "50%",
+            "$356,400–$364,500",
+            "—"
+          ],
+          [
+            "Weed",
+            "$117,450–$121,500",
+            "37.5%",
+            "$313,200–$324,000",
+            "—"
+          ],
+          [
+            "Artwork",
+            "$141,750–$162,000",
+            "50%",
+            "$283,500–$324,000",
+            "Compound only"
+          ],
+          [
+            "Cash",
+            "$70,875–$74,925",
+            "25%",
+            "$283,500–$299,700",
+            "—"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Values as of the July 2026 Kortz Center Heist update. Gold only spawns behind doors that need two keycards. Full bag is the stack value times the stacks that fit. Sources: gta.wiki (Changes section) and gtabase. The gta.wiki main table still shows older, higher values."
+      },
+      {
+        "title": "Fees and extras",
+        "intro": "Other money that changes the final Cayo Perico payout.",
+        "columns": [
+          "Item",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Office safe (El Rubio's office)",
+            "$18,000–$99,000"
+          ],
+          [
+            "Hard mode",
+            "+10% on the primary target"
+          ],
+          [
+            "Elite Challenge",
+            "$50,000 ($100,000 on Hard)"
+          ],
+          [
+            "Pavel's cut",
+            "2%"
+          ],
+          [
+            "Fence fee",
+            "10%"
+          ],
+          [
+            "Setup fee (repeat runs)",
+            "$100,000"
+          ],
+          [
+            "Replay cooldown",
+            "2h 24m solo, 48m with a crew"
+          ]
+        ],
+        "highlightRow": null,
+        "note": "Safe value from gtabase; gta.wiki gives $20,000–$99,000. Fees apply after the first run. Sources: gtabase, gta.wiki The Cayo Perico Heist/Finale."
+      }
+    ]
   },
   {
     "id": "ob-auto-shop",
@@ -1586,7 +2648,71 @@
         "note": "Standard contracts pay $170,000-$185,000; the Union Depository Contract pays $300,000-$375,000 depending on crew size."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Robbery Contract payouts",
+        "intro": "Leader pay for each Auto Shop contract, before and after the 10% KDJ and Sessanta fee.",
+        "columns": [
+          "Contract",
+          "Leader pay",
+          "After 10% fee",
+          "Award (once)"
+        ],
+        "rows": [
+          [
+            "Union Depository",
+            "$300,000–$375,000",
+            "$270,000–$337,500",
+            "$75,000"
+          ],
+          [
+            "Superdollar Deal",
+            "$185,000",
+            "$166,500",
+            "$75,000"
+          ],
+          [
+            "Agency Deal",
+            "$182,000",
+            "$163,800",
+            "$75,000"
+          ],
+          [
+            "Lost Contract",
+            "$180,000",
+            "$162,000",
+            "$75,000"
+          ],
+          [
+            "Bank Contract",
+            "$178,000",
+            "$160,200",
+            "$75,000"
+          ],
+          [
+            "Prison Contract",
+            "$175,000",
+            "$157,500",
+            "$75,000"
+          ],
+          [
+            "E.C.U. Job",
+            "$172,000",
+            "$154,800",
+            "$75,000"
+          ],
+          [
+            "Data Contract",
+            "$170,000",
+            "$153,000",
+            "$75,000"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Union Depository pays more with a bigger crew. Associates get $50,000–$65,000. The 10% fee matches the gta.wiki infobox range ($153,000–$337,500) and is described by timesaver.gg (a boosting service, so not fully confirmed). Contracts reportedly kept their payouts in July 2026. Source: gta.wiki Robbery Contracts."
+      }
+    ]
   },
   {
     "id": "ob-ls-car-meet-membership",
@@ -1730,7 +2856,95 @@
       "maxPerDay": 20000,
       "maxStored": 250000,
       "requirement": "About 200 completed Security Contracts"
-    }
+    },
+    "tables": [
+      {
+        "title": "Safe income by Security Contracts",
+        "intro": "Each completed Security Contract permanently adds $100 to the safe's daily payout.",
+        "columns": [
+          "Contracts done",
+          "Per 48 min",
+          "Per real hour"
+        ],
+        "rows": [
+          [
+            "5",
+            "$500",
+            "$625"
+          ],
+          [
+            "10",
+            "$1,000",
+            "$1,250"
+          ],
+          [
+            "25",
+            "$2,500",
+            "$3,125"
+          ],
+          [
+            "50",
+            "$5,000",
+            "$6,250"
+          ],
+          [
+            "100",
+            "$10,000",
+            "$12,500"
+          ],
+          [
+            "150",
+            "$15,000",
+            "$18,750"
+          ],
+          [
+            "200+",
+            "$20,000",
+            "$25,000"
+          ]
+        ],
+        "highlightRow": 6,
+        "note": "The increase is added in steps of 5 contracts; the $20,000 cap is reached at about 201 contracts. The safe holds up to $250,000. Source: gta.wiki Security Contracts."
+      },
+      {
+        "title": "Agency job payouts",
+        "intro": "What each kind of Agency work pays the leader.",
+        "columns": [
+          "Job",
+          "Leader pay",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Security Contract (Professional)",
+            "$31,000–$42,000",
+            "Easiest tier"
+          ],
+          [
+            "Security Contract (Specialist)",
+            "$44,000–$56,000",
+            "—"
+          ],
+          [
+            "Security Contract (Specialist+)",
+            "$60,000–$70,000",
+            "Hardest tier"
+          ],
+          [
+            "Payphone Hit",
+            "$15,000 + $30,000 bonus",
+            "10 min cooldown"
+          ],
+          [
+            "VIP Contract finale (Dr. Dre)",
+            "$900,000",
+            "$1,099,800 first run each week"
+          ]
+        ],
+        "highlightRow": 4,
+        "note": "The Payphone Hit bonus was cut from $70,000 to $30,000 on 4 Jan 2024. The VIP Contract finale dropped from $1,000,000 to $900,000 in July 2026, with 1.22x for the first run each week. Sources: gta.wiki Security Contracts, Payphone Hits; gtabase; Gfinity."
+      }
+    ]
   },
   {
     "id": "ob-acid-lab",
@@ -1798,7 +3012,41 @@
         "note": "160 units x $2,095, one every 90 s. A full stock needs 1.6 bars ($96,000). A custom product name adds about 5%, and the once-a-day boost at the lab table can cut the fill to about 3 h."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Product value and custom name bonus",
+        "intro": "Acid value with and without the Equipment Upgrade, and with a custom product name.",
+        "columns": [
+          "Setup",
+          "Value / unit",
+          "Full (160)",
+          "With custom name",
+          "Fill time",
+          "Fill (boosted)"
+        ],
+        "rows": [
+          [
+            "Standard",
+            "$1,485",
+            "$237,600",
+            "$249,440",
+            "6h",
+            "4h 30m"
+          ],
+          [
+            "Equipment Upgrade",
+            "$2,095",
+            "$335,200",
+            "$351,840",
+            "4h",
+            "3h"
+          ]
+        ],
+        "highlightRow": 1,
+        "note": "A custom product name adds 5% ($1,559 / $2,199 a unit). The production boost can be used once per real day and lasts for 80 units or 24 h. A full supply bar is 100 units, and Equipment uses 1 supply unit per acid instead of 2. Renaming after the first time costs $5,000. Source: gta.wiki Acid Product."
+      }
+    ]
   },
   {
     "id": "ob-eclipse-blvd-garage",
@@ -1952,7 +3200,109 @@
       "maxPerDay": 24000,
       "maxStored": 250000,
       "requirement": "Wall Safe and Staff upgrade, with reputation kept at 95%+ through Tow Truck jobs"
-    }
+    },
+    "tables": [
+      {
+        "title": "Safe income by reputation",
+        "intro": "Money added to the safe every 48 real minutes, by yard reputation and Staff upgrade.",
+        "columns": [
+          "Reputation",
+          "No Staff",
+          "With Staff"
+        ],
+        "rows": [
+          [
+            "95–100%",
+            "$20,000",
+            "$24,000"
+          ],
+          [
+            "85–90%",
+            "$18,000",
+            "$21,600"
+          ],
+          [
+            "75–80%",
+            "$16,000",
+            "$19,200"
+          ],
+          [
+            "65–70%",
+            "$14,000",
+            "$16,800"
+          ],
+          [
+            "55–60%",
+            "$12,000",
+            "$14,400"
+          ],
+          [
+            "45–50%",
+            "$10,000",
+            "$12,000"
+          ],
+          [
+            "35–40%",
+            "$8,000",
+            "$9,600"
+          ],
+          [
+            "25–30%",
+            "$6,000",
+            "$7,200"
+          ],
+          [
+            "15–20%",
+            "$4,000",
+            "$4,800"
+          ],
+          [
+            "5–10%",
+            "$2,000",
+            "$2,400"
+          ],
+          [
+            "0%",
+            "$250",
+            "$300"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Reputation falls each in-game day; each Tow Truck job adds 25%. Tow jobs pay $30,000–$40,000 per car; salvaging takes 96 min (48 min with Staff), two cars at once. Sources: gta.wiki Salvage Yard, Tow Truck Service."
+      },
+      {
+        "title": "Robbery cars this week (from 19 Nov 2026)",
+        "intro": "Current robbery targets and what each car sells for; salvaging pays 80% of the max.",
+        "columns": [
+          "Robbery",
+          "Vehicle",
+          "Max sell",
+          "Salvage"
+        ],
+        "rows": [
+          [
+            "The Gangbanger Robbery",
+            "Grotti Stinger TT",
+            "$396,000",
+            "$316,800"
+          ],
+          [
+            "The Duggan Robbery",
+            "Vapid Dominator ASP",
+            "$343,000",
+            "$274,400"
+          ],
+          [
+            "The Podium Robbery",
+            "Dinka Kanjo SJ",
+            "$264,000",
+            "$211,200"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Targets change every Thursday. Selling to Yusuf pays the max value, but crash damage lowers it; salvaging pays a safe 80%. Claiming the car costs $20,000 ($10,000 with a Document Forgery Office). Source: gta.wiki Salvage Yard Robberies."
+      }
+    ]
   },
   {
     "id": "ob-bail-office",
@@ -2154,7 +3504,32 @@
         "note": "$30,000 to $50,000 per mission depending on the type."
       }
     ],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Mission payouts",
+        "intro": "What the work run from this hangar pays.",
+        "columns": [
+          "Activity",
+          "Repeat",
+          "First run of the week"
+        ],
+        "rows": [
+          [
+            "Oscar Guzman Flies Again finale",
+            "$500,000",
+            "$750,000"
+          ],
+          [
+            "Arms Trafficking mission",
+            "$30,000–$50,000",
+            "—"
+          ]
+        ],
+        "highlightRow": 0,
+        "note": "Oscar Guzman Flies Again gets 1.5x for the first run each week since July 2026 (Gfinity, not cross-checked). Arms Trafficking range from the existing business data; gta.wiki's figures appear to describe the story-mode missions."
+      }
+    ]
   },
   {
     "id": "ob-hands-on-car-wash",
@@ -2449,7 +3824,41 @@
     "verdict": "Good weekly money once you own a Mansion, but the total entry cost is so high that it is a late-game buy.",
     "upgrades": [],
     "incomeLevels": [],
-    "passiveIncome": null
+    "passiveIncome": null,
+    "tables": [
+      {
+        "title": "Kortz Center Heist payouts",
+        "intro": "What the heist this property hosts pays the leader.",
+        "columns": [
+          "Payout",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Primary target, repeat run",
+            "$304,500–$481,250"
+          ],
+          [
+            "Primary target, first run of the week",
+            "$1,218,000–$1,925,000"
+          ],
+          [
+            "Hard mode",
+            "+10%"
+          ],
+          [
+            "Replay fee",
+            "$100,000"
+          ],
+          [
+            "Cooldown",
+            "2h 24m"
+          ]
+        ],
+        "highlightRow": 1,
+        "note": "The first run each week pays 4x. Secondary loot is extra (a guide reports up to about $2.65M on a first run). One-time awards: $200,000 first completion, $200,000 Hard, $200,000 Elite. Sources: Gfinity, GTAIntel, gta.wiki (awards). No gtabase or Rockstar cross-check found."
+      }
+    ]
   },
   {
     "id": "ob-high-end-apartment",
