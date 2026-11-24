@@ -6,7 +6,8 @@ export function hasValue<T>(v: T | null | undefined | ''): v is T {
 }
 
 export function money(n: number | null | undefined): string | null {
-  return typeof n === 'number' ? '$' + n.toLocaleString('en-US') : null;
+  if (typeof n !== 'number') return null;
+  return (n < 0 ? '-$' : '$') + Math.round(Math.abs(n)).toLocaleString('en-US');
 }
 
 export function priceRange(min: number | null | undefined, max: number | null | undefined): string | null {

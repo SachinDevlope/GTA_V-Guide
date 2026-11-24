@@ -12,12 +12,7 @@
 .search input { flex: 1; min-width: 0; height: 44px; border: 0; background: transparent; outline: none; font-size: 13.5px; color: var(--text); }
 .list {
   list-style: none; margin: 0; padding: 6px; overflow-y: auto; flex: 1;
-  scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent;
 }
-.list::-webkit-scrollbar { width: 8px; }
-.list::-webkit-scrollbar-track { background: transparent; }
-.list::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 8px; border: 2px solid var(--surface); }
-.list::-webkit-scrollbar-button { display: none; height: 0; }
 
 .row { display: flex; align-items: center; gap: 10px; padding: 0 8px; border-radius: 10px; }
 .row:hover { background: var(--surface-2); }

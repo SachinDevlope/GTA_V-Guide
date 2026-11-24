@@ -1,0 +1,1710 @@
+{
+  "ob-ceo-office": {
+    "locations": [
+      {
+        "name": "Maze Bank West",
+        "area": "Del Perro",
+        "price": 1000000,
+        "best": true,
+        "why": "Cheapest office and works exactly like the others; sits right by the Del Perro Freeway",
+        "x": -1379.55,
+        "y": -499.18
+      },
+      {
+        "name": "Arcadius Business Center",
+        "area": "Pillbox Hill",
+        "price": 2250000,
+        "best": false,
+        "why": null,
+        "x": -117.53,
+        "y": -605.72
+      },
+      {
+        "name": "Lombank West",
+        "area": "Del Perro",
+        "price": 3100000,
+        "best": false,
+        "why": "Costs three times Maze Bank West for the same features, in the same part of town",
+        "x": -1581.5,
+        "y": -558.26
+      },
+      {
+        "name": "Maze Bank Tower",
+        "area": "Pillbox Hill",
+        "price": 4000000,
+        "best": false,
+        "why": null,
+        "x": -67.09,
+        "y": -802.44
+      }
+    ],
+    "note": "All four offices unlock the same SecuroServ work, so you are mostly paying for looks. Maze Bank Tower is the most central if you want to spend more."
+  },
+  "ob-special-cargo-warehouse": {
+    "locations": [
+      {
+        "name": "Convenience Store Lockup",
+        "area": "Rancho (small)",
+        "price": 250000,
+        "best": false,
+        "why": null,
+        "x": 247.47,
+        "y": -1956.94
+      },
+      {
+        "name": "Celltowa Unit",
+        "area": "La Mesa (small)",
+        "price": 318000,
+        "best": false,
+        "why": null,
+        "x": 896.37,
+        "y": -1035.75
+      },
+      {
+        "name": "White Widow Garage",
+        "area": "La Puerta (small)",
+        "price": 360000,
+        "best": false,
+        "why": null,
+        "x": -1083.05,
+        "y": -1261.89
+      },
+      {
+        "name": "Pacific Bait Storage",
+        "area": "Elysian Island (small)",
+        "price": 376000,
+        "best": false,
+        "why": null,
+        "x": 54.19,
+        "y": -2569.25
+      },
+      {
+        "name": "Pier 400 Utility Building",
+        "area": "Elysian Island (small)",
+        "price": 392000,
+        "best": false,
+        "why": null,
+        "x": 274.52,
+        "y": -3015.41
+      },
+      {
+        "name": "Foreclosed Garage",
+        "area": "West Vinewood (small)",
+        "price": 400000,
+        "best": false,
+        "why": null,
+        "x": -424.83,
+        "y": 185.83
+      },
+      {
+        "name": "GEE Warehouse",
+        "area": "El Burro Heights (medium)",
+        "price": 880000,
+        "best": false,
+        "why": null,
+        "x": 1569.69,
+        "y": -2129.79
+      },
+      {
+        "name": "Derriere Lingerie Backlot",
+        "area": "Del Perro (medium)",
+        "price": 902000,
+        "best": false,
+        "why": null,
+        "x": -1268.12,
+        "y": -812.27
+      },
+      {
+        "name": "Fridgit Annexe",
+        "area": "La Puerta (medium)",
+        "price": 925000,
+        "best": false,
+        "why": null,
+        "x": -528.53,
+        "y": -1784.57
+      },
+      {
+        "name": "Discount Retail Unit",
+        "area": "Downtown Vinewood (medium)",
+        "price": 948000,
+        "best": false,
+        "why": null,
+        "x": 349.84,
+        "y": 328.89
+      },
+      {
+        "name": "Disused Factory Outlet",
+        "area": "Strawberry (medium)",
+        "price": 971000,
+        "best": false,
+        "why": null,
+        "x": -295.86,
+        "y": -1353.24
+      },
+      {
+        "name": "LS Marine Building 3",
+        "area": "Elysian Island (medium)",
+        "price": 994000,
+        "best": false,
+        "why": null,
+        "x": -315.55,
+        "y": -2698.65
+      },
+      {
+        "name": "Old Power Station",
+        "area": "Rancho (medium)",
+        "price": 1000000,
+        "best": false,
+        "why": null,
+        "x": 539.35,
+        "y": -1945.68
+      },
+      {
+        "name": "Railyard Warehouse",
+        "area": "La Mesa (medium)",
+        "price": 1017000,
+        "best": false,
+        "why": null,
+        "x": 499.81,
+        "y": -651.98
+      },
+      {
+        "name": "Wholesale Furniture",
+        "area": "Cypress Flats (large)",
+        "price": 1900000,
+        "best": false,
+        "why": null,
+        "x": 1037.81,
+        "y": -2173.06
+      },
+      {
+        "name": "West Vinewood Backlot",
+        "area": "West Vinewood (large)",
+        "price": 2135000,
+        "best": true,
+        "why": "Large 111-crate warehouse that guides keep naming first: central, near the offices and easy to drive in and out of",
+        "x": -245.34,
+        "y": 203.33
+      },
+      {
+        "name": "Xero Gas Factory",
+        "area": "LSIA (large)",
+        "price": 2365000,
+        "best": false,
+        "why": null,
+        "x": -1042.48,
+        "y": -2023.52
+      },
+      {
+        "name": "Logistics Depot",
+        "area": "La Mesa (large)",
+        "price": 2600000,
+        "best": false,
+        "why": null,
+        "x": 926.28,
+        "y": -1560.31
+      },
+      {
+        "name": "Bilgeco Warehouse",
+        "area": "LSIA (large)",
+        "price": 2825000,
+        "best": false,
+        "why": null,
+        "x": -873.65,
+        "y": -2735.95
+      },
+      {
+        "name": "Walker & Sons Warehouse",
+        "area": "Banning (large)",
+        "price": 3040000,
+        "best": false,
+        "why": null,
+        "x": 96.15,
+        "y": -2216.4
+      },
+      {
+        "name": "Cypress Warehouses",
+        "area": "Cypress Flats (large)",
+        "price": 3265000,
+        "best": false,
+        "why": null,
+        "x": 1019.12,
+        "y": -2511.69
+      },
+      {
+        "name": "Darnell Bros Warehouse",
+        "area": "La Mesa (large)",
+        "price": 3500000,
+        "best": false,
+        "why": null,
+        "x": 759.57,
+        "y": -909.47
+      }
+    ],
+    "note": "Buy a large warehouse if you plan to sell full loads; small and medium ones fill fast but pay less per trip. Large ones in central LS save the most driving."
+  },
+  "ob-vehicle-warehouse": {
+    "locations": [
+      {
+        "name": "La Mesa Vehicle Warehouse",
+        "area": "La Mesa",
+        "price": 1500000,
+        "best": true,
+        "why": "Cheapest option and central, so steal and export runs stay short",
+        "x": 1007.51,
+        "y": -1855.03
+      },
+      {
+        "name": "El Burro Heights Vehicle Warehouse",
+        "area": "El Burro Heights",
+        "price": 1635000,
+        "best": false,
+        "why": null,
+        "x": 1754.55,
+        "y": -1649.17
+      },
+      {
+        "name": "Elysian Island Vehicle Warehouse",
+        "area": "Elysian Island",
+        "price": 1950000,
+        "best": false,
+        "why": null,
+        "x": 144.32,
+        "y": -3005.92
+      },
+      {
+        "name": "LSIA Vehicle Warehouse",
+        "area": "LSIA",
+        "price": 2170000,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "LSIA Vehicle Warehouse",
+        "area": "LSIA",
+        "price": 2300000,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Davis Vehicle Warehouse",
+        "area": "Davis",
+        "price": 2495000,
+        "best": false,
+        "why": null,
+        "x": -72.34,
+        "y": -1820.98
+      },
+      {
+        "name": "Cypress Flats Vehicle Warehouse",
+        "area": "Cypress Flats",
+        "price": 2675000,
+        "best": false,
+        "why": null,
+        "x": 808.8,
+        "y": -2222.5
+      },
+      {
+        "name": "La Puerta Vehicle Warehouse",
+        "area": "La Puerta",
+        "price": 2735000,
+        "best": false,
+        "why": null,
+        "x": -631.97,
+        "y": -1779.18
+      },
+      {
+        "name": "Murrieta Heights Vehicle Warehouse",
+        "area": "Murrieta Heights",
+        "price": 2850000,
+        "best": false,
+        "why": null,
+        "x": 1213.23,
+        "y": -1251.25
+      }
+    ],
+    "note": "Every warehouse holds the same 40 cars and pays the same; a cheap, central one is the sensible buy."
+  },
+  "ob-mc-clubhouse": {
+    "locations": [
+      {
+        "name": "Great Chaparral Clubhouse",
+        "area": "Great Chaparral, 101 Route 68",
+        "price": 200000,
+        "best": true,
+        "why": "Cheapest clubhouse, and its spot on Route 68 sits between the city and the Blaine County businesses",
+        "x": 46.9,
+        "y": 2789.82
+      },
+      {
+        "name": "Sandy Shores Clubhouse",
+        "area": "Sandy Shores, 47 Algonquin Boulevard",
+        "price": 210000,
+        "best": false,
+        "why": null,
+        "x": 1737.88,
+        "y": 3709.09
+      },
+      {
+        "name": "Grapeseed Clubhouse",
+        "area": "Grapeseed, 2111 East Joshua Road",
+        "price": 225000,
+        "best": false,
+        "why": null,
+        "x": 2472.22,
+        "y": 4110.49
+      },
+      {
+        "name": "Paleto Bay Clubhouse",
+        "area": "Paleto Bay, 1 Paleto Boulevard",
+        "price": 242000,
+        "best": false,
+        "why": null,
+        "x": -342.32,
+        "y": 6065.32
+      },
+      {
+        "name": "Paleto Bay Clubhouse",
+        "area": "Paleto Bay, 68 Paleto Boulevard",
+        "price": 250000,
+        "best": false,
+        "why": null,
+        "x": -39.33,
+        "y": 6420.6
+      },
+      {
+        "name": "Del Perro Beach Clubhouse",
+        "area": "Del Perro Beach, 7 Del Perro Beach",
+        "price": 365000,
+        "best": false,
+        "why": null,
+        "x": -1472.28,
+        "y": -920.07
+      },
+      {
+        "name": "Vespucci Beach Clubhouse",
+        "area": "Vespucci Beach, 4 Goma Street",
+        "price": 395000,
+        "best": false,
+        "why": null,
+        "x": -1134.76,
+        "y": -1568.85
+      },
+      {
+        "name": "Rancho Clubhouse",
+        "area": "Rancho, 1334 Roy Lowenstein Boulevard",
+        "price": 420000,
+        "best": false,
+        "why": null,
+        "x": 254.19,
+        "y": -1809.18
+      },
+      {
+        "name": "La Mesa Clubhouse",
+        "area": "La Mesa, 137 Capital Boulevard",
+        "price": 449000,
+        "best": false,
+        "why": null,
+        "x": 939.72,
+        "y": -1459.2
+      },
+      {
+        "name": "Pillbox Hill Clubhouse",
+        "area": "Pillbox Hill, 75 Elgin Avenue",
+        "price": 455000,
+        "best": false,
+        "why": null,
+        "x": 38.95,
+        "y": -1026.63
+      },
+      {
+        "name": "Downtown Vinewood Clubhouse",
+        "area": "Downtown Vinewood, 2214 Clinton Avenue",
+        "price": 472000,
+        "best": false,
+        "why": null,
+        "x": 189.76,
+        "y": 309.75
+      },
+      {
+        "name": "Hawick Clubhouse",
+        "area": "Hawick, 1778 Hawick Avenue",
+        "price": 495000,
+        "best": false,
+        "why": null,
+        "x": -21.96,
+        "y": -191.36
+      }
+    ],
+    "note": "All clubhouses offer the same features; location only changes travel time. Moving later wipes your clubhouse upgrades, so pick once."
+  },
+  "ob-cocaine-lockup": {
+    "locations": [
+      {
+        "name": "Alamo Sea Cocaine Lockup",
+        "area": "Alamo Sea",
+        "price": 975000,
+        "best": true,
+        "why": "Cheapest lockup and sits in the middle of Blaine County, so sales in either direction are reasonable",
+        "x": 387.53,
+        "y": 3585.04
+      },
+      {
+        "name": "Paleto Bay Cocaine Lockup",
+        "area": "Paleto Bay",
+        "price": 1098000,
+        "best": false,
+        "why": "Far north corner of the map makes most trips long",
+        "x": 51.77,
+        "y": 6486.16
+      },
+      {
+        "name": "Elysian Island Cocaine Lockup",
+        "area": "Elysian Island",
+        "price": 1462500,
+        "best": false,
+        "why": null,
+        "x": -253.31,
+        "y": -2591.15
+      },
+      {
+        "name": "Morningwood Cocaine Lockup",
+        "area": "Morningwood",
+        "price": 1852500,
+        "best": false,
+        "why": null,
+        "x": -1462.62,
+        "y": -381.83
+      }
+    ],
+    "note": "Payouts do not change with location. If you buy supplies instead of stealing them, the cheapest site is fine."
+  },
+  "ob-meth-lab": {
+    "locations": [
+      {
+        "name": "Grand Senora Desert Meth Lab",
+        "area": "Grand Senora Desert",
+        "price": 910000,
+        "best": true,
+        "why": "Cheapest lab and close to other desert properties like clubhouses, bunkers and facilities",
+        "x": 201.89,
+        "y": 2461.78
+      },
+      {
+        "name": "Paleto Bay Meth Lab",
+        "area": "Paleto Bay",
+        "price": 1024800,
+        "best": false,
+        "why": "Remote northern spot means long resupply and sell drives",
+        "x": 52.9,
+        "y": 6338.59
+      },
+      {
+        "name": "Terminal Meth Lab",
+        "area": "Terminal",
+        "price": 1365000,
+        "best": false,
+        "why": null,
+        "x": 1181.44,
+        "y": -3113.82
+      },
+      {
+        "name": "El Burro Heights Meth Lab",
+        "area": "El Burro Heights",
+        "price": 1729000,
+        "best": false,
+        "why": null,
+        "x": 1454.67,
+        "y": -1651.99
+      }
+    ],
+    "note": "Payouts do not change with location; choose by price or by how close it is to your clubhouse."
+  },
+  "ob-weed-farm": {
+    "locations": [
+      {
+        "name": "San Chianski Weed Farm",
+        "area": "San Chianski Mountain Range",
+        "price": 715000,
+        "best": false,
+        "why": null,
+        "x": 2848.37,
+        "y": 4450.15
+      },
+      {
+        "name": "Mount Chiliad Weed Farm",
+        "area": "Mount Chiliad",
+        "price": 805200,
+        "best": false,
+        "why": null,
+        "x": 416.75,
+        "y": 6520.75
+      },
+      {
+        "name": "Elysian Island Weed Farm",
+        "area": "Elysian Island",
+        "price": 1072500,
+        "best": false,
+        "why": null,
+        "x": 136.97,
+        "y": -2472.8
+      },
+      {
+        "name": "Downtown Vinewood Weed Farm",
+        "area": "Downtown Vinewood",
+        "price": 1358500,
+        "best": false,
+        "why": null,
+        "x": 102.14,
+        "y": 175.26
+      }
+    ],
+    "note": "No single favourite: the farm pays the same anywhere. Buy the cheapest if you pay for supplies, or a city one if you want shorter trips in Los Santos."
+  },
+  "ob-counterfeit-cash-factory": {
+    "locations": [
+      {
+        "name": "Grand Senora Desert Counterfeit Cash Factory",
+        "area": "Grand Senora Desert",
+        "price": 845000,
+        "best": true,
+        "why": "Cheapest factory and central in Blaine County, which keeps source and sell runs manageable",
+        "x": 636.63,
+        "y": 2785.13
+      },
+      {
+        "name": "Paleto Bay Counterfeit Cash Factory",
+        "area": "Paleto Bay",
+        "price": 951600,
+        "best": false,
+        "why": null,
+        "x": -413.66,
+        "y": 6171.94
+      },
+      {
+        "name": "Cypress Flats Counterfeit Cash Factory",
+        "area": "Cypress Flats",
+        "price": 1267500,
+        "best": false,
+        "why": null,
+        "x": 671.45,
+        "y": -2667.5
+      },
+      {
+        "name": "Vespucci Canals Counterfeit Cash Factory",
+        "area": "Vespucci Canals",
+        "price": 1605000,
+        "best": false,
+        "why": null,
+        "x": -1171.01,
+        "y": -1380.92
+      }
+    ],
+    "note": "Payouts do not change with location."
+  },
+  "ob-document-forgery-office": {
+    "locations": [
+      {
+        "name": "Grapeseed Document Forgery Office",
+        "area": "Grapeseed",
+        "price": 650000,
+        "best": false,
+        "why": null,
+        "x": 1657.07,
+        "y": 4851.73
+      },
+      {
+        "name": "Paleto Bay Document Forgery Office",
+        "area": "Paleto Bay",
+        "price": 732000,
+        "best": false,
+        "why": null,
+        "x": -163.68,
+        "y": 6334.84
+      },
+      {
+        "name": "Elysian Island Document Forgery Office",
+        "area": "Elysian Island",
+        "price": 975000,
+        "best": false,
+        "why": null,
+        "x": -331.52,
+        "y": -2778.97
+      },
+      {
+        "name": "Textile City Document Forgery Office",
+        "area": "Textile City",
+        "price": 1235000,
+        "best": false,
+        "why": null,
+        "x": 299.07,
+        "y": -759.07
+      }
+    ],
+    "note": "The weakest MC business, so few players care where it is; the cheapest site is the usual advice."
+  },
+  "ob-bunker": {
+    "locations": [
+      {
+        "name": "Paleto Forest Bunker",
+        "area": "Paleto Forest",
+        "price": 1165000,
+        "best": false,
+        "why": null,
+        "x": -763.32,
+        "y": 5941.41
+      },
+      {
+        "name": "Raton Canyon Bunker",
+        "area": "Raton Canyon",
+        "price": 1450000,
+        "best": false,
+        "why": null,
+        "x": -387.29,
+        "y": 4334.92
+      },
+      {
+        "name": "Lago Zancudo Bunker",
+        "area": "Lago Zancudo, west of Fort Zancudo",
+        "price": 1550000,
+        "best": false,
+        "why": null,
+        "x": -3032.7,
+        "y": 3334.69
+      },
+      {
+        "name": "Chumash Bunker",
+        "area": "Chumash, off Barbareno Road",
+        "price": 1650000,
+        "best": true,
+        "why": "Quick run down the Great Ocean Highway into Los Santos, the closest bunker for city sell drops",
+        "x": -3157.6,
+        "y": 1376.7
+      },
+      {
+        "name": "Grapeseed Bunker",
+        "area": "Grapeseed, west of McKenzie Field",
+        "price": 1750000,
+        "best": false,
+        "why": null,
+        "x": 1801.27,
+        "y": 4705.48
+      },
+      {
+        "name": "Route 68 Bunker",
+        "area": "Grand Senora Desert, north of Route 68",
+        "price": 1950000,
+        "best": false,
+        "why": null,
+        "x": 39.6,
+        "y": 2930.51
+      },
+      {
+        "name": "Grand Senora Oilfields Bunker",
+        "area": "Grand Senora Desert, off Joshua Road",
+        "price": 2035000,
+        "best": false,
+        "why": null,
+        "x": 492.84,
+        "y": 3014.06
+      },
+      {
+        "name": "Grand Senora Desert Bunker",
+        "area": "Grand Senora Desert, west of Sandy Shores Airfield",
+        "price": 2120000,
+        "best": false,
+        "why": null,
+        "x": 849.6,
+        "y": 3021.7
+      },
+      {
+        "name": "Smoke Tree Road Bunker",
+        "area": "Grand Senora Desert, Smoke Tree Road",
+        "price": 2205000,
+        "best": false,
+        "why": null,
+        "x": 2110.02,
+        "y": 3326.12
+      },
+      {
+        "name": "Thomson Scrapyard Bunker",
+        "area": "Grand Senora Desert, by Thomson Scrapyard",
+        "price": 2290000,
+        "best": false,
+        "why": null,
+        "x": 2489.36,
+        "y": 3162.12
+      },
+      {
+        "name": "Farmhouse Bunker",
+        "area": "Grand Senora Desert, south of Bolingbroke Penitentiary",
+        "price": 2375000,
+        "best": false,
+        "why": null,
+        "x": 1572.08,
+        "y": 2226
+      }
+    ],
+    "note": "Every bunker earns the same. Pick the one that gets you to Los Santos sell drops fastest; the expensive desert bunkers are no better."
+  },
+  "ob-hangar": {
+    "locations": [
+      {
+        "name": "LSIA Hangar A17",
+        "area": "Los Santos International Airport",
+        "price": 1200000,
+        "best": false,
+        "why": null,
+        "x": -1396.27,
+        "y": -3268.03
+      },
+      {
+        "name": "LSIA Hangar 1",
+        "area": "Los Santos International Airport",
+        "price": 1525000,
+        "best": false,
+        "why": null,
+        "x": -1153.09,
+        "y": -3411.83
+      },
+      {
+        "name": "Fort Zancudo Hangar 3497",
+        "area": "Fort Zancudo",
+        "price": 2085000,
+        "best": false,
+        "why": null,
+        "x": -1877.09,
+        "y": 3110.34
+      },
+      {
+        "name": "Fort Zancudo Hangar 3499",
+        "area": "Fort Zancudo",
+        "price": 2650000,
+        "best": false,
+        "why": null,
+        "x": -2469.1,
+        "y": 3276.58
+      },
+      {
+        "name": "Fort Zancudo Hangar A2",
+        "area": "Fort Zancudo",
+        "price": 3250000,
+        "best": true,
+        "why": "Owning a Zancudo hangar lets you use the base without a wanted level, and A2 sits right by the runway",
+        "x": -2020.33,
+        "y": 3158.77
+      }
+    ],
+    "note": "Payouts are the same everywhere. Fort Zancudo hangars are preferred for free base access and quieter skies; 3497 is the budget Zancudo pick."
+  },
+  "ob-facility": {
+    "locations": [
+      {
+        "name": "Paleto Bay Facility",
+        "area": "Paleto Bay",
+        "price": 1250000,
+        "best": false,
+        "why": null,
+        "x": 19.45,
+        "y": 6825.36
+      },
+      {
+        "name": "Mount Gordo Facility",
+        "area": "Mount Gordo",
+        "price": 1465000,
+        "best": false,
+        "why": null,
+        "x": 3389.6,
+        "y": 5508.97
+      },
+      {
+        "name": "Lago Zancudo Facility",
+        "area": "Lago Zancudo",
+        "price": 1670000,
+        "best": false,
+        "why": null,
+        "x": -2229.41,
+        "y": 2399.41
+      },
+      {
+        "name": "Ron Alternates Wind Farm Facility",
+        "area": "RON Alternates Wind Farm",
+        "price": 1855000,
+        "best": false,
+        "why": null,
+        "x": 2086.07,
+        "y": 1761.35
+      },
+      {
+        "name": "Zancudo River Facility",
+        "area": "Zancudo River",
+        "price": 2100000,
+        "best": false,
+        "why": null,
+        "x": -3.01,
+        "y": 3344.49
+      },
+      {
+        "name": "Route 68 Facility",
+        "area": "Route 68",
+        "price": 2312500,
+        "best": false,
+        "why": null,
+        "x": 34.47,
+        "y": 2620.98
+      },
+      {
+        "name": "Grand Senora Desert Facility",
+        "area": "Grand Senora Desert",
+        "price": 2525000,
+        "best": true,
+        "why": "Almost dead centre of the map, near a highway and the Sandy Shores airstrip",
+        "x": 1273.14,
+        "y": 2835.01
+      },
+      {
+        "name": "Sandy Shores Facility",
+        "area": "Sandy Shores",
+        "price": 2740000,
+        "best": false,
+        "why": null,
+        "x": 2755.98,
+        "y": 3907.27
+      },
+      {
+        "name": "Land Act Reservoir Facility",
+        "area": "Land Act Reservoir",
+        "price": 2950000,
+        "best": false,
+        "why": null,
+        "x": 1864.8,
+        "y": 269.05
+      }
+    ],
+    "note": "All facilities run the same heist and missions. A central one saves time; Paleto Bay is cheapest but far from everything."
+  },
+  "ob-nightclub": {
+    "locations": [
+      {
+        "name": "Elysian Island Nightclub",
+        "area": "Elysian Island",
+        "price": 1080000,
+        "best": false,
+        "why": null,
+        "x": 227.62,
+        "y": -3136.88
+      },
+      {
+        "name": "LSIA Nightclub",
+        "area": "LSIA",
+        "price": 1135000,
+        "best": false,
+        "why": null,
+        "x": -670.83,
+        "y": -2392.53
+      },
+      {
+        "name": "Vespucci Canals Nightclub",
+        "area": "Vespucci Canals",
+        "price": 1320000,
+        "best": false,
+        "why": null,
+        "x": -1173.46,
+        "y": -1173.71
+      },
+      {
+        "name": "Cypress Flats Nightclub",
+        "area": "Cypress Flats",
+        "price": 1370000,
+        "best": false,
+        "why": null,
+        "x": 908.82,
+        "y": -2097.34
+      },
+      {
+        "name": "Mission Row Nightclub",
+        "area": "Mission Row",
+        "price": 1440000,
+        "best": false,
+        "why": null,
+        "x": 333.38,
+        "y": -994.53
+      },
+      {
+        "name": "La Mesa Nightclub",
+        "area": "La Mesa",
+        "price": 1500000,
+        "best": false,
+        "why": null,
+        "x": 733.79,
+        "y": -1291.26
+      },
+      {
+        "name": "Strawberry Nightclub",
+        "area": "Strawberry",
+        "price": 1525000,
+        "best": false,
+        "why": null,
+        "x": -164.14,
+        "y": -1292.8
+      },
+      {
+        "name": "Del Perro Nightclub",
+        "area": "Del Perro",
+        "price": 1645000,
+        "best": false,
+        "why": null,
+        "x": -1237.53,
+        "y": -693.8
+      },
+      {
+        "name": "Downtown Vinewood Nightclub",
+        "area": "Downtown Vinewood",
+        "price": 1670000,
+        "best": false,
+        "why": null,
+        "x": 377.99,
+        "y": 228.48
+      },
+      {
+        "name": "West Vinewood Nightclub",
+        "area": "West Vinewood",
+        "price": 1700000,
+        "best": false,
+        "why": null,
+        "x": -21.66,
+        "y": 219.42
+      }
+    ],
+    "note": "No clear favourite: all ten are in Los Santos and earn the same, so location matters less than for most businesses. Downtown Vinewood and Del Perro are popular, Elysian Island is the budget pick, and a central club like Mission Row or Strawberry keeps sell runs short."
+  },
+  "ob-arcade": {
+    "locations": [
+      {
+        "name": "Pixel Pete's",
+        "area": "Paleto Bay",
+        "price": 1235000,
+        "best": false,
+        "why": "Cheapest, but the trip to the casino for heist preps is very long",
+        "x": -237.12,
+        "y": 6228.76
+      },
+      {
+        "name": "Wonderama",
+        "area": "Grapeseed",
+        "price": 1565000,
+        "best": false,
+        "why": null,
+        "x": 1710.83,
+        "y": 4760.13
+      },
+      {
+        "name": "Videogeddon",
+        "area": "La Mesa",
+        "price": 1875000,
+        "best": true,
+        "why": "Short drive to the Diamond Casino, which speeds up heist setups and preps",
+        "x": 726.76,
+        "y": -822.47
+      },
+      {
+        "name": "Warehouse",
+        "area": "Davis",
+        "price": 2135000,
+        "best": false,
+        "why": null,
+        "x": -105.19,
+        "y": -1778.3
+      },
+      {
+        "name": "Insert Coin",
+        "area": "Rockford Hills",
+        "price": 2345000,
+        "best": false,
+        "why": null,
+        "x": -1287.11,
+        "y": -278
+      },
+      {
+        "name": "Eight-Bit",
+        "area": "Vinewood",
+        "price": 2530000,
+        "best": false,
+        "why": null,
+        "x": -617.74,
+        "y": 285.84
+      }
+    ],
+    "note": "The arcade mostly matters as the base for the Diamond Casino Heist, so being near the casino in east Los Santos is what counts."
+  },
+  "ob-auto-shop": {
+    "locations": [
+      {
+        "name": "Mission Row Auto Shop",
+        "area": "Mission Row",
+        "price": 1670000,
+        "best": false,
+        "why": null,
+        "x": 488.98,
+        "y": -897.41
+      },
+      {
+        "name": "Strawberry Auto Shop",
+        "area": "Strawberry",
+        "price": 1705000,
+        "best": false,
+        "why": null,
+        "x": -144.58,
+        "y": -1341.37
+      },
+      {
+        "name": "Rancho Auto Shop",
+        "area": "Rancho",
+        "price": 1750000,
+        "best": false,
+        "why": null,
+        "x": 231.54,
+        "y": -1875.7
+      },
+      {
+        "name": "Burton Auto Shop",
+        "area": "Burton",
+        "price": 1830000,
+        "best": false,
+        "why": null,
+        "x": -171,
+        "y": -31.4
+      },
+      {
+        "name": "La Mesa Auto Shop",
+        "area": "La Mesa",
+        "price": 1920000,
+        "best": false,
+        "why": null,
+        "x": 759.36,
+        "y": -675.13
+      }
+    ],
+    "note": "No clear favourite: every shop is in central Los Santos and works the same. Mission Row is the cheapest and well placed; La Mesa and Burton also get recommended."
+  },
+  "ob-agency": {
+    "locations": [
+      {
+        "name": "Little Seoul Agency",
+        "area": "Little Seoul (Little Seoul Tower)",
+        "price": 2010000,
+        "best": false,
+        "why": null,
+        "x": -615.77,
+        "y": -738.3
+      },
+      {
+        "name": "Vespucci Canals Agency",
+        "area": "Vespucci Canals (Celltowa Building)",
+        "price": 2145000,
+        "best": false,
+        "why": null,
+        "x": -986.94,
+        "y": -765.11
+      },
+      {
+        "name": "Rockford Hills Agency",
+        "area": "Rockford Hills",
+        "price": 2415000,
+        "best": false,
+        "why": null,
+        "x": -1031.25,
+        "y": -411.55
+      },
+      {
+        "name": "Hawick Agency",
+        "area": "Hawick (Galileo House)",
+        "price": 2830000,
+        "best": false,
+        "why": null,
+        "x": 359.35,
+        "y": -74.67
+      }
+    ],
+    "note": "Opinion is split: Hawick is often called the most convenient, while Little Seoul is the cheapest and still central. All four have identical features."
+  },
+  "ob-salvage-yard": {
+    "locations": [
+      {
+        "name": "Paleto Bay Salvage Yard",
+        "area": "Paleto Bay",
+        "price": 1620000,
+        "best": false,
+        "why": "Cheapest, but most robbery and tow work happens in the city far to the south",
+        "x": -193.28,
+        "y": 6267.33
+      },
+      {
+        "name": "Sandy Shores Salvage Yard",
+        "area": "Sandy Shores",
+        "price": 2030000,
+        "best": false,
+        "why": null,
+        "x": 2512,
+        "y": 4109.33
+      },
+      {
+        "name": "Murrieta Heights Salvage Yard",
+        "area": "Murrieta Heights",
+        "price": 2420000,
+        "best": true,
+        "why": "In the city with quick freeway access, close to where most robbery preps take place",
+        "x": 1192.98,
+        "y": -1261.52
+      },
+      {
+        "name": "Strawberry Salvage Yard",
+        "area": "Strawberry",
+        "price": 2570000,
+        "best": false,
+        "why": null,
+        "x": -15.44,
+        "y": -1308.74
+      },
+      {
+        "name": "La Puerta Salvage Yard",
+        "area": "La Puerta",
+        "price": 2690000,
+        "best": false,
+        "why": null,
+        "x": -511.77,
+        "y": -1737.21
+      }
+    ],
+    "note": "Pick one of the Los Santos yards; Strawberry is the other common recommendation."
+  },
+  "ob-bail-office": {
+    "locations": [
+      {
+        "name": "Paleto Bay Bail Office",
+        "area": "Paleto Bay, behind Willie's Supermarket",
+        "price": 1650000,
+        "best": false,
+        "why": "Cheapest, but bounty targets are mostly far to the south",
+        "x": -59.03,
+        "y": 6502.14
+      },
+      {
+        "name": "Davis Bail Office",
+        "area": "Davis, Carson Avenue",
+        "price": 2000000,
+        "best": false,
+        "why": null,
+        "x": 137.7,
+        "y": -1695.85
+      },
+      {
+        "name": "Del Perro Bail Office",
+        "area": "Del Perro, Red Desert Avenue",
+        "price": 2350000,
+        "best": false,
+        "why": null,
+        "x": -1417.19,
+        "y": -658.04
+      },
+      {
+        "name": "Mission Row Bail Office",
+        "area": "Mission Row, Atlee Street",
+        "price": 2390000,
+        "best": true,
+        "why": "Central Los Santos spot opposite the police station, so most bounties start nearby",
+        "x": 489.73,
+        "y": -932.68
+      },
+      {
+        "name": "Downtown Vinewood Bail Office",
+        "area": "Downtown Vinewood, Alta Street",
+        "price": 2620000,
+        "best": false,
+        "why": null,
+        "x": 80.91,
+        "y": 20.83
+      }
+    ],
+    "note": "Any of the four Los Santos offices works well; the main advice is to skip Paleto Bay."
+  },
+  "ob-mansion": {
+    "locations": [
+      {
+        "name": "The Tongva Estate",
+        "area": "Tongva Hills, Buen Vino Road",
+        "price": 11500000,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "The Vinewood Residence",
+        "area": "Vinewood Hills, Marlowe Drive",
+        "price": 12200000,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Richman Villa",
+        "area": "Vinewood Hills, Ace Jones Drive",
+        "price": 12800000,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      }
+    ],
+    "note": "No single favourite: all three have the same features. Tongva is the best value but remote, Richman Villa has the easiest city access, and the Vinewood Residence has the best skyline views."
+  },
+  "ob-high-end-apartment": {
+    "locations": [
+      {
+        "name": "Eclipse Towers, Apt 3",
+        "area": null,
+        "price": 500000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Tinsel Towers, Apt 42",
+        "area": null,
+        "price": 492000,
+        "best": false,
+        "why": null,
+        "x": -619.13,
+        "y": 37.88
+      },
+      {
+        "name": "Richards Majestic, Apt 2",
+        "area": null,
+        "price": 484000,
+        "best": false,
+        "why": null,
+        "x": -932.75,
+        "y": -383.92
+      },
+      {
+        "name": "4 Integrity Way, Apt 28",
+        "area": "Pillbox Hill",
+        "price": 476000,
+        "best": false,
+        "why": null,
+        "x": -47.31,
+        "y": -585.98
+      },
+      {
+        "name": "Del Perro Heights, Apt 4",
+        "area": "Del Perro",
+        "price": 468000,
+        "best": false,
+        "why": null,
+        "x": -1443.09,
+        "y": -544.77
+      },
+      {
+        "name": "Eclipse Towers, Apt 31",
+        "area": null,
+        "price": 400000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Eclipse Towers, Apt 40",
+        "area": null,
+        "price": 391000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Eclipse Towers, Apt 5",
+        "area": null,
+        "price": 382000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Eclipse Towers, Apt 9",
+        "area": null,
+        "price": 373000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Weazel Plaza, Apt 101",
+        "area": null,
+        "price": 335000,
+        "best": false,
+        "why": null,
+        "x": -913.85,
+        "y": -455.14
+      },
+      {
+        "name": "Weazel Plaza, Apt 70",
+        "area": null,
+        "price": 319000,
+        "best": false,
+        "why": null,
+        "x": -913.85,
+        "y": -455.14
+      },
+      {
+        "name": "Weazel Plaza, Apt 26",
+        "area": null,
+        "price": 304000,
+        "best": false,
+        "why": null,
+        "x": -913.85,
+        "y": -455.14
+      },
+      {
+        "name": "Tinsel Towers, Apt 29",
+        "area": null,
+        "price": 286000,
+        "best": false,
+        "why": null,
+        "x": -619.13,
+        "y": 37.88
+      },
+      {
+        "name": "Tinsel Towers, Apt 45",
+        "area": null,
+        "price": 270000,
+        "best": false,
+        "why": null,
+        "x": -619.13,
+        "y": 37.88
+      },
+      {
+        "name": "Richards Majestic, Apt 51",
+        "area": null,
+        "price": 253000,
+        "best": false,
+        "why": null,
+        "x": -932.75,
+        "y": -383.92
+      },
+      {
+        "name": "4 Integrity Way, Apt 35",
+        "area": "Pillbox Hill",
+        "price": 247000,
+        "best": false,
+        "why": null,
+        "x": -47.31,
+        "y": -585.98
+      },
+      {
+        "name": "Richards Majestic, Apt 4",
+        "area": null,
+        "price": 241000,
+        "best": false,
+        "why": null,
+        "x": -932.75,
+        "y": -383.92
+      },
+      {
+        "name": "4 Integrity Way, Apt 30",
+        "area": "Pillbox Hill",
+        "price": 235000,
+        "best": false,
+        "why": null,
+        "x": -47.31,
+        "y": -585.98
+      },
+      {
+        "name": "3 Alta Street, Apt 57",
+        "area": null,
+        "price": 223000,
+        "best": false,
+        "why": null,
+        "x": -252.57,
+        "y": -949.92
+      },
+      {
+        "name": "3 Alta Street, Apt 10",
+        "area": null,
+        "price": 217000,
+        "best": false,
+        "why": null,
+        "x": -252.57,
+        "y": -949.92
+      },
+      {
+        "name": "Del Perro Heights, Apt 20",
+        "area": "Del Perro",
+        "price": 205000,
+        "best": false,
+        "why": null,
+        "x": -1443.09,
+        "y": -544.77
+      },
+      {
+        "name": "Del Perro Heights, Apt 7",
+        "area": "Del Perro",
+        "price": 200000,
+        "best": false,
+        "why": null,
+        "x": -1443.09,
+        "y": -544.77
+      }
+    ],
+    "note": "No single favourite. Every high-end apartment can host the original heists, so the cheapest (Del Perro Heights, Apt 7) does the job. The five pricier units have the newer interior."
+  },
+  "ob-stilt-house": {
+    "locations": [
+      {
+        "name": "3655 Wild Oats Drive",
+        "area": "Vinewood Hills",
+        "price": 800000,
+        "best": true,
+        "why": "Fans call it the best home in the game: big windows, a wide city view and a pool deck",
+        "x": -178.23,
+        "y": 490.89
+      },
+      {
+        "name": "2044 North Conker Avenue",
+        "area": "Vinewood Hills",
+        "price": 762000,
+        "best": false,
+        "why": null,
+        "x": 339.57,
+        "y": 439.71
+      },
+      {
+        "name": "2045 North Conker Avenue",
+        "area": "Vinewood Hills",
+        "price": 727000,
+        "best": false,
+        "why": null,
+        "x": 369.59,
+        "y": 417.48
+      },
+      {
+        "name": "2862 Hillcrest Avenue",
+        "area": "Vinewood Hills",
+        "price": 705000,
+        "best": false,
+        "why": null,
+        "x": -679.55,
+        "y": 592.52
+      },
+      {
+        "name": "2868 Hillcrest Avenue",
+        "area": "Vinewood Hills",
+        "price": 672000,
+        "best": false,
+        "why": null,
+        "x": -764.62,
+        "y": 618.31
+      },
+      {
+        "name": "2117 Milton Road",
+        "area": "Vinewood Hills",
+        "price": 608000,
+        "best": false,
+        "why": null,
+        "x": -563.73,
+        "y": 689.1
+      },
+      {
+        "name": "2874 Hillcrest Avenue",
+        "area": "Vinewood Hills",
+        "price": 571000,
+        "best": false,
+        "why": null,
+        "x": -861.25,
+        "y": 684.89
+      },
+      {
+        "name": "2866 Hillcrest Avenue",
+        "area": "Vinewood Hills",
+        "price": 525000,
+        "best": false,
+        "why": null,
+        "x": -743.09,
+        "y": 590.04
+      },
+      {
+        "name": "3677 Whispymound Drive",
+        "area": "Vinewood Hills",
+        "price": 478000,
+        "best": false,
+        "why": null,
+        "x": 124.46,
+        "y": 551.89
+      },
+      {
+        "name": "2113 Mad Wayne Thunder Drive",
+        "area": "Vinewood Hills",
+        "price": 449000,
+        "best": false,
+        "why": null,
+        "x": -1292.46,
+        "y": 440.95
+      }
+    ],
+    "note": "All stilt houses can host heists and work the same; the choice is mostly about the view."
+  },
+  "ob-custom-apartment": {
+    "locations": [
+      {
+        "name": "Eclipse Towers, Penthouse Suite 2",
+        "area": "Eclipse Towers (faces the Vinewood Hills)",
+        "price": 905000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Eclipse Towers, Penthouse Suite 1",
+        "area": "Eclipse Towers (faces the city)",
+        "price": 985000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      },
+      {
+        "name": "Eclipse Towers, Penthouse Suite 3",
+        "area": "Eclipse Towers (faces the city)",
+        "price": 1100000,
+        "best": false,
+        "why": null,
+        "x": -773.48,
+        "y": 310.63
+      }
+    ],
+    "note": "No single favourite: all three are in the same building with the same features. Suite 1 has the same city view as Suite 3 for less money; Suite 2 is cheapest but faces the hills."
+  },
+  "ob-galaxy-super-yacht": {
+    "locations": [
+      {
+        "name": "Lago Zancudo",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Pacific Bluffs",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Vespucci Beach",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Los Santos International Airport",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Terminal",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Palomino Highlands",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Tataviam Mountains",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "San Chianski Mountain Range",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Mount Gordo",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Procopio Beach",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "Paleto Bay",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      },
+      {
+        "name": "North Chumash",
+        "area": null,
+        "price": null,
+        "best": false,
+        "why": null,
+        "x": null,
+        "y": null
+      }
+    ],
+    "note": "Mooring spot does not change the price; that depends on the model (Orion $6M, Pisces $7M, Aquarius $8M). You can move it later for a fee, so no spot is a clear best. Spots near the city such as Vespucci Beach or Pacific Bluffs are handy."
+  }
+}

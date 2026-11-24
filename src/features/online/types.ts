@@ -46,4 +46,36 @@ export interface Business extends BaseItem {
   pros?: string[];
   cons?: string[];
   verdict?: string | null;
+  upgrades?: BusinessUpgrade[];
+  incomeLevels?: IncomeLevel[];
+  passiveIncome?: PassiveIncome | null;
+}
+
+/** A purchasable upgrade that changes how much a business earns. */
+export interface BusinessUpgrade {
+  name: string;
+  price: number | null;
+  effect: string;
+}
+
+/** Earnings at one upgrade state (e.g. "No upgrades", "Fully upgraded"). */
+export interface IncomeLevel {
+  level: string;
+  unitValue: number | null;
+  fullStockValue: number | null;
+  fullStockValueFar: number | null;
+  timeToFullHours: number | null;
+  /** Cost of the supplies for one full stock, when bought. */
+  supplyCost?: number | null;
+  /** Sale value per hour of production (selling nearby), before supply costs. */
+  perHour: number | null;
+  note: string | null;
+}
+
+/** Money that builds up on its own (safes and similar). */
+export interface PassiveIncome {
+  source: string;
+  maxPerDay: number | null;
+  maxStored: number | null;
+  requirement: string | null;
 }

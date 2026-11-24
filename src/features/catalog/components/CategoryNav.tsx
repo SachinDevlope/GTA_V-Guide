@@ -1,6 +1,6 @@
 'use client';
 
-import { House, Trophy } from 'lucide-react';
+import { House, TrendingUp, Trophy } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ModeSwitch } from '@/features/mode/ModeSwitch';
@@ -13,7 +13,7 @@ import styles from './CategoryNav.module.css';
 interface NavItem {
   href: string;
   label: string;
-  icon: CategoryKey | 'map' | 'home' | 'best';
+  icon: CategoryKey | 'map' | 'home' | 'best' | 'income';
   count?: number;
 }
 
@@ -43,7 +43,10 @@ export function CategoryNav({ mapCount }: { mapCount: number }) {
       title: 'Story mode',
       items: [...toItems(story), ...(mode !== 'Online' ? [{ href: '/map', label: 'Mission map', icon: 'map' as const, count: mapCount }] : [])],
     },
-    { title: 'GTA Online', items: toItems(online) },
+    {
+      title: 'GTA Online',
+      items: [...toItems(online), ...(mode !== 'Story' ? [{ href: '/income', label: 'Business income', icon: 'income' as const }] : [])],
+    },
     { title: 'Game world', items: toItems(everywhere) },
   ].filter((g) => g.items.length);
 
@@ -63,6 +66,8 @@ export function CategoryNav({ mapCount }: { mapCount: number }) {
                 <House size={18} strokeWidth={1.75} aria-hidden="true" />
               ) : it.icon === 'best' ? (
                 <Trophy size={18} strokeWidth={1.75} aria-hidden="true" />
+              ) : it.icon === 'income' ? (
+                <TrendingUp size={18} strokeWidth={1.75} aria-hidden="true" />
               ) : (
                 <CategoryIcon cat={it.icon} size={18} />
               )}
