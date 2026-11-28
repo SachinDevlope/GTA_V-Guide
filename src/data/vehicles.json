@@ -1439,7 +1439,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2812500,
+      "unlock": "Complete the Dr. Dre Contract mission \"Studio Time\" as leader",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-lampadati-tigon",
@@ -1797,7 +1803,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 95000,
+      "unlock": "Complete The Fleeca Job",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-karin-kuruma-armored",
@@ -1849,7 +1861,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for armor"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 525000,
+      "unlock": "Complete The Fleeca Job",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-dewbauchee-massacro",
@@ -2198,7 +2216,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2598750,
+      "unlock": "Help bring Moodymann back to The Music Locker (as VIP/CEO/MC President)",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-ocelot-jugular",
@@ -2247,7 +2271,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 918750,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Jugular as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-dinka-jester",
@@ -2347,7 +2377,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1477500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-annis-zr350",
@@ -2398,7 +2434,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1211250,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-dinka-rt3000",
@@ -2449,7 +2491,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1286250,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-benefactor-schafter-v12",
@@ -2547,7 +2595,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1288500,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Sultan Classic as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-pfister-comet-s2",
@@ -2596,7 +2650,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1408500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-annis-euros",
@@ -2646,7 +2706,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1350000,
+      "unlock": "Buy the $50,000 LS Car Meet membership",
+      "unlockType": "Other",
+      "note": null
+    }
   },
   {
     "id": "v-obey-10f",
@@ -3050,7 +3116,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1875000,
+      "unlock": "Complete the Doomsday Heist setup \"Submarine Recon\" as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": "Listed on gta.wiki as \"Stromberg (car)\"."
+    }
   },
   {
     "id": "v-imponte-deluxo",
@@ -3103,7 +3175,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 4312500,
+      "unlock": "Complete the Doomsday Heist setup \"Signal Intercepts\" as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-dewbauchee-jb-700",
@@ -4158,7 +4236,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 26250,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-declasse-sabre-turbo",
@@ -4459,7 +4543,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2812500,
+      "unlock": "Complete the Special Vehicle Work mission \"Arms Embargo\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-slamvan",
@@ -4510,7 +4600,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 37125,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-declasse-voodoo",
@@ -4712,7 +4808,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1612500,
+      "unlock": "Buy an Agency",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-weaponized-tampa",
@@ -4752,7 +4854,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1585000,
+      "unlock": "Complete the Mobile Operation \"Mole Hunt\" as leader (needs a Bunker and Mobile Operations Center)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-hotknife",
@@ -5445,7 +5553,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1121250,
+      "unlock": "Complete the Auto Shop setup mission \"Impounded Car\"",
+      "unlockType": "Business",
+      "note": "CONFLICT: gtabase groups it with the Los Santos Tuners cars that unlock at random through LS Car Meet Rep. gta.wiki names the Auto Shop setup mission."
+    }
   },
   {
     "id": "v-vapid-stanier",
@@ -5921,7 +6035,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1383750,
+      "unlock": "Complete 10 Agency Security Contracts as leader",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-gallivanter-baller",
@@ -6468,7 +6588,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1500000,
+      "unlock": "Complete 5 Agency Security Contracts as leader",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-canis-castigator",
@@ -6967,7 +7093,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 652500,
+      "unlock": "Complete the Cayo Perico Heist finale as leader, then complete all of Keinemusik's requests for English Dave",
+      "unlockType": "Mission",
+      "note": "The gta.wiki infobox says $652,000. The body text and gtabase say $652,500 (75%)."
+    }
   },
   {
     "id": "v-canis-bodhi",
@@ -7418,7 +7550,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for armor"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 675000,
+      "unlock": "Complete The Humane Labs Raid",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-hvy-insurgent-pick-up",
@@ -7456,7 +7594,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1350000,
+      "unlock": "Complete The Humane Labs Raid",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-hvy-nightshark",
@@ -7545,7 +7689,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 950000,
+      "unlock": "Complete Series A Funding",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-caracara",
@@ -7696,7 +7846,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension, armor"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2400000,
+      "unlock": "Complete the Special Vehicle Work mission \"Escape Escort\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-liberator",
@@ -7822,7 +7978,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 951000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Outlaw as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-maxwell-vagrant",
@@ -7872,7 +8034,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 921300,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Vagrant as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "Price cut on May 14, 2026 (was $2,214,000, trade $1,660,500)."
+    }
   },
   {
     "id": "v-declasse-draugur",
@@ -7921,7 +8089,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1402500,
+      "unlock": "Complete 10 Cayo Perico Series races, or complete Project Overthrow - \"Reporting for Duty\" as host",
+      "unlockType": "Other",
+      "note": "The Reporting for Duty option was added in San Andreas Mercenaries (2023)."
+    }
   },
   {
     "id": "v-rune-zhaba",
@@ -7971,7 +8145,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for transmission, suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1425000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Zhaba as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "Price cut on May 14, 2026 (was $2,400,000, trade $1,800,000)."
+    }
   },
   {
     "id": "v-canis-kalahari",
@@ -8122,7 +8302,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 715020,
+      "unlock": "Complete the Special Vehicle Work mission \"Cleanup Op\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": "Price cut on May 14, 2026 (was $1,755,600, trade $1,320,000)."
+    }
   },
   {
     "id": "v-canis-freecrawler",
@@ -8211,7 +8397,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 850000,
+      "unlock": "Complete the Mobile Operation \"Severe Weather Patterns\" as leader (needs a Bunker and Mobile Operations Center)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-pegassi-faggio",
@@ -8456,7 +8648,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2067669,
+      "unlock": "Complete the Mobile Operation \"Work Dispute\" as leader (needs a Bunker and Mobile Operations Center)",
+      "unlockType": "Business",
+      "note": "Both sources give $2,067,669, which is not exactly 75% of $2,750,000 ($2,062,500)."
+    }
   },
   {
     "id": "v-pegassi-oppressor-mk-ii",
@@ -8498,7 +8696,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 6000000,
+      "unlock": "Own a Terrorbyte and complete 5 Client Jobs from it",
+      "unlockType": "Business",
+      "note": "Price went up in Los Santos Drug Wars (2022/2023) from $3,890,250 (trade $2,925,000)."
+    }
   },
   {
     "id": "v-maibatsu-sanchez",
@@ -9199,7 +9403,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 750000,
+      "unlock": "Complete The Pacific Standard Job",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-nagasaki-carbon-rs",
@@ -9448,7 +9658,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 90000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-western-cliffhanger",
@@ -9894,7 +10110,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 258750,
+      "unlock": "Complete the Dispatch Work mission \"Health Code Violations\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-clown-van",
@@ -10691,7 +10913,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1920000,
+      "unlock": "Complete the Special Vehicle Work mission \"Asset Seizure\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-mtl-packer",
@@ -10875,7 +11103,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1680000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader, or complete one Gruppe Sechs Safeguard Delivery",
+      "unlockType": "Heist",
+      "note": "Listed on gta.wiki as \"Securicar\". The Safeguard Delivery option was added in the Money Fronts update (2025)."
+    }
   },
   {
     "id": "v-benefactor-terrorbyte",
@@ -10993,7 +11227,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3517500,
+      "unlock": "Find a piece of evidence at a Crime Scene",
+      "unlockType": "Other",
+      "note": "Listed on gta.wiki as \"Stanier LE Cruiser\". gtabase says the vehicle itself unlocks via The Gangbanger Robbery scope-out mission."
+    }
   },
   {
     "id": "v-vapid-police-cruiser-interceptor",
@@ -11143,7 +11383,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1092750,
+      "unlock": "Complete the Diamond Casino Heist finale as leader, or finish 5 Firefighter missions in a row",
+      "unlockType": "Heist",
+      "note": "Price cut on May 14, 2026 (was $3,295,000, trade $2,471,250)."
+    }
   },
   {
     "id": "v-brute-police-riot",
@@ -11181,7 +11427,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2460000,
+      "unlock": "Complete the Tactical Gear prep mission of the Gangbanger Robbery (Salvage Yard)",
+      "unlockType": "Heist",
+      "note": "The vehicle itself unlocks after losing a 4 or 5-star wanted level naturally. Price cut on May 14, 2026 (was $4,800,000, trade $3,600,000)."
+    }
   },
   {
     "id": "v-vapid-sheriff-cruiser",
@@ -11296,7 +11548,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3720000,
+      "unlock": "Complete 3 Dispatch Work missions",
+      "unlockType": "Mission",
+      "note": "Listed on gta.wiki as \"Police Bike (custom)\"."
+    }
   },
   {
     "id": "v-declasse-police-transporter",
@@ -11371,7 +11629,13 @@
     "upgradeNotes": "Weaponized vehicle with water cannon, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2350000,
+      "unlock": "Complete the Doomsday Heist setup \"Salvage Hard Drives\" as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-rhino-tank",
@@ -11524,7 +11788,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2325000,
+      "unlock": "Complete the Mobile Operation \"Offshore Assets\" as leader (needs a Bunker and Mobile Operations Center)",
+      "unlockType": "Business",
+      "note": "Listed on gta.wiki as \"APC\"."
+    }
   },
   {
     "id": "v-tm-02-khanjali-tank",
@@ -11564,7 +11834,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2895000,
+      "unlock": "Complete the Doomsday Heist setup \"Khanjali\" as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": "Listed on gta.wiki as \"TM-02 Khanjali\"."
+    }
   },
   {
     "id": "v-hvy-chernobog",
@@ -11605,7 +11881,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1125000,
+      "unlock": "Complete the Doomsday Heist setup \"Escort ULP\" as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-half-track",
@@ -11646,7 +11928,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1695000,
+      "unlock": "Complete the Mobile Operation \"Half-track Bully\" as leader (needs a Bunker and Mobile Operations Center)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-mammoth-thruster",
@@ -11687,7 +11975,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1875000,
+      "unlock": "Complete Act III, The Doomsday Scenario, as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": "Separately, the Avenger Thruster upgrade costs $1,250,000, or $750,000 if you already bought the Thruster from Warstock."
+    }
   },
   {
     "id": "v-hvy-barrage",
@@ -11728,7 +12022,13 @@
     "upgradeNotes": "Weaponized vehicle, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1595000,
+      "unlock": "Complete the Doomsday Heist setup \"Barrage\" as leader (needs a Facility)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-invade-and-persuade-rc-tank",
@@ -11815,7 +12115,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1222500,
+      "unlock": "Complete the Cayo Perico Heist finale as leader using the Vetir as the approach vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-nagasaki-buzzard-attack-chopper",
@@ -11934,7 +12240,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and bombs, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3375000,
+      "unlock": "Complete the Doomsday Heist setup \"Server Farm\" as leader (needs a Facility) (also needs a Hangar)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-maverick",
@@ -12014,7 +12326,13 @@
     "upgradeNotes": "Weaponized vehicle; only the paint job can be changed (at the hangar workshop), with no performance upgrades.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2850000,
+      "unlock": "Complete The Humane Labs Raid",
+      "unlockType": "Heist",
+      "note": "Before Cunning Stunts: Special Vehicle Circuit (2017) it was sold only to players who had done the heist; now anyone can buy it at the full price."
+    }
   },
   {
     "id": "v-savage",
@@ -12055,7 +12373,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles; only the paint job can be changed (at the hangar workshop), with no performance upgrades.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1950000,
+      "unlock": "Complete the Pacific Standard setup \"Convoy\"",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-western-company-annihilator",
@@ -12255,7 +12579,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3100000,
+      "unlock": "Complete 42 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-volatus",
@@ -12412,7 +12742,13 @@
     "upgradeNotes": "Weaponized vehicle with countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1730000,
+      "unlock": "Complete 12 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-hvy-skylift",
@@ -12488,7 +12824,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1837500,
+      "unlock": "Complete \"ULP - Cleanup\", the Operation Paper Trail finale (needs a Hangar)",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-mammoth-hydra",
@@ -12530,7 +12872,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and countermeasures; only the paint job can be changed (at the hangar workshop), with no performance upgrades.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3000000,
+      "unlock": "Complete the Humane Labs Raid setup \"Humane Raid - EMP\"",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-jobuilt-p-996-lazer",
@@ -12613,7 +12961,13 @@
     "upgradeNotes": "Weaponized vehicle with bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3075000,
+      "unlock": "Complete 21 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-luxor",
@@ -13118,7 +13472,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1995000,
+      "unlock": "Complete 39 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-lf-22-starling",
@@ -13159,7 +13519,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2750000,
+      "unlock": "Complete 15 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-v-65-molotok",
@@ -13200,7 +13566,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3600000,
+      "unlock": "Complete 18 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-rm-10-bombushka",
@@ -13241,7 +13613,13 @@
     "upgradeNotes": "Weaponized vehicle with bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3562500,
+      "unlock": "Complete 24 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-mammoth-avenger",
@@ -13322,7 +13700,13 @@
     "upgradeNotes": "Weaponized vehicle with bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2800000,
+      "unlock": "Complete the Doomsday Heist setup \"Air Defenses\" as leader (needs a Facility) (also needs a Hangar)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-pyro",
@@ -13363,7 +13747,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3350000,
+      "unlock": "Complete 33 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-western-company-rogue",
@@ -13404,7 +13794,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1200000,
+      "unlock": "Complete 6 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-mammoth-f-160-raiju",
@@ -13446,7 +13842,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 6375000,
+      "unlock": "Complete the San Andreas Mercenaries mission \"On Parade\" as leader",
+      "unlockType": "Mission",
+      "note": "Price went UP on May 14, 2026 (was $6,855,000, trade $5,141,250)."
+    }
   },
   {
     "id": "v-atomic-blimp",
@@ -13522,7 +13924,13 @@
     "upgradeNotes": "Weaponized vehicle with countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 500000,
+      "unlock": "Complete 3 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-cargo-plane",
@@ -13638,7 +14046,13 @@
     "upgradeNotes": "Weaponized vehicle with bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 850000,
+      "unlock": "Complete 36 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-rune-kosatka",
@@ -13712,7 +14126,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 125000,
+      "unlock": "Complete The Humane Labs Raid",
+      "unlockType": "Heist",
+      "note": "Taken from gta.wiki \"Dinghy (heist)\" / DockTease stock. gtabase only says \"the related Heist Mission\"."
+    }
   },
   {
     "id": "v-nagasaki-weaponized-dinghy",
@@ -14193,7 +14613,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1593750,
+      "unlock": "Complete the Cayo Perico Heist finale as leader using the Longfin as the approach vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-police-predator",
@@ -14229,7 +14655,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2835000,
+      "unlock": "Complete \"The Black Box File\"",
+      "unlockType": "Mission",
+      "note": "gtabase lists no trade price."
+    }
   },
   {
     "id": "v-kurtz-31-patrol-boat",
@@ -14265,7 +14697,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1380000,
+      "unlock": "Complete the Cayo Perico Heist finale as leader using the Kurtz 31 Patrol Boat as the approach vehicle",
+      "unlockType": "Heist",
+      "note": "Price cut on May 14, 2026 (was $2,955,000, trade $2,216,250)."
+    }
   },
   {
     "id": "v-kraken-submersibles-avisa",
@@ -14743,7 +15181,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 487500,
+      "unlock": "Complete 10 fares in a row in Taxi Work",
+      "unlockType": "Other",
+      "note": "Sold since January 19, 2023 (before that it was only an Arena War reward)."
+    }
   },
   {
     "id": "v-jobuilt-trashmaster",
@@ -14818,7 +15262,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1385000,
+      "unlock": "Complete the Nightclub setup mission \"Set Up: Equipment\"",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-mtl-brickade",
@@ -14966,7 +15416,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 495000,
+      "unlock": "Complete the Special Vehicle Work mission \"Breakdown Recovery\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-benefactor-br8",
@@ -15521,7 +15977,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2055000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader with the Big Con approach and the \"Yung Ancestor\" crew, using the Furia as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-progen-gp1",
@@ -16115,7 +16577,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for transmission"
     },
-    "electric": true
+    "electric": true,
+    "trade": {
+      "price": 2880000,
+      "unlock": "Complete the Special Vehicle Work mission \"Firewall Protection\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-annis-s80rr",
@@ -16716,7 +17184,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for transmission, turbo, suspension, tyres"
     },
-    "electric": true
+    "electric": true,
+    "trade": {
+      "price": 2235000,
+      "unlock": "Complete Last Dose 5 - \"BDKD\"",
+      "unlockType": "Mission",
+      "note": "gtabase lists no trade price; its \"How to unlock\" says host both First Dose and Last Dose."
+    }
   },
   {
     "id": "v-grotti-visione",
@@ -17254,7 +17728,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1608000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-banshee-gts",
@@ -17502,7 +17982,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1496250,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-grotti-cartuccia-gt",
@@ -17899,7 +18385,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1162500,
+      "unlock": "Gain LS Car Meet Reputation: it can unlock at random every 5 levels between Rep 45 and 75",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-drift-tampa",
@@ -18348,7 +18840,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1192500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": "gta.wiki body text says $1,718,000 full price; its infobox and gtabase say $1,590,000."
+    }
   },
   {
     "id": "v-annis-future-shock-zr380",
@@ -18388,7 +18886,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1608000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-gb200",
@@ -18534,7 +19038,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1220250,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": "CONFLICT: gtabase says $1,220,050. gta.wiki says $1,220,250, which is 75% of $1,627,000, so gta.wiki is used."
+    }
   },
   {
     "id": "v-karin-hotring-everon",
@@ -18583,7 +19093,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension, tyres"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 710250,
+      "unlock": "Finish top 3 in 20 San Andreas Super Sport Series races",
+      "unlockType": "Other",
+      "note": "CONFLICT: gta.wiki says $974,000 / $730,500. gtabase and vehicles.json say $947,000 / $710,250, so gtabase is used (likely a digit swap on one side). gtabase says the price was cut on May 14, 2026 from $1,790,000. The unlock condition comes from gta.wiki."
+    }
   },
   {
     "id": "v-bravado-hotring-hellfire",
@@ -18681,7 +19197,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 622500,
+      "unlock": "Finish top 3 in 10 San Andreas Super Sport Series races",
+      "unlockType": "Other",
+      "note": "This unlock applies since Los Santos Drug Wars (2022/2023)."
+    }
   },
   {
     "id": "v-overflod-imorgon",
@@ -19034,7 +19556,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1275000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Komoda as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-penaud-la-coureuse",
@@ -19375,7 +19903,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1608000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-obey-omnis",
@@ -20023,7 +20557,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1027500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-ubermacht-revolter",
@@ -20321,7 +20861,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 487500,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Sentinel Classic as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-ubermacht-sentinel-classic-widebody",
@@ -20421,7 +20967,13 @@
       "source": null,
       "note": "gtabase lists no performance upgrade prices for this vehicle"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1629000,
+      "unlock": "Complete one full QuickiePharm Medical Courier delivery",
+      "unlockType": "Other",
+      "note": "gtabase gives the trade price but no unlock condition."
+    }
   },
   {
     "id": "v-dewbauchee-seven-70",
@@ -20716,7 +21268,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 918000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Sugoi as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-karin-sultan-rs-classic",
@@ -20766,7 +21324,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1341750,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-benefactor-surano",
@@ -20962,7 +21526,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1338750,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-verlierer",
@@ -21210,7 +21780,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 680000,
+      "unlock": "Complete the Prison Break setup \"Station\"",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-rune-cheburek",
@@ -21997,7 +22573,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 729000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Retinue Mk II as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "Price cut on May 14, 2026 (was $1,620,000, trade $1,215,000)."
+    }
   },
   {
     "id": "v-albany-roosevelt",
@@ -22701,7 +23283,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1718000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-apocalypse-slamvan",
@@ -23438,7 +24026,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1331250,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-dominator-fx",
@@ -23588,7 +24182,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 915000,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-drift-yosemite",
@@ -23638,7 +24238,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 981000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Drift Yosemite as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-ellie",
@@ -23687,7 +24293,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 423750,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Ellie as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-willard-eudora",
@@ -23975,7 +24587,7 @@
     "name": "Future Shock Imperator",
     "manufacturer": "Vapid",
     "class": "Muscle",
-    "price": 2284940,
+    "price": 1994964,
     "seller": "Arena War",
     "seats": 2,
     "topSpeedMph": null,
@@ -24008,7 +24620,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1496223,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": "CONFLICT: gta.wiki says the price was cut on May 14, 2026 from $2,284,940 (trade $1,718,000) to $1,994,964 (trade $1,496,223); gtabase and vehicles.json still show $2,284,940 / $1,718,000, and the Apocalypse/Nightmare versions were not changed. Verify in game. vehicles.json price is $2,284,940."
+    }
   },
   {
     "id": "v-vapid-future-shock-slamvan",
@@ -24099,7 +24717,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 461250,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Gauntlet Classic as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-bravado-gauntlet-classic-custom",
@@ -24201,7 +24825,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1098750,
+      "unlock": "Complete the Operation Paper Trail mission \"ULP - Intelligence\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-albany-hermes",
@@ -24349,7 +24979,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 249500,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "Trade price is 75.2% of the price, not exactly 75%. gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-declasse-impaler-lx",
@@ -24817,7 +25453,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1718000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-nightmare-slamvan",
@@ -25100,7 +25742,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 28125,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "gta.wiki says this trade price is in the Enhanced (PS5/Xbox Series/PC Enhanced) version only. gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-bravado-redwood-gauntlet",
@@ -26244,7 +26892,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for tyres"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1027500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-ubermacht-oracle-xs",
@@ -26342,7 +26996,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for tyres"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 982500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-karin-previon",
@@ -26392,7 +27052,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1117500,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-ubermacht-sentinel-xs",
@@ -26984,7 +27650,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 150000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "Full price $200,000 at Southern SA Super Autos / Benny's; the trade price is only on the Arena War website."
+    }
   },
   {
     "id": "v-benefactor-glendale-custom",
@@ -28065,7 +28737,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 945000,
+      "unlock": "Gain LS Car Meet Reputation: a random Los Santos Tuners car gets its trade price every 5 Rep levels",
+      "unlockType": "Career",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-aleutian",
@@ -28461,7 +29139,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 667500,
+      "unlock": "Complete the Dr. Dre Contract finale \"Don't Fuck With Dre\" as leader",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-gallivanter-baller-st-d",
@@ -29252,7 +29936,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1237500,
+      "unlock": "Complete 20 Agency Security Contracts as leader",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-dundreary-landstalker",
@@ -29447,7 +30137,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 460000,
+      "unlock": "Complete 5 Nightclub Management missions",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-radius",
@@ -29738,7 +30434,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 847500,
+      "unlock": "Win a round of the \"Assault on Cayo Perico\" Adversary Mode",
+      "unlockType": "Other",
+      "note": "Added with Assault on Cayo Perico Week, August 10, 2023."
+    }
   },
   {
     "id": "v-karin-vivanite",
@@ -29990,7 +30692,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 306000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Asbo as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-dinka-blista-kanjo",
@@ -30040,7 +30748,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 435000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Blista Kanjo as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-grotti-brioso-300",
@@ -30089,7 +30803,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 457500,
+      "unlock": "Complete the Cayo Perico Heist finale as leader",
+      "unlockType": "Heist",
+      "note": "Only gta.wiki lists the unlock. Its infobox says $457,000, but 75% of $610,000 is $457,500, which matches gtabase."
+    }
   },
   {
     "id": "v-grotti-brioso-300-widebody",
@@ -30314,7 +31034,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 270000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career; the trade price applies on the Arena War website",
+      "unlockType": "Arena War",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-benefactor-apocalypse-bruiser",
@@ -30395,7 +31121,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2005000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-apocalypse-sasquatch",
@@ -30902,7 +31634,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1106250,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Everon as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-firebolt-asp",
@@ -31035,7 +31773,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2005000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-future-shock-sasquatch",
@@ -31482,7 +32226,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2005000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-nightmare-sasquatch",
@@ -31576,7 +32326,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1282500,
+      "unlock": "Complete 15 Agency Security Contracts as leader",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-rancher-xl",
@@ -31673,7 +32429,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension, tyres"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1404750,
+      "unlock": "Deliver weapons in a Ratel for Oscar Guzman in Arms Trafficking",
+      "unlockType": "Business",
+      "note": "Added March 4, 2025. gtabase lists no trade price."
+    }
   },
   {
     "id": "v-rc-bandito",
@@ -31991,7 +32753,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1120000,
+      "unlock": "Complete the Special Vehicle Work mission \"Coast Guard Duty\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-karin-technical-custom",
@@ -32279,7 +33047,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 825000,
+      "unlock": "Complete the Cayo Perico Heist \"Gather Intel\" setup mission",
+      "unlockType": "Heist",
+      "note": "Before Los Santos Tuners (2021) the trade price was lost after the finale until Gather Intel was done again; this was fixed."
+    }
   },
   {
     "id": "v-declasse-yosemite-1500",
@@ -32661,7 +33435,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 309000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Defiler as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-principe-diabolus",
@@ -33194,7 +33974,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 50250,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Manchez as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "gtabase flags a trade price but lists no amount."
+    }
   },
   {
     "id": "v-maibatsu-manchez-scout",
@@ -33243,7 +34029,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 168750,
+      "unlock": "Complete the bonus objective in the \"Assault on Cayo Perico\" Adversary Mode",
+      "unlockType": "Other",
+      "note": "Added with San Andreas Mercenaries (2023)."
+    }
   },
   {
     "id": "v-maibatsu-manchez-scout-c-delivery-bike",
@@ -33419,7 +34211,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension, tyres"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 146250,
+      "unlock": "Complete 5 \"Pizza This...\" deliveries",
+      "unlockType": "Other",
+      "note": "gtabase lists no trade price."
+    }
   },
   {
     "id": "v-western-rampant-rocket-tricycle",
@@ -33662,7 +34460,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 502500,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Stryder as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-dinka-thrust",
@@ -33711,7 +34515,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 56250,
+      "unlock": "Complete 10 deliveries in the Paper Route odd job",
+      "unlockType": "Other",
+      "note": "gtabase lists no trade price."
+    }
   },
   {
     "id": "v-shitzu-vader",
@@ -33943,7 +34753,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 975000,
+      "unlock": "Complete the Special Vehicle Work mission \"End of Transmission\" as CEO (needs a Vehicle Warehouse)",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-bison",
@@ -34061,7 +34877,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 356250,
+      "unlock": "Complete the \"Planning Work: LSDS Disguises\" mission of The Podium Robbery",
+      "unlockType": "Heist",
+      "note": "The gta.wiki body text says $356,260, while its infobox and gtabase say $356,250 (75%)."
+    }
   },
   {
     "id": "v-brute-boxville-lsdwp",
@@ -34096,7 +34918,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 298500,
+      "unlock": "Complete the Diamond Casino Heist finale as leader using the Big Con approach with the Maintenance disguise",
+      "unlockType": "Heist",
+      "note": "Listed on gta.wiki as \"Boxville (utility)\"."
+    }
   },
   {
     "id": "v-brute-boxville-post-op",
@@ -34132,7 +34960,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 45000,
+      "unlock": "Complete the Pacific Standard setup \"Vans\"",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-bugstars-burrito",
@@ -34180,7 +35014,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 450000,
+      "unlock": "Complete the Diamond Casino Heist finale as leader",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-brute-camper",
@@ -34264,7 +35104,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 65000,
+      "unlock": "Complete the Pacific Standard setup \"Hack\"",
+      "unlockType": "Heist",
+      "note": "Listed on gta.wiki as \"Gang Burrito (custom)\"."
+    }
   },
   {
     "id": "v-zirconium-journey-ii",
@@ -34313,7 +35159,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 592500,
+      "unlock": "Complete the First Dose mission \"Welcome to the Troupe\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-benefactor-laufer",
@@ -34620,7 +35472,13 @@
       "source": "gtabase",
       "note": "GTA Online prices from gtabase; Story mode prices differ; gtabase lists no price for suspension"
     },
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 442500,
+      "unlock": "Complete the First Dose mission \"Make War Not Love\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-youga-classic",
@@ -35364,7 +36222,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2910000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-benson-cluckin-bell",
@@ -35400,7 +36264,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 513750,
+      "unlock": "Complete \"Disorganized Crime\" (Cluckin' Bell Farm Raid) as leader",
+      "unlockType": "Mission",
+      "note": "gtabase lists no trade price."
+    }
   },
   {
     "id": "v-brute-bobcat-security-stockade",
@@ -35436,7 +36306,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1387500,
+      "unlock": "Complete one Bobcat Security Safeguard Delivery",
+      "unlockType": "Business",
+      "note": "Price cut on May 14, 2026 (was $2,440,500, trade $1,830,375)."
+    }
   },
   {
     "id": "v-mtl-future-shock-cerberus",
@@ -35476,7 +36352,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2910000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-jobuilt-hauler",
@@ -35586,7 +36468,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 32500,
+      "unlock": "Complete Series A Funding",
+      "unlockType": "Heist",
+      "note": "The gta.wiki body text says $32,000, while its infobox and gtabase say $32,500."
+    }
   },
   {
     "id": "v-maibatsu-mule-custom",
@@ -35626,7 +36514,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 72000,
+      "unlock": "Own a Nightclub and complete 5 Nightclub Sell Goods missions",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-mtl-nightmare-cerberus",
@@ -35666,7 +36560,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2910000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-jobuilt-phantom-custom",
@@ -35745,7 +36645,13 @@
     "upgradeNotes": "Weaponized vehicle with proximity mines, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 241000,
+      "unlock": "Own a Nightclub and complete 10 Nightclub Sell Goods missions",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-bravado-buffalo-s-cruiser",
@@ -35783,7 +36689,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3326250,
+      "unlock": "Complete Slush Fund (Cluckin' Bell Farm Raid) as leader, then the Dispatch Work mission \"Civil Forfeiture\"",
+      "unlockType": "Mission",
+      "note": "Listed on gta.wiki as \"Buffalo Cruiser\"."
+    }
   },
   {
     "id": "v-bravado-buffalo-stx-pursuit",
@@ -35821,7 +36733,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 4027500,
+      "unlock": "Complete Slush Fund (Cluckin' Bell Farm Raid) as leader, then the Dispatch Work mission \"Protective Custody\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-burrito-bail-enforcement",
@@ -35897,7 +36815,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 4001250,
+      "unlock": "Complete Slush Fund (Cluckin' Bell Farm Raid) as leader, then the Dispatch Work mission \"Obstruction of Justice\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-invetero-coquette-d10-pursuit",
@@ -35935,7 +36859,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 4215000,
+      "unlock": "Complete Slush Fund (Cluckin' Bell Farm Raid) as leader and 10 Dispatch Work missions",
+      "unlockType": "Mission",
+      "note": "CONFLICT: gtabase says $4,125,000. gta.wiki says $4,215,000, which is 75% of $5,620,000, so gta.wiki is used."
+    }
   },
   {
     "id": "v-vapid-dominator-fx-interceptor",
@@ -35973,7 +36903,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3712500,
+      "unlock": "Complete the Dispatch Work mission \"Malicious Mischief\"",
+      "unlockType": "Mission",
+      "note": "The vehicle itself unlocks after completing Slush Fund (Cluckin' Bell Farm Raid) as leader (gtabase)."
+    }
   },
   {
     "id": "v-bravado-dorado-cruiser",
@@ -36011,7 +36947,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3753750,
+      "unlock": "Complete the Dispatch Work mission \"Officer Monitored\"",
+      "unlockType": "Mission",
+      "note": "The vehicle itself unlocks after completing Slush Fund (Cluckin' Bell Farm Raid) as leader (gtabase)."
+    }
   },
   {
     "id": "v-bravado-fib-buffalo",
@@ -36084,7 +37026,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 4065000,
+      "unlock": "Complete \"Scene of the Crime\" (Cluckin' Bell Farm Raid) as leader",
+      "unlockType": "Mission",
+      "note": "gtabase says the vehicle can only be bought after completing Slush Fund as leader."
+    }
   },
   {
     "id": "v-bravado-greenwood-cruiser",
@@ -36122,7 +37070,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2959500,
+      "unlock": "Complete 5 Dispatch Work missions",
+      "unlockType": "Mission",
+      "note": "The vehicle itself unlocks after completing Slush Fund (Cluckin' Bell Farm Raid) as leader (gtabase). Price cut on May 14, 2026 (was $4,910,000, trade $3,682,500)."
+    }
   },
   {
     "id": "v-pegassi-ignus-pursuit",
@@ -36160,7 +37114,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 4376250,
+      "unlock": "Complete any 10 Dispatch Work missions",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-impaler-lx-cruiser",
@@ -36198,7 +37158,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3600000,
+      "unlock": "Complete the Dispatch Work mission \"Civil Disturbance\"",
+      "unlockType": "Mission",
+      "note": "The vehicle itself unlocks after completing Slush Fund (Cluckin' Bell Farm Raid) as leader (gtabase)."
+    }
   },
   {
     "id": "v-declasse-impaler-sz-cruiser",
@@ -36236,7 +37202,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3540000,
+      "unlock": "Complete the Dispatch Work mission \"Possession for Sale\"",
+      "unlockType": "Mission",
+      "note": "The vehicle itself unlocks after completing Slush Fund (Cluckin' Bell Farm Raid) as leader (gtabase)."
+    }
   },
   {
     "id": "v-declasse-lifeguard-suv",
@@ -36311,7 +37283,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3112500,
+      "unlock": "Complete Slush Fund (Cluckin' Bell Farm Raid) as leader, then \"Slow and Low\" (Lowriders)",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-park-ranger",
@@ -36348,7 +37326,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1575000,
+      "unlock": "Photograph 10 animals in the \"Shoot Animals\" photography challenge",
+      "unlockType": "Other",
+      "note": "Enhanced (PS5/Xbox Series) only. Price cut on May 14, 2026 (was $2,980,000, trade $2,235,000)."
+    }
   },
   {
     "id": "v-vapid-police-prison-bus",
@@ -36383,7 +37367,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 550000,
+      "unlock": "Complete The Prison Break",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-declasse-police-rancher",
@@ -36527,7 +37517,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3843750,
+      "unlock": "Complete Slush Fund (Cluckin' Bell Farm Raid) as leader, then the Dispatch Work mission \"Health Code Violations\"",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-vapid-unmarked-cruiser",
@@ -36564,7 +37560,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2962500,
+      "unlock": "Complete the Gangbanger Robbery (Salvage Yard) as leader",
+      "unlockType": "Heist",
+      "note": "The vehicle itself unlocks after surviving a 3+ star wanted level for 5 minutes (gtabase)."
+    }
   },
   {
     "id": "v-hvy-apocalypse-scarab",
@@ -36604,7 +37606,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2313000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-hvy-barracks-semi",
@@ -36679,7 +37687,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2313000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-hvy-nightmare-scarab",
@@ -36719,7 +37733,13 @@
     "upgradeNotes": "Weaponized vehicle.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2313000,
+      "unlock": "Unlock it as a Sponsorship Tier reward in the Arena War Career (needs an Arena Workshop)",
+      "unlockType": "Arena War",
+      "note": null
+    }
   },
   {
     "id": "v-western-company-annihilator-stealth",
@@ -36759,7 +37779,13 @@
     "upgradeNotes": "Weaponized vehicle with homing missiles, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 2902500,
+      "unlock": "Complete the Cayo Perico Heist finale as leader using the Annihilator Stealth as the approach vehicle, or complete the Kortz Center Heist as leader using it as the getaway vehicle",
+      "unlockType": "Heist",
+      "note": "The Kortz Center Heist option was added later."
+    }
   },
   {
     "id": "v-western-company-cargobob-jetsam",
@@ -36835,7 +37861,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1758750,
+      "unlock": "Complete \"Setup: Iron Mule\" (Oscar Guzman Flies Again)",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-helitours-maverick",
@@ -37132,7 +38164,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1595000,
+      "unlock": "Complete 9 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-blimp",
@@ -37168,7 +38206,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 895000,
+      "unlock": "Complete 10 Nightclub Management missions",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-western-company-duster-300-h",
@@ -37207,7 +38251,13 @@
     "upgradeNotes": "Weaponized vehicle with countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 765000,
+      "unlock": "Complete \"Steal the Duster 300-H\" in Arms Trafficking",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-howard-nx-25",
@@ -37246,7 +38296,13 @@
     "upgradeNotes": null,
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 975000,
+      "unlock": "Complete 27 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": null
+    }
   },
   {
     "id": "v-western-company-mallard",
@@ -37323,7 +38379,13 @@
     "upgradeNotes": "Weaponized vehicle with bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 1706475,
+      "unlock": "Complete 30 Air Freight Cargo steal missions from your Hangar",
+      "unlockType": "Business",
+      "note": "Price cut on May 14, 2026 (was $3,125,500, trade $2,350,000)."
+    }
   },
   {
     "id": "v-buckingham-nimbus",
@@ -37402,7 +38464,13 @@
     "upgradeNotes": "Weaponized vehicle with bombs and countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3262500,
+      "unlock": "Complete the Cayo Perico Heist finale as leader using the RO-86 Alkonost as the approach vehicle (needs a Hangar)",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-mammoth-streamer216",
@@ -37482,7 +38550,13 @@
     "upgradeNotes": "Weaponized vehicle with countermeasures, modified at a vehicle workshop.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 3652500,
+      "unlock": "Complete \"The Titan Job\" (Oscar Guzman Flies Again)",
+      "unlockType": "Mission",
+      "note": null
+    }
   },
   {
     "id": "v-jobuilt-velum-5-seater",
@@ -37521,7 +38595,13 @@
     "upgradeNotes": "Only the paint job can be changed (at the hangar workshop), with no performance upgrades.",
     "hswTopSpeedMph": null,
     "upgradeCosts": null,
-    "electric": false
+    "electric": false,
+    "trade": {
+      "price": 995000,
+      "unlock": "Complete The Prison Break",
+      "unlockType": "Heist",
+      "note": null
+    }
   },
   {
     "id": "v-buckingham-vestra",

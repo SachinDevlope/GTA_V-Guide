@@ -14,6 +14,7 @@ An unofficial, searchable reference for GTA V and GTA Online: story missions, On
   - weapons — damage, fire rate, accuracy and range within their category (utility items such as the ball or flare aren't rated);
   - businesses and heists — community money-making tier.
 - **Best upgrades** for vehicles (with Los Santos Customs and Hao's Special Works prices and the fully upgraded price) and **best attachments** for weapons (with prices).
+- **Trade prices** for 180 vehicles: the discounted price, how much you save and exactly how to unlock it, plus a filter by unlock type and a "Biggest trade discount" sort.
 - **Heists**: best approach, key choices and payout range.
 - **Business income by upgrade level**: what each business earns with no upgrades, with each upgrade and fully upgraded (per real-world hour, supply cost and profit after supplies), plus a sortable **Business income** comparison page.
 - **Daily & weekly challenges**: live countdowns to the daily (06:00 UTC) and weekly (Thursday 10:00 UTC) resets, this week's event and Weekly Challenge (from `src/data/weekly-event.json`, flagged when out of date), rewards, streak bonuses and the list of possible daily challenges.

@@ -16,6 +16,8 @@ import { IncomeLevels } from '@/features/online/components/IncomeLevels';
 import { getBusinessLocations } from '@/features/online/lib/locations';
 import type { Business, Heist } from '@/features/online/types';
 import { getMapMission } from '@/features/map/lib/missions';
+import { TradePriceCard } from '@/features/vehicles/components/TradePriceCard';
+import type { Vehicle } from '@/features/vehicles/types';
 import styles from './page.module.css';
 
 interface Params {
@@ -48,7 +50,12 @@ export default async function ItemPage({ params }: Params) {
 
   // Missions with a known start point link to the map.
   const mapMission = def.key === 'missions' ? getMapMission(item.id) : undefined;
-  const actions = mapMission?.geo.point ? (
+  const vehicle = def.key === 'vehicles' ? (item as Vehicle) : null;
+  const actions = vehicle?.trade ? (
+    <DetailSection title="Trade price">
+      <TradePriceCard price={vehicle.price} trade={vehicle.trade} />
+    </DetailSection>
+  ) : mapMission?.geo.point ? (
     <p>
       <Link className={styles.mapBtn} href={`/map?focus=${encodeURIComponent(item.id)}`}>
         <MapPin size={16} aria-hidden="true" /> Show on map · {mapMission.geo.place}

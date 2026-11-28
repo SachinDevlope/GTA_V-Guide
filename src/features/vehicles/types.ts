@@ -21,6 +21,15 @@ export interface Vehicle extends BaseItem {
   upgradeCosts?: UpgradeCosts | null;
   /** Battery-electric (gtabase "Electric Vehicle" feature). */
   electric?: boolean;
+  /** Discounted price unlocked by doing something in game. */
+  trade?: TradePrice | null;
+}
+
+export interface TradePrice {
+  price: number;
+  unlock: string;
+  unlockType: string | null;
+  note: string | null;
 }
 
 /** Los Santos Customs cost of each recommended upgrade (GTA$). */

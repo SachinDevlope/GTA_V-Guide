@@ -8,6 +8,11 @@ import { vehicleTypeKeywords, vehicleType } from './lib/vehicleTypes';
 import type { Vehicle } from './types';
 
 const items = data as unknown as Vehicle[];
+const tradeText = (v: Vehicle) => {
+  if (!v.trade) return null;
+  const save = v.price != null ? v.price - v.trade.price : null;
+  return `${money(v.trade.price)}${save && save > 0 ? ` (save ${money(save)})` : ''}`;
+};
 const speed = (v: Vehicle) => (v.topSpeedMph ? `${v.topSpeedMph} mph` : null);
 const perf = (v: Vehicle, key: 'speed' | 'acceleration' | 'braking' | 'traction') => ({
   value: v.performance?.stock?.[key] ?? null,
@@ -30,11 +35,13 @@ export const vehiclesCategory: CategoryDefinition<Vehicle> = {
   chips: (v) =>
     compact([
       money(v.price) && { label: money(v.price)!, tone: 'money' as const },
+      v.trade && { label: `Trade ${money(v.trade.price)}`, tone: 'money' as const },
       speed(v) && { label: speed(v)! },
       exclusiveChip(v.availability) && { label: exclusiveChip(v.availability)! },
     ]),
   facts: (v) => [
     { label: 'Price', value: money(v.price), key: true },
+    { label: 'Trade price', value: tradeText(v) },
     { label: 'Top speed', value: speed(v), key: true },
     { label: 'Lap time', value: v.lapTime, key: true },
     { label: 'Class', value: v.class, key: true },
@@ -63,6 +70,7 @@ export const vehiclesCategory: CategoryDefinition<Vehicle> = {
     seller: v.seller,
     availability: v.availability,
     upgradeShops: v.upgradeShops,
+    trade: v.trade ? (v.trade.unlockType ?? 'Other') : null,
   }),
   filters: [
     { key: 'class', label: 'Class' },
@@ -70,8 +78,12 @@ export const vehiclesCategory: CategoryDefinition<Vehicle> = {
     { key: 'seller', label: 'Sold at' },
     { key: 'upgradeShops', label: 'Upgradable at' },
     { key: 'availability', label: 'Available in' },
+    { key: 'trade', label: 'Trade price unlock' },
   ],
-  sortValues: (v) => ({ hswSpeed: v.hswTopSpeedMph, price: v.price, speed: v.topSpeedMph, lap: v.lapTimeSeconds, accel: v.performance?.upgraded?.acceleration ?? v.performance?.stock?.acceleration }),
+  sortValues: (v) => ({
+    tradePrice: v.trade?.price,
+    tradeSaving: v.trade && v.price ? v.price - v.trade.price : null,
+    hswSpeed: v.hswTopSpeedMph, price: v.price, speed: v.topSpeedMph, lap: v.lapTimeSeconds, accel: v.performance?.upgraded?.acceleration ?? v.performance?.stock?.acceleration }),
   sorts: [
     { label: 'Name A–Z', key: 'name', dir: 'asc' },
     { label: 'Top rated', key: 'rating', dir: 'desc' },
@@ -81,6 +93,8 @@ export const vehiclesCategory: CategoryDefinition<Vehicle> = {
     { label: 'Best acceleration', key: 'accel', dir: 'desc' },
     { label: 'Price: high to low', key: 'price', dir: 'desc' },
     { label: 'Price: low to high', key: 'price', dir: 'asc' },
+    { label: 'Biggest trade discount', key: 'tradeSaving', dir: 'desc', onlyWithValue: true },
+    { label: 'Trade price: low to high', key: 'tradePrice', dir: 'asc', onlyWithValue: true },
   ],
   search: (v) => [
     [v.tags, 5],
