@@ -1,15 +1,13 @@
 import type { Metadata } from 'next';
 import { CalendarClock } from 'lucide-react';
-import { ChallengeInfo } from '@/features/challenges/components/ChallengeInfo';
-import { ResetCountdown } from '@/features/challenges/components/ResetCountdown';
-import { WeeklyEventCard } from '@/features/challenges/components/WeeklyEventCard';
+import { ChallengesTabs } from '@/features/challenges/components/ChallengesTabs';
 import { getChallengeData } from '@/features/challenges/lib/challenges';
 import { getWeeklyEvent } from '@/features/challenges/lib/weekly';
 import styles from '../best/page.module.css';
 
 export const metadata: Metadata = {
   title: 'Daily & weekly challenges',
-  description: 'GTA Online daily and weekly challenge reset timers, this week’s event, rewards and the list of possible daily challenges.',
+  description: 'GTA Online daily and weekly challenges: reset countdowns, this week’s Weekly Challenge and event, rewards, streaks and every daily challenge.',
 };
 
 export default async function ChallengesPage() {
@@ -24,21 +22,11 @@ export default async function ChallengesPage() {
         </span>
         <div>
           <h1>Daily &amp; weekly challenges</h1>
-          <p>Live countdowns to the next reset, this week&rsquo;s event and Weekly Challenge, the rewards, and every daily challenge you can get.</p>
+          <p>Pick Daily or Weekly to see its challenges and rewards. The timers count down to the next reset.</p>
         </div>
       </header>
       <section className={styles.section}>
-        <ResetCountdown schedule={schedule} />
-      </section>
-      {event && (
-        <section className={styles.section}>
-          <h2>This week</h2>
-          <WeeklyEventCard event={event} schedule={schedule} />
-        </section>
-      )}
-      <section className={styles.section}>
-        <h2>Rewards &amp; possible challenges</h2>
-        <ChallengeInfo data={data} />
+        <ChallengesTabs schedule={schedule} data={data} event={event} />
       </section>
     </div>
   );

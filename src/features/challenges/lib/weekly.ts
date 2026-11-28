@@ -1,27 +1,27 @@
 import raw from '@/data/weekly-event.json';
 
-/** The current weekly GTA Online event (serializable). */
+/** This week's GTA Online event (serializable). */
 export interface WeeklyEvent {
+  weekStart: string; // YYYY-MM-DD (Thursday)
+  weekEnd: string; // YYYY-MM-DD (Wednesday)
   title: string;
-  subtitle: string | null;
-  published: string; // YYYY-MM-DD
-  url: string;
   summary: string | null;
-  weeklyChallenge: string | null;
-  bonuses: string[];
+  weeklyChallenge: { text: string; reward: string | null; note: string | null } | null;
+  sections: { title: string; items: string[] }[];
+  sources: { name: string; url: string }[];
 }
 
-/** The weekly event data source. Currently the bundled JSON file; swap this for a live source later. */
+/** The weekly event data source: the bundled JSON file, updated after each Thursday reset. */
 export async function getWeeklyEvent(): Promise<WeeklyEvent | null> {
   const e = raw as unknown as Partial<WeeklyEvent>;
-  if (!e.title || !e.url || !e.published) return null;
+  if (!e.title || !e.weekStart || !e.weekEnd) return null;
   return {
+    weekStart: e.weekStart,
+    weekEnd: e.weekEnd,
     title: e.title,
-    subtitle: e.subtitle ?? null,
-    published: e.published,
-    url: e.url,
     summary: e.summary ?? null,
     weeklyChallenge: e.weeklyChallenge ?? null,
-    bonuses: e.bonuses ?? [],
+    sections: e.sections ?? [],
+    sources: e.sources ?? [],
   };
 }

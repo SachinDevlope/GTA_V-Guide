@@ -1,10 +1,58 @@
 {
-  "_about": "Current GTA Online weekly event, taken from the latest Rockstar Newswire event post. Update after each Thursday reset.",
-  "title": "Take Down the Kortz Center and More High-Value Targets in This Week's Heist Event",
-  "subtitle": "Steal the Panther Statue from Cayo Perico, Get 2X GTA$ on All Original Heists, and More",
-  "published": "2026-11-05",
-  "url": "https://www.rockstargames.com/newswire/article/4k17a844oakk5o/take-down-the-kortz-center-and-more-high-value-targets-in-this-week-s",
-  "summary": "Heist Event: doubled first-time completion bonuses for completing all the Original Heists, The Doomsday Heist and The Diamond Casino Heist.",
-  "weeklyChallenge": "Win an Adversary Mode: GTA$100,000 (per gtaboss.gg)",
-  "bonuses": []
+  "_about": "This week's GTA Online event. Update after each Thursday 10:00 UTC reset. weekStart/weekEnd are the Thursday-to-Wednesday event week.",
+  "weekStart": "2026-11-26",
+  "weekEnd": "2026-12-02",
+  "title": "4X Money on Contact Missions and Freemode Challenges",
+  "summary": "Rockstar has not posted a Newswire article for this week; details are from RockstarINTEL and gtaboss.gg (both dated 26 November 2026).",
+  "weeklyChallenge": {
+    "text": "Complete 3 Premium Deluxe Repo Work missions",
+    "reward": "GTA$100,000",
+    "note": "Listed by RockstarINTEL; gtaboss.gg does not list a Weekly Challenge."
+  },
+  "sections": [
+    {
+      "title": "Bonuses",
+      "items": [
+        "2X GTA$ & RP on all Contact Missions (4X for GTA+), including Madrazo's Dispatch Services, Gerald's Last Play, Premium Deluxe Repo Work and Lowriders",
+        "4X GTA$ & RP on Freemode Challenges",
+        "3X GTA$ & RP on the Community Series",
+        "3X GTA$ & RP on the Stunt Race Series",
+        "2X GTA$ & RP on Sumo (Remix) (RockstarINTEL only)",
+        "FIB Priority File: The Project Breakaway File pays double (RockstarINTEL only)"
+      ]
+    },
+    {
+      "title": "Vehicles",
+      "items": [
+        "Podium (Lucky Wheel): Vapid Caracara",
+        "Prize Ride: Pfister Comet S2 Cabrio (place top 1 in an LS Car Meet Series race 4 days in a row)",
+        "Premium Test Ride: Vapid Vigero ZX Convertible",
+        "Test Track: Grotti Cheetah Classic, Dinka Chavos V6, Karin Sultan Classic",
+        "Luxury Autos: Karin Everon RS, Annis Minimus",
+        "Premium Deluxe Motorsport: Vysser Neo, Mammoth Squaddie, Vapid Ratel, Vapid Ellie, Gallivanter Baller ST"
+      ]
+    },
+    {
+      "title": "Salvage Yard robberies",
+      "items": [
+        "The Duggan Robbery: Bravado Gauntlet Hellfire",
+        "The McTony Robbery: Dewbauchee Vagner",
+        "The Cargo Ship Robbery: Karin Previon"
+      ]
+    },
+    {
+      "title": "Discounts (30% off)",
+      "items": [
+        "Gallivanter Baller ST, Grotti Cheetah Classic, Vapid Ellie, Vysser Neo, Police Prison Bus, Vapid Ratel, Mammoth Squaddie, Karin Sultan Classic, Dinka Chavos V6 (gtaboss.gg only)"
+      ]
+    },
+    {
+      "title": "Races and time trials",
+      "items": ["Time Trial: Power Station", "HSW Time Trial: Ron Alternates", "Premium Race: Muscle In"]
+    }
+  ],
+  "sources": [
+    { "name": "RockstarINTEL", "url": "https://rockstarintel.com/gta-online-event-week-gta-vi-hype-continues-nov-26th-dec-2nd/" },
+    { "name": "gtaboss.gg", "url": "https://www.gtaboss.gg/gta-5-online/gta-online-weekly-updates" }
+  ]
 }
