@@ -11638,6 +11638,55 @@
     }
   },
   {
+    "id": "v-vom-feuer-anti-aircraft-trailer",
+    "name": "Anti-Aircraft Trailer",
+    "manufacturer": "Vom Feuer",
+    "class": "Military",
+    "price": 1862000,
+    "seller": "Warstock Cache & Carry",
+    "seats": 1,
+    "topSpeedMph": null,
+    "drivetrain": null,
+    "basedOn": null,
+    "availability": "Online",
+    "dlc": "Gunrunning",
+    "description": "A towable trailer with a dual flak cannon turret, plus machine gun and homing missile options. Hitch it to a vehicle and a second player mans the turret; it is strong against aircraft and the Oppressor.",
+    "tags": [
+      "trailer",
+      "anti-aircraft",
+      "flak",
+      "turret",
+      "weaponized",
+      "gunrunning",
+      "military"
+    ],
+    "performance": {
+      "stock": {
+        "speed": null,
+        "acceleration": null,
+        "braking": null,
+        "traction": null
+      },
+      "upgraded": null
+    },
+    "lapTime": null,
+    "lapTimeSeconds": null,
+    "upgradeShops": [
+      "Weaponized",
+      "Vehicle Workshop"
+    ],
+    "upgradeNotes": "Turret weapon (dual 20mm flak, machine gun or homing missiles) and armor are changed in a Mobile Operations Center or Avenger vehicle workshop.",
+    "hswTopSpeedMph": null,
+    "upgradeCosts": null,
+    "electric": false,
+    "trade": {
+      "price": 1400000,
+      "unlock": "Complete the Mobile Operation \"Exit Strategy\" as leader (needs a Bunker and Mobile Operations Center)",
+      "unlockType": "Business",
+      "note": null
+    }
+  },
+  {
     "id": "v-rhino-tank",
     "name": "Rhino Tank",
     "manufacturer": null,

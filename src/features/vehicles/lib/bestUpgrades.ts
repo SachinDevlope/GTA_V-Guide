@@ -12,6 +12,17 @@ const WATER = new Set(['Boats']);
 export function bestUpgrades(v: Vehicle): RecommendationBlock | null {
   const shops = v.upgradeShops ?? [];
   if (!shops.length || v.class === 'Cycles') return null;
+  // Towed trailers have no engine: only the turret weapon and armor can be changed.
+  if (v.tags?.includes('trailer')) {
+    return {
+      title: 'Best upgrades',
+      items: [
+        { name: 'Dual 20mm Flak turret', why: 'Best against aircraft and Oppressors; the flak bursts near targets, so you do not need direct hits.' },
+        { name: 'Armor plating', why: 'Lets the trailer and its gunner survive longer under fire.' },
+      ],
+      note: 'Changed in a Mobile Operations Center or Avenger vehicle workshop. A second player mans the turret while you tow it.',
+    };
+  }
   const paintOnly = /paint|livery/i.test(v.upgradeNotes ?? '') && /only|no performance/i.test(v.upgradeNotes ?? '');
   const items: Recommendation[] = [];
 

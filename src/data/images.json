@@ -6958,5 +6958,9 @@
  "weapons/w-flare": {
   "src": "https://static.wikia.nocookie.net/gtawiki/images/e/e1/Flare-GTAOee.png/revision/latest/scale-to-width-down/640?cb=20250619221654",
   "page": "https://gta.fandom.com/wiki/File:Flare-GTAOee.png"
+ },
+ "vehicles/v-vom-feuer-anti-aircraft-trailer": {
+  "src": "https://static.wikia.nocookie.net/gtawiki/images/f/fb/AntiAircraftTrailer-GTAO-front.png/revision/latest/scale-to-width-down/640?cb=20170621145352",
+  "page": "https://gta.fandom.com/wiki/Anti-Aircraft_Trailer"
  }
 }
